@@ -22,6 +22,7 @@ Doc/.venv/
 Doc/env/
 Doc/.env/
 Include/pydtrace_probes.h
+Doc/**/*.mo
 Lib/distutils/command/*.pdb
 Lib/lib2to3/*.pickle
 Lib/test/data/*
