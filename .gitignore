@@ -17,6 +17,7 @@
 .gdb_history
 Doc/build/
 Doc/venv/
+Doc/**/*.mo
 Lib/distutils/command/*.pdb
 Lib/lib2to3/*.pickle
 Lib/test/data/*
