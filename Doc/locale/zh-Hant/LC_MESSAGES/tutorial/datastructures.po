@@ -1,18 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 1990-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
 # Adrian Liaw <adrianliaw2000@gmail.com>, 2016
-# Liang Bo Wang <ccwang002@gmail.com>, 2015
+# Liang Bo Wang <ccwang002@gmail.com>, 2015-2016
 # 毅 蕭 <hsiaoyi0504@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2016-01-14 14:05+0000\n"
-"Last-Translator: Adrian Liaw <adrianliaw2000@gmail.com>\n"
+"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"PO-Revision-Date: 2016-01-31 08:12+0000\n"
+"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,37 +32,37 @@ msgstr "這個章節將會更深入的介紹一些你已經學過的東西的細
 
 #: ../../tutorial/datastructures.rst:13
 msgid "More on Lists"
-msgstr "進一步了解串列（List）"
+msgstr "進一步了解 List（串列）"
 
 #: ../../tutorial/datastructures.rst:15
 msgid ""
 "The list data type has some more methods.  Here are all of the methods of "
 "list objects:"
-msgstr "串列（list）這個資料型態，具有更多操作的方法。下面條列了所有關於串列的物件方法："
+msgstr "List（串列）這個資料型態，具有更多操作的方法。下面條列了所有關於 list 的物件方法："
 
 #: ../../tutorial/datastructures.rst:22
 msgid ""
 "Add an item to the end of the list.  Equivalent to ``a[len(a):] = [x]``."
-msgstr "將一個新的項目加到串列的尾端。等同於 ``a[len(a):] = [x]`` 。"
+msgstr "將一個新的項目加到 list 的尾端。等同於 ``a[len(a):] = [x]`` 。"
 
 #: ../../tutorial/datastructures.rst:28
 msgid ""
 "Extend the list by appending all the items in the given list.  Equivalent to"
 " ``a[len(a):] = L``."
-msgstr "將串列接上一個給定的串列。等同於 ``a[len(a):] = L`` 。"
+msgstr "將串列接上一個給定的 list。等同於 ``a[len(a):] = L`` 。"
 
 #: ../../tutorial/datastructures.rst:35
 msgid ""
 "Insert an item at a given position.  The first argument is the index of the "
 "element before which to insert, so ``a.insert(0, x)`` inserts at the front "
 "of the list, and ``a.insert(len(a), x)`` is equivalent to ``a.append(x)``."
-msgstr "將一個項目插入至串列中給定的位置。第一個引數為插入處前元素的索引值，所以 ``a.insert(0, x)``  會插入為串列首位，而 ``a.insert(len(a), x)`` 則相當於 ``a.append(x)``。"
+msgstr "將一個項目插入至 list 中給定的位置。第一個引數為插入處前元素的索引值，所以 ``a.insert(0, x)``  會插入為 list 首位，而 ``a.insert(len(a), x)`` 則相當於 ``a.append(x)``。"
 
 #: ../../tutorial/datastructures.rst:43
 msgid ""
 "Remove the first item from the list whose value is *x*.  It is an error if "
 "there is no such item."
-msgstr "刪除串列中第一個是 *x* 的項目。若串列中無此項目，這會是一個錯誤。"
+msgstr "刪除 list 中第一個是 *x* 的項目。若 list 中無此項目，這會是一個錯誤。"
 
 #: ../../tutorial/datastructures.rst:50
 msgid ""
@@ -72,39 +72,39 @@ msgid ""
 "that the parameter is optional, not that you should type square brackets at "
 "that position.  You will see this notation frequently in the Python Library "
 "Reference.)"
-msgstr "移除串列中給定位置的項目，並回傳它。如果沒有指定位置， ``a.pop()`` 將會移除串列中最後的項目並回傳它。（在 *i* 周圍的方括號代表這個參數是選用的，並不代表你應該在該位置輸入方括號。你將會常常在 Python 函式庫參考指南中看見這個表示法）"
+msgstr "移除list 中給定位置的項目，並回傳它。如果沒有指定位置， ``a.pop()`` 將會移除 list 中最後的項目並回傳它。（在 *i* 周圍的方括號代表這個參數是選用的，並不代表你應該在該位置輸入方括號。你將會常常在 Python 函式庫參考指南中看見這個表示法）"
 
 #: ../../tutorial/datastructures.rst:60
 msgid "Remove all items from the list.  Equivalent to ``del a[:]``."
-msgstr "刪除串列中所有項目。這等同於 ``del a[:]`` 。"
+msgstr "刪除 list 中所有項目。這等同於 ``del a[:]`` 。"
 
 #: ../../tutorial/datastructures.rst:66
 msgid ""
 "Return the index in the list of the first item whose value is *x*. It is an "
 "error if there is no such item."
-msgstr "回傳串列中從前方數來第一個其值為 *x* 的項目的位置。如果並沒有這樣的項目存在，這將造成一個錯誤。"
+msgstr "回傳 list 中從前方數來第一個其值為 *x* 的項目的位置。如果並沒有這樣的項目存在，這將造成一個錯誤。"
 
 #: ../../tutorial/datastructures.rst:73
 msgid "Return the number of times *x* appears in the list."
-msgstr "回傳數值為 *x* 在串列中所出現的次數。"
+msgstr "回傳數值為 *x* 在 list 中所出現的次數。"
 
 #: ../../tutorial/datastructures.rst:79
 msgid ""
 "Sort the items of the list in place (the arguments can be used for sort "
 "customization, see :func:`sorted` for their explanation)."
-msgstr "將串列中的項目排序。（有參數可以使用來進行客製化的排序，請參考 :func:`sorted` 部分的解釋）"
+msgstr "將 list 中的項目排序。（有參數可以使用來進行客製化的排序，請參考 :func:`sorted` 部分的解釋）"
 
 #: ../../tutorial/datastructures.rst:86
 msgid "Reverse the elements of the list in place."
-msgstr "將串列中的項目前後順序反過來。"
+msgstr "將 list 中的項目前後順序反過來。"
 
 #: ../../tutorial/datastructures.rst:92
 msgid "Return a shallow copy of the list.  Equivalent to ``a[:]``."
-msgstr "回傳一個淺複製的串列。等同於 ``a[:]``。"
+msgstr "回傳一個淺複製 (shallow copy) 的 list 。等同於 ``a[:]``。"
 
 #: ../../tutorial/datastructures.rst:95
 msgid "An example that uses most of the list methods::"
-msgstr "以下是一個使用到許多串列物件方法的例子：\n\n::"
+msgstr "以下是一個使用到許多 list 物件方法的例子：\n\n::"
 
 #: ../../tutorial/datastructures.rst:120
 msgid ""
@@ -116,7 +116,7 @@ msgstr "你可能會注意到一些方法，像是 ``insert`` 、 ``remove`` 或
 
 #: ../../tutorial/datastructures.rst:129
 msgid "Using Lists as Stacks"
-msgstr "將串列作為堆疊（Stack）使用"
+msgstr "將 List 作為 Stack（堆疊）使用"
 
 #: ../../tutorial/datastructures.rst:134
 msgid ""
@@ -125,11 +125,11 @@ msgid ""
 "add an item to the top of the stack, use :meth:`append`.  To retrieve an "
 "item from the top of the stack, use :meth:`pop` without an explicit index.  "
 "For example::"
-msgstr "串列的操作方法使得它非常簡單可以用來實作堆疊。堆疊（Stack）為一個遵守最後加入元素最先被取回（後進先出，\"last-in, first-out\"）規則的資料結構。你可以使用方法 :meth:`append` 將一個項目放到堆疊的頂層。而使用方法 :meth:`pop` 且不給定索引值去取得堆疊最上面的項目。舉例而言：\n\n::"
+msgstr "List 的操作方法使得它非常簡單可以用來實作 stack（堆疊）。Stack 為一個遵守最後加入元素最先被取回（後進先出，\"last-in, first-out\"）規則的資料結構。你可以使用方法 :meth:`append` 將一個項目放到堆疊的頂層。而使用方法 :meth:`pop` 且不給定索引值去取得堆疊最上面的項目。舉例而言：\n\n::"
 
 #: ../../tutorial/datastructures.rst:159
 msgid "Using Lists as Queues"
-msgstr "將串列作為佇列（Queue）使用"
+msgstr "將 List 作為 Queue（佇列）使用"
 
 #: ../../tutorial/datastructures.rst:163
 msgid ""
@@ -138,13 +138,13 @@ msgid ""
 " not efficient for this purpose.  While appends and pops from the end of "
 "list are fast, doing inserts or pops from the beginning of a list is slow "
 "(because all of the other elements have to be shifted by one)."
-msgstr "我們也可以將串列當作佇列（Queue）使用，即最先加入元素最先被取回（先進先出，\"first-in, first-out\"）的資料結構。然而，串列在這種使用方式下效率較差。使用 ``append`` 和 ``pop`` 來加入和取出尾端的元素較快，而使用 ``insert`` 和 ``pop`` 來插入和取出頭端的元素較慢（因為其他元素都需要挪動一格）。"
+msgstr "我們也可以將 list 當作 queue（佇列）使用，即最先加入元素最先被取回（先進先出，\"first-in, first-out\"）的資料結構。然而，list 在這種使用方式下效率較差。使用 ``append`` 和 ``pop`` 來加入和取出尾端的元素較快，而使用 ``insert`` 和 ``pop`` 來插入和取出頭端的元素較慢（因為其他元素都需要挪動一格）。"
 
 #: ../../tutorial/datastructures.rst:169
 msgid ""
 "To implement a queue, use :class:`collections.deque` which was designed to "
 "have fast appends and pops from both ends.  For example::"
-msgstr "如果要實作佇列，請使用 :class:`collections.deque` ，其被設計成能快速的從頭尾兩端加入和取出。例如：\n\n::"
+msgstr "如果要實作 queue，請使用 :class:`collections.deque` ，其被設計成能快速的從頭尾兩端加入和取出。例如：\n\n::"
 
 #: ../../tutorial/datastructures.rst:187
 msgid "List Comprehensions"
@@ -156,18 +156,18 @@ msgid ""
 "applications are to make new lists where each element is the result of some "
 "operations applied to each member of another sequence or iterable, or to "
 "create a subsequence of those elements that satisfy a certain condition."
-msgstr "List Comprehension（串列綜合運算）讓你可以用簡潔的方法創建串列。常見的應用是基於一個串列或iterable（可列舉物件），將每一個元素經過某個運算的結果串接起來成為一個新的串列。或是創建一個串列的子串列，其每一個元素皆滿足一個特定的條件。"
+msgstr "List Comprehension（串列綜合運算）讓你可以用簡潔的方法創建 list。常見的應用是基於一個 list 或 iterable（可列舉物件），將每一個元素經過某個運算的結果串接起來成為一個新的 list 。或是創建一個 list 的子序列，其每一個元素皆滿足一個特定的條件。"
 
 #: ../../tutorial/datastructures.rst:194
 msgid "For example, assume we want to create a list of squares, like::"
-msgstr "舉例來說，假設我們要創建一個「平方的串列」：\n\n::"
+msgstr "舉例來說，假設我們要創建一個「平方的 list」：\n\n::"
 
 #: ../../tutorial/datastructures.rst:203
 msgid ""
 "Note that this creates (or overwrites) a variable named ``x`` that still "
 "exists after the loop completes.  We can calculate the list of squares "
 "without any side effects using::"
-msgstr "注意這是創建（或複寫）一個變數叫 ``x`` 其在迴圈結束後仍然存在。我們可以這樣產生平方串列而不造成任何side effects（副作用）：\n\n::"
+msgstr "注意這是創建（或複寫）一個變數叫 ``x`` 其在迴圈結束後仍然存在。我們可以這樣產生平方串列而不造成任何 side effects（副作用）：\n\n::"
 
 #: ../../tutorial/datastructures.rst:209
 msgid "or, equivalently::"
@@ -185,7 +185,7 @@ msgid ""
 "evaluating the expression in the context of the :keyword:`for` and "
 ":keyword:`if` clauses which follow it. For example, this listcomp combines "
 "the elements of two lists if they are not equal::"
-msgstr "一個 List Comprehension 的組成，是包含著一個 expression（運算式）和一個 :keyword:`for` 語句，再接著零個或多個 :keyword:`for` 或 :keyword:`if` 語句的一對方括號。結果會是一個新的串列，內容是在接著的 :keyword:`for` 和 :keyword:`if` 語句的環境下，執行前面 expression 的結果。例如，這個 List Comprehension 是由兩個串列中互相不同的元素組合所組成：\n\n::"
+msgstr "一個 list comprehension 的組成，是包含著一個 expression（運算式）和一個 :keyword:`for` 語句，再接著零個或多個 :keyword:`for` 或 :keyword:`if` 語句的一對方括號。結果會是一個新的串列，內容是在接著的 :keyword:`for` 和 :keyword:`if` 語句的環境下，執行前面 expression 的結果。例如，這個 list comprehension 是由兩個串列中互相不同的元素組合所組成：\n\n::"
 
 #: ../../tutorial/datastructures.rst:225
 msgid "and it's equivalent to::"

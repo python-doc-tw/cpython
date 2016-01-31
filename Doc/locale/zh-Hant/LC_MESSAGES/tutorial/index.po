@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 1990-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
-# Liang Bo Wang <ccwang002@gmail.com>, 2015
+# Liang Bo Wang <ccwang002@gmail.com>, 2015-2016
 # woodrow-shen <woodrow.shen@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-15 16:36+0000\n"
+"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"PO-Revision-Date: 2016-01-31 07:48+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -62,7 +62,7 @@ msgid ""
 " :ref:`reference-index` gives a more formal definition of the language.  To "
 "write extensions in C or C++, read :ref:`extending-index` and :ref:`c-api-"
 "index`. There are also several books covering Python in depth."
-msgstr "關於標準物件和模組的描述，可參考\\ :ref:`library-index`\\ 。\\ :ref:`reference-index`\\ 給了更多 Python 語言的正式定義。若想以 C 或 C++ 寫延伸套件（extension），可閱讀\\ :ref:`extending-index`\\ 和\\ :ref:`c-api-index`\\ 。市面上也有幾本書深入探討 Python。"
+msgstr "關於標準物件和模組的描述，可參考 :ref:`library-index`\\ 。\\ :ref:`reference-index` 給了更多 Python 語言的正式定義。若想以 C 或 C++ 寫延伸套件 (extension)，可閱讀 :ref:`extending-index` 和 :ref:`c-api-index` 。市面上也有幾本書深入探討 Python。"
 
 #: ../../tutorial/index.rst:33
 msgid ""
@@ -76,4 +76,4 @@ msgstr "這份教學並不打算涵蓋每個特性，甚至不完全所有常用
 
 #: ../../tutorial/index.rst:40
 msgid "The :ref:`glossary` is also worth going through."
-msgstr ":ref:`glossary`\\ 頁面也值得一讀。"
+msgstr ":ref:`glossary` 頁面也值得一讀。"

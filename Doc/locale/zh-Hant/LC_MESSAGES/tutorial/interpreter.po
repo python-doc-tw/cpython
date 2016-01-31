@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 1990-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2016-01-14 14:12+0000\n"
+"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"PO-Revision-Date: 2016-01-31 08:01+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgid ""
 ":file:`/usr/local/bin/python3.5` on those machines where it is available; "
 "putting :file:`/usr/local/bin` in your Unix shell's search path makes it "
 "possible to start it by typing the command:"
-msgstr "Python 直譯器（interpreter）如果電腦有提供的話，通常安裝在 :file:`/usr/local/bin/python3.5`\\ 。把 :file:`/usr/local/bin` 加入至你的 Unix shell 搜尋路徑中，使得輸入以下的指令至 shell 時，"
+msgstr "Python 直譯器 (interpreter) 如果電腦有提供的話，通常安裝在 :file:`/usr/local/bin/python3.5`\\ 。把 :file:`/usr/local/bin` 加入至你的 Unix shell 搜尋路徑中，使得輸入以下的指令至 shell 時，"
 
 #: ../../tutorial/interpreter.rst:21
 msgid ""
@@ -48,7 +48,7 @@ msgid ""
 ":file:`C:\\\\Python35`, though you can change this when you're running the "
 "installer.  To add this directory to your path,  you can type the following "
 "command into the command prompt in a DOS box::"
-msgstr "在 Windows 的電腦上，Python 的安裝存放在 :file:`C:\\\\Python35`\\ ，雖然在安裝時可以更變這個設定。欲加此目錄加入你的路徑中，可以輸入以下的指令到 DOS 環境的命令提示字元（ command prompt）：\n\n::"
+msgstr "在 Windows 的電腦上，Python 的安裝存放在 :file:`C:\\\\Python35`\\ ，雖然在安裝時可以更變這個設定。欲加此目錄加入你的路徑中，可以輸入以下的指令到 DOS 環境的命令提示字元 (command prompt)：\n\n::"
 
 #: ../../tutorial/interpreter.rst:33
 msgid ""
@@ -56,7 +56,7 @@ msgid ""
 "on Windows) at the primary prompt causes the interpreter to exit with a zero"
 " exit status.  If that doesn't work, you can exit the interpreter by typing "
 "the following command: ``quit()``."
-msgstr "在主提示符輸入一個 end-of-file 字元（在 Unix 上為 :kbd:`Control-D`\\ ；在 Windows 上為 :kbd:`Control-Z`\\ ）會使得直譯器以零退出狀況（zero exit status）離開。如果上述的做法沒有效，也可以輸入指令 ``quit()`` 離開直譯器。"
+msgstr "在主提示符輸入一個 end-of-file 字元（在 Unix 上為 :kbd:`Control-D`\\ ；在 Windows 上為 :kbd:`Control-Z`\\ ）會使得直譯器以零退出狀況 (zero exit status) 離開。如果上述的做法沒有效，也可以輸入指令 ``quit()`` 離開直譯器。"
 
 #: ../../tutorial/interpreter.rst:38
 msgid ""
@@ -123,7 +123,7 @@ msgid ""
 "*command* or :option:`-m` *module* are not consumed  by the Python "
 "interpreter's option processing but left in ``sys.argv`` for  the command or"
 " module to handle."
-msgstr "當直擇器收到腳本的名稱和額外的引數後，他們會轉換為字串的串列（list）並指派給 ``sys`` 模組的 ``argv`` 變數。你可以執行 ``import sys`` 取得這個串列。這個串列的長度至少為一；當沒有給任何腳本名稱和引數時， ``sys.argv[0]`` 為空字串。當腳本名為 ``'-'``\\ （指標準輸入）時， ``sys.argv[0]`` 為 ``'-'``\\ 。當使用 :option:`-c` *command* 時， ``sys.argv[0]`` 為 ``'-c'``\\ 。當使用 :option:`-m` *module* 時， ``sys.argv[0]`` 為該模組存在的完整路徑。其餘非 :option:`-c` *command* 或 :option:`-m` *module* 的選項不會被 Python 直譯器吸收掉，而是留在 ``sys.argv`` 變數中給後續的 command 或 module 使用。"
+msgstr "當直擇器收到腳本的名稱和額外的引數後，他們會轉換為由字串所組成的 list（串列）並指派給 ``sys`` 模組的 ``argv`` 變數。你可以執行 ``import sys`` 取得這個串列。這個串列的長度至少為一；當沒有給任何腳本名稱和引數時， ``sys.argv[0]`` 為空字串。當腳本名為 ``'-'``\\ （指標準輸入）時， ``sys.argv[0]`` 為 ``'-'``\\ 。當使用 :option:`-c` *command* 時， ``sys.argv[0]`` 為 ``'-c'``\\ 。當使用 :option:`-m` *module* 時， ``sys.argv[0]`` 為該模組存在的完整路徑。其餘非 :option:`-c` *command* 或 :option:`-m` *module* 的選項不會被 Python 直譯器吸收掉，而是留在 ``sys.argv`` 變數中給後續的 command 或 module 使用。"
 
 #: ../../tutorial/interpreter.rst:90
 msgid "Interactive Mode"
@@ -137,7 +137,7 @@ msgid ""
 "continuation lines it prompts with the *secondary prompt*, by default three "
 "dots (``...``). The interpreter prints a welcome message stating its version"
 " number and a copyright notice before printing the first prompt::"
-msgstr "當指令是由 tty 讀取時，此直譯器被稱為處於「互動模式」中。在這個模式中，直譯器會使用「主提示符（*primary prompt*）」準備接受下一個指令，通常為三個大於的符號（\\ ``>>>``\\ ）；如果是接續多行時，它會改用「次提示符（*secondary prompt*）」提示，預設為三點（\\ ``...``\\ ）。進入直譯器互動模式時，在一開始印出第一提示符之前，會先印出歡迎訊息包含它的版本號以及版權聲明：\n\n::"
+msgstr "當指令是由 tty 讀取時，此直譯器被稱為處於「互動模式」中。在這個模式中，直譯器會使用「主提示符 (*primary prompt*)」準備接受下一個指令，通常為三個大於的符號 (``>>>``)；如果是接續多行時，它會改用「次提示符 (*secondary prompt*)」提示，預設為三點 (``...``)。進入直譯器互動模式時，在一開始印出第一提示符之前，會先印出歡迎訊息包含它的版本號以及版權聲明：\n\n::"
 
 #: ../../tutorial/interpreter.rst:107
 msgid ""
@@ -155,7 +155,7 @@ msgstr "直譯器與它的環境"
 
 #: ../../tutorial/interpreter.rst:129
 msgid "Source Code Encoding"
-msgstr "原始碼的字元編碼（encoding）"
+msgstr "原始碼的字元編碼 (encoding)"
 
 #: ../../tutorial/interpreter.rst:131
 msgid ""
@@ -166,7 +166,7 @@ msgid ""
 "that any portable code should follow.  To display all these characters "
 "properly, your editor must recognize that the file is UTF-8, and it must use"
 " a font that supports all the characters in the file."
-msgstr "預設 Python 原始碼檔案的字元編碼使用 UTF-8。在這個編碼中，世界上多數語言的文字可以同時被使用在字串內容、識別名（identifier）及註解中 --- 雖然在標準函式庫中只使用 ASCII 字元作為識別名，這也是個任何 portable 程式碼需遵守的慣例。如果要正確地顯示所有字元，您的編輯器需要能夠認識檔案為 UTF-8，並且需要能顯示檔案中所有字元的字型。"
+msgstr "預設 Python 原始碼檔案的字元編碼使用 UTF-8。在這個編碼中，世界上多數語言的文字可以同時被使用在字串內容、識別名 (identifier) 及註解中 --- 雖然在標準函式庫中只使用 ASCII 字元作為識別名，這也是個任何 portable 程式碼需遵守的慣例。如果要正確地顯示所有字元，您的編輯器需要能夠認識檔案為 UTF-8，並且需要能顯示檔案中所有字元的字型。"
 
 #: ../../tutorial/interpreter.rst:139
 msgid ""
@@ -194,7 +194,7 @@ msgid ""
 "and still use all characters in the Windows-1252 character set in the source"
 " files.  The special encoding comment must be in the *first or second* line "
 "within the file."
-msgstr "然後就可以在這些原始碼檔案中使用所有可以被 Windows-1252 接受的字元。這行標注特別編碼的註解必須出現檔案第一或第二行。"
+msgstr "然後就可以在這些原始碼檔案中使用所有可以被 Windows-1252 接受的字元。這行標註特別編碼的註解必須出現檔案的\\ **第一或第二行**\\ 。"
 
 #: ../../tutorial/interpreter.rst:160
 msgid "Footnotes"
@@ -205,4 +205,4 @@ msgid ""
 "On Unix, the Python 3.x interpreter is by default not installed with the "
 "executable named ``python``, so that it does not conflict with a "
 "simultaneously installed Python 2.x executable."
-msgstr ""
+msgstr "在 Unix 中，Python 3.x 直譯器預設安裝不會以 ``python`` 作為執行檔名稱，以避免與 現有的 Python 2.x 執行檔名稱衝突。"
