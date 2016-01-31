@@ -1,6 +1,6 @@
 {% extends "defindex.html" %}
 {% block tables %}
-  <p><strong>Parts of the documentation:</strong></p>
+  <p><strong>文件群組：</strong></p>
   <table class="contentstable" align="center"><tr>
     <td width="50%">
       <p class="biglink"><a class="biglink" href="{{ pathto("whatsnew/" + version) }}">What's new in Python {{ version }}?</a><br/>
@@ -29,7 +29,7 @@
     </td></tr>
   </table>
 
-  <p><strong>Indices and tables:</strong></p>
+  <p><strong>索引和表格：</strong></p>
   <table class="contentstable" align="center"><tr>
     <td width="50%">
       <p class="biglink"><a class="biglink" href="{{ pathto("py-modindex") }}">Global Module Index</a><br/>
@@ -46,7 +46,7 @@
     </td></tr>
   </table>
 
-  <p><strong>Meta information:</strong></p>
+  <p><strong>額外資訊：</strong></p>
   <table class="contentstable" align="center"><tr>
     <td width="50%">
       <p class="biglink"><a class="biglink" href="{{ pathto("bugs") }}">Reporting bugs</a></p>
