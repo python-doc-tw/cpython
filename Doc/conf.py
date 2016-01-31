@@ -190,3 +190,9 @@ linkcheck_ignore = [r'https://bugs.python.org/(issue)?\d+',
 
 # Relative filename of the reference count data file.
 refcount_file = 'data/refcounts.dat'
+
+
+# Translation
+# -----------
+gettext_compact = False
+locale_dirs = ["locale"]

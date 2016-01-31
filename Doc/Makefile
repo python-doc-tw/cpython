@@ -177,3 +177,9 @@ autobuild-stable:
 		exit 1;; \
 	esac
 	@make autobuild-dev
+
+# Translation 
+.PHONY: gettext
+gettext: clean
+	sphinx-build -E -b gettext -D gettext_compact=0 -w warnings.txt -d build/.doctrees . locale/pot
+
