@@ -1,0 +1,530 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 1990-2016, Python Software Foundation
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python 3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../library/errno.rst:2
+msgid ":mod:`errno` --- Standard errno system symbols"
+msgstr ""
+
+#: ../../library/errno.rst:8
+msgid "This module makes available standard ``errno`` system symbols. The value of each symbol is the corresponding integer value. The names and descriptions are borrowed from :file:`linux/include/errno.h`, which should be pretty all-inclusive."
+msgstr ""
+
+#: ../../library/errno.rst:16
+msgid "Dictionary providing a mapping from the errno value to the string name in the underlying system.  For instance, ``errno.errorcode[errno.EPERM]`` maps to ``'EPERM'``."
+msgstr ""
+
+#: ../../library/errno.rst:20
+msgid "To translate a numeric error code to an error message, use :func:`os.strerror`."
+msgstr ""
+
+#: ../../library/errno.rst:22
+msgid "Of the following list, symbols that are not used on the current platform are not defined by the module.  The specific list of defined symbols is available as ``errno.errorcode.keys()``.  Symbols available can include:"
+msgstr ""
+
+#: ../../library/errno.rst:29
+msgid "Operation not permitted"
+msgstr ""
+
+#: ../../library/errno.rst:34
+msgid "No such file or directory"
+msgstr ""
+
+#: ../../library/errno.rst:39
+msgid "No such process"
+msgstr ""
+
+#: ../../library/errno.rst:44
+msgid "Interrupted system call."
+msgstr ""
+
+#: ../../library/errno.rst:47
+msgid "This error is mapped to the exception :exc:`InterruptedError`."
+msgstr ""
+
+#: ../../library/errno.rst:52
+msgid "I/O error"
+msgstr ""
+
+#: ../../library/errno.rst:57
+msgid "No such device or address"
+msgstr ""
+
+#: ../../library/errno.rst:62
+msgid "Arg list too long"
+msgstr ""
+
+#: ../../library/errno.rst:67
+msgid "Exec format error"
+msgstr ""
+
+#: ../../library/errno.rst:72
+msgid "Bad file number"
+msgstr ""
+
+#: ../../library/errno.rst:77
+msgid "No child processes"
+msgstr ""
+
+#: ../../library/errno.rst:82
+msgid "Try again"
+msgstr ""
+
+#: ../../library/errno.rst:87
+msgid "Out of memory"
+msgstr ""
+
+#: ../../library/errno.rst:92
+msgid "Permission denied"
+msgstr ""
+
+#: ../../library/errno.rst:97
+msgid "Bad address"
+msgstr ""
+
+#: ../../library/errno.rst:102
+msgid "Block device required"
+msgstr ""
+
+#: ../../library/errno.rst:107
+msgid "Device or resource busy"
+msgstr ""
+
+#: ../../library/errno.rst:112
+msgid "File exists"
+msgstr ""
+
+#: ../../library/errno.rst:117
+msgid "Cross-device link"
+msgstr ""
+
+#: ../../library/errno.rst:122
+msgid "No such device"
+msgstr ""
+
+#: ../../library/errno.rst:127
+msgid "Not a directory"
+msgstr ""
+
+#: ../../library/errno.rst:132
+msgid "Is a directory"
+msgstr ""
+
+#: ../../library/errno.rst:137
+msgid "Invalid argument"
+msgstr ""
+
+#: ../../library/errno.rst:142
+msgid "File table overflow"
+msgstr ""
+
+#: ../../library/errno.rst:147
+msgid "Too many open files"
+msgstr ""
+
+#: ../../library/errno.rst:152
+msgid "Not a typewriter"
+msgstr ""
+
+#: ../../library/errno.rst:157
+msgid "Text file busy"
+msgstr ""
+
+#: ../../library/errno.rst:162
+msgid "File too large"
+msgstr ""
+
+#: ../../library/errno.rst:167
+msgid "No space left on device"
+msgstr ""
+
+#: ../../library/errno.rst:172
+msgid "Illegal seek"
+msgstr ""
+
+#: ../../library/errno.rst:177
+msgid "Read-only file system"
+msgstr ""
+
+#: ../../library/errno.rst:182
+msgid "Too many links"
+msgstr ""
+
+#: ../../library/errno.rst:187
+msgid "Broken pipe"
+msgstr ""
+
+#: ../../library/errno.rst:192
+msgid "Math argument out of domain of func"
+msgstr ""
+
+#: ../../library/errno.rst:197
+msgid "Math result not representable"
+msgstr ""
+
+#: ../../library/errno.rst:202
+msgid "Resource deadlock would occur"
+msgstr ""
+
+#: ../../library/errno.rst:207
+msgid "File name too long"
+msgstr ""
+
+#: ../../library/errno.rst:212
+msgid "No record locks available"
+msgstr ""
+
+#: ../../library/errno.rst:217
+msgid "Function not implemented"
+msgstr ""
+
+#: ../../library/errno.rst:222
+msgid "Directory not empty"
+msgstr ""
+
+#: ../../library/errno.rst:227
+msgid "Too many symbolic links encountered"
+msgstr ""
+
+#: ../../library/errno.rst:232
+msgid "Operation would block"
+msgstr ""
+
+#: ../../library/errno.rst:237
+msgid "No message of desired type"
+msgstr ""
+
+#: ../../library/errno.rst:242
+msgid "Identifier removed"
+msgstr ""
+
+#: ../../library/errno.rst:247
+msgid "Channel number out of range"
+msgstr ""
+
+#: ../../library/errno.rst:252
+msgid "Level 2 not synchronized"
+msgstr ""
+
+#: ../../library/errno.rst:257
+msgid "Level 3 halted"
+msgstr ""
+
+#: ../../library/errno.rst:262
+msgid "Level 3 reset"
+msgstr ""
+
+#: ../../library/errno.rst:267
+msgid "Link number out of range"
+msgstr ""
+
+#: ../../library/errno.rst:272
+msgid "Protocol driver not attached"
+msgstr ""
+
+#: ../../library/errno.rst:277
+msgid "No CSI structure available"
+msgstr ""
+
+#: ../../library/errno.rst:282
+msgid "Level 2 halted"
+msgstr ""
+
+#: ../../library/errno.rst:287
+msgid "Invalid exchange"
+msgstr ""
+
+#: ../../library/errno.rst:292
+msgid "Invalid request descriptor"
+msgstr ""
+
+#: ../../library/errno.rst:297
+msgid "Exchange full"
+msgstr ""
+
+#: ../../library/errno.rst:302
+msgid "No anode"
+msgstr ""
+
+#: ../../library/errno.rst:307
+msgid "Invalid request code"
+msgstr ""
+
+#: ../../library/errno.rst:312
+msgid "Invalid slot"
+msgstr ""
+
+#: ../../library/errno.rst:317
+msgid "File locking deadlock error"
+msgstr ""
+
+#: ../../library/errno.rst:322
+msgid "Bad font file format"
+msgstr ""
+
+#: ../../library/errno.rst:327
+msgid "Device not a stream"
+msgstr ""
+
+#: ../../library/errno.rst:332
+msgid "No data available"
+msgstr ""
+
+#: ../../library/errno.rst:337
+msgid "Timer expired"
+msgstr ""
+
+#: ../../library/errno.rst:342
+msgid "Out of streams resources"
+msgstr ""
+
+#: ../../library/errno.rst:347
+msgid "Machine is not on the network"
+msgstr ""
+
+#: ../../library/errno.rst:352
+msgid "Package not installed"
+msgstr ""
+
+#: ../../library/errno.rst:357
+msgid "Object is remote"
+msgstr ""
+
+#: ../../library/errno.rst:362
+msgid "Link has been severed"
+msgstr ""
+
+#: ../../library/errno.rst:367
+msgid "Advertise error"
+msgstr ""
+
+#: ../../library/errno.rst:372
+msgid "Srmount error"
+msgstr ""
+
+#: ../../library/errno.rst:377
+msgid "Communication error on send"
+msgstr ""
+
+#: ../../library/errno.rst:382
+msgid "Protocol error"
+msgstr ""
+
+#: ../../library/errno.rst:387
+msgid "Multihop attempted"
+msgstr ""
+
+#: ../../library/errno.rst:392
+msgid "RFS specific error"
+msgstr ""
+
+#: ../../library/errno.rst:397
+msgid "Not a data message"
+msgstr ""
+
+#: ../../library/errno.rst:402
+msgid "Value too large for defined data type"
+msgstr ""
+
+#: ../../library/errno.rst:407
+msgid "Name not unique on network"
+msgstr ""
+
+#: ../../library/errno.rst:412
+msgid "File descriptor in bad state"
+msgstr ""
+
+#: ../../library/errno.rst:417
+msgid "Remote address changed"
+msgstr ""
+
+#: ../../library/errno.rst:422
+msgid "Can not access a needed shared library"
+msgstr ""
+
+#: ../../library/errno.rst:427
+msgid "Accessing a corrupted shared library"
+msgstr ""
+
+#: ../../library/errno.rst:432
+msgid ".lib section in a.out corrupted"
+msgstr ""
+
+#: ../../library/errno.rst:437
+msgid "Attempting to link in too many shared libraries"
+msgstr ""
+
+#: ../../library/errno.rst:442
+msgid "Cannot exec a shared library directly"
+msgstr ""
+
+#: ../../library/errno.rst:447
+msgid "Illegal byte sequence"
+msgstr ""
+
+#: ../../library/errno.rst:452
+msgid "Interrupted system call should be restarted"
+msgstr ""
+
+#: ../../library/errno.rst:457
+msgid "Streams pipe error"
+msgstr ""
+
+#: ../../library/errno.rst:462
+msgid "Too many users"
+msgstr ""
+
+#: ../../library/errno.rst:467
+msgid "Socket operation on non-socket"
+msgstr ""
+
+#: ../../library/errno.rst:472
+msgid "Destination address required"
+msgstr ""
+
+#: ../../library/errno.rst:477
+msgid "Message too long"
+msgstr ""
+
+#: ../../library/errno.rst:482
+msgid "Protocol wrong type for socket"
+msgstr ""
+
+#: ../../library/errno.rst:487
+msgid "Protocol not available"
+msgstr ""
+
+#: ../../library/errno.rst:492
+msgid "Protocol not supported"
+msgstr ""
+
+#: ../../library/errno.rst:497
+msgid "Socket type not supported"
+msgstr ""
+
+#: ../../library/errno.rst:502
+msgid "Operation not supported on transport endpoint"
+msgstr ""
+
+#: ../../library/errno.rst:507
+msgid "Protocol family not supported"
+msgstr ""
+
+#: ../../library/errno.rst:512
+msgid "Address family not supported by protocol"
+msgstr ""
+
+#: ../../library/errno.rst:517
+msgid "Address already in use"
+msgstr ""
+
+#: ../../library/errno.rst:522
+msgid "Cannot assign requested address"
+msgstr ""
+
+#: ../../library/errno.rst:527
+msgid "Network is down"
+msgstr ""
+
+#: ../../library/errno.rst:532
+msgid "Network is unreachable"
+msgstr ""
+
+#: ../../library/errno.rst:537
+msgid "Network dropped connection because of reset"
+msgstr ""
+
+#: ../../library/errno.rst:542
+msgid "Software caused connection abort"
+msgstr ""
+
+#: ../../library/errno.rst:547
+msgid "Connection reset by peer"
+msgstr ""
+
+#: ../../library/errno.rst:552
+msgid "No buffer space available"
+msgstr ""
+
+#: ../../library/errno.rst:557
+msgid "Transport endpoint is already connected"
+msgstr ""
+
+#: ../../library/errno.rst:562
+msgid "Transport endpoint is not connected"
+msgstr ""
+
+#: ../../library/errno.rst:567
+msgid "Cannot send after transport endpoint shutdown"
+msgstr ""
+
+#: ../../library/errno.rst:572
+msgid "Too many references: cannot splice"
+msgstr ""
+
+#: ../../library/errno.rst:577
+msgid "Connection timed out"
+msgstr ""
+
+#: ../../library/errno.rst:582
+msgid "Connection refused"
+msgstr ""
+
+#: ../../library/errno.rst:587
+msgid "Host is down"
+msgstr ""
+
+#: ../../library/errno.rst:592
+msgid "No route to host"
+msgstr ""
+
+#: ../../library/errno.rst:597
+msgid "Operation already in progress"
+msgstr ""
+
+#: ../../library/errno.rst:602
+msgid "Operation now in progress"
+msgstr ""
+
+#: ../../library/errno.rst:607
+msgid "Stale NFS file handle"
+msgstr ""
+
+#: ../../library/errno.rst:612
+msgid "Structure needs cleaning"
+msgstr ""
+
+#: ../../library/errno.rst:617
+msgid "Not a XENIX named type file"
+msgstr ""
+
+#: ../../library/errno.rst:622
+msgid "No XENIX semaphores available"
+msgstr ""
+
+#: ../../library/errno.rst:627
+msgid "Is a named type file"
+msgstr ""
+
+#: ../../library/errno.rst:632
+msgid "Remote I/O error"
+msgstr ""
+
+#: ../../library/errno.rst:637
+msgid "Quota exceeded"
+msgstr ""
+
