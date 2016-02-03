@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 07:37+0000\n"
+"PO-Revision-Date: 2016-01-31 13:27+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -1156,7 +1156,7 @@ msgstr ""
 
 #: ../../whatsnew/2.5.rst:1004
 msgid "Some examples::"
-msgstr ""
+msgstr "一些範例：\n\n::"
 
 #: ../../whatsnew/2.5.rst:1017
 msgid ""

@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 1990-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
-#
+# 
+# Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2015-12-11 18:45+0000\n"
+"PO-Revision-Date: 2016-01-31 07:30+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
-"Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-"
-"doc/python-35-tw/language/zh-Hant/)\n"
+"Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Language: zh-Hant\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/struct.rst:2
 msgid ":mod:`struct` --- Interpret bytes as packed binary data"
@@ -24,34 +24,33 @@ msgstr ""
 #: ../../library/struct.rst:11
 msgid ""
 "This module performs conversions between Python values and C structs "
-"represented as Python :class:`bytes` objects.  This can be used in "
-"handling binary data stored in files or from network connections, among "
-"other sources.  It uses :ref:`struct-format-strings` as compact "
-"descriptions of the layout of the C structs and the intended conversion "
-"to/from Python values."
+"represented as Python :class:`bytes` objects.  This can be used in handling "
+"binary data stored in files or from network connections, among other "
+"sources.  It uses :ref:`struct-format-strings` as compact descriptions of "
+"the layout of the C structs and the intended conversion to/from Python "
+"values."
 msgstr ""
 
 #: ../../library/struct.rst:19
 msgid ""
 "By default, the result of packing a given C struct includes pad bytes in "
 "order to maintain proper alignment for the C types involved; similarly, "
-"alignment is taken into account when unpacking.  This behavior is chosen "
-"so that the bytes of a packed struct correspond exactly to the layout in "
-"memory of the corresponding C struct.  To handle platform-independent "
-"data formats or omit implicit pad bytes, use ``standard`` size and "
-"alignment instead of ``native`` size and alignment: see :ref:`struct-"
-"alignment` for details."
+"alignment is taken into account when unpacking.  This behavior is chosen so "
+"that the bytes of a packed struct correspond exactly to the layout in memory"
+" of the corresponding C struct.  To handle platform-independent data formats"
+" or omit implicit pad bytes, use ``standard`` size and alignment instead of "
+"``native`` size and alignment: see :ref:`struct-alignment` for details."
 msgstr ""
 
 #: ../../library/struct.rst:27
 msgid ""
 "Several :mod:`struct` functions (and methods of :class:`Struct`) take a "
 "*buffer* argument.  This refers to objects that implement the "
-":ref:`bufferobjects` and provide either a readable or read-writable "
-"buffer.  The most common types used for that purpose are :class:`bytes` "
-"and :class:`bytearray`, but many other types that can be viewed as an "
-"array of bytes implement the buffer protocol, so that they can be "
-"read/filled without additional copying from a :class:`bytes` object."
+":ref:`bufferobjects` and provide either a readable or read-writable buffer."
+"  The most common types used for that purpose are :class:`bytes` and "
+":class:`bytearray`, but many other types that can be viewed as an array of "
+"bytes implement the buffer protocol, so that they can be read/filled without"
+" additional copying from a :class:`bytes` object."
 msgstr ""
 
 #: ../../library/struct.rst:36
@@ -64,15 +63,15 @@ msgstr ""
 
 #: ../../library/struct.rst:43
 msgid ""
-"Exception raised on various occasions; argument is a string describing "
-"what is wrong."
+"Exception raised on various occasions; argument is a string describing what "
+"is wrong."
 msgstr ""
 
 #: ../../library/struct.rst:49
 msgid ""
-"Return a bytes object containing the values *v1*, *v2*, ... packed "
-"according to the format string *fmt*.  The arguments must match the "
-"values required by the format exactly."
+"Return a bytes object containing the values *v1*, *v2*, ... packed according"
+" to the format string *fmt*.  The arguments must match the values required "
+"by the format exactly."
 msgstr ""
 
 #: ../../library/struct.rst:56
@@ -84,28 +83,27 @@ msgstr ""
 
 #: ../../library/struct.rst:63
 msgid ""
-"Unpack from the buffer *buffer* (presumably packed by ``pack(fmt, ...)``)"
-" according to the format string *fmt*.  The result is a tuple even if it "
-"contains exactly one item.  The buffer must contain exactly the amount of"
-" data required by the format (``len(bytes)`` must equal "
-"``calcsize(fmt)``)."
+"Unpack from the buffer *buffer* (presumably packed by ``pack(fmt, ...)``) "
+"according to the format string *fmt*.  The result is a tuple even if it "
+"contains exactly one item.  The buffer must contain exactly the amount of "
+"data required by the format (``len(bytes)`` must equal ``calcsize(fmt)``)."
 msgstr ""
 
 #: ../../library/struct.rst:71
 msgid ""
-"Unpack from *buffer* starting at position *offset*, according to the "
-"format string *fmt*.  The result is a tuple even if it contains exactly "
-"one item.  *buffer* must contain at least the amount of data required by "
-"the format (``len(buffer[offset:])`` must be at least ``calcsize(fmt)``)."
+"Unpack from *buffer* starting at position *offset*, according to the format "
+"string *fmt*.  The result is a tuple even if it contains exactly one item.  "
+"*buffer* must contain at least the amount of data required by the format "
+"(``len(buffer[offset:])`` must be at least ``calcsize(fmt)``)."
 msgstr ""
 
 #: ../../library/struct.rst:79
 msgid ""
-"Iteratively unpack from the buffer *buffer* according to the format "
-"string *fmt*.  This function returns an iterator which will read equally-"
-"sized chunks from the buffer until all its contents have been consumed.  "
-"The buffer's size in bytes must be a multiple of the amount of data "
-"required by the format, as reflected by :func:`calcsize`."
+"Iteratively unpack from the buffer *buffer* according to the format string "
+"*fmt*.  This function returns an iterator which will read equally-sized "
+"chunks from the buffer until all its contents have been consumed.  The "
+"buffer's size in bytes must be a multiple of the amount of data required by "
+"the format, as reflected by :func:`calcsize`."
 msgstr ""
 
 #: ../../library/struct.rst:85
@@ -124,8 +122,8 @@ msgstr ""
 
 #: ../../library/struct.rst:100
 msgid ""
-"Format strings are the mechanism used to specify the expected layout when"
-" packing and unpacking data.  They are built up from :ref:`format-"
+"Format strings are the mechanism used to specify the expected layout when "
+"packing and unpacking data.  They are built up from :ref:`format-"
 "characters`, which specify the type of data being packed/unpacked.  In "
 "addition, there are special characters for controlling the :ref:`struct-"
 "alignment`."
@@ -137,16 +135,16 @@ msgstr ""
 
 #: ../../library/struct.rst:111
 msgid ""
-"By default, C types are represented in the machine's native format and "
-"byte order, and properly aligned by skipping pad bytes if necessary "
-"(according to the rules used by the C compiler)."
+"By default, C types are represented in the machine's native format and byte "
+"order, and properly aligned by skipping pad bytes if necessary (according to"
+" the rules used by the C compiler)."
 msgstr ""
 
 #: ../../library/struct.rst:115
 msgid ""
 "Alternatively, the first character of the format string can be used to "
-"indicate the byte order, size and alignment of the packed data, according"
-" to the following table:"
+"indicate the byte order, size and alignment of the packed data, according to"
+" the following table:"
 msgstr ""
 
 #: ../../library/struct.rst:120
@@ -169,6 +167,7 @@ msgstr ""
 msgid "``@``"
 msgstr ""
 
+#: ../../library/struct.rst:122 ../../library/struct.rst:122
 #: ../../library/struct.rst:122 ../../library/struct.rst:124
 msgid "native"
 msgstr ""
@@ -219,27 +218,27 @@ msgstr ""
 msgid ""
 "Native byte order is big-endian or little-endian, depending on the host "
 "system. For example, Intel x86 and AMD64 (x86-64) are little-endian; "
-"Motorola 68000 and PowerPC G5 are big-endian; ARM and Intel Itanium "
-"feature switchable endianness (bi-endian). Use ``sys.byteorder`` to check"
-" the endianness of your system."
+"Motorola 68000 and PowerPC G5 are big-endian; ARM and Intel Itanium feature "
+"switchable endianness (bi-endian). Use ``sys.byteorder`` to check the "
+"endianness of your system."
 msgstr ""
 
 #: ../../library/struct.rst:141
 msgid ""
-"Native size and alignment are determined using the C compiler's "
-"``sizeof`` expression.  This is always combined with native byte order."
+"Native size and alignment are determined using the C compiler's ``sizeof`` "
+"expression.  This is always combined with native byte order."
 msgstr ""
 
 #: ../../library/struct.rst:144
 msgid ""
-"Standard size depends only on the format character;  see the table in the"
-" :ref:`format-characters` section."
+"Standard size depends only on the format character;  see the table in the "
+":ref:`format-characters` section."
 msgstr ""
 
 #: ../../library/struct.rst:147
 msgid ""
-"Note the difference between ``'@'`` and ``'='``: both use native byte "
-"order, but the size and alignment of the latter is standardized."
+"Note the difference between ``'@'`` and ``'='``: both use native byte order,"
+" but the size and alignment of the latter is standardized."
 msgstr ""
 
 #: ../../library/struct.rst:150
@@ -250,8 +249,8 @@ msgstr ""
 
 #: ../../library/struct.rst:153
 msgid ""
-"There is no way to indicate non-native byte order (force byte-swapping); "
-"use the appropriate choice of ``'<'`` or ``'>'``."
+"There is no way to indicate non-native byte order (force byte-swapping); use"
+" the appropriate choice of ``'<'`` or ``'>'``."
 msgstr ""
 
 #: ../../library/struct.rst:156 ../../library/struct.rst:229
@@ -260,21 +259,21 @@ msgstr ""
 
 #: ../../library/struct.rst:158
 msgid ""
-"Padding is only automatically added between successive structure members."
-" No padding is added at the beginning or the end of the encoded struct."
+"Padding is only automatically added between successive structure members. No"
+" padding is added at the beginning or the end of the encoded struct."
 msgstr ""
 
 #: ../../library/struct.rst:161
 msgid ""
-"No padding is added when using non-native size and alignment, e.g. with "
-"'<', '>', '=', and '!'."
+"No padding is added when using non-native size and alignment, e.g. with '<',"
+" '>', '=', and '!'."
 msgstr ""
 
 #: ../../library/struct.rst:164
 msgid ""
-"To align the end of a structure to the alignment requirement of a "
-"particular type, end the format with the code for that type with a repeat"
-" count of zero.  See :ref:`struct-examples`."
+"To align the end of a structure to the alignment requirement of a particular"
+" type, end the format with the code for that type with a repeat count of "
+"zero.  See :ref:`struct-examples`."
 msgstr ""
 
 #: ../../library/struct.rst:172
@@ -283,12 +282,12 @@ msgstr ""
 
 #: ../../library/struct.rst:174
 msgid ""
-"Format characters have the following meaning; the conversion between C "
-"and Python values should be obvious given their types.  The 'Standard "
-"size' column refers to the size of the packed value in bytes when using "
-"standard size; that is, when the format string starts with one of "
-"``'<'``, ``'>'``, ``'!'`` or ``'='``.  When using native size, the size "
-"of the packed value is platform-dependent."
+"Format characters have the following meaning; the conversion between C and "
+"Python values should be obvious given their types.  The 'Standard size' "
+"column refers to the size of the packed value in bytes when using standard "
+"size; that is, when the format string starts with one of ``'<'``, ``'>'``, "
+"``'!'`` or ``'='``.  When using native size, the size of the packed value is"
+" platform-dependent."
 msgstr ""
 
 #: ../../library/struct.rst:182
@@ -554,23 +553,23 @@ msgstr ""
 
 #: ../../library/struct.rst:232
 msgid ""
-"The ``'?'`` conversion code corresponds to the :c:type:`_Bool` type "
-"defined by C99. If this type is not available, it is simulated using a "
+"The ``'?'`` conversion code corresponds to the :c:type:`_Bool` type defined "
+"by C99. If this type is not available, it is simulated using a "
 ":c:type:`char`. In standard mode, it is always represented by one byte."
 msgstr ""
 
 #: ../../library/struct.rst:237
 msgid ""
-"The ``'q'`` and ``'Q'`` conversion codes are available in native mode "
-"only if the platform C compiler supports C :c:type:`long long`, or, on "
-"Windows, :c:type:`__int64`.  They are always available in standard modes."
+"The ``'q'`` and ``'Q'`` conversion codes are available in native mode only "
+"if the platform C compiler supports C :c:type:`long long`, or, on Windows, "
+":c:type:`__int64`.  They are always available in standard modes."
 msgstr ""
 
 #: ../../library/struct.rst:242
 msgid ""
-"When attempting to pack a non-integer using any of the integer conversion"
-" codes, if the non-integer has a :meth:`__index__` method then that "
-"method is called to convert the argument to an integer before packing."
+"When attempting to pack a non-integer using any of the integer conversion "
+"codes, if the non-integer has a :meth:`__index__` method then that method is"
+" called to convert the argument to an integer before packing."
 msgstr ""
 
 #: ../../library/struct.rst:246
@@ -579,27 +578,26 @@ msgstr ""
 
 #: ../../library/struct.rst:250
 msgid ""
-"The ``'n'`` and ``'N'`` conversion codes are only available for the "
-"native size (selected as the default or with the ``'@'`` byte order "
-"character). For the standard size, you can use whichever of the other "
-"integer formats fits your application."
+"The ``'n'`` and ``'N'`` conversion codes are only available for the native "
+"size (selected as the default or with the ``'@'`` byte order character). For"
+" the standard size, you can use whichever of the other integer formats fits "
+"your application."
 msgstr ""
 
 #: ../../library/struct.rst:256
 msgid ""
-"For the ``'f'`` and ``'d'`` conversion codes, the packed representation "
-"uses the IEEE 754 binary32 (for ``'f'``) or binary64 (for ``'d'``) "
-"format, regardless of the floating-point format used by the platform."
+"For the ``'f'`` and ``'d'`` conversion codes, the packed representation uses"
+" the IEEE 754 binary32 (for ``'f'``) or binary64 (for ``'d'``) format, "
+"regardless of the floating-point format used by the platform."
 msgstr ""
 
 #: ../../library/struct.rst:261
 msgid ""
-"The ``'P'`` format character is only available for the native byte "
-"ordering (selected as the default or with the ``'@'`` byte order "
-"character). The byte order character ``'='`` chooses to use little- or "
-"big-endian ordering based on the host system. The struct module does not "
-"interpret this as native ordering, so the ``'P'`` format is not "
-"available."
+"The ``'P'`` format character is only available for the native byte ordering "
+"(selected as the default or with the ``'@'`` byte order character). The byte"
+" order character ``'='`` chooses to use little- or big-endian ordering based"
+" on the host system. The struct module does not interpret this as native "
+"ordering, so the ``'P'`` format is not available."
 msgstr ""
 
 #: ../../library/struct.rst:268
@@ -610,20 +608,20 @@ msgstr ""
 
 #: ../../library/struct.rst:271
 msgid ""
-"Whitespace characters between formats are ignored; a count and its format"
-" must not contain whitespace though."
+"Whitespace characters between formats are ignored; a count and its format "
+"must not contain whitespace though."
 msgstr ""
 
 #: ../../library/struct.rst:274
 msgid ""
-"For the ``'s'`` format character, the count is interpreted as the length "
-"of the bytes, not a repeat count like for the other format characters; "
-"for example, ``'10s'`` means a single 10-byte string, while ``'10c'`` "
-"means 10 characters. If a count is not given, it defaults to 1.  For "
-"packing, the string is truncated or padded with null bytes as appropriate"
-" to make it fit. For unpacking, the resulting bytes object always has "
-"exactly the specified number of bytes.  As a special case, ``'0s'`` means"
-" a single, empty string (while ``'0c'`` means 0 characters)."
+"For the ``'s'`` format character, the count is interpreted as the length of "
+"the bytes, not a repeat count like for the other format characters; for "
+"example, ``'10s'`` means a single 10-byte string, while ``'10c'`` means 10 "
+"characters. If a count is not given, it defaults to 1.  For packing, the "
+"string is truncated or padded with null bytes as appropriate to make it fit."
+" For unpacking, the resulting bytes object always has exactly the specified "
+"number of bytes.  As a special case, ``'0s'`` means a single, empty string "
+"(while ``'0c'`` means 0 characters)."
 msgstr ""
 
 #: ../../library/struct.rst:283
@@ -636,31 +634,30 @@ msgstr ""
 
 #: ../../library/struct.rst:288
 msgid ""
-"In 3.0, some of the integer formats wrapped out-of-range values and "
-"raised :exc:`DeprecationWarning` instead of :exc:`struct.error`."
+"In 3.0, some of the integer formats wrapped out-of-range values and raised "
+":exc:`DeprecationWarning` instead of :exc:`struct.error`."
 msgstr ""
 
 #: ../../library/struct.rst:292
 msgid ""
-"The ``'p'`` format character encodes a \"Pascal string\", meaning a short"
-" variable-length string stored in a *fixed number of bytes*, given by the"
-" count. The first byte stored is the length of the string, or 255, "
-"whichever is smaller.  The bytes of the string follow.  If the string "
-"passed in to :func:`pack` is too long (longer than the count minus 1), "
-"only the leading ``count-1`` bytes of the string are stored.  If the "
-"string is shorter than ``count-1``, it is padded with null bytes so that "
-"exactly count bytes in all are used.  Note that for :func:`unpack`, the "
-"``'p'`` format character consumes ``count`` bytes, but that the string "
-"returned can never contain more than 255 bytes."
+"The ``'p'`` format character encodes a \"Pascal string\", meaning a short "
+"variable-length string stored in a *fixed number of bytes*, given by the "
+"count. The first byte stored is the length of the string, or 255, whichever "
+"is smaller.  The bytes of the string follow.  If the string passed in to "
+":func:`pack` is too long (longer than the count minus 1), only the leading "
+"``count-1`` bytes of the string are stored.  If the string is shorter than "
+"``count-1``, it is padded with null bytes so that exactly count bytes in all"
+" are used.  Note that for :func:`unpack`, the ``'p'`` format character "
+"consumes ``count`` bytes, but that the string returned can never contain "
+"more than 255 bytes."
 msgstr ""
 
 #: ../../library/struct.rst:303
 msgid ""
-"For the ``'?'`` format character, the return value is either "
-":const:`True` or :const:`False`. When packing, the truth value of the "
-"argument object is used. Either 0 or 1 in the native or standard bool "
-"representation will be packed, and any non-zero value will be ``True`` "
-"when unpacking."
+"For the ``'?'`` format character, the return value is either :const:`True` "
+"or :const:`False`. When packing, the truth value of the argument object is "
+"used. Either 0 or 1 in the native or standard bool representation will be "
+"packed, and any non-zero value will be ``True`` when unpacking."
 msgstr ""
 
 #: ../../library/struct.rst:313
@@ -679,8 +676,8 @@ msgstr ""
 
 #: ../../library/struct.rst:329
 msgid ""
-"Unpacked fields can be named by assigning them to variables or by "
-"wrapping the result in a named tuple::"
+"Unpacked fields can be named by assigning them to variables or by wrapping "
+"the result in a named tuple::"
 msgstr ""
 
 #: ../../library/struct.rst:340
@@ -697,8 +694,8 @@ msgstr ""
 
 #: ../../library/struct.rst:358
 msgid ""
-"This only works when native size and alignment are in effect; standard "
-"size and alignment does not enforce any alignment."
+"This only works when native size and alignment are in effect; standard size "
+"and alignment does not enforce any alignment."
 msgstr ""
 
 #: ../../library/struct.rst:365
@@ -727,11 +724,10 @@ msgstr ""
 
 #: ../../library/struct.rst:381
 msgid ""
-"Return a new Struct object which writes and reads binary data according "
-"to the format string *format*.  Creating a Struct object once and calling"
-" its methods is more efficient than calling the :mod:`struct` functions "
-"with the same format since the format string only needs to be compiled "
-"once."
+"Return a new Struct object which writes and reads binary data according to "
+"the format string *format*.  Creating a Struct object once and calling its "
+"methods is more efficient than calling the :mod:`struct` functions with the "
+"same format since the format string only needs to be compiled once."
 msgstr ""
 
 #: ../../library/struct.rst:387
@@ -745,7 +741,8 @@ msgid ""
 msgstr ""
 
 #: ../../library/struct.rst:397
-msgid "Identical to the :func:`pack_into` function, using the compiled format."
+msgid ""
+"Identical to the :func:`pack_into` function, using the compiled format."
 msgstr ""
 
 #: ../../library/struct.rst:402
@@ -756,14 +753,14 @@ msgstr ""
 
 #: ../../library/struct.rst:408
 msgid ""
-"Identical to the :func:`unpack_from` function, using the compiled format."
-" (``len(buffer[offset:])`` must be at least :attr:`self.size`)."
+"Identical to the :func:`unpack_from` function, using the compiled format. "
+"(``len(buffer[offset:])`` must be at least :attr:`self.size`)."
 msgstr ""
 
 #: ../../library/struct.rst:414
 msgid ""
-"Identical to the :func:`iter_unpack` function, using the compiled format."
-" (``len(buffer)`` must be a multiple of :attr:`self.size`)."
+"Identical to the :func:`iter_unpack` function, using the compiled format. "
+"(``len(buffer)`` must be a multiple of :attr:`self.size`)."
 msgstr ""
 
 #: ../../library/struct.rst:421
@@ -772,13 +769,6 @@ msgstr ""
 
 #: ../../library/struct.rst:425
 msgid ""
-"The calculated size of the struct (and hence of the bytes object produced"
-" by the :meth:`pack` method) corresponding to :attr:`format`."
+"The calculated size of the struct (and hence of the bytes object produced by"
+" the :meth:`pack` method) corresponding to :attr:`format`."
 msgstr ""
-
-#~ msgid "Module array"
-#~ msgstr ""
-
-#~ msgid "Module xdrlib"
-#~ msgstr ""
-
