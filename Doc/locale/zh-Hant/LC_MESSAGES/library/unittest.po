@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-02-03 13:32+0000\n"
+"PO-Revision-Date: 2016-02-04 04:33+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -244,7 +244,7 @@ msgid ""
 " converted to a module name by removing the '.py' and converting path "
 "separators into '.'. If you want to execute a test file that isn't "
 "importable as a module you should execute the file directly instead."
-msgstr "這提供你使用 shell 檔案名稱整合程成指定的測試模組。檔案導入必須指定為一個模組。路徑轉換成模組名稱透過移除 '.py' 和轉換路徑透過切割檔名的 '.'。假如你希望執行一個測試檔案，而它們並沒有透過模組去導入你應該直接執行文件。"
+msgstr "這允許你使用 shell 檔案名稱補完功能 (filename completion) 來指定測試模組。給定的檔案路徑必須亦能被當作模組 import。此路徑轉換為模組名稱的方式為移除 '.py' 並將路徑分隔符 (path separator) 轉換成 '.'。 假如你的測試檔案無法被 import 成模組，你應該直接執行該測試檔案。"
 
 #: ../../library/unittest.rst:175
 msgid ""
@@ -287,7 +287,7 @@ msgid ""
 ":kbd:`Control-C` during the test run waits for the current test to end and "
 "then reports all the results so far. A second :kbd:`Control-C` raises the "
 "normal :exc:`KeyboardInterrupt` exception."
-msgstr ":kbd:`Control-C` 測試執行過程中等待正確的結束測試並報告到沒前為止所有的測試結果。第二個 :kbd:`Control-C` 拋出一般 :exc:`KeyboardInterrupt` 例外。"
+msgstr ":kbd:`Control-C` 測試執行過程中等待正確的測試結果並回報目前為止所有的測試結果。第二個 :kbd:`Control-C` 拋出一般例外 :exc:`KeyboardInterrupt`\\ 。"
 
 #: ../../library/unittest.rst:211
 msgid ""
@@ -328,7 +328,7 @@ msgid ""
 "<namespace package>`) importable from the top-level directory of the project"
 " (this means that their filenames must be valid :ref:`identifiers "
 "<identifiers>`)."
-msgstr "單元測試支援簡單的探索測試。為了相容於探索測試，所有的測試檔案都要是\\ :ref:`模組 <tut-modules>`\\ 或是\\ :ref:`套件 <tut-packages>`\\ （包含 :term:`namespace packages <namespace package>`\\ ），並能從專案的最上層目錄中 import（代表它們的檔案名稱必須是有效的 :ref:`identifiers <identifiers>`\\ ）。"
+msgstr "單元測試支援簡單的 test discovery（測試探索）。為了相容於測試探索，所有的測試檔案都要是\\ :ref:`模組 <tut-modules>`\\ 或是\\ :ref:`套件 <tut-packages>`\\ （包含 :term:`namespace packages <namespace package>`\\ ），並能從專案的最上層目錄中 import（代表它們的檔案名稱必須是有效的 :ref:`identifiers <identifiers>`\\ ）。"
 
 #: ../../library/unittest.rst:245
 msgid ""
@@ -361,14 +361,14 @@ msgstr "匹配測試檔案的模式（預設為 ``test*.py``\\ ）"
 
 #: ../../library/unittest.rst:275
 msgid "Top level directory of project (defaults to start directory)"
-msgstr ""
+msgstr "專案的最高階層目錄 (defaults to start directory)"
 
 #: ../../library/unittest.rst:277
 msgid ""
 "The :option:`-s`, :option:`-p`, and :option:`-t` options can be passed in as"
 " positional arguments in that order. The following two command lines are "
 "equivalent::"
-msgstr ""
+msgstr ":option:`-s`, :option:`-p`, 和 :option:`-t` 選項依照傳遞位置作為引數排序順序。以下兩個命令列被視為等價: \n\n::"
 
 #: ../../library/unittest.rst:284
 msgid ""
