@@ -101,6 +101,9 @@
   <li><a href="{{ pathto('bugs') }}">Report a Bug</a></li>
   <li><a href="{{ pathto('_sources/' + sourcename, true)|e }}"
          rel="nofollow">Show Source</a></li>
+  {%- if autobuildi18n %}
+  <li><a href="/_build/update/?source_path={{ pagename|replace('/', '--')|replace('.', '_') }}">Update Translation</a></li>
+  {%- endif %}
 </ul>
 {%- endif %}
 {% endblock %}

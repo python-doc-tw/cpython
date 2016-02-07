@@ -169,6 +169,10 @@ autobuild-dev:
 autobuild-html:
 	make html SPHINXOPTS='-A daily=1 -A versionswitcher=1'
 
+# for i18n translation autobuild
+autobuild-html-i18n:
+	make html SPHINXOPTS='-A autobuildi18n=1'
+
 # for stable releases: only build if not in pre-release stage (alpha, beta)
 # release candidate downloads are okay, since the stable tree can be in that stage
 autobuild-stable:
