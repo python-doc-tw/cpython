@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 07:34+0000\n"
+"PO-Revision-Date: 2016-02-10 12:39+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -341,7 +341,7 @@ msgstr ""
 
 #: ../../reference/datamodel.rst:303
 msgid "Strings"
-msgstr ""
+msgstr "字串 (String)"
 
 #: ../../reference/datamodel.rst:293
 msgid ""

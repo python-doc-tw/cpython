@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 13:58+0000\n"
+"PO-Revision-Date: 2016-02-10 12:58+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -45,7 +45,7 @@ msgstr "在本手冊中的許多範例中，即便他們為互動式地輸入，
 
 #: ../../tutorial/introduction.rst:22
 msgid "Some examples::"
-msgstr "一些範例：\n\n::"
+msgstr "一些範例如下：\n\n::"
 
 #: ../../tutorial/introduction.rst:33
 msgid "Using Python as a Calculator"
@@ -59,7 +59,7 @@ msgstr "讓我們來試試一些簡單的 Python 指令。啟動直譯器並等�
 
 #: ../../tutorial/introduction.rst:42
 msgid "Numbers"
-msgstr "數字"
+msgstr "數字 (Number)"
 
 #: ../../tutorial/introduction.rst:44
 msgid ""
@@ -100,13 +100,13 @@ msgstr "等於符號 (``=``) 可以用於為變數賦值。賦值完之後，在
 msgid ""
 "If a variable is not \"defined\" (assigned a value), trying to use it will "
 "give you an error::"
-msgstr "如果一個變數未被「定義 (defined)」（被賦值），試著使用它時會出現一個錯誤：\n\n::"
+msgstr "如果一個變數未被「定義 (defined)」（即變數未被賦值），試著使用它時會出現一個錯誤：\n\n::"
 
 #: ../../tutorial/introduction.rst:100
 msgid ""
 "There is full support for floating point; operators with mixed type operands"
 " convert the integer operand to floating point::"
-msgstr "浮點數的運算有完善的支援，操作子 (operators) 遇上混合的操作元 (operands) 時會把整數的操作元轉換為浮點數：\n\n::"
+msgstr "浮點數的運算有完善的支援，操作子 (operator) 遇上混合的操作元 (operand) 時會把整數的操作元轉換為浮點數：\n\n::"
 
 #: ../../tutorial/introduction.rst:108
 msgid ""
@@ -129,11 +129,11 @@ msgid ""
 ":class:`~fractions.Fraction`. Python also has built-in support for "
 ":ref:`complex numbers <typesnumeric>`, and uses the ``j`` or ``J`` suffix to"
 " indicate the imaginary part (e.g. ``3+5j``)."
-msgstr "除了 :class:`int` 和 :class:`float`，Python 還支援了其他的數字型態，包含 :class:`~decimal.Decimal` 和 :class:`~fractions.Fraction`。Python 亦有內建對\\ :ref:`複數 (complex numbers) <typesnumeric>`，並使用 ``j`` 和 ``J`` 後綴來指定虛數的部份（即 ``3+5j``）。"
+msgstr "除了 :class:`int` 和 :class:`float`，Python 還支援了其他的數字型態，包含 :class:`~decimal.Decimal` 和 :class:`~fractions.Fraction`。Python 亦內建支援\\ :ref:`複數 (complex numbers) <typesnumeric>`，並使用 ``j`` 和 ``J`` 後綴來指定虛數的部份（即 ``3+5j``）。"
 
 #: ../../tutorial/introduction.rst:135
 msgid "Strings"
-msgstr ""
+msgstr "字串 (String)"
 
 #: ../../tutorial/introduction.rst:137
 msgid ""
@@ -141,7 +141,7 @@ msgid ""
 "in several ways.  They can be enclosed in single quotes (``'...'``) or "
 "double quotes (``\"...\"``) with the same result [#]_.  ``\\`` can be used "
 "to escape quotes::"
-msgstr ""
+msgstr "除了數字之外，Python 也可以操作字串，而表達字串有數種方式。它們可以用包含在單引號 (``'...'``) 或雙引號 (``\"...\"``) 之中，兩者會得到相同的結果\\ [#]_\\ 。使用 ``\\`` 跳脫出現於字串中的引號：\n\n::"
 
 #: ../../tutorial/introduction.rst:155
 msgid ""
@@ -153,14 +153,14 @@ msgid ""
 "enclosed in single quotes.  The :func:`print` function produces a more "
 "readable output, by omitting the enclosing quotes and by printing escaped "
 "and special characters::"
-msgstr ""
+msgstr "在互動式的直譯器中，輸出的字串會被引號包圍且特殊符號會使用反斜線 (``\\``) 跳脫。雖然這有時會讓它看起來跟輸入的字串不相同（包圍用的引號可能會改變），輸入和輸出兩字串實為相同。一般來說，字串包含單引號而沒有雙引號時，會使用雙引號包圍字串。函式 :func:`print` 會產生更易讀的輸出，它會去除掉包圍的引號，並且直接印出被跳脫的字元和特殊字元：\n\n::"
 
 #: ../../tutorial/introduction.rst:175
 msgid ""
 "If you don't want characters prefaced by ``\\`` to be interpreted as special"
 " characters, you can use *raw strings* by adding an ``r`` before the first "
 "quote::"
-msgstr ""
+msgstr "如果你不希望字元前出現 ``\\`` 就被當成特殊字元時，可以改使用 *raw string*，在第一個包圍引號前加上 ``r`` ：\n\n::"
 
 #: ../../tutorial/introduction.rst:185
 msgid ""
@@ -168,13 +168,13 @@ msgid ""
 "``\"\"\"...\"\"\"`` or ``'''...'''``.  End of lines are automatically "
 "included in the string, but it's possible to prevent this by adding a ``\\``"
 " at the end of the line.  The following example::"
-msgstr ""
+msgstr "字串值可以跨越數行。其中一方式是使用三個重覆引號：\\ ``\"\"\"...\"\"\"`` 或 ``'''...'''``\\ 。此時換行會被自動加入字串值中，但也可以在換行前加入 ``\\`` 來取消這個行為。在以下的例子中：\n\n::"
 
 #: ../../tutorial/introduction.rst:196
 msgid ""
 "produces the following output (note that the initial newline is not "
 "included):"
-msgstr ""
+msgstr "會產生以下的輸出（注意第一個換行並沒有被包含進字串值中）："
 
 #: ../../tutorial/introduction.rst:204
 msgid ""
