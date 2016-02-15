@@ -1,6 +1,7 @@
 [main]
 host = https://www.transifex.com
 type = PO
+lang_map = zh-Hant:zh_Hant
 
 [python-35-tw.about]
 file_filter = locale/<lang>/LC_MESSAGES/about.po
