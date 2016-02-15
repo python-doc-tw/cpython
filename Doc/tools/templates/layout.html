@@ -18,6 +18,7 @@
     <link rel="shortcut icon" type="image/png" href="{{ pathto('_static/py.png', 1) }}" />
     {% if not embedded %}<script type="text/javascript" src="{{ pathto('_static/gotooriginal.js', 1) }}"></script>{% endif %}
     {% if not embedded %}<script type="text/javascript" src="{{ pathto('_static/copybutton.js', 1) }}"></script>{% endif %}
+    {% if autobuildi18n %}<script type="text/javascript" src="{{ pathto('_static/autobuildi18n.js', 1) }}"></script>{% endif %}
     {% if versionswitcher is defined and not embedded %}<script type="text/javascript" src="{{ pathto('_static/version_switch.js', 1) }}"></script>{% endif %}
     {% if pagename == 'whatsnew/changelog' %}
     <script type="text/javascript">
@@ -102,7 +103,7 @@
   <li><a href="{{ pathto('_sources/' + sourcename, true)|e }}"
          rel="nofollow">Show Source</a></li>
   {%- if autobuildi18n %}
-  <li><a href="/_build/update/?source_path={{ pagename|replace('/', '--')|replace('.', '_') }}">Update Translation</a></li>
+  <li><a class="autobuildi18n" data-pagename="{{ pagename }}" href="#">Update Translation</a></li>
   {%- endif %}
 </ul>
 {%- endif %}
