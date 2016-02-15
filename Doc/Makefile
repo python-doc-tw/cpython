@@ -170,7 +170,7 @@ autobuild-html:
 	make html SPHINXOPTS='-A daily=1 -A versionswitcher=1'
 
 # for i18n translation autobuild
-autobuild-html-i18n: override SPHINXOPTS += '-A autobuildi18n=1'
+autobuild-html-i18n: override SPHINXOPTS += -A autobuildi18n=1
 autobuild-html-i18n: html
 
 # for stable releases: only build if not in pre-release stage (alpha, beta)
