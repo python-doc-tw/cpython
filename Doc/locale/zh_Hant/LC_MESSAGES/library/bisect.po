@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
+# 周 忠毅 <rilakcrc35@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-02-26 16:54+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"PO-Revision-Date: 2016-02-27 15:05+0000\n"
+"Last-Translator: 周 忠毅 <rilakcrc35@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../library/bisect.rst:2
 msgid ":mod:`bisect` --- Array bisection algorithm"
-msgstr ""
+msgstr ":mod:`bisect` --- 陣列二分演算法 (Array bisection algorithm)"
 
 #: ../../library/bisect.rst:10
 msgid "**Source code:** :source:`Lib/bisect.py`"
-msgstr ""
+msgstr "**原始碼：** :source:`Lib/bisect.py`"
 
 #: ../../library/bisect.rst:14
 msgid ""
@@ -34,7 +35,7 @@ msgid ""
 " bisection algorithm to do its work.  The source code may be most useful as "
 "a working example of the algorithm (the boundary conditions are already "
 "right!)."
-msgstr ""
+msgstr "這個模組維護一個已經排序過的 list ，當我們每次做完插入後不需要再次排序整個 list 。一個很長的 list 的比較操作很花費時間，為了改進這點，這個模組是其中一個常用的方法。這個模組被命名為 :mod:`bisect` 來自他使用一個基礎的 bisection 演算法實作。模組的原始碼是這個演算法的一個完善的實作（邊界條件已經是正確的了）。"
 
 #: ../../library/bisect.rst:21
 msgid "The following functions are provided:"
@@ -48,27 +49,27 @@ msgid ""
 " present in *a*, the insertion point will be before (to the left of) any "
 "existing entries.  The return value is suitable for use as the first "
 "parameter to ``list.insert()`` assuming that *a* is already sorted."
-msgstr ""
+msgstr "在 *a* 當中找到一個位置，讓 *x*  插入後 *a* 仍然是排序好的。參數 *lo* 和 *hi* 用來指定 list 中應該被考慮的子區間，預設是考慮整個 list 。如果 *a* 裡面已經有 *x* 出現，插入的位置會在所有 *x* 的前面（左邊）。回傳值可以被當作 ``list.insert()`` 的第一個參數，但列表 *a* 必須先排序過。"
 
 #: ../../library/bisect.rst:33
 msgid ""
 "The returned insertion point *i* partitions the array *a* into two halves so"
 " that ``all(val < x for val in a[lo:i])`` for the left side and ``all(val >="
 " x for val in a[i:hi])`` for the right side."
-msgstr ""
+msgstr "回傳的插入位置 *i* 將陣列 *a* 分為兩半，使得 ``all(val < x for val in a[lo:i])`` 都在左側且 ``all(val >= x for val in a[i:hi])`` 都在右側。"
 
 #: ../../library/bisect.rst:40
 msgid ""
 "Similar to :func:`bisect_left`, but returns an insertion point which comes "
 "after (to the right of) any existing entries of *x* in *a*."
-msgstr ""
+msgstr "類似 :func:`bisect_left` ，但回傳的插入位置會在所有 *a* 當中的 *x* 的後面（右邊）。"
 
 #: ../../library/bisect.rst:43
 msgid ""
 "The returned insertion point *i* partitions the array *a* into two halves so"
 " that ``all(val <= x for val in a[lo:i])`` for the left side and ``all(val >"
 " x for val in a[i:hi])`` for the right side."
-msgstr ""
+msgstr "回傳的插入位置 *i* 將陣列 *a* 分為兩半，使得 ``all(val <= x for val in a[lo:i])`` 都在左側且 ``all(val > x for val in a[i:hi])`` 都在右側。"
 
 #: ../../library/bisect.rst:49
 msgid ""
@@ -76,13 +77,13 @@ msgid ""
 "``a.insert(bisect.bisect_left(a, x, lo, hi), x)`` assuming that *a* is "
 "already sorted.  Keep in mind that the O(log n) search is dominated by the "
 "slow O(n) insertion step."
-msgstr ""
+msgstr "不破壞 *a* 的排序下插入 *x* ，這等價於 ``a.insert(bisect.bisect_left(a, x, lo, hi), x)``  ，注意 *a* 必須是已經排序過的 list 。注意搜尋只需要 O(log n) 時間而插入需要很慢的 O(n) 時間，這使得插入操作主導了需要的花費時間。"
 
 #: ../../library/bisect.rst:57
 msgid ""
 "Similar to :func:`insort_left`, but inserting *x* in *a* after any existing "
 "entries of *x*."
-msgstr ""
+msgstr "類似 :func:`insort_left` ，但插入的位置會在所有 *a* 當中的 *x* 的後面（右邊）。"
 
 #: ../../library/bisect.rst:62
 msgid ""
@@ -91,7 +92,7 @@ msgid ""
 "bisect to build a full-featured collection class with straight-forward "
 "search methods and support for a key-function.  The keys are precomputed to "
 "save unnecessary calls to the key function during searches."
-msgstr ""
+msgstr "`SortedCollection recipe <http://code.activestate.com/recipes/577197-sortedcollection/>`_ that uses bisect to build a full-featured collection class with straight-forward search methods and support for a key-function. The keys are precomputed to save unnecessary calls to the key function during searches."
 
 #: ../../library/bisect.rst:70
 msgid "Searching Sorted Lists"
