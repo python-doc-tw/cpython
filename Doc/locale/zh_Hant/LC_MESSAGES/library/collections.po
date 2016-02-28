@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-02-27 15:38+0000\n"
+"PO-Revision-Date: 2016-02-28 14:38+0000\n"
 "Last-Translator: 周 忠毅 <rilakcrc35@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -284,32 +284,32 @@ msgstr ":class:`Counter` 是 :class:`dict` 的子類別，用來計算可 hash �
 msgid ""
 "Elements are counted from an *iterable* or initialized from another "
 "*mapping* (or counter):"
-msgstr ""
+msgstr "被計數的元素來自一個 *iterable* 或是被其他的 *mapping* (or counter) 初始化。"
 
 #: ../../library/collections.rst:239
 msgid ""
 "Counter objects have a dictionary interface except that they return a zero "
 "count for missing items instead of raising a :exc:`KeyError`:"
-msgstr ""
+msgstr "Counter 物件擁有一個字典的使用介面，除了遇到 Counter 中沒有的值時會回傳計數 0 取代 :exc:`KeyError` 這點不同。"
 
 #: ../../library/collections.rst:246
 msgid ""
 "Setting a count to zero does not remove an element from a counter. Use "
 "``del`` to remove it entirely:"
-msgstr ""
+msgstr "將一個值的計數設為 0 並不會真的從 counter 中刪除這個元素，使用 ``del`` 來刪除元素。"
 
 #: ../../library/collections.rst:255
 msgid ""
 "Counter objects support three methods beyond those available for all "
 "dictionaries:"
-msgstr ""
+msgstr "除了字典的方法外，Counter 物件額外支援三個新方法。"
 
 #: ../../library/collections.rst:260
 msgid ""
 "Return an iterator over elements repeating each as many times as its count."
 "  Elements are returned in arbitrary order.  If an element's count is less "
 "than one, :meth:`elements` will ignore it."
-msgstr ""
+msgstr "回傳一個每個元素都重複出現計算次數的 iterator 物件，其中元素的排列順序會是隨機的。如果元素的出現次數小於 1 ，:meth:`elements` 方法會忽略這些元素。"
 
 #: ../../library/collections.rst:270
 msgid ""
@@ -317,7 +317,7 @@ msgid ""
 " common to the least.  If *n* is omitted or ``None``, :func:`most_common` "
 "returns *all* elements in the counter. Elements with equal counts are "
 "ordered arbitrarily:"
-msgstr ""
+msgstr "回傳一個 list ，包含出現最多次的 *n* 個元素並按照出現次數排序。如果 *n* 參數被省略或者為 None ，:func:`most_common` 會回傳所有 counter 中的元素。出現次數相同的元素排列會是隨機的。"
 
 #: ../../library/collections.rst:280
 msgid ""
