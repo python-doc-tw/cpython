@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 1990-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-11 18:41+0000\n"
+"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"PO-Revision-Date: 2016-02-29 09:07+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -714,7 +714,7 @@ msgstr ""
 
 #: ../../distutils/setupscript.rst:562
 msgid "Notes"
-msgstr ""
+msgstr "註解"
 
 #: ../../distutils/setupscript.rst:564
 msgid "``name``"
@@ -732,7 +732,7 @@ msgstr ""
 
 #: ../../distutils/setupscript.rst:564 ../../distutils/setupscript.rst:578
 msgid "\\(1)"
-msgstr ""
+msgstr "\\(1)"
 
 #: ../../distutils/setupscript.rst:566
 msgid "``version``"
@@ -869,7 +869,7 @@ msgstr ""
 
 #: ../../distutils/setupscript.rst:597
 msgid "Notes:"
-msgstr ""
+msgstr "註解："
 
 #: ../../distutils/setupscript.rst:600
 msgid "These fields are required."

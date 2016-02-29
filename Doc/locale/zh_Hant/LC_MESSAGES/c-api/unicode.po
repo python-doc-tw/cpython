@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 1990-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-09 17:51+0000\n"
+"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"PO-Revision-Date: 2016-02-29 09:13+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -477,7 +477,7 @@ msgstr ""
 #: ../../c-api/unicode.rst:452 ../../c-api/unicode.rst:455
 #: ../../c-api/unicode.rst:488 ../../c-api/unicode.rst:491
 msgid "int"
-msgstr ""
+msgstr "int"
 
 #: ../../c-api/unicode.rst:452
 msgid "A single character, represented as an C int."
@@ -497,7 +497,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:458
 msgid "unsigned int"
-msgstr ""
+msgstr "unsigned int"
 
 #: ../../c-api/unicode.rst:458
 msgid "Exactly equivalent to ``printf(\"%u\")``."
@@ -529,7 +529,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:467
 msgid "unsigned long"
-msgstr ""
+msgstr "unsigned long"
 
 #: ../../c-api/unicode.rst:467
 msgid "Exactly equivalent to ``printf(\"%lu\")``."
@@ -561,7 +561,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:476
 msgid "unsigned long long"
-msgstr ""
+msgstr "unsigned long long"
 
 #: ../../c-api/unicode.rst:476
 msgid "Exactly equivalent to ``printf(\"%llu\")``."
@@ -841,7 +841,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:666
 msgid "Deprecated since version 3.3, will be removed in version 4.0."
-msgstr ""
+msgstr "這個問題 3.3 版起被抨擊，將會於 4.0 移除。"
 
 #: ../../c-api/unicode.rst:667
 msgid ""

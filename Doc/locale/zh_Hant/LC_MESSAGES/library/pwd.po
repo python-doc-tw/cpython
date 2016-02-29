@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 07:27+0000\n"
+"PO-Revision-Date: 2016-02-29 09:08+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr ""
 
 #: ../../library/pwd.rst:23
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../library/pwd.rst:23
 msgid "``pw_uid``"
@@ -96,7 +96,7 @@ msgstr ""
 
 #: ../../library/pwd.rst:27
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../library/pwd.rst:27
 msgid "``pw_gecos``"

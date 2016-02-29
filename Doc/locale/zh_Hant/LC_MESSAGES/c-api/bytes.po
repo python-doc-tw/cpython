@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 1990-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-09 17:51+0000\n"
+"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"PO-Revision-Date: 2016-02-29 09:07+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -104,7 +104,7 @@ msgstr ""
 #: ../../c-api/bytes.rst:72 ../../c-api/bytes.rst:75 ../../c-api/bytes.rst:93
 #: ../../c-api/bytes.rst:96
 msgid "int"
-msgstr ""
+msgstr "int"
 
 #: ../../c-api/bytes.rst:72
 msgid "A single byte, represented as a C int."
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../../c-api/bytes.rst:78
 msgid "unsigned int"
-msgstr ""
+msgstr "unsigned int"
 
 #: ../../c-api/bytes.rst:78
 msgid "Exactly equivalent to ``printf(\"%u\")``."
@@ -148,7 +148,7 @@ msgstr ""
 
 #: ../../c-api/bytes.rst:84
 msgid "unsigned long"
-msgstr ""
+msgstr "unsigned long"
 
 #: ../../c-api/bytes.rst:84
 msgid "Exactly equivalent to ``printf(\"%lu\")``."

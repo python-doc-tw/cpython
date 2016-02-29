@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 07:31+0000\n"
+"PO-Revision-Date: 2016-02-29 09:08+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -458,7 +458,7 @@ msgstr ""
 
 #: ../../library/time.rst:375
 msgid "Notes"
-msgstr ""
+msgstr "註解"
 
 #: ../../library/time.rst:377
 msgid "``%a``"
@@ -558,7 +558,7 @@ msgstr ""
 
 #: ../../library/time.rst:408
 msgid "\\(1)"
-msgstr ""
+msgstr "\\(1)"
 
 #: ../../library/time.rst:411
 msgid "``%S``"
@@ -570,7 +570,7 @@ msgstr ""
 
 #: ../../library/time.rst:411
 msgid "\\(2)"
-msgstr ""
+msgstr "\\(2)"
 
 #: ../../library/time.rst:414
 msgid "``%U``"
@@ -667,7 +667,7 @@ msgstr ""
 
 #: ../../library/time.rst:457
 msgid "Notes:"
-msgstr ""
+msgstr "註解："
 
 #: ../../library/time.rst:460
 msgid ""
@@ -796,7 +796,7 @@ msgstr ""
 
 #: ../../library/time.rst:537
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../library/time.rst:537
 msgid ":attr:`tm_mday`"
@@ -820,7 +820,7 @@ msgstr ""
 
 #: ../../library/time.rst:541
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../library/time.rst:541
 msgid ":attr:`tm_min`"
@@ -868,7 +868,7 @@ msgstr ""
 
 #: ../../library/time.rst:550
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../library/time.rst:550
 msgid ":attr:`tm_isdst`"

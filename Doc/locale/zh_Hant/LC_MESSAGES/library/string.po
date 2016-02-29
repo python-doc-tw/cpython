@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 13:27+0000\n"
+"PO-Revision-Date: 2016-02-29 09:07+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -562,7 +562,7 @@ msgstr ""
 
 #: ../../library/string.rst:405
 msgid "``'b'``"
-msgstr ""
+msgstr "``'b'``"
 
 #: ../../library/string.rst:405
 msgid "Binary format. Outputs the number in base 2."
@@ -580,7 +580,7 @@ msgstr ""
 
 #: ../../library/string.rst:410
 msgid "``'d'``"
-msgstr ""
+msgstr "``'d'``"
 
 #: ../../library/string.rst:410
 msgid "Decimal Integer. Outputs the number in base 10."
@@ -663,7 +663,7 @@ msgstr ""
 
 #: ../../library/string.rst:444
 msgid "``'f'``"
-msgstr ""
+msgstr "``'f'``"
 
 #: ../../library/string.rst:444
 msgid ""

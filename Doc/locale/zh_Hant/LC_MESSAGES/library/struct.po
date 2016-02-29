@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 07:30+0000\n"
+"PO-Revision-Date: 2016-02-29 09:08+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -255,7 +255,7 @@ msgstr ""
 
 #: ../../library/struct.rst:156 ../../library/struct.rst:229
 msgid "Notes:"
-msgstr ""
+msgstr "註解："
 
 #: ../../library/struct.rst:158
 msgid ""
@@ -296,7 +296,7 @@ msgstr ""
 
 #: ../../library/struct.rst:182
 msgid "C Type"
-msgstr ""
+msgstr "C Type"
 
 #: ../../library/struct.rst:182
 msgid "Python type"
@@ -308,7 +308,7 @@ msgstr ""
 
 #: ../../library/struct.rst:182
 msgid "Notes"
-msgstr ""
+msgstr "註解"
 
 #: ../../library/struct.rst:184
 msgid "``x``"
@@ -390,7 +390,7 @@ msgstr ""
 
 #: ../../library/struct.rst:192
 msgid "\\(1)"
-msgstr ""
+msgstr "\\(1)"
 
 #: ../../library/struct.rst:194
 msgid "``h``"
@@ -402,7 +402,7 @@ msgstr ""
 
 #: ../../library/struct.rst:194 ../../library/struct.rst:196
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../library/struct.rst:196
 msgid "``H``"
@@ -424,7 +424,7 @@ msgstr ""
 #: ../../library/struct.rst:202 ../../library/struct.rst:204
 #: ../../library/struct.rst:215
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../library/struct.rst:200
 msgid "``I``"
@@ -461,7 +461,7 @@ msgstr ""
 #: ../../library/struct.rst:206 ../../library/struct.rst:208
 #: ../../library/struct.rst:217
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../library/struct.rst:206 ../../library/struct.rst:208
 msgid "\\(2), \\(3)"
@@ -505,7 +505,7 @@ msgstr ""
 
 #: ../../library/struct.rst:215 ../../library/struct.rst:217
 msgid "float"
-msgstr ""
+msgstr "float"
 
 #: ../../library/struct.rst:215 ../../library/struct.rst:217
 msgid "\\(5)"
@@ -708,7 +708,7 @@ msgstr ""
 
 #: ../../library/struct.rst:367
 msgid "Module :mod:`xdrlib`"
-msgstr ""
+msgstr "模組 :mod:`xdrlib`"
 
 #: ../../library/struct.rst:368
 msgid "Packing and unpacking of XDR data."

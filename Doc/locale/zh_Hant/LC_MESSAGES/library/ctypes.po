@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 1990-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-11 18:45+0000\n"
+"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"PO-Revision-Date: 2016-02-29 09:08+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -272,7 +272,7 @@ msgstr ""
 #: ../../library/ctypes.rst:248 ../../library/ctypes.rst:250
 #: ../../library/ctypes.rst:253 ../../library/ctypes.rst:255
 msgid "int"
-msgstr ""
+msgstr "int"
 
 #: ../../library/ctypes.rst:234
 msgid ":class:`c_ubyte`"
@@ -373,7 +373,7 @@ msgstr ""
 #: ../../library/ctypes.rst:258 ../../library/ctypes.rst:260
 #: ../../library/ctypes.rst:262
 msgid "float"
-msgstr ""
+msgstr "float"
 
 #: ../../library/ctypes.rst:260
 msgid ":class:`c_double`"
@@ -1638,7 +1638,7 @@ msgstr ""
 
 #: ../../library/ctypes.rst:1649
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../library/ctypes.rst:1649
 msgid "Output parameter.  The foreign function fills in a value."
@@ -1646,7 +1646,7 @@ msgstr ""
 
 #: ../../library/ctypes.rst:1652
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../library/ctypes.rst:1652
 msgid "Input parameter which defaults to the integer zero."

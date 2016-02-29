@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 1990-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-11 18:41+0000\n"
+"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"PO-Revision-Date: 2016-02-29 09:07+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,7 @@ msgstr "描述"
 
 #: ../../distutils/sourcedist.rst:25
 msgid "Notes"
-msgstr ""
+msgstr "註解"
 
 #: ../../distutils/sourcedist.rst:27
 msgid "``zip``"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../distutils/sourcedist.rst:29
 msgid "\\(2)"
-msgstr ""
+msgstr "\\(2)"
 
 #: ../../distutils/sourcedist.rst:32
 msgid "``bztar``"
@@ -125,7 +125,7 @@ msgstr ""
 
 #: ../../distutils/sourcedist.rst:47
 msgid "Notes:"
-msgstr ""
+msgstr "註解："
 
 #: ../../distutils/sourcedist.rst:50
 msgid "default on Windows"

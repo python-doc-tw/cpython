@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 07:30+0000\n"
+"PO-Revision-Date: 2016-02-29 09:07+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -1119,7 +1119,7 @@ msgstr ""
 
 #: ../../library/subprocess.rst:987
 msgid "Notes:"
-msgstr ""
+msgstr "註解："
 
 #: ../../library/subprocess.rst:989
 msgid "Calling the program through the shell is usually not required."
@@ -1242,7 +1242,7 @@ msgstr ""
 
 #: ../../library/subprocess.rst:1166
 msgid "Notes"
-msgstr ""
+msgstr "註解"
 
 #: ../../library/subprocess.rst:1171
 msgid "Converting an argument sequence to a string on Windows"

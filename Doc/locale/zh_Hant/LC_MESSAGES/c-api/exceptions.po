@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 1990-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-11 18:21+0000\n"
+"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"PO-Revision-Date: 2016-02-29 09:07+0000\n"
 "Last-Translator: Ching-Lung Chuang\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -789,7 +789,7 @@ msgstr ""
 
 #: ../../c-api/exceptions.rst:739 ../../c-api/exceptions.rst:841
 msgid "Notes"
-msgstr ""
+msgstr "註解"
 
 #: ../../c-api/exceptions.rst:741
 msgid ":c:data:`PyExc_BaseException`"
@@ -803,7 +803,7 @@ msgstr ""
 #: ../../c-api/exceptions.rst:745 ../../c-api/exceptions.rst:747
 #: ../../c-api/exceptions.rst:795
 msgid "\\(1)"
-msgstr ""
+msgstr "\\(1)"
 
 #: ../../c-api/exceptions.rst:743
 msgid ":c:data:`PyExc_Exception`"
@@ -1063,7 +1063,7 @@ msgstr ""
 
 #: ../../c-api/exceptions.rst:805
 msgid "\\(2)"
-msgstr ""
+msgstr "\\(2)"
 
 #: ../../c-api/exceptions.rst:807
 msgid ":c:data:`PyExc_RuntimeError`"
@@ -1172,7 +1172,7 @@ msgstr ""
 
 #: ../../c-api/exceptions.rst:899
 msgid "Notes:"
-msgstr ""
+msgstr "註解："
 
 #: ../../c-api/exceptions.rst:902
 msgid "This is a base class for other standard exceptions."

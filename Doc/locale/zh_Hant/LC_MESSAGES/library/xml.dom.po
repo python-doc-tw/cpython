@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 07:33+0000\n"
+"PO-Revision-Date: 2016-02-29 08:59+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -1258,7 +1258,7 @@ msgstr ""
 
 #: ../../library/xml.dom.rst:977
 msgid "Python Type"
-msgstr ""
+msgstr "Python Type"
 
 #: ../../library/xml.dom.rst:979
 msgid "``boolean``"

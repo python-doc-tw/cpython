@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 07:31+0000\n"
+"PO-Revision-Date: 2016-02-29 09:08+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -371,7 +371,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:227
 msgid "Notes:"
-msgstr ""
+msgstr "註解："
 
 #: ../../library/tkinter.rst:229
 msgid ""
@@ -695,7 +695,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:432
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../library/tkinter.rst:432
 msgid "option class for database lookup"
@@ -719,7 +719,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:437
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../library/tkinter.rst:437
 msgid "current value"
