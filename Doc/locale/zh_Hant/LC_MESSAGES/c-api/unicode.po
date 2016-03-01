@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
+# Liang Bo Wang <ccwang002@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-02-29 09:13+0000\n"
+"PO-Revision-Date: 2016-03-01 04:15+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -841,7 +842,7 @@ msgstr ""
 
 #: ../../c-api/unicode.rst:666
 msgid "Deprecated since version 3.3, will be removed in version 4.0."
-msgstr "這個問題 3.3 版起被抨擊，將會於 4.0 移除。"
+msgstr "自 3.3 版起廢棄 (deprecated)，將於 4.0 版移除。"
 
 #: ../../c-api/unicode.rst:667
 msgid ""
