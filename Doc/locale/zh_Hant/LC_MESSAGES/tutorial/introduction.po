@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-02-17 02:45+0000\n"
+"PO-Revision-Date: 2016-03-04 14:22+0000\n"
 "Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -238,7 +238,7 @@ msgstr "注意到起點永遠被包含，而結尾永遠不被包含。這確保
 msgid ""
 "Slice indices have useful defaults; an omitted first index defaults to zero,"
 " an omitted second index defaults to the size of the string being sliced. ::"
-msgstr "切片索引 (slice indices) 有很常用的預設值，省略起點索引值時預設為 0，而省略第二個索引值時預設整個字串被包含在切片中：\n\n::"
+msgstr "切片索引 (slice indices) 有很常用的預設值，省略起點索引值時預設為 0，而省略第二個索引值時預設整個字串被包含在 slice 中：\n\n::"
 
 #: ../../tutorial/introduction.rst:286
 msgid ""
@@ -246,7 +246,7 @@ msgid ""
 "*between* characters, with the left edge of the first character numbered 0. "
 "Then the right edge of the last character of a string of *n* characters has "
 "index *n*, for example::"
-msgstr "這裡有個簡單記住切片是如何運作的方式。想像切片的索引值指著字元們之間，其中第一個字元的左側邊緣由 0 計數。則 *n* 個字元的字串中最後一個字元的右側邊緣會有索引值 *n*，例如：\n\n::"
+msgstr "這裡有個簡單記住 slice 是如何運作的方式。想像 slice 的索引值指著字元們之間，其中第一個字元的左側邊緣由 0 計數。則 *n* 個字元的字串中最後一個字元的右側邊緣會有索引值 *n*，例如：\n\n::"
 
 #: ../../tutorial/introduction.rst:297
 msgid ""
@@ -254,82 +254,82 @@ msgid ""
 "string; the second row gives the corresponding negative indices. The slice "
 "from *i* to *j* consists of all characters between the edges labeled *i* and"
 " *j*, respectively."
-msgstr ""
+msgstr "第一行數字給定字串索引值為 0...6 的位置；第二行則標示了負索引值的位置。由 *i* 至 *j* 的 slice 包含了標示 *i* 和 *j* 邊緣間的所有字元。"
 
 #: ../../tutorial/introduction.rst:302
 msgid ""
 "For non-negative indices, the length of a slice is the difference of the "
 "indices, if both are within bounds.  For example, the length of "
 "``word[1:3]`` is 2."
-msgstr ""
+msgstr "對非負數的索引值而言，一個 slice 的長度等於其索引值之差，如果索引值落在字串邊界內。例如，``word[1:3]`` 的長度是 2。"
 
 #: ../../tutorial/introduction.rst:306
 msgid "Attempting to use an index that is too large will result in an error::"
-msgstr ""
+msgstr "嘗試使用一個過大的索引值會造成錯誤：\n\n::"
 
 #: ../../tutorial/introduction.rst:313
 msgid ""
 "However, out of range slice indexes are handled gracefully when used for "
 "slicing::"
-msgstr ""
+msgstr "然而，超出範圍的索引值在 slice 中會被妥善的處理：\n\n::"
 
 #: ../../tutorial/introduction.rst:321
 msgid ""
 "Python strings cannot be changed --- they are :term:`immutable`. Therefore, "
 "assigning to an indexed position in the string results in an error::"
-msgstr ""
+msgstr "Python 字串無法被改變 --- 它們是 :term:`immutable`。因此，嘗試對字串中某個索引位置賦值會產生錯誤：\n\n::"
 
 #: ../../tutorial/introduction.rst:331
 msgid "If you need a different string, you should create a new one::"
-msgstr ""
+msgstr "如果你需要一個不一樣的字串，你必須建立一個新的：\n\n::"
 
 #: ../../tutorial/introduction.rst:338
 msgid "The built-in function :func:`len` returns the length of a string::"
-msgstr ""
+msgstr "內建的函式 :func:`len` 回傳一個字串的長度：\n\n::"
 
 #: ../../tutorial/introduction.rst:349
 msgid ":ref:`textseq`"
-msgstr ""
+msgstr ":ref:`textseq`"
 
 #: ../../tutorial/introduction.rst:348
 msgid ""
 "Strings are examples of *sequence types*, and support the common operations "
 "supported by such types."
-msgstr ""
+msgstr "字串是 *sequence 型別*的範例之一，並支援該型別常用的操作。"
 
 #: ../../tutorial/introduction.rst:353
 msgid ":ref:`string-methods`"
-msgstr ""
+msgstr ":ref:`string-methods`"
 
 #: ../../tutorial/introduction.rst:352
 msgid ""
 "Strings support a large number of methods for basic transformations and "
 "searching."
-msgstr ""
+msgstr "字串支援非常多種基本轉換和搜尋的方法。"
 
 #: ../../tutorial/introduction.rst:357
 msgid ":ref:`string-formatting`"
-msgstr ""
+msgstr ":ref:`string-formatting`"
 
 #: ../../tutorial/introduction.rst:356
 msgid ""
 "Information about string formatting with :meth:`str.format` is described "
 "here."
-msgstr ""
+msgstr "關於字串格式化 (string formatting) 的資訊在 :meth:`str.format` 中介紹。"
 
 #: ../../tutorial/introduction.rst:360
 msgid ":ref:`old-string-formatting`"
-msgstr ""
+msgstr ":ref:`old-string-formatting`"
 
 #: ../../tutorial/introduction.rst:360
 msgid ""
 "The old formatting operations invoked when strings and Unicode strings are "
 "the left operand of the ``%`` operator are described in more detail here."
-msgstr ""
+msgstr "在字串和 Unicode 字串為 ``%`` 的左操作元時，將觸發舊的字串格式化操作，更多的細節在本連結中介紹。"
 
 #: ../../tutorial/introduction.rst:367
 msgid "Lists"
-msgstr ""
+msgstr "List（串列）"
 
 #: ../../tutorial/introduction.rst:369
 msgid ""
@@ -338,42 +338,42 @@ msgid ""
 "of comma-separated values (items) between square brackets.  Lists might "
 "contain items of different types, but usually the items all have the same "
 "type. ::"
-msgstr ""
+msgstr "Python 理解數種複合型資料型別，用來組合不同的數值。當中最多樣變化的型別為 *list*，可以寫成一系列以逗號分隔的數值（稱之 items），包含在方括號之中。List 可以包合不同型別的項目，但通常這些 item 會有相同的型別：\n\n::"
 
 #: ../../tutorial/introduction.rst:378
 msgid ""
 "Like strings (and all other built-in :term:`sequence` type), lists can be "
 "indexed and sliced::"
-msgstr ""
+msgstr "如同字串（以及其他內建的 `term`:sequence: 型別），list 可以被索引和切片 (slice)：\n\n::"
 
 #: ../../tutorial/introduction.rst:388
 msgid ""
 "All slice operations return a new list containing the requested elements.  "
 "This means that the following slice returns a new (shallow) copy of the "
 "list::"
-msgstr ""
+msgstr "所有 slice 操作回傳一個新的 list 包含想要的元素。這意謂著底下這個 slice 回傳一個全新的 list 淺複製 (shallow copy)：\n\n::"
 
 #: ../../tutorial/introduction.rst:394
 msgid "Lists also support operations like concatenation::"
-msgstr ""
+msgstr "List 對支援如接合 (concatenation) 的操作疑問：\n\n::"
 
 #: ../../tutorial/introduction.rst:399
 msgid ""
 "Unlike strings, which are :term:`immutable`, lists are a :term:`mutable` "
 "type, i.e. it is possible to change their content::"
-msgstr ""
+msgstr "不同於字串是 :term:`immutable`，list 是 :term:`mutable` 型別，即改變 list 的內容是可能的：\n\n::"
 
 #: ../../tutorial/introduction.rst:409
 msgid ""
 "You can also add new items at the end of the list, by using the "
 ":meth:`~list.append` *method* (we will see more about methods later)::"
-msgstr ""
+msgstr "你也可以在 list 的最後加入新元素，透過使用 :meth:`~list.append` 方法（我們稍後會看到更多方法的說明）：\n\n::"
 
 #: ../../tutorial/introduction.rst:417
 msgid ""
 "Assignment to slices is also possible, and this can even change the size of "
 "the list or clear it entirely::"
-msgstr ""
+msgstr "對 list slice 賦值是有可能的，這能改變 list 的大小，甚至是清空一個 list：\n\n::"
 
 #: ../../tutorial/introduction.rst:436
 msgid "The built-in function :func:`len` also applies to lists::"
