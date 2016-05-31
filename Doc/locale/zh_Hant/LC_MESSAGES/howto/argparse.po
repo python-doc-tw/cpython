@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
+# chen chihwei <jerrychen.ee@gmail.com>, 2016
 # Evan Gui <clown.gui@gmail.com>, 2016
-# Liang Bo Wang <ccwang002@gmail.com>, 2016
+# Liang Bo Wang <me@liang2.tw>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-02-24 01:46+0000\n"
-"Last-Translator: Evan Gui <clown.gui@gmail.com>\n"
+"PO-Revision-Date: 2016-05-31 11:04+0000\n"
+"Last-Translator: chen chihwei <jerrychen.ee@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -374,7 +375,7 @@ msgstr ""
 
 #: ../../howto/argparse.rst:519
 msgid "Let's fix::"
-msgstr ""
+msgstr "讓我們來解決問題"
 
 #: ../../howto/argparse.rst:538
 msgid "And this is what it gives:"
@@ -405,7 +406,7 @@ msgstr ""
 
 #: ../../howto/argparse.rst:581
 msgid "And:"
-msgstr ""
+msgstr "而且"
 
 #: ../../howto/argparse.rst:588
 msgid ""
