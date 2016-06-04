@@ -1,16 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 1990-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
+# chen chihwei <jerrychen.ee@gmail.com>, 2016
 # Ching-Lung Chuang, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-11 18:15+0000\n"
-"Last-Translator: Ching-Lung Chuang\n"
+"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"PO-Revision-Date: 2016-06-04 10:01+0000\n"
+"Last-Translator: chen chihwei <jerrychen.ee@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -99,7 +100,7 @@ msgstr ""
 
 #: ../../faq/general.rst:65
 msgid "Why was Python created in the first place?"
-msgstr ""
+msgstr "為什麼Python被創造出來"
 
 #: ../../faq/general.rst:67
 msgid ""
@@ -162,13 +163,13 @@ msgstr ""
 
 #: ../../faq/general.rst:108
 msgid "What is Python good for?"
-msgstr ""
+msgstr "什麼是Python擅長的事情"
 
 #: ../../faq/general.rst:110
 msgid ""
 "Python is a high-level general-purpose programming language that can be "
 "applied to many different classes of problems."
-msgstr ""
+msgstr "Python是高階語言及一般任何用途都可以使用的語言，可以用來解決不同的問題"
 
 #: ../../faq/general.rst:113
 msgid ""
@@ -234,7 +235,7 @@ msgstr ""
 
 #: ../../faq/general.rst:159
 msgid "How do I obtain a copy of the Python source?"
-msgstr ""
+msgstr "我如何拿到Python的原始碼"
 
 #: ../../faq/general.rst:161
 msgid ""
@@ -260,7 +261,7 @@ msgstr ""
 
 #: ../../faq/general.rst:176
 msgid "How do I get documentation on Python?"
-msgstr ""
+msgstr "如何取得Python的相關文件"
 
 #: ../../faq/general.rst:180
 msgid ""
@@ -278,7 +279,7 @@ msgstr ""
 
 #: ../../faq/general.rst:190
 msgid "I've never programmed before. Is there a Python tutorial?"
-msgstr ""
+msgstr "我從來沒寫過程式，有沒有Python的教學"
 
 #: ../../faq/general.rst:192
 msgid ""
@@ -295,7 +296,7 @@ msgstr ""
 
 #: ../../faq/general.rst:200
 msgid "Is there a newsgroup or mailing list devoted to Python?"
-msgstr ""
+msgstr "有沒有新手的群組或是郵件群組討論Python"
 
 #: ../../faq/general.rst:202
 msgid ""
@@ -389,13 +390,13 @@ msgstr ""
 
 #: ../../faq/general.rst:260
 msgid "Are there any books on Python?"
-msgstr ""
+msgstr "有沒有關於Python的書"
 
 #: ../../faq/general.rst:262
 msgid ""
 "Yes, there are many, and more are being published.  See the python.org wiki "
 "at https://wiki.python.org/moin/PythonBooks for a list."
-msgstr ""
+msgstr "是的已經有很多書出版，可以參考這個連結的參考書目 https://wiki.python.org/moin/PythonBooks"
 
 #: ../../faq/general.rst:265
 msgid ""
@@ -405,7 +406,7 @@ msgstr ""
 
 #: ../../faq/general.rst:270
 msgid "Where in the world is www.python.org located?"
-msgstr ""
+msgstr "www.python.org 這個非營利組織位於哪裡"
 
 #: ../../faq/general.rst:272
 msgid ""
@@ -421,7 +422,7 @@ msgstr ""
 
 #: ../../faq/general.rst:283
 msgid "Why is it called Python?"
-msgstr ""
+msgstr "為什麼要取名為Python"
 
 #: ../../faq/general.rst:285
 msgid ""
@@ -434,26 +435,26 @@ msgstr ""
 
 #: ../../faq/general.rst:293
 msgid "Do I have to like \"Monty Python's Flying Circus\"?"
-msgstr ""
+msgstr "我需要喜歡蒙提·派森的飛行馬戲團這個節目嗎"
 
 #: ../../faq/general.rst:295
 msgid "No, but it helps.  :)"
-msgstr ""
+msgstr "不需要，但它有幫助 :)"
 
 #: ../../faq/general.rst:299
 msgid "Python in the real world"
-msgstr ""
+msgstr "Python在真實世界"
 
 #: ../../faq/general.rst:302
 msgid "How stable is Python?"
-msgstr ""
+msgstr "Python穩定性如何"
 
 #: ../../faq/general.rst:304
 msgid ""
 "Very stable.  New, stable releases have been coming out roughly every 6 to "
 "18 months since 1991, and this seems likely to continue.  Currently there "
 "are usually around 18 months between major releases."
-msgstr ""
+msgstr "非常穩定。自從1991年開始大約每隔6到18個月會釋出更新版，而且看起來會繼續更新下去。現在大約18個月會有主要的更新"
 
 #: ../../faq/general.rst:308
 msgid ""
@@ -478,13 +479,13 @@ msgstr ""
 
 #: ../../faq/general.rst:324
 msgid "How many people are using Python?"
-msgstr ""
+msgstr "有多少人使用Python"
 
 #: ../../faq/general.rst:326
 msgid ""
 "There are probably tens of thousands of users, though it's difficult to "
 "obtain an exact count."
-msgstr ""
+msgstr "大約有超過一萬個使用者，實際上有多少人是很難準確的估算"
 
 #: ../../faq/general.rst:329
 msgid ""
@@ -501,7 +502,7 @@ msgstr ""
 
 #: ../../faq/general.rst:338
 msgid "Have any significant projects been done in Python?"
-msgstr ""
+msgstr "有沒有任何重要的案子使用Python完成開發"
 
 #: ../../faq/general.rst:340
 msgid ""
@@ -523,7 +524,7 @@ msgstr ""
 
 #: ../../faq/general.rst:354
 msgid "What new developments are expected for Python in the future?"
-msgstr ""
+msgstr "對於程式開發者Python對於未來有什麼期待"
 
 #: ../../faq/general.rst:356
 msgid ""
@@ -563,11 +564,11 @@ msgstr ""
 
 #: ../../faq/general.rst:382
 msgid "Is Python a good language for beginning programmers?"
-msgstr ""
+msgstr "Python對於入門的程式設計者而言是否為好的程式語言"
 
 #: ../../faq/general.rst:384
 msgid "Yes."
-msgstr "有的"
+msgstr "是的"
 
 #: ../../faq/general.rst:386
 msgid ""
