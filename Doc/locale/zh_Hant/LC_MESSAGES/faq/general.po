@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-06-04 10:01+0000\n"
+"PO-Revision-Date: 2016-06-06 11:25+0000\n"
 "Last-Translator: chen chihwei <jerrychen.ee@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -68,7 +68,7 @@ msgid ""
 "Donations to the PSF are tax-exempt in the US.  If you use Python and find "
 "it helpful, please contribute via `the PSF donation page "
 "<https://www.python.org/psf/donations/>`_."
-msgstr ""
+msgstr "在美國捐款給Python軟體基金會是免稅的，如果你使用Python而且發現很好用，請貢獻捐款到Python軟體基金會捐款頁面<https://www.python.org/psf/donations/>"
 
 #: ../../faq/general.rst:47
 msgid "Are there copyright restrictions on the use of Python?"
@@ -89,7 +89,7 @@ msgstr ""
 msgid ""
 "See `the PSF license page <https://www.python.org/psf/license/>`_ to find "
 "further explanations and a link to the full text of the license."
-msgstr ""
+msgstr "請看Python軟體基金會的授權頁面<https://www.python.org/psf/license/>有更完整的授權說明"
 
 #: ../../faq/general.rst:59
 msgid ""
@@ -106,7 +106,7 @@ msgstr "為什麼Python被創造出來"
 msgid ""
 "Here's a *very* brief summary of what started it all, written by Guido van "
 "Rossum:"
-msgstr ""
+msgstr "Guido van Rossum寫下這篇\"非常長\"的簡述說明Python的由來"
 
 #: ../../faq/general.rst:70
 msgid ""
@@ -379,7 +379,7 @@ msgstr ""
 msgid ""
 "The very first article about Python was written in 1991 and is now quite "
 "outdated."
-msgstr ""
+msgstr "最早討論Python的文章在1991年，但現在來看已經有點過時"
 
 #: ../../faq/general.rst:254
 msgid ""
@@ -402,7 +402,7 @@ msgstr "是的已經有很多書出版，可以參考這個連結的參考書目
 msgid ""
 "You can also search online bookstores for \"Python\" and filter out the "
 "Monty Python references; or perhaps search for \"Python\" and \"language\"."
-msgstr ""
+msgstr "你也可以上網搜尋網路書店關鍵字為\"Python\"，但不要使用\"Monty Python\"當作關鍵字。或者可以搜尋\"Python\"和\"語言\""
 
 #: ../../faq/general.rst:270
 msgid "Where in the world is www.python.org located?"
