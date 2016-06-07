@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-06-06 11:30+0000\n"
+"PO-Revision-Date: 2016-06-07 07:51+0000\n"
 "Last-Translator: chen chihwei <jerrychen.ee@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -87,7 +87,7 @@ msgid ""
 "You need to do two things: the script file's mode must be executable and the"
 " first line must begin with ``#!`` followed by the path of the Python "
 "interpreter."
-msgstr ""
+msgstr "你需要作兩件事:腳本程式必須可以被執行而且第一行必須\"#!\"開頭後面接上Python直譯器的路徑"
 
 #: ../../faq/library.rst:53
 msgid ""
@@ -189,11 +189,11 @@ msgstr ""
 
 #: ../../faq/library.rst:133
 msgid "Common tasks"
-msgstr ""
+msgstr "一般性的工作"
 
 #: ../../faq/library.rst:136
 msgid "How do I test a Python program or component?"
-msgstr ""
+msgstr "我如何測試Python程式"
 
 #: ../../faq/library.rst:138
 msgid ""
@@ -225,7 +225,7 @@ msgstr ""
 
 #: ../../faq/library.rst:158
 msgid "at the bottom of the main module of your program."
-msgstr ""
+msgstr "在你的程式主模組的底端"
 
 #: ../../faq/library.rst:160
 msgid ""
