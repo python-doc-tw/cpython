@@ -1,15 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 1990-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
+# jerrychen <jerrychen.ee@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-09 17:51+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"PO-Revision-Date: 2016-06-29 15:37+0000\n"
+"Last-Translator: jerrychen <jerrychen.ee@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../library/2to3.rst:4
 msgid "2to3 - Automated Python 2 to 3 code translation"
-msgstr ""
+msgstr "2to3 - 自動將 Python 2的程式碼轉成 Python 3"
 
 #: ../../library/2to3.rst:8
 msgid ""
@@ -34,7 +35,7 @@ msgstr ""
 
 #: ../../library/2to3.rst:20
 msgid "Using 2to3"
-msgstr ""
+msgstr "使用 2to3"
 
 #: ../../library/2to3.rst:22
 msgid ""
@@ -50,7 +51,7 @@ msgstr ""
 
 #: ../../library/2to3.rst:28
 msgid "Here is a sample Python 2.x source file, :file:`example.py`::"
-msgstr ""
+msgstr "這邊有簡單的 Python 2的原始檔案 :file:`example.py`::"
 
 #: ../../library/2to3.rst:36
 msgid "It can be converted to Python 3.x code via 2to3 on the command line::"
@@ -200,11 +201,11 @@ msgstr ""
 
 #: ../../library/2to3.rst:150 ../../library/2to3.rst:344
 msgid "From"
-msgstr ""
+msgstr "從"
 
 #: ../../library/2to3.rst:150 ../../library/2to3.rst:344
 msgid "To"
-msgstr ""
+msgstr "到"
 
 #: ../../library/2to3.rst:152
 msgid "``failUnlessEqual(a, b)``"
