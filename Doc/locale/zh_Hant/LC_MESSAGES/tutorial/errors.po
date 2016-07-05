@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-07-04 03:02+0000\n"
+"PO-Revision-Date: 2016-07-05 10:58+0000\n"
 "Last-Translator: jerrychen <jerrychen.ee@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../../tutorial/errors.rst:15
 msgid "Syntax Errors"
-msgstr ""
+msgstr "語法錯誤"
 
 #: ../../tutorial/errors.rst:17
 msgid ""
@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../tutorial/errors.rst:37
 msgid "Exceptions"
-msgstr ""
+msgstr "例外"
 
 #: ../../tutorial/errors.rst:39
 msgid ""
@@ -96,7 +96,7 @@ msgstr ""
 
 #: ../../tutorial/errors.rst:80
 msgid "Handling Exceptions"
-msgstr ""
+msgstr "處理例外"
 
 #: ../../tutorial/errors.rst:82
 msgid ""
