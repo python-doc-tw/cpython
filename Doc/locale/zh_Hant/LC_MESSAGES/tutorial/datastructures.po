@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-07-07 17:12+0000\n"
+"PO-Revision-Date: 2016-07-08 13:30+0000\n"
 "Last-Translator: Kent Hsu <luffy1610@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -228,25 +228,25 @@ msgstr "考慮以下表示 3x4 矩陣的範例，使用 list 包含 3 個長度�
 
 #: ../../tutorial/datastructures.rst:291
 msgid "The following list comprehension will transpose rows and columns::"
-msgstr "以下的 list comprehesion 會將矩陣的行與列作轉置："
+msgstr "以下的 list comprehesion 會將矩陣的行與列作轉置：\n\n::"
 
 #: ../../tutorial/datastructures.rst:296
 msgid ""
 "As we saw in the previous section, the nested listcomp is evaluated in the "
 "context of the :keyword:`for` that follows it, so this example is equivalent"
 " to::"
-msgstr "如同我們在上一節看到的，此巢狀的 list comprehension 為一個 list comprehension在 :keyword:`for` 之前先被計算，接著再作一次 list comprehension，所以，這個例子和下者相同："
+msgstr "如同我們在上一節看到的，此巢狀的 list comprehension 為一個 list comprehension在 :keyword:`for` 之前先被計算，接著再作一次 list comprehension，所以，這個例子和下者相同：\n\n::"
 
 #: ../../tutorial/datastructures.rst:307
 msgid "which, in turn, is the same as::"
-msgstr "因此，也和下者相同"
+msgstr "因此，也和下者相同：\n\n::"
 
 #: ../../tutorial/datastructures.rst:320
 msgid ""
 "In the real world, you should prefer built-in functions to complex flow "
 "statements. The :func:`zip` function would do a great job for this use "
 "case::"
-msgstr "在實際運用上，我們傾向於使用內建函式而不是複雜的流程控制陳述式。在這個例子中，使用 :func:`zip` 會非常有效率："
+msgstr "在實際運用上，我們傾向於使用內建函式 (built-in functions) 而不是複雜的流程控制陳述式。在這個例子中，使用 :func:`zip` 會非常有效率：\n\n::"
 
 #: ../../tutorial/datastructures.rst:326
 msgid ""
@@ -264,17 +264,17 @@ msgid ""
 "method which returns a value.  The :keyword:`del` statement can also be used"
 " to remove slices from a list or clear the entire list (which we did earlier"
 " by assignment of an empty list to the slice).  For example::"
-msgstr ""
+msgstr "有一個方法可以藉由索引而不是值來刪除 list 中的項： :keyword:`del` 陳述式。這和方法 :meth:`pop` 傳回一個值不同， :keyword:`del` 陳述式可以用來刪除 list 中的片段或者清空整個 list（我們之前藉由指派一個空的 list 給想刪除的片段來完成這件事）。例如：\n\n::"
 
 #: ../../tutorial/datastructures.rst:350
 msgid ":keyword:`del` can also be used to delete entire variables::"
-msgstr ""
+msgstr " :keyword:`del` 也可以用來刪除變數：\n\n::"
 
 #: ../../tutorial/datastructures.rst:354
 msgid ""
 "Referencing the name ``a`` hereafter is an error (at least until another "
 "value is assigned to it).  We'll find other uses for :keyword:`del` later."
-msgstr ""
+msgstr "刪除之後，對 ``a`` 的參照將會造成錯誤（至少在另一個值又被指派到它之前）。我們將在後面看到更多關於 :keyword:`del` 的其他用法。"
 
 #: ../../tutorial/datastructures.rst:361
 msgid "Tuples and Sequences"
@@ -287,12 +287,12 @@ msgid ""
 " :ref:`typesseq`).  Since Python is an evolving language, other sequence "
 "data types may be added.  There is also another standard sequence data type:"
 " the *tuple*."
-msgstr ""
+msgstr "我們看到 lists 和 strings 有許多共同的特性，像是索引操作 (indexing) 以及切片操作 (slicing) 。他們是 *序列* 資料結構中的兩個例子（請參考 :ref:`typesseq` ）。由於 Python 是個持續發展中的語言，未來可能還會有其他的序列資料結構加入。接著要介紹是下一個標準序列資料結構： *tuple* 。"
 
 #: ../../tutorial/datastructures.rst:369
 msgid ""
 "A tuple consists of a number of values separated by commas, for instance::"
-msgstr ""
+msgstr "一個 tuple 是由若干個值藉由逗號區隔而組成，例如：\n\n::"
 
 #: ../../tutorial/datastructures.rst:391
 msgid ""
@@ -302,7 +302,7 @@ msgid ""
 " the tuple is part of a larger expression).  It is not possible to assign to"
 " the individual items of a tuple, however it is possible to create tuples "
 "which contain mutable objects, such as lists."
-msgstr ""
+msgstr "如同我們看到的，被輸出的 tuple 總是以括號包著，如此巢狀的 tuple 才能被正確的直譯 (interpret)；他們可以是以被括號包著或不包著的方式當作輸入，雖然括號的使用常常是有其必要的（譬如此 tuple 是一個較大的陳述式的一部分）。指派東西是給 tuple 中個別的項是不行的，但是可以在 tuple 中放入含有可變項的物件，譬如 lists 。"
 
 #: ../../tutorial/datastructures.rst:398
 msgid ""
