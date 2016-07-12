@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-07-10 15:22+0000\n"
+"PO-Revision-Date: 2016-07-12 12:39+0000\n"
 "Last-Translator: Kent Hsu <luffy1610@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -278,7 +278,7 @@ msgstr "刪除之後，對 ``a`` 的參照將會造成錯誤（至少在另一�
 
 #: ../../tutorial/datastructures.rst:361
 msgid "Tuples and Sequences"
-msgstr ""
+msgstr "Tuples 和序列 (Sequences)"
 
 #: ../../tutorial/datastructures.rst:363
 msgid ""
@@ -313,7 +313,7 @@ msgid ""
 "the case of :func:`namedtuples <collections.namedtuple>`). Lists are "
 ":term:`mutable`, and their elements are usually homogeneous and are accessed"
 " by iterating over the list."
-msgstr "雖然 tuple 和 list 看起來很相似，但是他們通常是用在不同的情況下以因應不同的目的。 tuple 是 :term:`immutable` （不可變的），"
+msgstr "雖然 tuple 和 list 看起來很類似，但是他們通常用在不同的情況以及因應不同的目的。 tuple 是 :term:`immutable` （不可變的），且通常可經由拆解 (unpacking) （請參考本節後段）或索引操作 (indexing) 來存取異質的 (heterogeneous) 序列元素（或者在使用 :func:`namedtuples <collections.namedtuple>` 的時候藉由屬性 (attribute) 來存取）。 list 是 :term:`mutable` （可變的），其元素通常是同質的 (homogeneous) 且可藉由迭代整個串列來存取。"
 
 #: ../../tutorial/datastructures.rst:406
 msgid ""
@@ -322,14 +322,14 @@ msgid ""
 "constructed by an empty pair of parentheses; a tuple with one item is "
 "constructed by following a value with a comma (it is not sufficient to "
 "enclose a single value in parentheses). Ugly, but effective.  For example::"
-msgstr ""
+msgstr "一個特別的議題是，關於創建一個含有 0 個或 1 個項目的 tuple：語法上會採納一些奇怪的用法。空的 tuple 藉由一對空括號來創建；含有一個項目的 tuple 經由一個值加上一個逗點來創建（不需要用括號把一個單一的值包住）。醜，但有效率。例如：\n\n::"
 
 #: ../../tutorial/datastructures.rst:421
 msgid ""
 "The statement ``t = 12345, 54321, 'hello!'`` is an example of *tuple "
 "packing*: the values ``12345``, ``54321`` and ``'hello!'`` are packed "
 "together in a tuple. The reverse operation is also possible::"
-msgstr ""
+msgstr "陳述式 ``t = 12345, 54321, 'hello!'`` 就是一個 *tuple packing* 的例子： ``12345`` ， ``54321`` 和 ``'hello!'`` 一起被放進 tuple 裡。反向操作也可以：\n\n::"
 
 #: ../../tutorial/datastructures.rst:427
 msgid ""
@@ -338,11 +338,11 @@ msgid ""
 "are as many variables on the left side of the equals sign as there are "
 "elements in the sequence.  Note that multiple assignment is really just a "
 "combination of tuple packing and sequence unpacking."
-msgstr ""
+msgstr "這個正是我們所說序列拆解 (*sequence unpacking*) ，可運用在任何位在等號右邊的序列。序列拆解要求等號左邊的變數數量必須與等號右邊的序列中的元素數量相同。注意，多重指派就只是 tuple packing 和序列拆解的結合而已。"
 
 #: ../../tutorial/datastructures.rst:437
 msgid "Sets"
-msgstr ""
+msgstr "集合 (Sets)"
 
 #: ../../tutorial/datastructures.rst:439
 msgid ""
@@ -351,7 +351,7 @@ msgid ""
 "testing and eliminating duplicate entries.  Set objects also support "
 "mathematical operations like union, intersection, difference, and symmetric "
 "difference."
-msgstr ""
+msgstr "Python 也包含了一種用在集合 (*sets*) 的資料結構。一個 set 是一組無序且沒有重複的元素。基本的使用方式包括了成員測試和消除重複項。 Set 物件也支援聯集，交集，差集和互斥等數學操作。"
 
 #: ../../tutorial/datastructures.rst:444
 msgid ""
@@ -359,7 +359,7 @@ msgid ""
 "to create an empty set you have to use ``set()``, not ``{}``; the latter "
 "creates an empty dictionary, a data structure that we discuss in the next "
 "section."
-msgstr ""
+msgstr "大括號或 :func:`set` 函數都可以用來創建 set 。注意：要創建一個空的 set ，我們必須使用 ``set()`` 而不是 ``{}`` ；後者會創建一個空的 dictionary ，一種我們將在下一節討論的資料結構。"
 
 #: ../../tutorial/datastructures.rst:448
 msgid "Here is a brief demonstration::"
@@ -369,7 +369,7 @@ msgstr "這裡是一個簡單的演示：\n\n::"
 msgid ""
 "Similarly to :ref:`list comprehensions <tut-listcomps>`, set comprehensions "
 "are also supported::"
-msgstr ""
+msgstr "和 :ref:`list comprehensions <tut-listcomps>` 類似，也有 set comprehensions （集合綜合運算）。"
 
 #: ../../tutorial/datastructures.rst:484
 msgid "Dictionaries"
