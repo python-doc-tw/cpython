@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-07-12 12:39+0000\n"
+"PO-Revision-Date: 2016-07-13 14:47+0000\n"
 "Last-Translator: Kent Hsu <luffy1610@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -387,7 +387,7 @@ msgid ""
 "cannot be used as a key. You can't use lists as keys, since lists can be "
 "modified in place using index assignments, slice assignments, or methods "
 "like :meth:`append` and :meth:`extend`."
-msgstr ""
+msgstr "下一個常用的 python 內建資料結構為 *dictionary* （請參考 :ref:`typesmapping` ）。 Dictionary 有時被稱為 \"關聯記憶體\" (associative memories) 或 \"關聯矩陣\" (associative arrays) 。不像序列是由一個範圍內的數字當作索引， dictionary 是由 *key* （鍵）來當索引， key 可以是任何不可變的型態；字串和數字都可以當作 key 。 Tuple 也可以當作 key 如果他們只含有字串、數字或 tuple；若一個 tuple 直接或間接地含有任何可變的物件，它就不能當作 key 。我們無法使用 list 當作 key ，因為 list 可以經由索引操作、切片操作或是方法像是 :meth:`append` 和 :meth:`extend` 來修改。"
 
 #: ../../tutorial/datastructures.rst:497
 msgid ""
@@ -397,7 +397,7 @@ msgid ""
 " comma-separated list of key:value pairs within the braces adds initial "
 "key:value pairs to the dictionary; this is also the way dictionaries are "
 "written on output."
-msgstr ""
+msgstr "思考 dict 最好的方式是把它想成是一組無序的鍵值對 (*key: value* pair) 的集合，其中 key 必須是獨一無二的（在一個 dictionary 裡）。使用一對大括號可以創建一個空的 dict ：``{}`` 。把一串由逗號分隔的鍵值對放置於大括號內可以為 dict 提供初始的鍵值對，這也是 dict 輸出時的樣子。"
 
 #: ../../tutorial/datastructures.rst:503
 msgid ""
@@ -406,7 +406,7 @@ msgid ""
 "key:value pair with ``del``. If you store using a key that is already in "
 "use, the old value associated with that key is forgotten.  It is an error to"
 " extract a value using a non-existent key."
-msgstr ""
+msgstr "Dict 主要的操作為藉由鍵來儲存一個值並且可藉由該鍵來取出該值。也可以使用 ``del`` 來刪除鍵值對。如果我們使用用過的鍵來儲存，該鍵所對應的較舊的值會被覆蓋。使用不存在的鍵來取出值會造成錯誤。"
 
 #: ../../tutorial/datastructures.rst:509
 msgid ""
@@ -414,7 +414,7 @@ msgid ""
 " used in the dictionary, in arbitrary order (if you want it sorted, just use"
 " ``sorted(d.keys())`` instead). [2]_  To check whether a single key is in "
 "the dictionary, use the :keyword:`in` keyword."
-msgstr ""
+msgstr "對 dict 使用 ``list(d.keys())`` 會得到一個含有該 dict 所有鍵，順序為任意排列的 list 。（如果想要排序過的，使用 ``sorted(d.keys())`` 代替即可） [2]_ 要確認一個鍵是否已經存在於 dict 中，使用 keyword:`in` 關鍵字。"
 
 #: ../../tutorial/datastructures.rst:514
 msgid "Here is a small example using a dictionary::"
@@ -424,19 +424,19 @@ msgstr "這是個使用一個字典的簡單範例：\n\n::"
 msgid ""
 "The :func:`dict` constructor builds dictionaries directly from sequences of "
 "key-value pairs::"
-msgstr ""
+msgstr "函式 :func:`dict` 可直接透過一串鍵值對序列來創建 dict：\n\n:: "
 
 #: ../../tutorial/datastructures.rst:541
 msgid ""
 "In addition, dict comprehensions can be used to create dictionaries from "
 "arbitrary key and value expressions::"
-msgstr ""
+msgstr "此外， dict comprehensions 也可以透過鍵與值的陳述式來創建 dict ：\n\n::"
 
 #: ../../tutorial/datastructures.rst:547
 msgid ""
 "When the keys are simple strings, it is sometimes easier to specify pairs "
 "using keyword arguments::"
-msgstr ""
+msgstr "當鍵是簡單的字串時，使用關鍵字引數 (keyword arguments) 有時會較為簡潔。"
 
 #: ../../tutorial/datastructures.rst:557
 msgid "Looping Techniques"
