@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-07-16 15:44+0000\n"
+"PO-Revision-Date: 2016-07-18 17:13+0000\n"
 "Last-Translator: Kent Hsu <luffy1610@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -495,13 +495,13 @@ msgid ""
 " whether two objects are really the same object; this only matters for "
 "mutable objects like lists.  All comparison operators have the same "
 "priority, which is lower than that of all numerical operators."
-msgstr ""
+msgstr "比較運算子 ``in`` 和 ``not in`` 檢查一個數值是否存在（不存在）於一個序列中。運算子 ``is`` 和 ``not is`` 比較兩個物件是否真的是相同的物件；這對可變物件例如 list 來說很重要。所有的比較運算子優先度都相同且都低於數值運算子。"
 
 #: ../../tutorial/datastructures.rst:643
 msgid ""
 "Comparisons can be chained.  For example, ``a < b == c`` tests whether ``a``"
 " is less than ``b`` and moreover ``b`` equals ``c``."
-msgstr ""
+msgstr "比較運算是可以串連在一起的。例如， `` a < b == c`` 就是在測試 ``a`` 是否小於 ``b`` 和 ``b`` 是否等於 ``c`` 。"
 
 #: ../../tutorial/datastructures.rst:646
 msgid ""
@@ -511,7 +511,7 @@ msgid ""
 "operators; between them, ``not`` has the highest priority and ``or`` the "
 "lowest, so that ``A and not B or C`` is equivalent to ``(A and (not B)) or "
 "C``. As always, parentheses can be used to express the desired composition."
-msgstr ""
+msgstr "比較運算可以結合布林運算子 ``and`` 和 ``or`` ，且一個比較運算的結果（或任何其他布林表達式）可以加上 ``not`` 來否定。這些運算子的優先度都比比較運算子還低，其中， ``not`` 的優先度最高， ``or`` 的優先度最低，因此 ``A and not B or C`` 等同於 ``(A and (not B)) or C`` 。一如往常，括號可以用來表示任何想要的組合。"
 
 #: ../../tutorial/datastructures.rst:653
 msgid ""
