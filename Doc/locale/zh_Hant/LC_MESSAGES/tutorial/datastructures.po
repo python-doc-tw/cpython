@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-07-18 17:13+0000\n"
+"PO-Revision-Date: 2016-07-19 16:56+0000\n"
 "Last-Translator: Kent Hsu <luffy1610@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -480,7 +480,7 @@ msgstr "有時我們會想要以迴圈來改變的一個 list，但是，通常�
 
 #: ../../tutorial/datastructures.rst:632
 msgid "More on Conditions"
-msgstr ""
+msgstr "更多條件式主題"
 
 #: ../../tutorial/datastructures.rst:634
 msgid ""
@@ -501,7 +501,7 @@ msgstr "比較運算子 ``in`` 和 ``not in`` 檢查一個數值是否存在（�
 msgid ""
 "Comparisons can be chained.  For example, ``a < b == c`` tests whether ``a``"
 " is less than ``b`` and moreover ``b`` equals ``c``."
-msgstr "比較運算是可以串連在一起的。例如， `` a < b == c`` 就是在測試 ``a`` 是否小於 ``b`` 和 ``b`` 是否等於 ``c`` 。"
+msgstr "比較運算是可以串連在一起的。例如， ``a < b == c`` 就是在測試 ``a`` 是否小於 ``b`` 和 ``b`` 是否等於 ``c`` 。"
 
 #: ../../tutorial/datastructures.rst:646
 msgid ""
@@ -521,13 +521,13 @@ msgid ""
 " are true but ``B`` is false, ``A and B and C`` does not evaluate the "
 "expression ``C``.  When used as a general value and not as a Boolean, the "
 "return value of a short-circuit operator is the last evaluated argument."
-msgstr ""
+msgstr "布林運算子 ``and`` 和 ``or`` 也被稱為短路 (*short-circuit*) 運算子：會將其引數從左至右進行運算，當結果出現時即結束運算。例如，若 ``A`` 和 ``C`` 為真但 ``B`` 為假，則 ``A and B and C`` 的運算並不會執行到 ``C`` 。當運算結果被當成一般數值而非布林值時，短路運算子的回傳值為最後被運算的引數。"
 
 #: ../../tutorial/datastructures.rst:660
 msgid ""
 "It is possible to assign the result of a comparison or other Boolean "
 "expression to a variable.  For example, ::"
-msgstr ""
+msgstr "將一個比較運算或其他布林表達式的結果指派給一個變數是可以的。例如：\n\n::"
 
 #: ../../tutorial/datastructures.rst:668
 msgid ""
@@ -535,11 +535,11 @@ msgid ""
 " programmers may grumble about this, but it avoids a common class of "
 "problems encountered in C programs: typing ``=`` in an expression when "
 "``==`` was intended."
-msgstr ""
+msgstr "注意， Python 不像 C 語言，在表達式裡進行指派是不行的。 C 語言的程式設計師可能會抱怨這件事，但這樣做避免了在 C 語言裡常見的一種問題：想要打 ``==`` 卻在表達式裡輸入 ``=`` 。"
 
 #: ../../tutorial/datastructures.rst:677
 msgid "Comparing Sequences and Other Types"
-msgstr ""
+msgstr "序列和其他資料結構之比較"
 
 #: ../../tutorial/datastructures.rst:679
 msgid ""
