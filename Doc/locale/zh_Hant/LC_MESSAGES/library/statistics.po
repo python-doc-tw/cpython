@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-07-21 17:38+0000\n"
+"PO-Revision-Date: 2016-07-25 18:15+0000\n"
 "Last-Translator: Kent Hsu <luffy1610@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr " :mod:`statistics` --- 數學統計函式"
 
 #: ../../library/statistics.rst:16
 msgid "**Source code:** :source:`Lib/statistics.py`"
-msgstr ""
+msgstr " **Source code:** :source:`Lib/statistics.py` "
 
 #: ../../library/statistics.rst:20
 msgid ""
@@ -45,61 +45,61 @@ msgstr ""
 
 #: ../../library/statistics.rst:34
 msgid "Averages and measures of central location"
-msgstr ""
+msgstr "平均值與中央位置量數"
 
 #: ../../library/statistics.rst:36
 msgid ""
 "These functions calculate an average or typical value from a population or "
 "sample."
-msgstr ""
+msgstr "這些函式計算來自一個母體或樣本的平均值或代表值。"
 
 #: ../../library/statistics.rst:40
 msgid ":func:`mean`"
-msgstr ""
+msgstr " :func:`mean` "
 
 #: ../../library/statistics.rst:40
 msgid "Arithmetic mean (\"average\") of data."
-msgstr ""
+msgstr "數據的算術平均（平均值）。"
 
 #: ../../library/statistics.rst:41
 msgid ":func:`median`"
-msgstr ""
+msgstr " :func:`median` "
 
 #: ../../library/statistics.rst:41
 msgid "Median (middle value) of data."
-msgstr ""
+msgstr "數據的中位數（中間值）。"
 
 #: ../../library/statistics.rst:42
 msgid ":func:`median_low`"
-msgstr ""
+msgstr " :func:`median_low` "
 
 #: ../../library/statistics.rst:42
 msgid "Low median of data."
-msgstr ""
+msgstr "數據中較小的中位數。"
 
 #: ../../library/statistics.rst:43
 msgid ":func:`median_high`"
-msgstr ""
+msgstr " :func:`median_high` "
 
 #: ../../library/statistics.rst:43
 msgid "High median of data."
-msgstr ""
+msgstr "數據中較大的中位數。"
 
 #: ../../library/statistics.rst:44
 msgid ":func:`median_grouped`"
-msgstr ""
+msgstr " :func:`median_grouped` "
 
 #: ../../library/statistics.rst:44
 msgid "Median, or 50th percentile, of grouped data."
-msgstr ""
+msgstr "分組數據的中位數或50%處。"
 
 #: ../../library/statistics.rst:45
 msgid ":func:`mode`"
-msgstr ""
+msgstr " :func:`mode` "
 
 #: ../../library/statistics.rst:45
 msgid "Mode (most common value) of discrete data."
-msgstr ""
+msgstr "離散資料中的眾數（出現次數最多次）。"
 
 #: ../../library/statistics.rst:49
 msgid "Measures of spread"
