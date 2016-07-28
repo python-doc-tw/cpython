@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
+# Liang Bo Wang <me@liang2.tw>, 2016
 # 周 忠毅 <rilakcrc35@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-02-26 18:08+0000\n"
-"Last-Translator: 周 忠毅 <rilakcrc35@gmail.com>\n"
+"PO-Revision-Date: 2016-07-28 05:12+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +21,7 @@ msgstr ""
 
 #: ../../library/heapq.rst:2
 msgid ":mod:`heapq` --- Heap queue algorithm"
-msgstr ":mod:`heapq` --- 優先佇列演算法"
+msgstr ":mod:`heapq` --- 堆積佇列 (heap queue) 演算法"
 
 #: ../../library/heapq.rst:11
 msgid "**Source code:** :source:`Lib/heapq.py`"
@@ -30,7 +31,7 @@ msgstr "**原始碼：** :source:`Lib/heapq.py`"
 msgid ""
 "This module provides an implementation of the heap queue algorithm, also "
 "known as the priority queue algorithm."
-msgstr "這個模組提供一個優先佇列演算法 ( heap queue algorithm, also known as the priority queue algorithm ) 的實作。"
+msgstr "這個模組實作了堆積佇列 (heap queue) 演算法，亦被稱為優先佇列 (priority queue) 演算法。"
 
 #: ../../library/heapq.rst:18
 msgid ""
@@ -40,7 +41,7 @@ msgid ""
 "counting elements from zero.  For the sake of comparison, non-existing "
 "elements are considered to be infinite.  The interesting property of a heap "
 "is that its smallest element is always the root, ``heap[0]``."
-msgstr "Heap 是一顆二元樹，樹上所有父節點的值都小於等於他的子節點的值。使用陣列實作，對於所有從0開始的 *k* 都滿足 ``heap[k] <= heap[2*k+1]`` 和 ``heap[k] <= heap[2*k+2]`` 。為了比較節點的值，不存在的元素被視為無限大。heap 存在一個有趣的性質：樹上最小的元素永遠會在根節點 ``heap[0]`` 上。"
+msgstr "Heap（堆積）是一顆二元樹，樹上所有父節點的值都小於等於他的子節點的值。使用陣列實作，對於所有從0開始的 *k* 都滿足 ``heap[k] <= heap[2*k+1]`` 和 ``heap[k] <= heap[2*k+2]`` 。為了比較節點的值，不存在的元素被視為無限大。heap 存在一個有趣的性質：樹上最小的元素永遠會在根節點 ``heap[0]`` 上。"
 
 #: ../../library/heapq.rst:25
 msgid ""
@@ -51,7 +52,7 @@ msgid ""
 "the smallest item, not the largest (called a \"min heap\" in textbooks; a "
 "\"max heap\" is more common in texts because of its suitability for in-place"
 " sorting)."
-msgstr "下方的 API 跟一般教科書的優先佇列演算法有兩個方面不同：第一，我們的索引從 0 開始計算，這會父節點與子節點之間的關係產生很微小的差異，但更符合 Python 從 0 開始索引的設計。第二，我們的 pop 方法會回傳最小的元素而不是最大的元素 （ 在教科書中被稱作 \"min heap\"，而 \"max heap\" 因為他很適合做原地排序，所以更常出現在教科書中 ）"
+msgstr "下方的 API 跟一般教科書的 heap queue 演算法有兩個方面不同：第一，我們的索引從 0 開始計算，這會父節點與子節點之間的關係產生很微小的差異，但更符合 Python 從 0 開始索引的設計。第二，我們的 pop 方法會回傳最小的元素而不是最大的元素 （ 在教科書中被稱作 \"min heap\"，而 \"max heap\" 因為他很適合做原地排序，所以更常出現在教科書中 ）。"
 
 #: ../../library/heapq.rst:32
 msgid ""
@@ -86,7 +87,7 @@ msgid ""
 "Push *item* on the heap, then pop and return the smallest item from the "
 "*heap*.  The combined action runs more efficiently than :func:`heappush` "
 "followed by a separate call to :func:`heappop`."
-msgstr "將 *item* 放入 heap ，接著從 *heap* 取出並回傳最小的元素。這個組合函式比呼叫 :func:`heappush` 之後呼叫 :func:`heappop` 更有效率"
+msgstr "將 *item* 放入 heap ，接著從 *heap* 取出並回傳最小的元素。這個組合函式比呼叫 :func:`heappush` 之後呼叫 :func:`heappop` 更有效率。"
 
 #: ../../library/heapq.rst:63
 msgid "Transform list *x* into a heap, in-place, in linear time."
@@ -105,7 +106,7 @@ msgid ""
 " :func:`heappush` and can be more appropriate when using a fixed-size heap. "
 "The pop/push combination always returns an element from the heap and "
 "replaces it with *item*."
-msgstr "這個一次完成的操作會比呼叫:func:`heappop` 之後呼叫 :func:`heappush` 更有效率，並在維護 heap 的大小不變時更為適當，取出/放入的組合函式一定會從 heap 回傳一個元素並用 *item* 取代他。"
+msgstr "這個一次完成的操作會比呼叫 :func:`heappop` 之後呼叫 :func:`heappush` 更有效率，並在維護 heap 的大小不變時更為適當，取出/放入的組合函式一定會從 heap 回傳一個元素並用 *item* 取代他。"
 
 #: ../../library/heapq.rst:76
 msgid ""
@@ -206,19 +207,19 @@ msgstr "Heap 中的元素可以是 tuple 。這有利於將要比較的值（例
 
 #: ../../library/heapq.rst:164
 msgid "Priority Queue Implementation Notes"
-msgstr "優先佇列實作細節"
+msgstr "優先佇列  (Priority Queue) 實作細節"
 
 #: ../../library/heapq.rst:166
 msgid ""
 "A `priority queue <http://en.wikipedia.org/wiki/Priority_queue>`_ is common "
 "use for a heap, and it presents several implementation challenges:"
-msgstr "一個優先佇列 `priority queue <http://en.wikipedia.org/wiki/Priority_queue>`_ 通常會使用 heap 實作，並且有幾個實作上的挑戰。"
+msgstr "一個\\ `priority queue <http://en.wikipedia.org/wiki/Priority_queue>`_ 通常會使用 heap 實作，並且有幾個實作上的挑戰。"
 
 #: ../../library/heapq.rst:169
 msgid ""
 "Sort stability:  how do you get two tasks with equal priorities to be "
 "returned in the order they were originally added?"
-msgstr "排序的 stability：你如何將兩個擁有相同 priority 的 task 按照他們被加入的順序回傳。"
+msgstr "排序的穩定性：你如何將兩個擁有相同 priority 的 task 按照他們被加入的順序回傳。"
 
 #: ../../library/heapq.rst:172
 msgid ""

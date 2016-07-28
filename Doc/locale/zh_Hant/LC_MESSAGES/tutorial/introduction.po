@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-06-01 12:12+0000\n"
+"PO-Revision-Date: 2016-07-28 04:49+0000\n"
 "Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -296,7 +296,7 @@ msgstr ":ref:`textseq`"
 msgid ""
 "Strings are examples of *sequence types*, and support the common operations "
 "supported by such types."
-msgstr "字串是 *sequence 型別*的範例之一，並支援該型別常用的操作。"
+msgstr "字串是 *sequence 型別*\\ 的範例之一，並支援該型別常用的操作。"
 
 #: ../../tutorial/introduction.rst:353
 msgid ":ref:`string-methods`"
@@ -345,7 +345,7 @@ msgstr "Python 理解數種複合型資料型別，用來組合不同的數值�
 msgid ""
 "Like strings (and all other built-in :term:`sequence` type), lists can be "
 "indexed and sliced::"
-msgstr "如同字串（以及其他內建的 `term`:sequence: 型別），list 可以被索引和切片 (slice)：\n\n::"
+msgstr "如同字串（以及其他內建的 :term:`sequence` 型別），list 可以被索引和切片 (slice)：\n\n::"
 
 #: ../../tutorial/introduction.rst:388
 msgid ""
