@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-07-25 18:15+0000\n"
+"PO-Revision-Date: 2016-08-03 16:15+0000\n"
 "Last-Translator: Kent Hsu <luffy1610@gmail.com>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -103,49 +103,49 @@ msgstr "離散資料中的眾數（出現次數最多次）。"
 
 #: ../../library/statistics.rst:49
 msgid "Measures of spread"
-msgstr ""
+msgstr "離度 (spread) 的測量"
 
 #: ../../library/statistics.rst:51
 msgid ""
 "These functions calculate a measure of how much the population or sample "
 "tends to deviate from the typical or average values."
-msgstr ""
+msgstr "這些函式計算母體或樣本偏離平均值的程度。"
 
 #: ../../library/statistics.rst:55
 msgid ":func:`pstdev`"
-msgstr ""
+msgstr ":func:`pstdev`"
 
 #: ../../library/statistics.rst:55
 msgid "Population standard deviation of data."
-msgstr ""
+msgstr "數據的母體標準差"
 
 #: ../../library/statistics.rst:56
 msgid ":func:`pvariance`"
-msgstr ""
+msgstr ":func:`pvariance`"
 
 #: ../../library/statistics.rst:56
 msgid "Population variance of data."
-msgstr ""
+msgstr "數據的母體變異數"
 
 #: ../../library/statistics.rst:57
 msgid ":func:`stdev`"
-msgstr ""
+msgstr ":func:`stdev`"
 
 #: ../../library/statistics.rst:57
 msgid "Sample standard deviation of data."
-msgstr ""
+msgstr "數據的樣本標準差"
 
 #: ../../library/statistics.rst:58
 msgid ":func:`variance`"
-msgstr ""
+msgstr ":func:`variance`"
 
 #: ../../library/statistics.rst:58
 msgid "Sample variance of data."
-msgstr ""
+msgstr "數據的樣本變異數"
 
 #: ../../library/statistics.rst:63
 msgid "Function details"
-msgstr ""
+msgstr "函式細節"
 
 #: ../../library/statistics.rst:65
 msgid ""
