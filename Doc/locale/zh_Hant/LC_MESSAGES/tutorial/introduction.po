@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-07-28 04:49+0000\n"
+"PO-Revision-Date: 2016-11-14 22:02+0000\n"
 "Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -384,18 +384,18 @@ msgstr "內建的函式 :func:`len` 亦可以作用在 list 上：\n\n::"
 msgid ""
 "It is possible to nest lists (create lists containing other lists), for "
 "example::"
-msgstr ""
+msgstr "巢狀 list 也是可行的（建立 list 包含其他 list），例如：\n\n::"
 
 #: ../../tutorial/introduction.rst:458
 msgid "First Steps Towards Programming"
-msgstr ""
+msgstr "初探程式設計的前幾步"
 
 #: ../../tutorial/introduction.rst:460
 msgid ""
 "Of course, we can use Python for more complicated tasks than adding two and "
 "two together.  For instance, we can write an initial sub-sequence of the "
 "*Fibonacci* series as follows::"
-msgstr ""
+msgstr "當然，我們可以用 Python 來處理比 2 加 2 更複雜的工作。例如，我們可以寫下費式數列的首幾項序列如下：\n\n::"
 
 #: ../../tutorial/introduction.rst:478
 msgid "This example introduces several new features."
