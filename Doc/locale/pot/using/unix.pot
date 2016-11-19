@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "In the event that Python doesn't come preinstalled and isn't in the repos
 msgstr ""
 
 #: ../../using/unix.rst:29
-msgid "http://www.debian.org/doc/manuals/maint-guide/first.en.html"
+msgid "https://www.debian.org/doc/manuals/maint-guide/first.en.html"
 msgstr ""
 
 #: ../../using/unix.rst:30
@@ -45,7 +45,7 @@ msgid "for Debian users"
 msgstr ""
 
 #: ../../using/unix.rst:31
-msgid "http://en.opensuse.org/Portal:Packaging"
+msgid "https://en.opensuse.org/Portal:Packaging"
 msgstr ""
 
 #: ../../using/unix.rst:32
@@ -53,7 +53,7 @@ msgid "for OpenSuse users"
 msgstr ""
 
 #: ../../using/unix.rst:33
-msgid "http://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch-creating-rpms.html"
+msgid "https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch-creating-rpms.html"
 msgstr ""
 
 #: ../../using/unix.rst:34
@@ -89,7 +89,7 @@ msgid "On OpenSolaris"
 msgstr ""
 
 #: ../../using/unix.rst:58
-msgid "You can get Python from `OpenCSW <http://www.opencsw.org/>`_.  Various versions of Python are available and can be installed with e.g. ``pkgutil -i python27``."
+msgid "You can get Python from `OpenCSW <https://www.opencsw.org/>`_.  Various versions of Python are available and can be installed with e.g. ``pkgutil -i python27``."
 msgstr ""
 
 #: ../../using/unix.rst:65
@@ -97,7 +97,7 @@ msgid "Building Python"
 msgstr ""
 
 #: ../../using/unix.rst:67
-msgid "If you want to compile CPython yourself, first thing you should do is get the `source <https://www.python.org/download/source/>`_. You can download either the latest release's source or just grab a fresh `clone <https://docs.python.org/devguide/setup.html#getting-the-source-code>`_.  (If you want to contribute patches, you will need a clone.)"
+msgid "If you want to compile CPython yourself, first thing you should do is get the `source <https://www.python.org/downloads/source/>`_. You can download either the latest release's source or just grab a fresh `clone <https://docs.python.org/devguide/setup.html#getting-the-source-code>`_.  (If you want to contribute patches, you will need a clone.)"
 msgstr ""
 
 #: ../../using/unix.rst:73
@@ -189,14 +189,14 @@ msgid "http://www.vim.org/scripts/script.php?script_id=790"
 msgstr ""
 
 #: ../../using/unix.rst:142
-msgid "http://sourceforge.net/projects/python-mode"
+msgid "https://sourceforge.net/projects/python-mode"
 msgstr ""
 
 #: ../../using/unix.rst:144
-msgid "Geany is an excellent IDE with support for a lot of languages. For more information, read: http://www.geany.org/"
+msgid "Geany is an excellent IDE with support for a lot of languages. For more information, read: https://www.geany.org/"
 msgstr ""
 
 #: ../../using/unix.rst:147
-msgid "Komodo edit is another extremely good IDE.  It also has support for a lot of languages. For more information, read http://komodoide.com/."
+msgid "Komodo edit is another extremely good IDE.  It also has support for a lot of languages. For more information, read https://komodoide.com/."
 msgstr ""
 

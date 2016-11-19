@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid ":mod:`hashlib` --- Secure hashes and message digests"
 msgstr ""
 
-#: ../../library/hashlib.rst:14
+#: ../../library/hashlib.rst:10
 msgid "**Source code:** :source:`Lib/hashlib.py`"
 msgstr ""
 
@@ -41,7 +41,7 @@ msgid "Hash algorithms"
 msgstr ""
 
 #: ../../library/hashlib.rst:41
-msgid "There is one constructor method named for each type of :dfn:`hash`.  All return a hash object with the same simple interface. For example: use :func:`sha1` to create a SHA1 hash object. You can now feed this object with :term:`bytes-like object`\\ s (normally :class:`bytes`) using the :meth:`update` method. At any point you can ask it for the :dfn:`digest` of the concatenation of the data fed to it so far using the :meth:`digest` or :meth:`hexdigest` methods."
+msgid "There is one constructor method named for each type of :dfn:`hash`.  All return a hash object with the same simple interface. For example: use :func:`sha1` to create a SHA1 hash object. You can now feed this object with :term:`bytes-like objects <bytes-like object>` (normally :class:`bytes`) using the :meth:`update` method. At any point you can ask it for the :dfn:`digest` of the concatenation of the data fed to it so far using the :meth:`digest` or :meth:`hexdigest` methods."
 msgstr ""
 
 #: ../../library/hashlib.rst:51
@@ -145,58 +145,58 @@ msgid "The function provides PKCS#5 password-based key derivation function 2. It
 msgstr ""
 
 #: ../../library/hashlib.rst:193
-msgid "The string *name* is the desired name of the hash digest algorithm for HMAC, e.g. 'sha1' or 'sha256'. *password* and *salt* are interpreted as buffers of bytes. Applications and libraries should limit *password* to a sensible value (e.g. 1024). *salt* should be about 16 or more bytes from a proper source, e.g. :func:`os.urandom`."
+msgid "The string *hash_name* is the desired name of the hash digest algorithm for HMAC, e.g. 'sha1' or 'sha256'. *password* and *salt* are interpreted as buffers of bytes. Applications and libraries should limit *password* to a sensible length (e.g. 1024). *salt* should be about 16 or more bytes from a proper source, e.g. :func:`os.urandom`."
 msgstr ""
 
 #: ../../library/hashlib.rst:199
-msgid "The number of *rounds* should be chosen based on the hash algorithm and computing power. As of 2013, at least 100,000 rounds of SHA-256 is suggested."
+msgid "The number of *iterations* should be chosen based on the hash algorithm and computing power. As of 2013, at least 100,000 iterations of SHA-256 are suggested."
 msgstr ""
 
-#: ../../library/hashlib.rst:202
-msgid "*dklen* is the length of the derived key. If *dklen* is ``None`` then the digest size of the hash algorithm *name* is used, e.g. 64 for SHA-512."
+#: ../../library/hashlib.rst:203
+msgid "*dklen* is the length of the derived key. If *dklen* is ``None`` then the digest size of the hash algorithm *hash_name* is used, e.g. 64 for SHA-512."
 msgstr ""
 
-#: ../../library/hashlib.rst:214
+#: ../../library/hashlib.rst:215
 msgid "A fast implementation of *pbkdf2_hmac* is available with OpenSSL.  The Python implementation uses an inline version of :mod:`hmac`. It is about three times slower and doesn't release the GIL."
 msgstr ""
 
-#: ../../library/hashlib.rst:222
+#: ../../library/hashlib.rst:223
 msgid "Module :mod:`hmac`"
 msgstr ""
 
-#: ../../library/hashlib.rst:222
+#: ../../library/hashlib.rst:223
 msgid "A module to generate message authentication codes using hashes."
 msgstr ""
 
-#: ../../library/hashlib.rst:225
+#: ../../library/hashlib.rst:226
 msgid "Module :mod:`base64`"
 msgstr ""
 
-#: ../../library/hashlib.rst:225
+#: ../../library/hashlib.rst:226
 msgid "Another way to encode binary hashes for non-binary environments."
 msgstr ""
 
-#: ../../library/hashlib.rst:228
+#: ../../library/hashlib.rst:229
 msgid "http://csrc.nist.gov/publications/fips/fips180-2/fips180-2.pdf"
 msgstr ""
 
-#: ../../library/hashlib.rst:228
+#: ../../library/hashlib.rst:229
 msgid "The FIPS 180-2 publication on Secure Hash Algorithms."
 msgstr ""
 
-#: ../../library/hashlib.rst:232
+#: ../../library/hashlib.rst:233
 msgid "https://en.wikipedia.org/wiki/Cryptographic_hash_function#Cryptographic_hash_algorithms"
 msgstr ""
 
-#: ../../library/hashlib.rst:231
+#: ../../library/hashlib.rst:232
 msgid "Wikipedia article with information on which algorithms have known issues and what that means regarding their use."
 msgstr ""
 
-#: ../../library/hashlib.rst:234
-msgid "http://www.ietf.org/rfc/rfc2898.txt"
+#: ../../library/hashlib.rst:235
+msgid "https://www.ietf.org/rfc/rfc2898.txt"
 msgstr ""
 
-#: ../../library/hashlib.rst:235
+#: ../../library/hashlib.rst:236
 msgid "PKCS #5: Password-Based Cryptography Specification Version 2.0"
 msgstr ""
 

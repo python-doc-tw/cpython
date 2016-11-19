@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "Running this command creates the target directory (creating any parent di
 msgstr ""
 
 #: ../../using/venv-create.inc:16
-msgid "`Python Packaging User Guide: Creating and using virtual environments <https://packaging.python.org/en/latest/installing.html#virtual-environments>`__"
+msgid "`Python Packaging User Guide: Creating and using virtual environments <https://packaging.python.org/en/latest/installing/#creating-virtual-environments>`__"
 msgstr ""
 
 #: ../../using/venv-create.inc:21
@@ -125,7 +125,7 @@ msgid "cmd.exe"
 msgstr ""
 
 #: ../../using/venv-create.inc:92
-msgid "C:\\> <venv>/Scripts/activate.bat"
+msgid "C:\\> <venv>\\Scripts\\activate.bat"
 msgstr ""
 
 #: ../../using/venv-create.inc:94
@@ -133,7 +133,7 @@ msgid "PowerShell"
 msgstr ""
 
 #: ../../using/venv-create.inc:94
-msgid "PS C:\\> <venv>/Scripts/Activate.ps1"
+msgid "PS C:\\> <venv>\\Scripts\\Activate.ps1"
 msgstr ""
 
 #: ../../using/venv-create.inc:97

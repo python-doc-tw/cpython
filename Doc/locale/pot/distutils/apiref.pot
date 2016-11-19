@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -538,7 +538,7 @@ msgid "Generate linker options for searching library directories and linking wit
 msgstr ""
 
 #: ../../distutils/apiref.rst:322
-msgid "Generate C pre-processor options (:option:`-D`, :option:`-U`, :option:`-I`) as used by at least two types of compilers: the typical Unix compiler and Visual C++. *macros* is the usual thing, a list of 1- or 2-tuples, where ``(name,)`` means undefine (:option:`-U`) macro *name*, and ``(name, value)`` means define (:option:`-D`) macro *name* to *value*.  *include_dirs* is just a list of directory names to be added to the header file search path (:option:`-I`). Returns a list of command-line options suitable for either Unix compilers or Visual C++."
+msgid "Generate C pre-processor options (:option:`-D`, :option:`!-U`, :option:`!-I`) as used by at least two types of compilers: the typical Unix compiler and Visual C++. *macros* is the usual thing, a list of 1- or 2-tuples, where ``(name,)`` means undefine (:option:`!-U`) macro *name*, and ``(name, value)`` means define (:option:`-D`) macro *name* to *value*.  *include_dirs* is just a list of directory names to be added to the header file search path (:option:`!-I`). Returns a list of command-line options suitable for either Unix compilers or Visual C++."
 msgstr ""
 
 #: ../../distutils/apiref.rst:334
@@ -891,7 +891,7 @@ msgid "library search directories specified with :option:`-Ldir`"
 msgstr ""
 
 #: ../../distutils/apiref.rst:802
-msgid "compile handled by :program:`cc` (or similar) executable with :option:`-c` option: compiles :file:`.c` to :file:`.o`"
+msgid "compile handled by :program:`cc` (or similar) executable with :option:`!-c` option: compiles :file:`.c` to :file:`.o`"
 msgstr ""
 
 #: ../../distutils/apiref.rst:805
@@ -919,7 +919,7 @@ msgid ":mod:`distutils.bcppcompiler` --- Borland Compiler"
 msgstr ""
 
 #: ../../distutils/apiref.rst:840
-msgid "This module provides :class:`BorlandCCompiler`, an subclass of the abstract :class:`CCompiler` class for the Borland C++ compiler."
+msgid "This module provides :class:`BorlandCCompiler`, a subclass of the abstract :class:`CCompiler` class for the Borland C++ compiler."
 msgstr ""
 
 #: ../../distutils/apiref.rst:845
@@ -942,8 +942,16 @@ msgstr ""
 msgid "Create an archive file (eg. ``zip`` or ``tar``).  *base_name*  is the name of the file to create, minus any format-specific extension;  *format* is the archive format: one of ``zip``, ``tar``, ``gztar``, ``bztar``, ``xztar``, or ``ztar``. *root_dir* is a directory that will be the root directory of the archive; ie. we typically ``chdir`` into *root_dir* before  creating the archive.  *base_dir* is the directory where we start  archiving from; ie. *base_dir* will be the common prefix of all files and directories in the archive.  *root_dir* and *base_dir* both default to the current directory. Returns the name of the archive file."
 msgstr ""
 
+#: ../../distutils/apiref.rst:879
+msgid "Added support for the ``xztar`` format."
+msgstr ""
+
 #: ../../distutils/apiref.rst:885
 msgid "'Create an (optional compressed) archive as a tar file from all files in and under *base_dir*. *compress* must be ``'gzip'`` (the default), ``'bzip2'``, ``'xz'``, ``'compress'``, or ``None``.  For the ``'compress'`` method the compression utility named by :program:`compress` must be on the default program search path, so this is probably Unix-specific.  The output tar file will be named :file:`base_dir.tar`, possibly plus the appropriate compression extension (``.gz``, ``.bz2``, ``.xz`` or ``.Z``).  Return the output filename."
+msgstr ""
+
+#: ../../distutils/apiref.rst:894
+msgid "Added support for the ``xz`` compression."
 msgstr ""
 
 #: ../../distutils/apiref.rst:900
@@ -1184,6 +1192,10 @@ msgstr ""
 
 #: ../../distutils/apiref.rst:1232
 msgid "Create ``.pyc`` files with an :func:`import magic tag <imp.get_tag>` in their name, in a :file:`__pycache__` subdirectory instead of files without tag in the current directory."
+msgstr ""
+
+#: ../../distutils/apiref.rst:1237
+msgid "Create ``.pyc`` files according to :pep:`488`."
 msgstr ""
 
 #: ../../distutils/apiref.rst:1243

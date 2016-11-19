@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,14 +109,14 @@ msgid "To simplify writing :c:member:`~PyTypeObject.tp_traverse` handlers, a :c:
 msgstr ""
 
 #: ../../c-api/gcsupport.rst:129
-msgid "Call the *visit* callback, with arguments *o* and *arg*. If *visit* returns a non-zero value, then return it.  Using this macro, :c:member:`~PyTypeObject.tp_traverse` handlers look like::"
+msgid "If *o* is not *NULL*, call the *visit* callback, with arguments *o* and *arg*.  If *visit* returns a non-zero value, then return it. Using this macro, :c:member:`~PyTypeObject.tp_traverse` handlers look like::"
 msgstr ""
 
-#: ../../c-api/gcsupport.rst:141
+#: ../../c-api/gcsupport.rst:142
 msgid "The :c:member:`~PyTypeObject.tp_clear` handler must be of the :c:type:`inquiry` type, or *NULL* if the object is immutable."
 msgstr ""
 
-#: ../../c-api/gcsupport.rst:147
+#: ../../c-api/gcsupport.rst:148
 msgid "Drop references that may have created reference cycles.  Immutable objects do not have to define this method since they can never directly create reference cycles.  Note that the object must still be valid after calling this method (don't just call :c:func:`Py_DECREF` on a reference).  The collector will call this method if it detects that this object is involved in a reference cycle."
 msgstr ""
 

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,30 +21,34 @@ msgid ":mod:`tty` --- Terminal control functions"
 msgstr ""
 
 #: ../../library/tty.rst:11
+msgid "**Source code:** :source:`Lib/tty.py`"
+msgstr ""
+
+#: ../../library/tty.rst:15
 msgid "The :mod:`tty` module defines functions for putting the tty into cbreak and raw modes."
 msgstr ""
 
-#: ../../library/tty.rst:14
+#: ../../library/tty.rst:18
 msgid "Because it requires the :mod:`termios` module, it will work only on Unix."
 msgstr ""
 
-#: ../../library/tty.rst:16
+#: ../../library/tty.rst:20
 msgid "The :mod:`tty` module defines the following functions:"
 msgstr ""
 
-#: ../../library/tty.rst:21
+#: ../../library/tty.rst:25
 msgid "Change the mode of the file descriptor *fd* to raw. If *when* is omitted, it defaults to :const:`termios.TCSAFLUSH`, and is passed to :func:`termios.tcsetattr`."
 msgstr ""
 
-#: ../../library/tty.rst:28
+#: ../../library/tty.rst:32
 msgid "Change the mode of file descriptor *fd* to cbreak. If *when* is omitted, it defaults to :const:`termios.TCSAFLUSH`, and is passed to :func:`termios.tcsetattr`."
 msgstr ""
 
-#: ../../library/tty.rst:35
+#: ../../library/tty.rst:39
 msgid "Module :mod:`termios`"
 msgstr ""
 
-#: ../../library/tty.rst:36
+#: ../../library/tty.rst:40
 msgid "Low-level terminal control interface."
 msgstr ""
 

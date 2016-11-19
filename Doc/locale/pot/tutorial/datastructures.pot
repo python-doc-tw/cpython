@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -213,7 +213,7 @@ msgid "As you see, on output tuples are always enclosed in parentheses, so that 
 msgstr ""
 
 #: ../../tutorial/datastructures.rst:398
-msgid "Though tuples may seem similar to lists, they are often used in different situations and for different purposes. Tuples are :term:`immutable`, and usually contain an heterogeneous sequence of elements that are accessed via unpacking (see later in this section) or indexing (or even by attribute in the case of :func:`namedtuples <collections.namedtuple>`). Lists are :term:`mutable`, and their elements are usually homogeneous and are accessed by iterating over the list."
+msgid "Though tuples may seem similar to lists, they are often used in different situations and for different purposes. Tuples are :term:`immutable`, and usually contain a heterogeneous sequence of elements that are accessed via unpacking (see later in this section) or indexing (or even by attribute in the case of :func:`namedtuples <collections.namedtuple>`). Lists are :term:`mutable`, and their elements are usually homogeneous and are accessed by iterating over the list."
 msgstr ""
 
 #: ../../tutorial/datastructures.rst:406

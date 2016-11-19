@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -157,7 +157,7 @@ msgid ":mod:`multiprocessing` child processes on Windows no longer inherit all o
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:145
-msgid "A new :func:`hashlib.pbkdf2_hmac` function provides the `PKCS#5 password-based key derivation function 2 <http://en.wikipedia.org/wiki/PBKDF2>`_."
+msgid "A new :func:`hashlib.pbkdf2_hmac` function provides the `PKCS#5 password-based key derivation function 2 <https://en.wikipedia.org/wiki/PBKDF2>`_."
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:148
@@ -772,7 +772,7 @@ msgid "hashlib"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:903
-msgid "A new :func:`hashlib.pbkdf2_hmac` function provides the `PKCS#5 password-based key derivation function 2 <http://en.wikipedia.org/wiki/PBKDF2>`_.  (Contributed by Christian Heimes in :issue:`18582`.)"
+msgid "A new :func:`hashlib.pbkdf2_hmac` function provides the `PKCS#5 password-based key derivation function 2 <https://en.wikipedia.org/wiki/PBKDF2>`_.  (Contributed by Christian Heimes in :issue:`18582`.)"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:908
@@ -1100,7 +1100,7 @@ msgid "New :func:`~resource.prlimit` function, available on Linux platforms with
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1325
-msgid "On Linux kernel version 2.6.36 or later, there are there are also some new Linux specific constants: :attr:`~resource.RLIMIT_MSGQUEUE`, :attr:`~resource.RLIMIT_NICE`, :attr:`~resource.RLIMIT_RTPRIO`, :attr:`~resource.RLIMIT_RTTIME`, and :attr:`~resource.RLIMIT_SIGPENDING`. (Contributed by Christian Heimes in :issue:`19324`.)"
+msgid "On Linux kernel version 2.6.36 or later, there are also some new Linux specific constants: :attr:`~resource.RLIMIT_MSGQUEUE`, :attr:`~resource.RLIMIT_NICE`, :attr:`~resource.RLIMIT_RTPRIO`, :attr:`~resource.RLIMIT_RTTIME`, and :attr:`~resource.RLIMIT_SIGPENDING`. (Contributed by Christian Heimes in :issue:`19324`.)"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1331
@@ -1180,7 +1180,7 @@ msgid "sqlite3"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1411
-msgid "A new boolean parameter to the :func:`~sqlite3.connect` function, *uri*, can be used to indicate that the *database* parameter is a ``uri`` (see the `SQLite URI documentation <http://www.sqlite.org/uri.html>`_).  (Contributed by poq in :issue:`13773`.)"
+msgid "A new boolean parameter to the :func:`~sqlite3.connect` function, *uri*, can be used to indicate that the *database* parameter is a ``uri`` (see the `SQLite URI documentation <https://www.sqlite.org/uri.html>`_).  (Contributed by poq in :issue:`13773`.)"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1418
@@ -1208,7 +1208,7 @@ msgid ":class:`~ssl.SSLContext` has a new method, :meth:`~ssl.SSLContext.cert_st
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1460
-msgid "If OpenSSL 0.9.8 or later is available, :class:`~ssl.SSLContext` has an new attribute :attr:`~ssl.SSLContext.verify_flags` that can be used to control the certificate verification process by setting it to some combination of the new constants :data:`~ssl.VERIFY_DEFAULT`, :data:`~ssl.VERIFY_CRL_CHECK_LEAF`, :data:`~ssl.VERIFY_CRL_CHECK_CHAIN`, or :data:`~ssl.VERIFY_X509_STRICT`. OpenSSL does not do any CRL verification by default.  (Contributed by Christien Heimes in :issue:`8813`.)"
+msgid "If OpenSSL 0.9.8 or later is available, :class:`~ssl.SSLContext` has a new attribute :attr:`~ssl.SSLContext.verify_flags` that can be used to control the certificate verification process by setting it to some combination of the new constants :data:`~ssl.VERIFY_DEFAULT`, :data:`~ssl.VERIFY_CRL_CHECK_LEAF`, :data:`~ssl.VERIFY_CRL_CHECK_CHAIN`, or :data:`~ssl.VERIFY_X509_STRICT`. OpenSSL does not do any CRL verification by default.  (Contributed by Christien Heimes in :issue:`8813`.)"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1468
@@ -1572,7 +1572,7 @@ msgid "The CPython source can now be compiled using the address sanity checking 
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1919
-msgid "The Windows build now uses `Address Space Layout Randomization <http://en.wikipedia.org/wiki/ASLR>`_ and `Data Execution Prevention <http://en.wikipedia.org/wiki/Data_Execution_Prevention>`_.  (Contributed by Christian Heimes in :issue:`16632`.)"
+msgid "The Windows build now uses `Address Space Layout Randomization <https://en.wikipedia.org/wiki/Address_space_layout_randomization>`_ and `Data Execution Prevention <https://en.wikipedia.org/wiki/Data_Execution_Prevention>`_.  (Contributed by Christian Heimes in :issue:`16632`.)"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1924

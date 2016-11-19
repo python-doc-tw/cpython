@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "**Source code:** :source:`Lib/getopt.py`"
 msgstr ""
 
-#: ../../library/getopt.rst:14
+#: ../../library/getopt.rst:12
 msgid "The :mod:`getopt` module is a parser for command line options whose API is designed to be familiar to users of the C :c:func:`getopt` function. Users who are unfamiliar with the C :c:func:`getopt` function or who would like to write less code and get better help and error messages should consider using the :mod:`argparse` module instead."
 msgstr ""
 

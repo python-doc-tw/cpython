@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -221,7 +221,7 @@ msgid "Written  by Kevin D. Smith, Jim Jewett, and Skip Montanaro.  Several peop
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:340
-msgid "https://www.python.org/moin/PythonDecoratorLibrary"
+msgid "https://wiki.python.org/moin/PythonDecoratorLibrary"
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:341
@@ -465,7 +465,7 @@ msgid "The article uses Fortran code to illustrate many of the problems that flo
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:692
-msgid "http://www2.hursley.ibm.com/decimal/"
+msgid "http://speleotrove.com/decimal/"
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:691
@@ -521,7 +521,7 @@ msgid "``PyOS_ascii_formatd(buffer, buf_len, format, d)`` converts a :c:type:`do
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:758
-msgid "The code for these functions came from the GLib library (http://library.gnome.org/devel/glib/stable/), whose developers kindly relicensed the relevant functions and donated them to the Python Software Foundation.  The :mod:`locale` module  can now change the numeric locale, letting extensions such as GTK+  produce the correct results."
+msgid "The code for these functions came from the GLib library (https://developer.gnome.org/glib/stable/), whose developers kindly relicensed the relevant functions and donated them to the Python Software Foundation.  The :mod:`locale` module  can now change the numeric locale, letting extensions such as GTK+  produce the correct results."
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:767
@@ -1008,7 +1008,7 @@ msgid "A new method flag, :const:`METH_COEXISTS`, allows a function defined in s
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:1482
-msgid "Python can now be built with additional profiling for the interpreter itself, intended as an aid to people developing the Python core.  Providing :option:`----enable-profiling` to the :program:`configure` script will let you profile the interpreter with :program:`gprof`, and providing the :option:`----with-tsc` switch enables profiling using the Pentium's Time-Stamp- Counter register.  Note that the :option:`----with-tsc` switch is slightly misnamed, because the profiling feature also works on the PowerPC platform, though that processor architecture doesn't call that register \"the TSC register\".  (Contributed by Jeremy Hylton.)"
+msgid "Python can now be built with additional profiling for the interpreter itself, intended as an aid to people developing the Python core.  Providing :option:`--enable-profiling` to the :program:`configure` script will let you profile the interpreter with :program:`gprof`, and providing the :option:`--with-tsc` switch enables profiling using the Pentium's Time-Stamp- Counter register.  Note that the :option:`--with-tsc` switch is slightly misnamed, because the profiling feature also works on the PowerPC platform, though that processor architecture doesn't call that register \"the TSC register\".  (Contributed by Jeremy Hylton.)"
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:1492

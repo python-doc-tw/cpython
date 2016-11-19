@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "Tkinter"
 msgstr ""
 
 #: ../../faq/gui.rst:29
-msgid "Standard builds of Python include an object-oriented interface to the Tcl/Tk widget set, called :ref:`tkinter <Tkinter>`.  This is probably the easiest to install (since it comes included with most `binary distributions <https://www.python.org/download/>`_ of Python) and use. For more info about Tk, including pointers to the source, see the `Tcl/Tk home page <http://www.tcl.tk>`_.  Tcl/Tk is fully portable to the Mac OS X, Windows, and Unix platforms."
+msgid "Standard builds of Python include an object-oriented interface to the Tcl/Tk widget set, called :ref:`tkinter <Tkinter>`.  This is probably the easiest to install (since it comes included with most `binary distributions <https://www.python.org/downloads/>`_ of Python) and use. For more info about Tk, including pointers to the source, see the `Tcl/Tk home page <https://www.tcl.tk>`_.  Tcl/Tk is fully portable to the Mac OS X, Windows, and Unix platforms."
 msgstr ""
 
 #: ../../faq/gui.rst:38
@@ -45,7 +45,7 @@ msgid "wxWidgets"
 msgstr ""
 
 #: ../../faq/gui.rst:40
-msgid "wxWidgets (http://www.wxwidgets.org) is a free, portable GUI class library written in C++ that provides a native look and feel on a number of platforms, with Windows, Mac OS X, GTK, X11, all listed as current stable targets.  Language bindings are available for a number of languages including Python, Perl, Ruby, etc."
+msgid "wxWidgets (https://www.wxwidgets.org) is a free, portable GUI class library written in C++ that provides a native look and feel on a number of platforms, with Windows, Mac OS X, GTK, X11, all listed as current stable targets.  Language bindings are available for a number of languages including Python, Perl, Ruby, etc."
 msgstr ""
 
 #: ../../faq/gui.rst:46
@@ -61,11 +61,11 @@ msgid "Qt"
 msgstr ""
 
 #: ../../faq/gui.rst:60
-msgid "There are bindings available for the Qt toolkit (using either `PyQt <http://www.riverbankcomputing.co.uk/software/pyqt/intro>`_ or `PySide <http://www.pyside.org/>`_) and for KDE (`PyKDE <https://techbase.kde.org/Development/Languages/Python>`__). PyQt is currently more mature than PySide, but you must buy a PyQt license from `Riverbank Computing <http://www.riverbankcomputing.co.uk/software/pyqt/license>`_ if you want to write proprietary applications.  PySide is free for all applications."
+msgid "There are bindings available for the Qt toolkit (using either `PyQt <https://riverbankcomputing.com/software/pyqt/intro>`_ or `PySide <https://wiki.qt.io/PySide>`_) and for KDE (`PyKDE4 <https://techbase.kde.org/Languages/Python/Using_PyKDE_4>`__). PyQt is currently more mature than PySide, but you must buy a PyQt license from `Riverbank Computing <https://www.riverbankcomputing.com/commercial/license-faq>`_ if you want to write proprietary applications.  PySide is free for all applications."
 msgstr ""
 
 #: ../../faq/gui.rst:67
-msgid "Qt 4.5 upwards is licensed under the LGPL license; also, commercial licenses are available from `The Qt Company <http://www.qt.io/licensing/>`_."
+msgid "Qt 4.5 upwards is licensed under the LGPL license; also, commercial licenses are available from `The Qt Company <https://www.qt.io/licensing/>`_."
 msgstr ""
 
 #: ../../faq/gui.rst:71
@@ -73,7 +73,7 @@ msgid "Gtk+"
 msgstr ""
 
 #: ../../faq/gui.rst:73
-msgid "The `GObject introspection bindings <https://live.gnome.org/PyGObject>`_ for Python allow you to write GTK+ 3 applications.  There is also a `Python GTK+ 3 Tutorial <http://python-gtk-3-tutorial.readthedocs.org/en/latest/>`_."
+msgid "The `GObject introspection bindings <https://wiki.gnome.org/Projects/PyGObject>`_ for Python allow you to write GTK+ 3 applications.  There is also a `Python GTK+ 3 Tutorial <https://python-gtk-3-tutorial.readthedocs.org/en/latest/>`_."
 msgstr ""
 
 #: ../../faq/gui.rst:77

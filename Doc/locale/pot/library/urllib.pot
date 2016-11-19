@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,22 +21,26 @@ msgid ":mod:`urllib` --- URL handling modules"
 msgstr ""
 
 #: ../../library/urllib.rst:6
-msgid "``urllib`` is a package that collects several modules for working with URLs:"
-msgstr ""
-
-#: ../../library/urllib.rst:8
-msgid ":mod:`urllib.request` for opening and reading URLs"
-msgstr ""
-
-#: ../../library/urllib.rst:9
-msgid ":mod:`urllib.error` containing the exceptions raised by :mod:`urllib.request`"
+msgid "**Source code:** :source:`Lib/urllib/`"
 msgstr ""
 
 #: ../../library/urllib.rst:10
+msgid "``urllib`` is a package that collects several modules for working with URLs:"
+msgstr ""
+
+#: ../../library/urllib.rst:12
+msgid ":mod:`urllib.request` for opening and reading URLs"
+msgstr ""
+
+#: ../../library/urllib.rst:13
+msgid ":mod:`urllib.error` containing the exceptions raised by :mod:`urllib.request`"
+msgstr ""
+
+#: ../../library/urllib.rst:14
 msgid ":mod:`urllib.parse` for parsing URLs"
 msgstr ""
 
-#: ../../library/urllib.rst:11
+#: ../../library/urllib.rst:15
 msgid ":mod:`urllib.robotparser` for parsing ``robots.txt`` files"
 msgstr ""
 

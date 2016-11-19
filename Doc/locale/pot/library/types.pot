@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -229,35 +229,35 @@ msgstr ""
 msgid "The type is roughly equivalent to the following code::"
 msgstr ""
 
-#: ../../library/types.rst:262
+#: ../../library/types.rst:264
 msgid "``SimpleNamespace`` may be useful as a replacement for ``class NS: pass``. However, for a structured record type use :func:`~collections.namedtuple` instead."
 msgstr ""
 
-#: ../../library/types.rst:271
+#: ../../library/types.rst:273
 msgid "Route attribute access on a class to __getattr__."
 msgstr ""
 
-#: ../../library/types.rst:273
+#: ../../library/types.rst:275
 msgid "This is a descriptor, used to define attributes that act differently when accessed through an instance and through a class.  Instance access remains normal, but access to an attribute through a class will be routed to the class's __getattr__ method; this is done by raising AttributeError."
 msgstr ""
 
-#: ../../library/types.rst:278
+#: ../../library/types.rst:280
 msgid "This allows one to have properties active on an instance, and have virtual attributes on the class with the same name (see Enum for an example)."
 msgstr ""
 
-#: ../../library/types.rst:285
+#: ../../library/types.rst:287
 msgid "Coroutine Utility Functions"
 msgstr ""
 
-#: ../../library/types.rst:289
+#: ../../library/types.rst:291
 msgid "This function transforms a :term:`generator` function into a :term:`coroutine function` which returns a generator-based coroutine. The generator-based coroutine is still a :term:`generator iterator`, but is also considered to be a :term:`coroutine` object and is :term:`awaitable`.  However, it may not necessarily implement the :meth:`__await__` method."
 msgstr ""
 
-#: ../../library/types.rst:296
+#: ../../library/types.rst:298
 msgid "If *gen_func* is a generator function, it will be modified in-place."
 msgstr ""
 
-#: ../../library/types.rst:298
+#: ../../library/types.rst:300
 msgid "If *gen_func* is not a generator function, it will be wrapped. If it returns an instance of :class:`collections.abc.Generator`, the instance will be wrapped in an *awaitable* proxy object.  All other types of objects will be returned as is."
 msgstr ""
 

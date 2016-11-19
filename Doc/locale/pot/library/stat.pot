@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,7 @@ msgid ":mod:`stat` --- Interpreting :func:`~os.stat` results"
 msgstr ""
 
 #: ../../library/stat.rst:10
-msgid "**Source code:** :source:`Modules/_stat.c`"
-msgstr ""
-
-#: ../../library/stat.rst:10
-msgid ":source:`Lib/stat.py`"
+msgid "**Source code:** :source:`Lib/stat.py`"
 msgstr ""
 
 #: ../../library/stat.rst:14
@@ -340,6 +336,6 @@ msgid "See the \\*BSD or Mac OS systems man page :manpage:`chflags(2)` for more 
 msgstr ""
 
 #: ../../library/stat.rst:403
-msgid "On Windows, the following file attribute constants are available for use when testing bits in the ``st_file_attributes`` member returned by :func:`os.stat`. See the `Windows API documentation <http://msdn.microsoft.com/en-us/library/windows/desktop/gg258117.aspx>`_ for more detail on the meaning of these constants."
+msgid "On Windows, the following file attribute constants are available for use when testing bits in the ``st_file_attributes`` member returned by :func:`os.stat`. See the `Windows API documentation <https://msdn.microsoft.com/en-us/library/windows/desktop/gg258117.aspx>`_ for more detail on the meaning of these constants."
 msgstr ""
 

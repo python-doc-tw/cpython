@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "Python 2.2 can be thought of as the \"cleanup release\".  There are some 
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:24
-msgid "This article doesn't attempt to provide a complete specification of the new features, but instead provides a convenient overview.  For full details, you should refer to the documentation for Python 2.2, such as the `Python Library Reference <https://www.python.org/doc/2.2/lib/lib.html>`_ and the `Python Reference Manual <https://www.python.org/doc/2.2/ref/ref.html>`_.  If you want to understand the complete implementation and design rationale for a change, refer to the PEP for a particular new feature."
+msgid "This article doesn't attempt to provide a complete specification of the new features, but instead provides a convenient overview.  For full details, you should refer to the documentation for Python 2.2, such as the `Python Library Reference <https://docs.python.org/2.2/lib/lib.html>`_ and the `Python Reference Manual <https://docs.python.org/2.2/ref/ref.html>`_.  If you want to understand the complete implementation and design rationale for a change, refer to the PEP for a particular new feature."
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:43
@@ -245,7 +245,7 @@ msgid "This section has just been a quick overview of the new features, giving e
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:398
-msgid "https://www.python.org/2.2/descrintro.html is a lengthy tutorial introduction to the descriptor features, written by Guido van Rossum. If my description has whetted your appetite, go read this tutorial next, because it goes into much more detail about the new features while still remaining quite easy to read."
+msgid "https://docs.python.org/dev/howto/descriptor.html is a lengthy tutorial introduction to the descriptor features, written by Guido van Rossum. If my description has whetted your appetite, go read this tutorial next, because it goes into much more detail about the new features while still remaining quite easy to read."
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:403
@@ -357,7 +357,7 @@ msgid "Two other examples in :file:`Lib/test/test_generators.py` produce solutio
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:634
-msgid "The idea of generators comes from other programming languages, especially Icon (http://www.cs.arizona.edu/icon/), where the idea of generators is central.  In Icon, every expression and function call behaves like a generator.  One example from \"An Overview of the Icon Programming Language\" at http://www.cs.arizona.edu/icon/docs/ipd266.htm gives an idea of what this looks like::"
+msgid "The idea of generators comes from other programming languages, especially Icon (https://www.cs.arizona.edu/icon/), where the idea of generators is central.  In Icon, every expression and function call behaves like a generator.  One example from \"An Overview of the Icon Programming Language\" at https://www.cs.arizona.edu/icon/docs/ipd266.htm gives an idea of what this looks like::"
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:644
@@ -409,7 +409,7 @@ msgid "The most controversial change in Python 2.2 heralds the start of an effor
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:721
-msgid "(The controversy is over whether this is *really* a design flaw, and whether it's worth breaking existing code to fix this.  It's caused endless discussions on python-dev, and in July 2001 erupted into an storm of acidly sarcastic postings on :newsgroup:`comp.lang.python`. I won't argue for either side here and will stick to describing what's  implemented in 2.2.  Read :pep:`238` for a summary of arguments and counter-arguments.)"
+msgid "(The controversy is over whether this is *really* a design flaw, and whether it's worth breaking existing code to fix this.  It's caused endless discussions on python-dev, and in July 2001 erupted into a storm of acidly sarcastic postings on :newsgroup:`comp.lang.python`. I won't argue for either side here and will stick to describing what's  implemented in 2.2.  Read :pep:`238` for a summary of arguments and counter-arguments.)"
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:728
@@ -441,7 +441,7 @@ msgid "Classes can define methods called :meth:`__truediv__` and :meth:`__floord
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:760
-msgid "Python 2.2 supports some command-line arguments for testing whether code will works with the changed division semantics.  Running python with :option:`-Q warn` will cause a warning to be issued whenever division is applied to two integers.  You can use this to find code that's affected by the change and fix it.  By default, Python 2.2 will simply perform classic division without a warning; the warning will be turned on by default in Python 2.3."
+msgid "Python 2.2 supports some command-line arguments for testing whether code will work with the changed division semantics.  Running python with :option:`-Q warn` will cause a warning to be issued whenever division is applied to two integers.  You can use this to find code that's affected by the change and fix it.  By default, Python 2.2 will simply perform classic division without a warning; the warning will be turned on by default in Python 2.3."
 msgstr ""
 
 #: ../../whatsnew/2.2.rst:770

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,7 +64,7 @@ msgstr ""
 
 #: ../../library/asyncio-subprocess.rst:52
 #: ../../library/asyncio-subprocess.rst:135
-msgid "It is the application's responsibility to ensure that all whitespace and metacharacters are quoted appropriately to avoid `shell injection <http://en.wikipedia.org/wiki/Shell_injection#Shell_injection>`_ vulnerabilities. The :func:`shlex.quote` function can be used to properly escape whitespace and shell metacharacters in strings that are going to be used to construct shell commands."
+msgid "It is the application's responsibility to ensure that all whitespace and metacharacters are quoted appropriately to avoid `shell injection <https://en.wikipedia.org/wiki/Shell_injection#Shell_injection>`_ vulnerabilities. The :func:`shlex.quote` function can be used to properly escape whitespace and shell metacharacters in strings that are going to be used to construct shell commands."
 msgstr ""
 
 #: ../../library/asyncio-subprocess.rst:61

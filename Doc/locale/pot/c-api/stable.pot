@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,6 +37,6 @@ msgid "In some cases, the stable ABI needs to be extended with new functions. Ex
 msgstr ""
 
 #: ../../c-api/stable.rst:36
-msgid "As of Python 3.2, the set of functions available to the limited API is documented in PEP 384.  In the C API documentation, API elements that are not part of the limited API are marked as \"Not part of the limited API.\""
+msgid "As of Python 3.2, the set of functions available to the limited API is documented in :pep:`384`.  In the C API documentation, API elements that are not part of the limited API are marked as \"Not part of the limited API.\""
 msgstr ""
 

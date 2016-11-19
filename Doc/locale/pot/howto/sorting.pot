@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgid "Sort Stability and Complex Sorts"
 msgstr ""
 
 #: ../../howto/sorting.rst:129
-msgid "Sorts are guaranteed to be `stable <http://en.wikipedia.org/wiki/Sorting_algorithm#Stability>`_\\. That means that when multiple records have the same key, their original order is preserved."
+msgid "Sorts are guaranteed to be `stable <https://en.wikipedia.org/wiki/Sorting_algorithm#Stability>`_\\. That means that when multiple records have the same key, their original order is preserved."
 msgstr ""
 
 #: ../../howto/sorting.rst:137
@@ -117,7 +117,7 @@ msgid "This wonderful property lets you build complex sorts in a series of sorti
 msgstr ""
 
 #: ../../howto/sorting.rst:148
-msgid "The `Timsort <http://en.wikipedia.org/wiki/Timsort>`_ algorithm used in Python does multiple sorts efficiently because it can take advantage of any ordering already present in a dataset."
+msgid "The `Timsort <https://en.wikipedia.org/wiki/Timsort>`_ algorithm used in Python does multiple sorts efficiently because it can take advantage of any ordering already present in a dataset."
 msgstr ""
 
 #: ../../howto/sorting.rst:153
@@ -161,7 +161,7 @@ msgid "The original items do not have to be comparable because the ordering of t
 msgstr ""
 
 #: ../../howto/sorting.rst:186
-msgid "Another name for this idiom is `Schwartzian transform <http://en.wikipedia.org/wiki/Schwartzian_transform>`_\\, after Randal L. Schwartz, who popularized it among Perl programmers."
+msgid "Another name for this idiom is `Schwartzian transform <https://en.wikipedia.org/wiki/Schwartzian_transform>`_\\, after Randal L. Schwartz, who popularized it among Perl programmers."
 msgstr ""
 
 #: ../../howto/sorting.rst:190
@@ -212,11 +212,11 @@ msgstr ""
 msgid "The *reverse* parameter still maintains sort stability (so that records with equal keys retain the original order). Interestingly, that effect can be simulated without the parameter by using the builtin :func:`reversed` function twice:"
 msgstr ""
 
-#: ../../howto/sorting.rst:267
+#: ../../howto/sorting.rst:271
 msgid "The sort routines are guaranteed to use :meth:`__lt__` when making comparisons between two objects. So, it is easy to add a standard sort order to a class by defining an :meth:`__lt__` method::"
 msgstr ""
 
-#: ../../howto/sorting.rst:275
+#: ../../howto/sorting.rst:279
 msgid "Key functions need not depend directly on the objects being sorted. A key function can also access external resources. For instance, if the student grades are stored in a dictionary, they can be used to sort a separate list of student names:"
 msgstr ""
 

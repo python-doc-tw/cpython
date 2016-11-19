@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,15 +20,15 @@ msgstr ""
 msgid ":mod:`builtins` --- Built-in objects"
 msgstr ""
 
-#: ../../library/builtins.rst:8
+#: ../../library/builtins.rst:9
 msgid "This module provides direct access to all 'built-in' identifiers of Python; for example, ``builtins.open`` is the full name for the built-in function :func:`open`.  See :ref:`built-in-funcs` and :ref:`built-in-consts` for documentation."
 msgstr ""
 
-#: ../../library/builtins.rst:14
+#: ../../library/builtins.rst:15
 msgid "This module is not normally accessed explicitly by most applications, but can be useful in modules that provide objects with the same name as a built-in value, but in which the built-in of that name is also needed.  For example, in a module that wants to implement an :func:`open` function that wraps the built-in :func:`open`, this module can be used directly::"
 msgstr ""
 
-#: ../../library/builtins.rst:37
+#: ../../library/builtins.rst:38
 msgid "As an implementation detail, most modules have the name ``__builtins__`` made available as part of their globals.  The value of ``__builtins__`` is normally either this module or the value of this module's :attr:`__dict__` attribute. Since this is an implementation detail, it may not be used by alternate implementations of Python."
 msgstr ""
 

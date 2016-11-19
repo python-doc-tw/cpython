@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "Schedules the callable, *fn*, to be executed as ``fn(*args **kwargs)`` an
 msgstr ""
 
 #: ../../library/concurrent.futures.rst:43
-msgid "Equivalent to :func:`map(func, *iterables) <map>` except *func* is executed asynchronously and several calls to *func* may be made concurrently.  The returned iterator raises a :exc:`TimeoutError` if :meth:`~iterator.__next__` is called and the result isn't available after *timeout* seconds from the original call to :meth:`Executor.map`. *timeout* can be an int or a float.  If *timeout* is not specified or ``None``, there is no limit to the wait time.  If a call raises an exception, then that exception will be raised when its value is retrieved from the iterator. When using :class:`ProcessPoolExecutor`, this method chops *iterables* into a number of chunks which it submits to the pool as separate tasks. The (approximate) size of these chunks can be specified by setting *chunksize* to a positive integer. For very long iterables, using a large value for *chunksize* can significantly improve performance compared to the default size of 1. With :class:`ThreadPoolExecutor`, *chunksize* has no effect."
+msgid "Equivalent to :func:`map(func, *iterables) <map>` except *func* is executed asynchronously and several calls to *func* may be made concurrently.  The returned iterator raises a :exc:`concurrent.futures.TimeoutError` if :meth:`~iterator.__next__` is called and the result isn't available after *timeout* seconds from the original call to :meth:`Executor.map`. *timeout* can be an int or a float.  If *timeout* is not specified or ``None``, there is no limit to the wait time.  If a call raises an exception, then that exception will be raised when its value is retrieved from the iterator. When using :class:`ProcessPoolExecutor`, this method chops *iterables* into a number of chunks which it submits to the pool as separate tasks. The (approximate) size of these chunks can be specified by setting *chunksize* to a positive integer. For very long iterables, using a large value for *chunksize* can significantly improve performance compared to the default size of 1. With :class:`ThreadPoolExecutor`, *chunksize* has no effect."
 msgstr ""
 
 #: ../../library/concurrent.futures.rst:59
@@ -149,136 +149,144 @@ msgid "Return ``True`` if the call was successfully cancelled or finished runnin
 msgstr ""
 
 #: ../../library/concurrent.futures.rst:275
-msgid "Return the value returned by the call. If the call hasn't yet completed then this method will wait up to *timeout* seconds.  If the call hasn't completed in *timeout* seconds, then a :exc:`TimeoutError` will be raised. *timeout* can be an int or float.  If *timeout* is not specified or ``None``, there is no limit to the wait time."
+msgid "Return the value returned by the call. If the call hasn't yet completed then this method will wait up to *timeout* seconds.  If the call hasn't completed in *timeout* seconds, then a :exc:`concurrent.futures.TimeoutError` will be raised. *timeout* can be an int or float.  If *timeout* is not specified or ``None``, there is no limit to the wait time."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:281
-#: ../../library/concurrent.futures.rst:294
-msgid "If the future is cancelled before completing then :exc:`CancelledError` will be raised."
+#: ../../library/concurrent.futures.rst:282
+#: ../../library/concurrent.futures.rst:296
+msgid "If the future is cancelled before completing then :exc:`.CancelledError` will be raised."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:284
+#: ../../library/concurrent.futures.rst:285
 msgid "If the call raised, this method will raise the same exception."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:288
-msgid "Return the exception raised by the call.  If the call hasn't yet completed then this method will wait up to *timeout* seconds.  If the call hasn't completed in *timeout* seconds, then a :exc:`TimeoutError` will be raised.  *timeout* can be an int or float.  If *timeout* is not specified or ``None``, there is no limit to the wait time."
+#: ../../library/concurrent.futures.rst:289
+msgid "Return the exception raised by the call.  If the call hasn't yet completed then this method will wait up to *timeout* seconds.  If the call hasn't completed in *timeout* seconds, then a :exc:`concurrent.futures.TimeoutError` will be raised.  *timeout* can be an int or float.  If *timeout* is not specified or ``None``, there is no limit to the wait time."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:297
+#: ../../library/concurrent.futures.rst:299
 msgid "If the call completed without raising, ``None`` is returned."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:301
+#: ../../library/concurrent.futures.rst:303
 msgid "Attaches the callable *fn* to the future.  *fn* will be called, with the future as its only argument, when the future is cancelled or finishes running."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:305
+#: ../../library/concurrent.futures.rst:307
 msgid "Added callables are called in the order that they were added and are always called in a thread belonging to the process that added them.  If the callable raises an :exc:`Exception` subclass, it will be logged and ignored.  If the callable raises a :exc:`BaseException` subclass, the behavior is undefined."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:311
+#: ../../library/concurrent.futures.rst:313
 msgid "If the future has already completed or been cancelled, *fn* will be called immediately."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:314
+#: ../../library/concurrent.futures.rst:316
 msgid "The following :class:`Future` methods are meant for use in unit tests and :class:`Executor` implementations."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:319
+#: ../../library/concurrent.futures.rst:321
 msgid "This method should only be called by :class:`Executor` implementations before executing the work associated with the :class:`Future` and by unit tests."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:323
+#: ../../library/concurrent.futures.rst:325
 msgid "If the method returns ``False`` then the :class:`Future` was cancelled, i.e. :meth:`Future.cancel` was called and returned `True`.  Any threads waiting on the :class:`Future` completing (i.e. through :func:`as_completed` or :func:`wait`) will be woken up."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:328
+#: ../../library/concurrent.futures.rst:330
 msgid "If the method returns ``True`` then the :class:`Future` was not cancelled and has been put in the running state, i.e. calls to :meth:`Future.running` will return `True`."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:332
+#: ../../library/concurrent.futures.rst:334
 msgid "This method can only be called once and cannot be called after :meth:`Future.set_result` or :meth:`Future.set_exception` have been called."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:338
+#: ../../library/concurrent.futures.rst:340
 msgid "Sets the result of the work associated with the :class:`Future` to *result*."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:341
-#: ../../library/concurrent.futures.rst:349
+#: ../../library/concurrent.futures.rst:343
+#: ../../library/concurrent.futures.rst:351
 msgid "This method should only be used by :class:`Executor` implementations and unit tests."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:346
+#: ../../library/concurrent.futures.rst:348
 msgid "Sets the result of the work associated with the :class:`Future` to the :class:`Exception` *exception*."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:354
+#: ../../library/concurrent.futures.rst:356
 msgid "Module Functions"
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:358
+#: ../../library/concurrent.futures.rst:360
 msgid "Wait for the :class:`Future` instances (possibly created by different :class:`Executor` instances) given by *fs* to complete.  Returns a named 2-tuple of sets.  The first set, named ``done``, contains the futures that completed (finished or were cancelled) before the wait completed.  The second set, named ``not_done``, contains uncompleted futures."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:364
+#: ../../library/concurrent.futures.rst:366
 msgid "*timeout* can be used to control the maximum number of seconds to wait before returning.  *timeout* can be an int or float.  If *timeout* is not specified or ``None``, there is no limit to the wait time."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:368
+#: ../../library/concurrent.futures.rst:370
 msgid "*return_when* indicates when this function should return.  It must be one of the following constants:"
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:374
+#: ../../library/concurrent.futures.rst:376
 msgid "Constant"
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:374
+#: ../../library/concurrent.futures.rst:376
 msgid "Description"
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:376
+#: ../../library/concurrent.futures.rst:378
 msgid ":const:`FIRST_COMPLETED`"
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:376
+#: ../../library/concurrent.futures.rst:378
 msgid "The function will return when any future finishes or is cancelled."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:379
+#: ../../library/concurrent.futures.rst:381
 msgid ":const:`FIRST_EXCEPTION`"
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:379
+#: ../../library/concurrent.futures.rst:381
 msgid "The function will return when any future finishes by raising an exception.  If no future raises an exception then it is equivalent to :const:`ALL_COMPLETED`."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:385
+#: ../../library/concurrent.futures.rst:387
 msgid ":const:`ALL_COMPLETED`"
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:385
+#: ../../library/concurrent.futures.rst:387
 msgid "The function will return when all futures finish or are cancelled."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:391
-msgid "Returns an iterator over the :class:`Future` instances (possibly created by different :class:`Executor` instances) given by *fs* that yields futures as they complete (finished or were cancelled). Any futures given by *fs* that are duplicated will be returned once. Any futures that completed before :func:`as_completed` is called will be yielded first.  The returned iterator raises a :exc:`TimeoutError` if :meth:`~iterator.__next__` is called and the result isn't available after *timeout* seconds from the original call to :func:`as_completed`.  *timeout* can be an int or float. If *timeout* is not specified or ``None``, there is no limit to the wait time."
+#: ../../library/concurrent.futures.rst:393
+msgid "Returns an iterator over the :class:`Future` instances (possibly created by different :class:`Executor` instances) given by *fs* that yields futures as they complete (finished or were cancelled). Any futures given by *fs* that are duplicated will be returned once. Any futures that completed before :func:`as_completed` is called will be yielded first.  The returned iterator raises a :exc:`concurrent.futures.TimeoutError` if :meth:`~iterator.__next__` is called and the result isn't available after *timeout* seconds from the original call to :func:`as_completed`.  *timeout* can be an int or float. If *timeout* is not specified or ``None``, there is no limit to the wait time."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:406
+#: ../../library/concurrent.futures.rst:407
 msgid ":pep:`3148` -- futures - execute computations asynchronously"
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:406
+#: ../../library/concurrent.futures.rst:407
 msgid "The proposal which described this feature for inclusion in the Python standard library."
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:411
+#: ../../library/concurrent.futures.rst:412
 msgid "Exception classes"
 msgstr ""
 
-#: ../../library/concurrent.futures.rst:417
+#: ../../library/concurrent.futures.rst:418
+msgid "Raised when a future is cancelled."
+msgstr ""
+
+#: ../../library/concurrent.futures.rst:422
+msgid "Raised when a future operation exceeds the given timeout."
+msgstr ""
+
+#: ../../library/concurrent.futures.rst:428
 msgid "Derived from :exc:`RuntimeError`, this exception class is raised when one of the workers of a :class:`ProcessPoolExecutor` has terminated in a non-clean fashion (for example, if it was killed from the outside)."
 msgstr ""
 

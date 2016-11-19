@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1516,7 +1516,7 @@ msgid "multiprocessing"
 msgstr ""
 
 #: ../../whatsnew/3.3.rst:1531
-msgid "The new :func:`multiprocessing.connection.wait` function allows to poll multiple objects (such as connections, sockets and pipes) with a timeout. (Contributed by Richard Oudkerk in :issue:`12328`.)"
+msgid "The new :func:`multiprocessing.connection.wait` function allows polling multiple objects (such as connections, sockets and pipes) with a timeout. (Contributed by Richard Oudkerk in :issue:`12328`.)"
 msgstr ""
 
 #: ../../whatsnew/3.3.rst:1535
@@ -1696,7 +1696,7 @@ msgid "pickle"
 msgstr ""
 
 #: ../../whatsnew/3.3.rst:1717
-msgid ":class:`pickle.Pickler` objects now have an optional :attr:`~pickle.Pickler.dispatch_table` attribute allowing to set per-pickler reduction functions."
+msgid ":class:`pickle.Pickler` objects now have an optional :attr:`~pickle.Pickler.dispatch_table` attribute allowing per-pickler reduction functions to be set."
 msgstr ""
 
 #: ../../whatsnew/3.3.rst:1721
@@ -1892,7 +1892,7 @@ msgid "(Contributed by David Watson in :issue:`6560`, based on an earlier patch 
 msgstr ""
 
 #: ../../whatsnew/3.3.rst:1886
-msgid "The :class:`~socket.socket` class now supports the PF_CAN protocol family (http://en.wikipedia.org/wiki/Socketcan), on Linux (http://lwn.net/Articles/253425)."
+msgid "The :class:`~socket.socket` class now supports the PF_CAN protocol family (https://en.wikipedia.org/wiki/Socketcan), on Linux (https://lwn.net/Articles/253425)."
 msgstr ""
 
 #: ../../whatsnew/3.3.rst:1890
@@ -1900,7 +1900,7 @@ msgid "(Contributed by Matthias Fuchs, updated by Tiago Gonçalves in :issue:`10
 msgstr ""
 
 #: ../../whatsnew/3.3.rst:1892
-msgid "The :class:`~socket.socket` class now supports the PF_RDS protocol family (http://en.wikipedia.org/wiki/Reliable_Datagram_Sockets and https://oss.oracle.com/projects/rds/)."
+msgid "The :class:`~socket.socket` class now supports the PF_RDS protocol family (https://en.wikipedia.org/wiki/Reliable_Datagram_Sockets and https://oss.oracle.com/projects/rds/)."
 msgstr ""
 
 #: ../../whatsnew/3.3.rst:1896

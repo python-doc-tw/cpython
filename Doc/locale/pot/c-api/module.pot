@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid ":attr:`__package__` and :attr:`__loader__` are set to ``None``."
 msgstr ""
 
 #: ../../c-api/module.rst:53
-msgid "Similar to :c:func:`PyImport_NewObject`, but the name is an UTF-8 encoded string instead of a Unicode object."
+msgid "Similar to :c:func:`PyImport_NewObject`, but the name is a UTF-8 encoded string instead of a Unicode object."
 msgstr ""
 
 #: ../../c-api/module.rst:61
@@ -85,7 +85,7 @@ msgid "Modules objects are usually created from extension modules (shared librar
 msgstr ""
 
 #: ../../c-api/module.rst:132
-msgid "The initialization function can either pass pass a module definition instance to :c:func:`PyModule_Create`, and return the resulting module object, or request \"multi-phase initialization\" by returning the definition struct itself."
+msgid "The initialization function can either pass a module definition instance to :c:func:`PyModule_Create`, and return the resulting module object, or request \"multi-phase initialization\" by returning the definition struct itself."
 msgstr ""
 
 #: ../../c-api/module.rst:138

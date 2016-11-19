@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -125,7 +125,7 @@ msgid "Added *file* parameter."
 msgstr ""
 
 #: ../../library/dis.rst:139
-msgid "Disassemble the *x* object.  *x* can denote either a module, a class, a method, a function, a generator, a code object, a string of source code or a byte sequence of raw bytecode.  For a module, it disassembles all functions. For a class, it disassembles all methods.  For a code object or sequence of raw bytecode, it prints one line per bytecode instruction.  Strings are first compiled to code objects with the :func:`compile` built-in function before being disassembled.  If no object is provided, this function disassembles the last traceback."
+msgid "Disassemble the *x* object.  *x* can denote either a module, a class, a method, a function, a generator, a code object, a string of source code or a byte sequence of raw bytecode.  For a module, it disassembles all functions. For a class, it disassembles all methods (including class and static methods). For a code object or sequence of raw bytecode, it prints one line per bytecode instruction.  Strings are first compiled to code objects with the :func:`compile` built-in function before being disassembled.  If no object is provided, this function disassembles the last traceback."
 msgstr ""
 
 #: ../../library/dis.rst:148
@@ -575,7 +575,7 @@ msgid "Unpacks TOS into *count* individual values, which are put onto the stack 
 msgstr ""
 
 #: ../../library/dis.rst:709
-msgid "Implements assignment with a starred target: Unpacks an iterable in TOS into individual values, where the total number of values can be smaller than the number of items in the iterable: one the new values will be a list of all leftover items."
+msgid "Implements assignment with a starred target: Unpacks an iterable in TOS into individual values, where the total number of values can be smaller than the number of items in the iterable: one of the new values will be a list of all leftover items."
 msgstr ""
 
 #: ../../library/dis.rst:714

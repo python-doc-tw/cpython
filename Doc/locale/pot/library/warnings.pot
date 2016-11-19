@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid ":mod:`warnings` --- Warning control"
 msgstr ""
 
-#: ../../library/warnings.rst:9
+#: ../../library/warnings.rst:7
 msgid "**Source code:** :source:`Lib/warnings.py`"
 msgstr ""
 
@@ -321,7 +321,7 @@ msgid "Updating Code For New Versions of Python"
 msgstr ""
 
 #: ../../library/warnings.rst:266
-msgid "Warnings that are only of interest to the developer are ignored by default. As such you should make sure to test your code with typically ignored warnings made visible. You can do this from the command-line by passing :option:`-Wd` to the interpreter (this is shorthand for :option:`-W default`).  This enables default handling for all warnings, including those that are ignored by default. To change what action is taken for encountered warnings you simply change what argument is passed to :option:`-W`, e.g. :option:`-W error`. See the :option:`-W` flag for more details on what is possible."
+msgid "Warnings that are only of interest to the developer are ignored by default. As such you should make sure to test your code with typically ignored warnings made visible. You can do this from the command-line by passing :option:`-Wd <-W>` to the interpreter (this is shorthand for :option:`-W default`).  This enables default handling for all warnings, including those that are ignored by default. To change what action is taken for encountered warnings you simply change what argument is passed to :option:`-W`, e.g. :option:`-W error`. See the :option:`-W` flag for more details on what is possible."
 msgstr ""
 
 #: ../../library/warnings.rst:275

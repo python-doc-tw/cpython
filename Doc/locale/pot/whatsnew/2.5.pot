@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -225,7 +225,7 @@ msgid "PEP written by Aahz; implemented by Thomas Wouters."
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:333
-msgid "http://codespeak.net/py/current/doc/index.html"
+msgid "https://pylib.readthedocs.org/"
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:334
@@ -369,7 +369,7 @@ msgid "Earlier versions of these features were proposed in  :pep:`288` by Raymon
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:551
-msgid "http://en.wikipedia.org/wiki/Coroutine"
+msgid "https://en.wikipedia.org/wiki/Coroutine"
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:551
@@ -717,7 +717,7 @@ msgid "(Implemented by Marc-André Lemburg.)"
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:1092
-msgid "One error that Python programmers sometimes make is forgetting to include an :file:`__init__.py` module in a package directory. Debugging this mistake can be confusing, and usually requires running Python with the :option:`-v` switch to log all the paths searched. In Python 2.5, a new :exc:`ImportWarning` warning is triggered when an import would have picked up a directory as a package but no :file:`__init__.py` was found.  This warning is silently ignored by default; provide the :option:`-Wd` option when running the Python executable to display the warning message. (Implemented by Thomas Wouters.)"
+msgid "One error that Python programmers sometimes make is forgetting to include an :file:`__init__.py` module in a package directory. Debugging this mistake can be confusing, and usually requires running Python with the :option:`-v` switch to log all the paths searched. In Python 2.5, a new :exc:`ImportWarning` warning is triggered when an import would have picked up a directory as a package but no :file:`__init__.py` was found.  This warning is silently ignored by default; provide the :option:`-Wd <-W>` option when running the Python executable to display the warning message. (Implemented by Thomas Wouters.)"
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:1101
@@ -741,7 +741,7 @@ msgid "In Python 2.5, ``quit`` and ``exit`` are now objects that still produce s
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:1128
-msgid "The Python executable now accepts the standard long options  :option:`--help` and :option:`--version`; on Windows,  it also accepts the :option:`/?` option for displaying a help message. (Implemented by Georg Brandl.)"
+msgid "The Python executable now accepts the standard long options  :option:`--help` and :option:`--version`; on Windows,  it also accepts the :option:`/? <-?>` option for displaying a help message. (Implemented by Georg Brandl.)"
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:1138
@@ -994,7 +994,7 @@ msgid "The :mod:`SimpleXMLRPCServer` and :mod:`DocXMLRPCServer`  classes now hav
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:1528
-msgid "The :mod:`socket` module now supports :const:`AF_NETLINK` sockets on Linux, thanks to a patch from Philippe Biondi.   Netlink sockets are a Linux-specific mechanism for communications between a user-space process and kernel code; an introductory  article about them is at http://www.linuxjournal.com/article/7356. In Python code, netlink addresses are represented as a tuple of 2 integers, ``(pid, group_mask)``."
+msgid "The :mod:`socket` module now supports :const:`AF_NETLINK` sockets on Linux, thanks to a patch from Philippe Biondi.   Netlink sockets are a Linux-specific mechanism for communications between a user-space process and kernel code; an introductory  article about them is at https://www.linuxjournal.com/article/7356. In Python code, netlink addresses are represented as a tuple of 2 integers, ``(pid, group_mask)``."
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:1535
@@ -1062,7 +1062,7 @@ msgid "The :mod:`weakref` module's :class:`WeakKeyDictionary` and :class:`WeakVa
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:1640
-msgid "The :mod:`webbrowser` module received a number of enhancements. It's now usable as a script with ``python -m webbrowser``, taking a URL as the argument; there are a number of switches  to control the behaviour (:option:`-n` for a new browser window,  :option:`-t` for a new tab).  New module-level functions, :func:`open_new` and :func:`open_new_tab`, were added  to support this.  The module's :func:`open` function supports an additional feature, an *autoraise* parameter that signals whether to raise the open window when possible. A number of additional browsers were added to the supported list such as Firefox, Opera, Konqueror, and elinks.  (Contributed by Oleg Broytmann and Georg Brandl.)"
+msgid "The :mod:`webbrowser` module received a number of enhancements. It's now usable as a script with ``python -m webbrowser``, taking a URL as the argument; there are a number of switches  to control the behaviour (:option:`-n` for a new browser window,  :option:`!-t` for a new tab).  New module-level functions, :func:`open_new` and :func:`open_new_tab`, were added  to support this.  The module's :func:`open` function supports an additional feature, an *autoraise* parameter that signals whether to raise the open window when possible. A number of additional browsers were added to the supported list such as Firefox, Opera, Konqueror, and elinks.  (Contributed by Oleg Broytmann and Georg Brandl.)"
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:1652
@@ -1354,7 +1354,7 @@ msgid "This example uses the iterator form::"
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:2015
-msgid "For more information about the SQL dialect supported by SQLite, see http://www.sqlite.org."
+msgid "For more information about the SQL dialect supported by SQLite, see https://www.sqlite.org."
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:2022
@@ -1366,7 +1366,7 @@ msgid "The pysqlite web page."
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:2026
-msgid "http://www.sqlite.org"
+msgid "https://www.sqlite.org"
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:2025
@@ -1426,7 +1426,7 @@ msgid "The Python source tree was converted from CVS to Subversion,  in a comple
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:2087
-msgid "Coverity, a company that markets a source code analysis tool called Prevent, provided the results of their examination of the Python source code.  The analysis found about 60 bugs that  were quickly fixed.  Many of the bugs were refcounting problems, often occurring in error-handling code.  See http://scan.coverity.com for the statistics."
+msgid "Coverity, a company that markets a source code analysis tool called Prevent, provided the results of their examination of the Python source code.  The analysis found about 60 bugs that  were quickly fixed.  Many of the bugs were refcounting problems, often occurring in error-handling code.  See https://scan.coverity.com for the statistics."
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:2093

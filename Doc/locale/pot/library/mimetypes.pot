@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid ":mod:`mimetypes` --- Map filenames to MIME types"
 msgstr ""
 
-#: ../../library/mimetypes.rst:11
+#: ../../library/mimetypes.rst:9
 msgid "**Source code:** :source:`Lib/mimetypes.py`"
 msgstr ""
 
@@ -45,7 +45,7 @@ msgid "*encoding* is ``None`` for no encoding or the name of the program used to
 msgstr ""
 
 #: ../../library/mimetypes.rst:45
-msgid "The optional *strict* argument is a flag specifying whether the list of known MIME types is limited to only the official types `registered with IANA <http://www.iana.org/assignments/media-types/media-types.xhtml>`_. When *strict* is ``True`` (the default), only the IANA types are supported; when *strict* is ``False``, some additional non-standard but commonly used MIME types are also recognized."
+msgid "The optional *strict* argument is a flag specifying whether the list of known MIME types is limited to only the official types `registered with IANA <https://www.iana.org/assignments/media-types/media-types.xhtml>`_. When *strict* is ``True`` (the default), only the IANA types are supported; when *strict* is ``False``, some additional non-standard but commonly used MIME types are also recognized."
 msgstr ""
 
 #: ../../library/mimetypes.rst:55

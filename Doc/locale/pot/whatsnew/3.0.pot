@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,11 +133,11 @@ msgid "Integers"
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:207
-msgid ":pep:`0237`: Essentially, :class:`long` renamed to :class:`int`. That is, there is only one built-in integral type, named :class:`int`; but it behaves mostly like the old :class:`long` type."
+msgid ":pep:`237`: Essentially, :class:`long` renamed to :class:`int`. That is, there is only one built-in integral type, named :class:`int`; but it behaves mostly like the old :class:`long` type."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:211
-msgid ":pep:`0238`: An expression like ``1/2`` returns a float.  Use ``1//2`` to get the truncating behavior.  (The latter syntax has existed for years, at least since Python 2.2.)"
+msgid ":pep:`238`: An expression like ``1/2`` returns a float.  Use ``1//2`` to get the truncating behavior.  (The latter syntax has existed for years, at least since Python 2.2.)"
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:215
@@ -261,7 +261,7 @@ msgid "This sets *a* to ``0``, *b* to ``4``, and *rest* to ``[1, 2, 3]``."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:385
-msgid "Dictionary comprehensions: ``{k: v for k, v in stuff}`` means the same thing as ``dict(stuff)`` but is more flexible.  (This is :pep:`0274` vindicated. :-)"
+msgid "Dictionary comprehensions: ``{k: v for k, v in stuff}`` means the same thing as ``dict(stuff)`` but is more flexible.  (This is :pep:`274` vindicated. :-)"
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:389
@@ -353,7 +353,7 @@ msgid "The :keyword:`from` *module* :keyword:`import` ``*`` syntax is only allow
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:470
-msgid "The only acceptable syntax for relative imports is :samp:`from .[{module}] import {name}`.  All :keyword:`import` forms not starting with ``.`` are interpreted as absolute imports.  (:pep:`0328`)"
+msgid "The only acceptable syntax for relative imports is :samp:`from .[{module}] import {name}`.  All :keyword:`import` forms not starting with ``.`` are interpreted as absolute imports.  (:pep:`328`)"
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:474
@@ -433,15 +433,15 @@ msgid "Due to time constraints, this document does not exhaustively cover the ve
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:556
-msgid "Many old modules were removed.  Some, like :mod:`gopherlib` (no longer used) and :mod:`md5` (replaced by :mod:`hashlib`), were already deprecated by :pep:`0004`.  Others were removed as a result of the removal of support for various platforms such as Irix, BeOS and Mac OS 9 (see :pep:`0011`).  Some modules were also selected for removal in Python 3.0 due to lack of use or because a better replacement exists.  See :pep:`3108` for an exhaustive list."
+msgid "Many old modules were removed.  Some, like :mod:`gopherlib` (no longer used) and :mod:`md5` (replaced by :mod:`hashlib`), were already deprecated by :pep:`4`.  Others were removed as a result of the removal of support for various platforms such as Irix, BeOS and Mac OS 9 (see :pep:`11`).  Some modules were also selected for removal in Python 3.0 due to lack of use or because a better replacement exists.  See :pep:`3108` for an exhaustive list."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:564
-msgid "The :mod:`bsddb3` package was removed because its presence in the core standard library has proved over time to be a particular burden for the core developers due to testing instability and Berkeley DB's release schedule.  However, the package is alive and well, externally maintained at http://www.jcea.es/programacion/pybsddb.htm."
+msgid "The :mod:`bsddb3` package was removed because its presence in the core standard library has proved over time to be a particular burden for the core developers due to testing instability and Berkeley DB's release schedule.  However, the package is alive and well, externally maintained at https://www.jcea.es/programacion/pybsddb.htm."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:570
-msgid "Some modules were renamed because their old name disobeyed :pep:`0008`, or for various other reasons.  Here's the list:"
+msgid "Some modules were renamed because their old name disobeyed :pep:`8`, or for various other reasons.  Here's the list:"
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:574
@@ -613,7 +613,7 @@ msgid "The APIs for raising and catching exception have been cleaned up and new 
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:688
-msgid ":pep:`0352`: All exceptions must be derived (directly or indirectly) from :exc:`BaseException`.  This is the root of the exception hierarchy.  This is not new as a recommendation, but the *requirement* to inherit from :exc:`BaseException` is new.  (Python 2.6 still allowed classic classes to be raised, and placed no restriction on what you can catch.)  As a consequence, string exceptions are finally truly and utterly dead."
+msgid ":pep:`352`: All exceptions must be derived (directly or indirectly) from :exc:`BaseException`.  This is the root of the exception hierarchy.  This is not new as a recommendation, but the *requirement* to inherit from :exc:`BaseException` is new.  (Python 2.6 still allowed classic classes to be raised, and placed no restriction on what you can catch.)  As a consequence, string exceptions are finally truly and utterly dead."
 msgstr ""
 
 #: ../../whatsnew/3.0.rst:696

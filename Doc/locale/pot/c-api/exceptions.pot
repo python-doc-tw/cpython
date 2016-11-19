@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgid "This utility function prints a warning message to ``sys.stderr`` when an 
 msgstr ""
 
 #: ../../c-api/exceptions.rst:76
-msgid "The function is called with a single argument *obj* that identifies the context in which the unraisable exception occurred. The repr of *obj* will be printed in the warning message."
+msgid "The function is called with a single argument *obj* that identifies the context in which the unraisable exception occurred. If possible, the repr of *obj* will be printed in the warning message."
 msgstr ""
 
 #: ../../c-api/exceptions.rst:82
@@ -169,7 +169,7 @@ msgid "Use these functions to issue warnings from C code.  They mirror similar f
 msgstr ""
 
 #: ../../c-api/exceptions.rst:287
-msgid "Issue a warning message.  The *category* argument is a warning category (see below) or *NULL*; the *message* argument is an UTF-8 encoded string.  *stack_level* is a positive number giving a number of stack frames; the warning will be issued from the  currently executing line of code in that stack frame.  A *stack_level* of 1 is the function calling :c:func:`PyErr_WarnEx`, 2 is  the function above that, and so forth."
+msgid "Issue a warning message.  The *category* argument is a warning category (see below) or *NULL*; the *message* argument is a UTF-8 encoded string.  *stack_level* is a positive number giving a number of stack frames; the warning will be issued from the  currently executing line of code in that stack frame.  A *stack_level* of 1 is the function calling :c:func:`PyErr_WarnEx`, 2 is  the function above that, and so forth."
 msgstr ""
 
 #: ../../c-api/exceptions.rst:294
@@ -341,7 +341,7 @@ msgid "Create a :class:`UnicodeEncodeError` object with the attributes *encoding
 msgstr ""
 
 #: ../../c-api/exceptions.rst:611
-msgid "Create a :class:`UnicodeTranslateError` object with the attributes *object*, *length*, *start*, *end* and *reason*. *reason* is an UTF-8 encoded string."
+msgid "Create a :class:`UnicodeTranslateError` object with the attributes *object*, *length*, *start*, *end* and *reason*. *reason* is a UTF-8 encoded string."
 msgstr ""
 
 #: ../../c-api/exceptions.rst:617

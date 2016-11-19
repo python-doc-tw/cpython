@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -241,7 +241,7 @@ msgid "Two common operations on an iterator's output are 1) performing some oper
 msgstr ""
 
 #: ../../howto/functional.rst:333
-msgid "List comprehensions and generator expressions (short form: \"listcomps\" and \"genexps\") are a concise notation for such operations, borrowed from the functional programming language Haskell (http://www.haskell.org/).  You can strip all the whitespace from a stream of strings with the following code::"
+msgid "List comprehensions and generator expressions (short form: \"listcomps\" and \"genexps\") are a concise notation for such operations, borrowed from the functional programming language Haskell (https://www.haskell.org/).  You can strip all the whitespace from a stream of strings with the following code::"
 msgstr ""
 
 #: ../../howto/functional.rst:346
@@ -449,7 +449,7 @@ msgid ":func:`zip(iterA, iterB, ...) <zip>` takes one element from each iterable
 msgstr ""
 
 #: ../../howto/functional.rst:716
-msgid "It doesn't construct an in-memory list and exhaust all the input iterators before returning; instead tuples are constructed and returned only if they're requested.  (The technical term for this behaviour is `lazy evaluation <http://en.wikipedia.org/wiki/Lazy_evaluation>`__.)"
+msgid "It doesn't construct an in-memory list and exhaust all the input iterators before returning; instead tuples are constructed and returned only if they're requested.  (The technical term for this behaviour is `lazy evaluation <https://en.wikipedia.org/wiki/Lazy_evaluation>`__.)"
 msgstr ""
 
 #: ../../howto/functional.rst:721
@@ -777,7 +777,7 @@ msgid "General"
 msgstr ""
 
 #: ../../howto/functional.rst:1200
-msgid "**Structure and Interpretation of Computer Programs**, by Harold Abelson and Gerald Jay Sussman with Julie Sussman.  Full text at http://mitpress.mit.edu/sicp/.  In this classic textbook of computer science, chapters 2 and 3 discuss the use of sequences and streams to organize the data flow inside a program.  The book uses Scheme for its examples, but many of the design approaches described in these chapters are applicable to functional-style Python code."
+msgid "**Structure and Interpretation of Computer Programs**, by Harold Abelson and Gerald Jay Sussman with Julie Sussman.  Full text at https://mitpress.mit.edu/sicp/.  In this classic textbook of computer science, chapters 2 and 3 discuss the use of sequences and streams to organize the data flow inside a program.  The book uses Scheme for its examples, but many of the design approaches described in these chapters are applicable to functional-style Python code."
 msgstr ""
 
 #: ../../howto/functional.rst:1208
@@ -785,15 +785,15 @@ msgid "http://www.defmacro.org/ramblings/fp.html: A general introduction to func
 msgstr ""
 
 #: ../../howto/functional.rst:1211
-msgid "http://en.wikipedia.org/wiki/Functional_programming: General Wikipedia entry describing functional programming."
+msgid "https://en.wikipedia.org/wiki/Functional_programming: General Wikipedia entry describing functional programming."
 msgstr ""
 
 #: ../../howto/functional.rst:1214
-msgid "http://en.wikipedia.org/wiki/Coroutine: Entry for coroutines."
+msgid "https://en.wikipedia.org/wiki/Coroutine: Entry for coroutines."
 msgstr ""
 
 #: ../../howto/functional.rst:1216
-msgid "http://en.wikipedia.org/wiki/Currying: Entry for the concept of currying."
+msgid "https://en.wikipedia.org/wiki/Currying: Entry for the concept of currying."
 msgstr ""
 
 #: ../../howto/functional.rst:1219
@@ -805,7 +805,7 @@ msgid "http://gnosis.cx/TPiP/: The first chapter of David Mertz's book :title-re
 msgstr ""
 
 #: ../../howto/functional.rst:1226
-msgid "Mertz also wrote a 3-part series of articles on functional programming for IBM's DeveloperWorks site; see `part 1 <http://www.ibm.com/developerworks/linux/library/l-prog/index.html>`__, `part 2 <http://www.ibm.com/developerworks/linux/library/l-prog2/index.html>`__, and `part 3 <http://www.ibm.com/developerworks/linux/library/l-prog3/index.html>`__,"
+msgid "Mertz also wrote a 3-part series of articles on functional programming for IBM's DeveloperWorks site; see `part 1 <https://www.ibm.com/developerworks/linux/library/l-prog/index.html>`__, `part 2 <https://www.ibm.com/developerworks/linux/library/l-prog2/index.html>`__, and `part 3 <https://www.ibm.com/developerworks/linux/library/l-prog3/index.html>`__,"
 msgstr ""
 
 #: ../../howto/functional.rst:1234

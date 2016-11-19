@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid "Use the most efficient selector available on the platform."
 msgstr ""
 
 #: ../../library/asyncio-eventloops.rst:42
-msgid "On Windows, only sockets are supported (ex: pipes are not supported): see the `MSDN documentation of select <http://msdn.microsoft.com/en-us/library/windows/desktop/ms740141%28v=vs.85%29.aspx>`_."
+msgid "On Windows, only sockets are supported (ex: pipes are not supported): see the `MSDN documentation of select <https://msdn.microsoft.com/en-us/library/windows/desktop/ms740141%28v=vs.85%29.aspx>`_."
 msgstr ""
 
 #: ../../library/asyncio-eventloops.rst:48
@@ -69,7 +69,7 @@ msgid "Availability: Windows."
 msgstr ""
 
 #: ../../library/asyncio-eventloops.rst:55
-msgid "`MSDN documentation on I/O Completion Ports <http://msdn.microsoft.com/en-us/library/windows/desktop/aa365198%28v=vs.85%29.aspx>`_."
+msgid "`MSDN documentation on I/O Completion Ports <https://msdn.microsoft.com/en-us/library/windows/desktop/aa365198%28v=vs.85%29.aspx>`_."
 msgstr ""
 
 #: ../../library/asyncio-eventloops.rst:58
@@ -137,7 +137,7 @@ msgid ":meth:`~BaseEventLoop.add_reader` and :meth:`~BaseEventLoop.add_writer` a
 msgstr ""
 
 #: ../../library/asyncio-eventloops.rst:107
-msgid "The resolution of the monotonic clock on Windows is usually around 15.6 msec. The best resolution is 0.5 msec. The resolution depends on the hardware (availability of `HPET <http://fr.wikipedia.org/wiki/High_Precision_Event_Timer>`_) and on the Windows configuration. See :ref:`asyncio delayed calls <asyncio-delayed-calls>`."
+msgid "The resolution of the monotonic clock on Windows is usually around 15.6 msec. The best resolution is 0.5 msec. The resolution depends on the hardware (availability of `HPET <https://en.wikipedia.org/wiki/High_Precision_Event_Timer>`_) and on the Windows configuration. See :ref:`asyncio delayed calls <asyncio-delayed-calls>`."
 msgstr ""
 
 #: ../../library/asyncio-eventloops.rst:115

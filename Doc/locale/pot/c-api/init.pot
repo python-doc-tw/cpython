@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,7 +186,7 @@ msgid "Otherwise (that is, if *argc* is 0 or ``argv[0]`` doesn't point to an exi
 msgstr ""
 
 #: ../../c-api/init.rst:357
-msgid "It is recommended that applications embedding the Python interpreter for purposes other than executing a single script pass 0 as *updatepath*, and update :data:`sys.path` themselves if desired. See `CVE-2008-5983 <http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-5983>`_."
+msgid "It is recommended that applications embedding the Python interpreter for purposes other than executing a single script pass 0 as *updatepath*, and update :data:`sys.path` themselves if desired. See `CVE-2008-5983 <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-5983>`_."
 msgstr ""
 
 #: ../../c-api/init.rst:362

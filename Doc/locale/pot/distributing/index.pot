@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgid "the `Python Packaging Index <https://pypi.python.org/pypi>`__ is a public
 msgstr ""
 
 #: ../../distributing/index.rst:37
-msgid "the `Python Packaging Authority <https://packaging.python.org/en/latest/future.html>`__ are the group of developers and documentation authors responsible for the maintenance and evolution of the standard packaging tools and the associated metadata and file format standards. They maintain a variety of tools, documentation and issue trackers on both `GitHub <https://github.com/pypa>`__ and `BitBucket <https://bitbucket.org/pypa/>`__."
+msgid "the `Python Packaging Authority <https://www.pypa.io/>`__ are the group of developers and documentation authors responsible for the maintenance and evolution of the standard packaging tools and the associated metadata and file format standards. They maintain a variety of tools, documentation and issue trackers on both `GitHub <https://github.com/pypa>`__ and `BitBucket <https://bitbucket.org/pypa/>`__."
 msgstr ""
 
 #: ../../distributing/index.rst:44
@@ -169,6 +169,6 @@ msgid "This is actually quite a complex topic, with a variety of alternatives av
 msgstr ""
 
 #: ../../distributing/index.rst:162
-msgid "`Python Packaging User Guide: Binary Extensions <https://packaging.python.org/en/latest/extensions.html>`__"
+msgid "`Python Packaging User Guide: Binary Extensions <https://packaging.python.org/en/latest/extensions>`__"
 msgstr ""
 

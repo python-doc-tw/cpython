@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgid "Search :data:`sys.path` for the named module and execute its contents as 
 msgstr ""
 
 #: ../../using/cmdline.rst:79
-msgid "Since the argument is a *module* name, you must not give a file extension (``.py``).  The ``module-name`` should be a valid Python module name, but the implementation may not always enforce this (e.g. it may allow you to use a name that includes a hyphen)."
+msgid "Since the argument is a *module* name, you must not give a file extension (``.py``).  The module name should be a valid absolute Python module name, but the implementation may not always enforce this (e.g. it may allow you to use a name that includes a hyphen)."
 msgstr ""
 
 #: ../../using/cmdline.rst:84
@@ -187,6 +187,10 @@ msgstr ""
 
 #: ../../using/cmdline.rst:193
 msgid "Issue a warning when comparing :class:`bytes` or :class:`bytearray` with :class:`str` or :class:`bytes` with :class:`int`.  Issue an error when the option is given twice (:option:`-bb`)."
+msgstr ""
+
+#: ../../using/cmdline.rst:197
+msgid "Affects comparisons of :class:`bytes` with :class:`int`."
 msgstr ""
 
 #: ../../using/cmdline.rst:202
@@ -380,7 +384,7 @@ msgid "``-X tracemalloc`` to start tracing Python memory allocations using the :
 msgstr ""
 
 #: ../../using/cmdline.rst:401
-msgid "It also allows to pass arbitrary values and retrieve them through the :data:`sys._xoptions` dictionary."
+msgid "It also allows passing arbitrary values and retrieving them through the :data:`sys._xoptions` dictionary."
 msgstr ""
 
 #: ../../using/cmdline.rst:404

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "For modules with ASCII-only names, the function must be named ``PyInit_<m
 msgstr ""
 
 #: ../../extending/building.rst:39
-msgid "It is possible to export multiple modules from a single shared library by defining multiple initialization functions. However, importing them requires using symbolic links or a custom importer, because by default only the function corresponding to the filename is found. See :PEP:`489#multiple-modules-in-one-library` for details."
+msgid "It is possible to export multiple modules from a single shared library by defining multiple initialization functions. However, importing them requires using symbolic links or a custom importer, because by default only the function corresponding to the filename is found. See the *\"Multiple modules in one library\"* section in :pep:`489` for details."
 msgstr ""
 
 #: ../../extending/building.rst:49
@@ -65,46 +65,46 @@ msgid "will compile :file:`demo.c`, and produce an extension module named ``demo
 msgstr ""
 
 #: ../../extending/building.rst:80
-msgid "In the :file:`setup.py`, all execution is performed by calling the ``setup`` function. This takes a variable number of keyword arguments, of which the example above uses only a subset. Specifically, the example specifies meta-information to build packages, and it specifies the contents of the package.  Normally, a package will contain of addition modules, like Python source modules, documentation, subpackages, etc. Please refer to the distutils documentation in :ref:`distutils-index` to learn more about the features of distutils; this section explains building extension modules only."
+msgid "In the :file:`setup.py`, all execution is performed by calling the ``setup`` function. This takes a variable number of keyword arguments, of which the example above uses only a subset. Specifically, the example specifies meta-information to build packages, and it specifies the contents of the package.  Normally, a package will contain additional modules, like Python source modules, documentation, subpackages, etc. Please refer to the distutils documentation in :ref:`distutils-index` to learn more about the features of distutils; this section explains building extension modules only."
 msgstr ""
 
 #: ../../extending/building.rst:89
-msgid "It is common to pre-compute arguments to :func:`setup`, to better structure the driver script. In the example above, the ``ext_modules`` argument to :func:`setup` is a list of extension modules, each of which is an instance of the :class:`~distutils.extension.Extension`. In the example, the instance defines an extension named ``demo`` which is build by compiling a single source file, :file:`demo.c`."
+msgid "It is common to pre-compute arguments to :func:`setup`, to better structure the driver script. In the example above, the ``ext_modules`` argument to :func:`~distutils.core.setup` is a list of extension modules, each of which is an instance of the :class:`~distutils.extension.Extension`. In the example, the instance defines an extension named ``demo`` which is build by compiling a single source file, :file:`demo.c`."
 msgstr ""
 
-#: ../../extending/building.rst:96
+#: ../../extending/building.rst:97
 msgid "In many cases, building an extension is more complex, since additional preprocessor defines and libraries may be needed. This is demonstrated in the example below. ::"
 msgstr ""
 
-#: ../../extending/building.rst:122
-msgid "In this example, :func:`setup` is called with additional meta-information, which is recommended when distribution packages have to be built. For the extension itself, it specifies preprocessor defines, include directories, library directories, and libraries. Depending on the compiler, distutils passes this information in different ways to the compiler. For example, on Unix, this may result in the compilation commands ::"
+#: ../../extending/building.rst:123
+msgid "In this example, :func:`~distutils.core.setup` is called with additional meta-information, which is recommended when distribution packages have to be built. For the extension itself, it specifies preprocessor defines, include directories, library directories, and libraries. Depending on the compiler, distutils passes this information in different ways to the compiler. For example, on Unix, this may result in the compilation commands ::"
 msgstr ""
 
-#: ../../extending/building.rst:133
+#: ../../extending/building.rst:135
 msgid "These lines are for demonstration purposes only; distutils users should trust that distutils gets the invocations right."
 msgstr ""
 
-#: ../../extending/building.rst:140
+#: ../../extending/building.rst:142
 msgid "Distributing your extension modules"
 msgstr ""
 
-#: ../../extending/building.rst:142
+#: ../../extending/building.rst:144
 msgid "When an extension has been successfully build, there are three ways to use it."
 msgstr ""
 
-#: ../../extending/building.rst:144
+#: ../../extending/building.rst:146
 msgid "End-users will typically want to install the module, they do so by running ::"
 msgstr ""
 
-#: ../../extending/building.rst:148
+#: ../../extending/building.rst:150
 msgid "Module maintainers should produce source packages; to do so, they run ::"
 msgstr ""
 
-#: ../../extending/building.rst:152
-msgid "In some cases, additional files need to be included in a source distribution; this is done through a :file:`MANIFEST.in` file; see the distutils documentation for details."
+#: ../../extending/building.rst:154
+msgid "In some cases, additional files need to be included in a source distribution; this is done through a :file:`MANIFEST.in` file; see :ref:`manifest` for details."
 msgstr ""
 
-#: ../../extending/building.rst:156
+#: ../../extending/building.rst:157
 msgid "If the source distribution has been build successfully, maintainers can also create binary distributions. Depending on the platform, one of the following commands can be used to do so. ::"
 msgstr ""
 

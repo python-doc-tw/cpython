@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -418,7 +418,7 @@ msgid "As a first small step toward fixing the problem, Python software packaged
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:561
-msgid "You can start creating packages containing :file:`PKG-INFO` even if you're not using Python 2.1, since a new release of the Distutils will be made for users of earlier Python versions.  Version 1.0.2 of the Distutils includes the changes described in PEP 241, as well as various bugfixes and enhancements.  It will be available from  the Distutils SIG at https://www.python.org/sigs/distutils-sig/."
+msgid "You can start creating packages containing :file:`PKG-INFO` even if you're not using Python 2.1, since a new release of the Distutils will be made for users of earlier Python versions.  Version 1.0.2 of the Distutils includes the changes described in PEP 241, as well as various bugfixes and enhancements.  It will be available from the Distutils SIG at https://www.python.org/community/sigs/current/distutils-sig/."
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:571
@@ -522,7 +522,7 @@ msgid "A new module and method for file objects was also added, contributed by J
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:733
-msgid "For a fuller discussion of the line I/O changes, see the python-dev summary for January 1-15, 2001 at https://www.python.org/dev/summary/2001-01-1/."
+msgid "For a fuller discussion of the line I/O changes, see the python-dev summary for January 1-15, 2001 at https://mail.python.org/pipermail/python-dev/2001-January/."
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:736

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -190,5 +190,9 @@ msgstr ""
 
 #: ../../library/ast.rst:246
 msgid "Return a formatted dump of the tree in *node*.  This is mainly useful for debugging purposes.  The returned string will show the names and the values for fields.  This makes the code impossible to evaluate, so if evaluation is wanted *annotate_fields* must be set to ``False``.  Attributes such as line numbers and column offsets are not dumped by default.  If this is wanted, *include_attributes* can be set to ``True``."
+msgstr ""
+
+#: ../../library/ast.rst:255
+msgid "`Green Tree Snakes <https://greentreesnakes.readthedocs.org/>`_, an external documentation resource, has good details on working with Python ASTs."
 msgstr ""
 

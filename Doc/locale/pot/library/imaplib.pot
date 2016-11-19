@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid ":mod:`imaplib` --- IMAP4 protocol client"
 msgstr ""
 
-#: ../../library/imaplib.rst:19
+#: ../../library/imaplib.rst:14
 msgid "**Source code:** :source:`Lib/imaplib.py`"
 msgstr ""
 
@@ -117,7 +117,7 @@ msgid "At the end of the module, there is a test section that contains a more ex
 msgstr ""
 
 #: ../../library/imaplib.rst:158
-msgid "Documents describing the protocol, and sources and binaries  for servers implementing it, can all be found at the University of Washington's *IMAP Information Center* (http://www.washington.edu/imap/)."
+msgid "Documents describing the protocol, and sources and binaries  for servers implementing it, can all be found at the University of Washington's *IMAP Information Center* (https://www.washington.edu/imap/)."
 msgstr ""
 
 #: ../../library/imaplib.rst:166

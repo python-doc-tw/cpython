@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,7 +97,7 @@ msgid "For a long time, the Python developers had been growing increasingly anno
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:152
-msgid "The infrastructure committee of the Python Software Foundation therefore posted a call for issue trackers, asking volunteers to set up different products and import some of the bugs and patches from SourceForge.  Four different trackers were examined: `Jira <http://www.atlassian.com/software/jira/>`__, `Launchpad <http://www.launchpad.net>`__, `Roundup <http://roundup.sourceforge.net/>`__, and `Trac <http://trac.edgewall.org/>`__. The committee eventually settled on Jira and Roundup as the two candidates.  Jira is a commercial product that offers no-cost hosted instances to free-software projects; Roundup is an open-source project that requires volunteers to administer it and a server to host it."
+msgid "The infrastructure committee of the Python Software Foundation therefore posted a call for issue trackers, asking volunteers to set up different products and import some of the bugs and patches from SourceForge.  Four different trackers were examined: `Jira <https://www.atlassian.com/software/jira/>`__, `Launchpad <https://launchpad.net/>`__, `Roundup <http://roundup.sourceforge.net/>`__, and `Trac <https://trac.edgewall.org/>`__. The committee eventually settled on Jira and Roundup as the two candidates.  Jira is a commercial product that offers no-cost hosted instances to free-software projects; Roundup is an open-source project that requires volunteers to administer it and a server to host it."
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:166
@@ -153,7 +153,7 @@ msgid "Today LaTeX is still used for writing publications destined for printing,
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:217
-msgid "During the 2.6 development cycle, Georg Brandl put a lot of effort into building a new toolchain for processing the documentation.  The resulting package is called Sphinx, and is available from http://sphinx.pocoo.org/."
+msgid "During the 2.6 development cycle, Georg Brandl put a lot of effort into building a new toolchain for processing the documentation.  The resulting package is called Sphinx, and is available from http://sphinx-doc.org/."
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:222
@@ -993,7 +993,7 @@ msgid "PEP written by Jeffrey Yasskin."
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:1434
-msgid "`Scheme's numerical tower <http://www.gnu.org/software/guile/manual/html_node/Numerical-Tower.html#Numerical-Tower>`__, from the Guile manual."
+msgid "`Scheme's numerical tower <https://www.gnu.org/software/guile/manual/html_node/Numerical-Tower.html#Numerical-Tower>`__, from the Guile manual."
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:1436
@@ -1211,7 +1211,7 @@ msgid "The :mod:`asyncore` and :mod:`asynchat` modules are being actively mainta
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:1796
-msgid "The :mod:`bsddb` module also has a new maintainer, Jesús Cea Avión, and the package is now available as a standalone package.  The web page for the package is `www.jcea.es/programacion/pybsddb.htm <http://www.jcea.es/programacion/pybsddb.htm>`__. The plan is to remove the package from the standard library in Python 3.0, because its pace of releases is much more frequent than Python's."
+msgid "The :mod:`bsddb` module also has a new maintainer, Jesús Cea Avión, and the package is now available as a standalone package.  The web page for the package is `www.jcea.es/programacion/pybsddb.htm <https://www.jcea.es/programacion/pybsddb.htm>`__. The plan is to remove the package from the standard library in Python 3.0, because its pace of releases is much more frequent than Python's."
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:1804
@@ -1291,7 +1291,7 @@ msgid "The :mod:`datetime` module's :meth:`strftime` methods now support a ``%f`
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:1928
-msgid "The :mod:`decimal` module was updated to version 1.66 of `the General Decimal Specification <http://www2.hursley.ibm.com/decimal/decarith.html>`__.  New features include some methods for some basic mathematical functions such as :meth:`exp` and :meth:`log10`::"
+msgid "The :mod:`decimal` module was updated to version 1.66 of `the General Decimal Specification <http://speleotrove.com/decimal/decarith.html>`__.  New features include some methods for some basic mathematical functions such as :meth:`exp` and :meth:`log10`::"
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:1940
@@ -1911,7 +1911,7 @@ msgid "Improved SSL Support"
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:2890
-msgid "Bill Janssen made extensive improvements to Python 2.6's support for the Secure Sockets Layer by adding a new module, :mod:`ssl`, that's built atop the `OpenSSL <http://www.openssl.org/>`__ library. This new module provides more control over the protocol negotiated, the X.509 certificates used, and has better support for writing SSL servers (as opposed to clients) in Python.  The existing SSL support in the :mod:`socket` module hasn't been removed and continues to work, though it will be removed in Python 3.0."
+msgid "Bill Janssen made extensive improvements to Python 2.6's support for the Secure Sockets Layer by adding a new module, :mod:`ssl`, that's built atop the `OpenSSL <https://www.openssl.org/>`__ library. This new module provides more control over the protocol negotiated, the X.509 certificates used, and has better support for writing SSL servers (as opposed to clients) in Python.  The existing SSL support in the :mod:`socket` module hasn't been removed and continues to work, though it will be removed in Python 3.0."
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:2899
@@ -2096,7 +2096,7 @@ msgid "The :mod:`macfs` module has been removed.  This in turn required the :fun
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:3157
-msgid "Many other Mac OS modules have been deprecated and will removed in Python 3.0: :mod:`_builtinSuites`, :mod:`aepack`, :mod:`aetools`, :mod:`aetypes`, :mod:`applesingle`, :mod:`appletrawmain`, :mod:`appletrunner`, :mod:`argvemulator`, :mod:`Audio_mac`, :mod:`autoGIL`, :mod:`Carbon`, :mod:`cfmfile`, :mod:`CodeWarrior`, :mod:`ColorPicker`, :mod:`EasyDialogs`, :mod:`Explorer`, :mod:`Finder`, :mod:`FrameWork`, :mod:`findertools`, :mod:`ic`, :mod:`icglue`, :mod:`icopen`, :mod:`macerrors`, :mod:`MacOS`, :mod:`macfs`, :mod:`macostools`, :mod:`macresource`, :mod:`MiniAEFrame`, :mod:`Nav`, :mod:`Netscape`, :mod:`OSATerminology`, :mod:`pimp`, :mod:`PixMapWrapper`, :mod:`StdSuites`, :mod:`SystemEvents`, :mod:`Terminal`, and :mod:`terminalcommand`."
+msgid "Many other Mac OS modules have been deprecated and will be removed in Python 3.0: :mod:`_builtinSuites`, :mod:`aepack`, :mod:`aetools`, :mod:`aetypes`, :mod:`applesingle`, :mod:`appletrawmain`, :mod:`appletrunner`, :mod:`argvemulator`, :mod:`Audio_mac`, :mod:`autoGIL`, :mod:`Carbon`, :mod:`cfmfile`, :mod:`CodeWarrior`, :mod:`ColorPicker`, :mod:`EasyDialogs`, :mod:`Explorer`, :mod:`Finder`, :mod:`FrameWork`, :mod:`findertools`, :mod:`ic`, :mod:`icglue`, :mod:`icopen`, :mod:`macerrors`, :mod:`MacOS`, :mod:`macfs`, :mod:`macostools`, :mod:`macresource`, :mod:`MiniAEFrame`, :mod:`Nav`, :mod:`Netscape`, :mod:`OSATerminology`, :mod:`pimp`, :mod:`PixMapWrapper`, :mod:`StdSuites`, :mod:`SystemEvents`, :mod:`Terminal`, and :mod:`terminalcommand`."
 msgstr ""
 
 #: ../../whatsnew/2.6.rst:3200

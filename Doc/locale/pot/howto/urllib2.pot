@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgid "If you wish to retrieve a resource via URL and store it in a temporary lo
 msgstr ""
 
 #: ../../howto/urllib2.rst:66
-msgid "Many uses of urllib will be that simple (note that instead of an 'http:' URL we could have used an URL starting with 'ftp:', 'file:', etc.).  However, it's the purpose of this tutorial to explain the more complicated cases, concentrating on HTTP."
+msgid "Many uses of urllib will be that simple (note that instead of an 'http:' URL we could have used a URL starting with 'ftp:', 'file:', etc.).  However, it's the purpose of this tutorial to explain the more complicated cases, concentrating on HTTP."
 msgstr ""
 
 #: ../../howto/urllib2.rst:71
@@ -97,7 +97,7 @@ msgid "Sometimes you want to send data to a URL (often the URL will refer to a C
 msgstr ""
 
 #: ../../howto/urllib2.rst:123
-msgid "Note that other encodings are sometimes required (e.g. for file upload from HTML forms - see `HTML Specification, Form Submission <http://www.w3.org/TR/REC-html40/interact/forms.html#h-17.13>`_ for more details)."
+msgid "Note that other encodings are sometimes required (e.g. for file upload from HTML forms - see `HTML Specification, Form Submission <https://www.w3.org/TR/REC-html40/interact/forms.html#h-17.13>`_ for more details)."
 msgstr ""
 
 #: ../../howto/urllib2.rst:128
@@ -226,7 +226,7 @@ msgid "**info** - this returns a dictionary-like object that describes the page 
 msgstr ""
 
 #: ../../howto/urllib2.rst:405
-msgid "Typical headers include 'Content-length', 'Content-type', and so on. See the `Quick Reference to HTTP Headers <http://www.cs.tut.fi/~jkorpela/http.html>`_ for a useful listing of HTTP headers with brief explanations of their meaning and use."
+msgid "Typical headers include 'Content-length', 'Content-type', and so on. See the `Quick Reference to HTTP Headers <https://www.cs.tut.fi/~jkorpela/http.html>`_ for a useful listing of HTTP headers with brief explanations of their meaning and use."
 msgstr ""
 
 #: ../../howto/urllib2.rst:412
@@ -290,7 +290,7 @@ msgid "In the above example we only supplied our ``HTTPBasicAuthHandler`` to ``b
 msgstr ""
 
 #: ../../howto/urllib2.rst:512
-msgid "``top_level_url`` is in fact *either* a full URL (including the 'http:' scheme component and the hostname and optionally the port number) e.g. \"http://example.com/\" *or* an \"authority\" (i.e. the hostname, optionally including the port number) e.g. \"example.com\" or \"example.com:8080\" (the latter example includes a port number).  The authority, if present, must NOT contain the \"userinfo\" component - for example \"joe@password:example.com\" is not correct."
+msgid "``top_level_url`` is in fact *either* a full URL (including the 'http:' scheme component and the hostname and optionally the port number) e.g. \"http://example.com/\" *or* an \"authority\" (i.e. the hostname, optionally including the port number) e.g. \"example.com\" or \"example.com:8080\" (the latter example includes a port number).  The authority, if present, must NOT contain the \"userinfo\" component - for example \"joe:password@example.com\" is not correct."
 msgstr ""
 
 #: ../../howto/urllib2.rst:522
@@ -346,6 +346,6 @@ msgid "In my case I have to use a proxy to access the internet at work. If you a
 msgstr ""
 
 #: ../../howto/urllib2.rst:588
-msgid "urllib opener for SSL proxy (CONNECT method): `ASPN Cookbook Recipe <http://code.activestate.com/recipes/456195/>`_."
+msgid "urllib opener for SSL proxy (CONNECT method): `ASPN Cookbook Recipe <https://code.activestate.com/recipes/456195/>`_."
 msgstr ""
 
