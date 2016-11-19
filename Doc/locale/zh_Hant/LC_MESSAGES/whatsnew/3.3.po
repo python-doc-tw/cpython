@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 07:37+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:38+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2161,7 +2161,7 @@ msgstr ""
 
 #: ../../whatsnew/3.3.rst:1531
 msgid ""
-"The new :func:`multiprocessing.connection.wait` function allows to poll "
+"The new :func:`multiprocessing.connection.wait` function allows polling "
 "multiple objects (such as connections, sockets and pipes) with a timeout. "
 "(Contributed by Richard Oudkerk in :issue:`12328`.)"
 msgstr ""
@@ -2467,8 +2467,8 @@ msgstr ""
 #: ../../whatsnew/3.3.rst:1717
 msgid ""
 ":class:`pickle.Pickler` objects now have an optional "
-":attr:`~pickle.Pickler.dispatch_table` attribute allowing to set per-pickler"
-" reduction functions."
+":attr:`~pickle.Pickler.dispatch_table` attribute allowing per-pickler "
+"reduction functions to be set."
 msgstr ""
 
 #: ../../whatsnew/3.3.rst:1721
@@ -2753,8 +2753,8 @@ msgstr ""
 #: ../../whatsnew/3.3.rst:1886
 msgid ""
 "The :class:`~socket.socket` class now supports the PF_CAN protocol family "
-"(http://en.wikipedia.org/wiki/Socketcan), on Linux "
-"(http://lwn.net/Articles/253425)."
+"(https://en.wikipedia.org/wiki/Socketcan), on Linux "
+"(https://lwn.net/Articles/253425)."
 msgstr ""
 
 #: ../../whatsnew/3.3.rst:1890
@@ -2766,7 +2766,7 @@ msgstr ""
 #: ../../whatsnew/3.3.rst:1892
 msgid ""
 "The :class:`~socket.socket` class now supports the PF_RDS protocol family "
-"(http://en.wikipedia.org/wiki/Reliable_Datagram_Sockets and "
+"(https://en.wikipedia.org/wiki/Reliable_Datagram_Sockets and "
 "https://oss.oracle.com/projects/rds/)."
 msgstr ""
 

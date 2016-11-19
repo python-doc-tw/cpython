@@ -1,17 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
 # Ching-Lung Chuang, 2015
-# Liang Bo Wang <ccwang002@gmail.com>, 2015
+# Liang Bo Wang <me@liang2.tw>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-15 16:30+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:25+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,70 +53,72 @@ msgstr ""
 
 #: ../../c-api/function.rst:37
 msgid ""
-"The function's docstring, name and *__module__* are retrieved from the code "
-"object, the argument defaults and closure are set to *NULL*."
+"The function's docstring and name are retrieved from the code object. "
+"*__module__* is retrieved from *globals*. The argument defaults, annotations"
+" and closure are set to *NULL*. *__qualname__* is set to the same value as "
+"the function's name."
 msgstr ""
 
-#: ../../c-api/function.rst:43
+#: ../../c-api/function.rst:44
 msgid ""
-"As :c:func:`PyFunction_New`, but also allows to set the function object's "
+"As :c:func:`PyFunction_New`, but also allows setting the function object's "
 "``__qualname__`` attribute.  *qualname* should be a unicode object or NULL; "
 "if NULL, the ``__qualname__`` attribute is set to the same value as its "
 "``__name__`` attribute."
 msgstr ""
 
-#: ../../c-api/function.rst:53
+#: ../../c-api/function.rst:54
 msgid "Return the code object associated with the function object *op*."
 msgstr "回傳與程式碼物件相關的函數物件 *op*\\ 。"
 
-#: ../../c-api/function.rst:58
+#: ../../c-api/function.rst:59
 msgid ""
 "Return the globals dictionary associated with the function object *op*."
 msgstr "回傳與全域函數字典相關的函數物件 *op*\\ 。"
 
-#: ../../c-api/function.rst:63
+#: ../../c-api/function.rst:64
 msgid ""
 "Return the *__module__* attribute of the function object *op*. This is "
 "normally a string containing the module name, but can be set to any other "
 "object by Python code."
 msgstr ""
 
-#: ../../c-api/function.rst:70
+#: ../../c-api/function.rst:71
 msgid ""
 "Return the argument default values of the function object *op*. This can be "
 "a tuple of arguments or *NULL*."
 msgstr ""
 
-#: ../../c-api/function.rst:76
+#: ../../c-api/function.rst:77
 msgid ""
 "Set the argument default values for the function object *op*. *defaults* "
 "must be *Py_None* or a tuple."
 msgstr ""
 
-#: ../../c-api/function.rst:79 ../../c-api/function.rst:93
-#: ../../c-api/function.rst:107
+#: ../../c-api/function.rst:80 ../../c-api/function.rst:94
+#: ../../c-api/function.rst:108
 msgid "Raises :exc:`SystemError` and returns ``-1`` on failure."
 msgstr ""
 
-#: ../../c-api/function.rst:84
+#: ../../c-api/function.rst:85
 msgid ""
 "Return the closure associated with the function object *op*. This can be "
 "*NULL* or a tuple of cell objects."
 msgstr ""
 
-#: ../../c-api/function.rst:90
+#: ../../c-api/function.rst:91
 msgid ""
 "Set the closure associated with the function object *op*. *closure* must be "
 "*Py_None* or a tuple of cell objects."
 msgstr ""
 
-#: ../../c-api/function.rst:98
+#: ../../c-api/function.rst:99
 msgid ""
 "Return the annotations of the function object *op*. This can be a mutable "
 "dictionary or *NULL*."
 msgstr "回傳函式物件 *op* 標註。此可以是一個可變動的字典或 *NULL*\\ 。"
 
-#: ../../c-api/function.rst:104
+#: ../../c-api/function.rst:105
 msgid ""
 "Set the annotations for the function object *op*. *annotations* must be a "
 "dictionary or *Py_None*."

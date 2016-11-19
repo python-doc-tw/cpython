@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-16 03:20+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:27+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -727,7 +727,7 @@ msgstr ""
 #: ../../howto/curses.rst:548
 msgid ""
 "`\"Use curses... don't swear\" "
-"<http://www.youtube.com/watch?v=eN1eZtjLEnU>`_: video of a PyCon 2013 talk "
+"<https://www.youtube.com/watch?v=eN1eZtjLEnU>`_: video of a PyCon 2013 talk "
 "on controlling terminals using curses or Urwid."
 msgstr ""
 

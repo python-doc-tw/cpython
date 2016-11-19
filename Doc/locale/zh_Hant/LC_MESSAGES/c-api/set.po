@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-09 17:51+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:25+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -145,8 +145,8 @@ msgid ""
 "values of brand new frozensets before they are exposed to other code).  "
 "Return 0 on success or -1 on failure. Raise a :exc:`TypeError` if the *key* "
 "is unhashable. Raise a :exc:`MemoryError` if there is no room to grow.  "
-"Raise a :exc:`SystemError` if *set* is an not an instance of :class:`set` or"
-" its subtype."
+"Raise a :exc:`SystemError` if *set* is not an instance of :class:`set` or "
+"its subtype."
 msgstr ""
 
 #: ../../c-api/set.rst:135
@@ -162,15 +162,15 @@ msgid ""
 "Raise a :exc:`TypeError` if the *key* is unhashable.  Unlike the Python "
 ":meth:`~set.discard` method, this function does not automatically convert "
 "unhashable sets into temporary frozensets. Raise :exc:`PyExc_SystemError` if"
-" *set* is an not an instance of :class:`set` or its subtype."
+" *set* is not an instance of :class:`set` or its subtype."
 msgstr ""
 
 #: ../../c-api/set.rst:151
 msgid ""
 "Return a new reference to an arbitrary object in the *set*, and removes the "
 "object from the *set*.  Return *NULL* on failure.  Raise :exc:`KeyError` if "
-"the set is empty. Raise a :exc:`SystemError` if *set* is an not an instance "
-"of :class:`set` or its subtype."
+"the set is empty. Raise a :exc:`SystemError` if *set* is not an instance of "
+":class:`set` or its subtype."
 msgstr ""
 
 #: ../../c-api/set.rst:159

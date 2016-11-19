@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2016-01-14 12:52+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:37+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -90,7 +90,7 @@ msgid ""
 "bug reports, and managing the queue of patch submissions.  To report bugs or"
 " submit patches for Python 2.0, use the bug tracking and patch manager tools"
 " available from Python's project page, located at "
-"http://sourceforge.net/projects/python/."
+"https://sourceforge.net/projects/python/."
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:66
@@ -178,9 +178,9 @@ msgid ""
 "Read the rest of PEP 1 for the details of the PEP editorial process, style, "
 "and format.  PEPs are kept in the Python CVS tree on SourceForge, though "
 "they're not part of the Python 2.0 distribution, and are also available in "
-"HTML form from https://www.python.org/peps/.  As of September 2000, there "
-"are 25 PEPS, ranging from PEP 201, \"Lockstep Iteration\", to PEP 225, "
-"\"Elementwise/Objectwise Operators\"."
+"HTML form from https://www.python.org/dev/peps/.  As of September 2000, "
+"there are 25 PEPS, ranging from PEP 201, \"Lockstep Iteration\", to PEP 225,"
+" \"Elementwise/Objectwise Operators\"."
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:141
@@ -422,7 +422,7 @@ msgstr ""
 #: ../../whatsnew/2.0.rst:339
 msgid ""
 "The idea of list comprehensions originally comes from the functional "
-"programming language Haskell (http://www.haskell.org).  Greg Ewing argued "
+"programming language Haskell (https://www.haskell.org).  Greg Ewing argued "
 "most effectively for adding them to Python and wrote the initial list "
 "comprehension patch, which was then discussed for a seemingly endless time "
 "on the python-dev mailing list and kept up-to-date by Skip Montanaro."

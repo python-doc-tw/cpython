@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-06-29 15:37+0000\n"
-"Last-Translator: jerrychen <jerrychen.ee@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:27+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -79,7 +79,7 @@ msgstr ""
 msgid ""
 "By default, 2to3 runs a set of :ref:`predefined fixers <2to3-fixers>`.  The "
 ":option:`-l` flag lists all available fixers.  An explicit set of fixers to "
-"run can be given with :option:`-f`.  Likewise the :option:`-x` explicitly "
+"run can be given with :option:`-f`.  Likewise the :option:`!-x` explicitly "
 "disables a fixer.  The following example runs only the ``imports`` and "
 "``has_key`` fixers::"
 msgstr ""
@@ -109,15 +109,15 @@ msgstr ""
 
 #: ../../library/2to3.rst:81
 msgid ""
-"2to3 can also refactor doctests.  To enable this mode, use the :option:`-d` "
-"flag.  Note that *only* doctests will be refactored.  This also doesn't "
+"2to3 can also refactor doctests.  To enable this mode, use the :option:`!-d`"
+" flag.  Note that *only* doctests will be refactored.  This also doesn't "
 "require the module to be valid Python.  For example, doctest like examples "
 "in a reST document could also be refactored with this option."
 msgstr ""
 
 #: ../../library/2to3.rst:86
 msgid ""
-"The :option:`-v` option enables output of more information on the "
+"The :option:`!-v` option enables output of more information on the "
 "translation process."
 msgstr ""
 
@@ -146,7 +146,7 @@ msgstr ""
 
 #: ../../library/2to3.rst:105
 msgid ""
-"The :option:`-W` or :option:`--write-unchanged-files` flag tells 2to3 to "
+"The :option:`!-W` or :option:`--write-unchanged-files` flag tells 2to3 to "
 "always write output files even if no changes were required to the file.  "
 "This is most useful with :option:`-o` so that an entire Python source tree "
 "is copied with translation from one directory to another. This option "
@@ -154,7 +154,7 @@ msgid ""
 msgstr ""
 
 #: ../../library/2to3.rst:111
-msgid "The :option:`-W` flag was added."
+msgid "The :option:`!-W` flag was added."
 msgstr ""
 
 #: ../../library/2to3.rst:114
@@ -624,7 +624,11 @@ msgstr ""
 msgid ":mod:`lib2to3` - 2to3's library"
 msgstr ""
 
-#: ../../library/2to3.rst:459
+#: ../../library/2to3.rst:457
+msgid "**Source code:** :source:`Lib/lib2to3/`"
+msgstr ""
+
+#: ../../library/2to3.rst:463
 msgid ""
 "The :mod:`lib2to3` API should be considered unstable and may change "
 "drastically in the future."

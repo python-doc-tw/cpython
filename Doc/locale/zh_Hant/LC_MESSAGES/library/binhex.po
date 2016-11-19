@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-02-29 09:00+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:28+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,24 +21,28 @@ msgstr ""
 msgid ":mod:`binhex` --- Encode and decode binhex4 files"
 msgstr ""
 
-#: ../../library/binhex.rst:8
+#: ../../library/binhex.rst:7
+msgid "**Source code:** :source:`Lib/binhex.py`"
+msgstr ""
+
+#: ../../library/binhex.rst:11
 msgid ""
 "This module encodes and decodes files in binhex4 format, a format allowing "
 "representation of Macintosh files in ASCII. Only the data fork is handled."
 msgstr ""
 
-#: ../../library/binhex.rst:11
+#: ../../library/binhex.rst:14
 msgid "The :mod:`binhex` module defines the following functions:"
 msgstr ""
 
-#: ../../library/binhex.rst:16
+#: ../../library/binhex.rst:19
 msgid ""
 "Convert a binary file with filename *input* to binhex file *output*. The "
 "*output* parameter can either be a filename or a file-like object (any "
 "object supporting a :meth:`write` and :meth:`close` method)."
 msgstr ""
 
-#: ../../library/binhex.rst:23
+#: ../../library/binhex.rst:26
 msgid ""
 "Decode a binhex file *input*. *input* may be a filename or a file-like "
 "object supporting :meth:`read` and :meth:`close` methods. The resulting file"
@@ -46,42 +50,42 @@ msgid ""
 "which case the output filename is read from the binhex file."
 msgstr ""
 
-#: ../../library/binhex.rst:28
+#: ../../library/binhex.rst:31
 msgid "The following exception is also defined:"
 msgstr ""
 
-#: ../../library/binhex.rst:33
+#: ../../library/binhex.rst:36
 msgid ""
 "Exception raised when something can't be encoded using the binhex format "
 "(for example, a filename is too long to fit in the filename field), or when "
 "input is not properly encoded binhex data."
 msgstr ""
 
-#: ../../library/binhex.rst:40
+#: ../../library/binhex.rst:43
 msgid "Module :mod:`binascii`"
 msgstr ""
 
-#: ../../library/binhex.rst:41
+#: ../../library/binhex.rst:44
 msgid ""
 "Support module containing ASCII-to-binary and binary-to-ASCII conversions."
 msgstr ""
 
-#: ../../library/binhex.rst:47
+#: ../../library/binhex.rst:50
 msgid "Notes"
 msgstr "註解"
 
-#: ../../library/binhex.rst:49
+#: ../../library/binhex.rst:52
 msgid ""
 "There is an alternative, more powerful interface to the coder and decoder, "
 "see the source for details."
 msgstr ""
 
-#: ../../library/binhex.rst:52
+#: ../../library/binhex.rst:55
 msgid ""
 "If you code or decode textfiles on non-Macintosh platforms they will still "
 "use the old Macintosh newline convention (carriage-return as end of line)."
 msgstr ""
 
-#: ../../library/binhex.rst:55
+#: ../../library/binhex.rst:58
 msgid "As of this writing, :func:`hexbin` appears to not work in all cases."
 msgstr ""

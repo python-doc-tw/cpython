@@ -1,10 +1,10 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
 # Adrian Liaw <adrianliaw2000@gmail.com>, 2016
-# Kent Hsu <luffy1610@gmail.com>, 2016
+# KentHsu <luffy1610@gmail.com>, 2016
 # Liang Bo Wang <me@liang2.tw>, 2015-2016
 # Liang Bo Wang <me@liang2.tw>, 2016
 # hsiao yi <hsiaoyi0504@gmail.com>, 2015
@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-07-20 18:08+0000\n"
-"Last-Translator: Kent Hsu <luffy1610@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:50+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -308,12 +308,12 @@ msgstr "如同我們看到的，被輸出的 tuple 總是以括號包著，如�
 msgid ""
 "Though tuples may seem similar to lists, they are often used in different "
 "situations and for different purposes. Tuples are :term:`immutable`, and "
-"usually contain an heterogeneous sequence of elements that are accessed via "
+"usually contain a heterogeneous sequence of elements that are accessed via "
 "unpacking (see later in this section) or indexing (or even by attribute in "
 "the case of :func:`namedtuples <collections.namedtuple>`). Lists are "
 ":term:`mutable`, and their elements are usually homogeneous and are accessed"
 " by iterating over the list."
-msgstr "雖然 tuple 和 list 看起來很類似，但是他們通常用在不同的情況以及因應不同的目的。 tuple 是 :term:`immutable` （不可變的），且通常可經由拆解 (unpacking) （請參考本節後段）或索引操作 (indexing) 來存取異質的 (heterogeneous) 序列元素（或者在使用 :func:`namedtuples <collections.namedtuple>` 的時候藉由屬性 (attribute) 來存取）。 list 是 :term:`mutable` （可變的），其元素通常是同質的 (homogeneous) 且可藉由迭代整個串列來存取。"
+msgstr "雖然 tuple 和 list 看起來很類似，但是他們通常用在不同的情況與不同目的。 tuple 是 :term:`immutable` （不可變的），通常儲存異質的序列元素，並可經由拆解(unpacking) （請參考本節後段）或索引 (indexing) 來存取（或者在使用 :func:`namedtuples <collections.namedtuple>` 的時候藉由屬性 (attribute) 來存取）。 list 是 :term:`mutable` （可變的），其元素通常是同質的且可藉由迭代整個串列來存取。"
 
 #: ../../tutorial/datastructures.rst:406
 msgid ""

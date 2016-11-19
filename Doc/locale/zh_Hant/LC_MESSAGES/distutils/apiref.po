@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-09 17:51+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:26+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -607,13 +607,13 @@ msgstr ""
 
 #: ../../distutils/apiref.rst:322
 msgid ""
-"Generate C pre-processor options (:option:`-D`, :option:`-U`, :option:`-I`) "
-"as used by at least two types of compilers: the typical Unix compiler and "
-"Visual C++. *macros* is the usual thing, a list of 1- or 2-tuples, where "
-"``(name,)`` means undefine (:option:`-U`) macro *name*, and ``(name, "
-"value)`` means define (:option:`-D`) macro *name* to *value*.  "
+"Generate C pre-processor options (:option:`-D`, :option:`!-U`, "
+":option:`!-I`) as used by at least two types of compilers: the typical Unix "
+"compiler and Visual C++. *macros* is the usual thing, a list of 1- or "
+"2-tuples, where ``(name,)`` means undefine (:option:`!-U`) macro *name*, and"
+" ``(name, value)`` means define (:option:`-D`) macro *name* to *value*.  "
 "*include_dirs* is just a list of directory names to be added to the header "
-"file search path (:option:`-I`). Returns a list of command-line options "
+"file search path (:option:`!-I`). Returns a list of command-line options "
 "suitable for either Unix compilers or Visual C++."
 msgstr ""
 
@@ -1193,7 +1193,7 @@ msgstr ""
 
 #: ../../distutils/apiref.rst:802
 msgid ""
-"compile handled by :program:`cc` (or similar) executable with :option:`-c` "
+"compile handled by :program:`cc` (or similar) executable with :option:`!-c` "
 "option: compiles :file:`.c` to :file:`.o`"
 msgstr ""
 
@@ -1239,7 +1239,7 @@ msgstr ""
 
 #: ../../distutils/apiref.rst:840
 msgid ""
-"This module provides :class:`BorlandCCompiler`, an subclass of the abstract "
+"This module provides :class:`BorlandCCompiler`, a subclass of the abstract "
 ":class:`CCompiler` class for the Borland C++ compiler."
 msgstr ""
 
@@ -1278,6 +1278,10 @@ msgid ""
 "Returns the name of the archive file."
 msgstr ""
 
+#: ../../distutils/apiref.rst:879
+msgid "Added support for the ``xztar`` format."
+msgstr ""
+
 #: ../../distutils/apiref.rst:885
 msgid ""
 "'Create an (optional compressed) archive as a tar file from all files in and"
@@ -1288,6 +1292,10 @@ msgid ""
 " will be named :file:`base_dir.tar`, possibly plus the appropriate "
 "compression extension (``.gz``, ``.bz2``, ``.xz`` or ``.Z``).  Return the "
 "output filename."
+msgstr ""
+
+#: ../../distutils/apiref.rst:894
+msgid "Added support for the ``xz`` compression."
 msgstr ""
 
 #: ../../distutils/apiref.rst:900
@@ -1699,6 +1707,10 @@ msgid ""
 "Create ``.pyc`` files with an :func:`import magic tag <imp.get_tag>` in "
 "their name, in a :file:`__pycache__` subdirectory instead of files without "
 "tag in the current directory."
+msgstr ""
+
+#: ../../distutils/apiref.rst:1237
+msgid "Create ``.pyc`` files according to :pep:`488`."
 msgstr ""
 
 #: ../../distutils/apiref.rst:1243

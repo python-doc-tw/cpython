@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
-# chen chihwei <jerrychen.ee@gmail.com>, 2016
+# jerrychen <jerrychen.ee@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-06-04 07:58+0000\n"
-"Last-Translator: chen chihwei <jerrychen.ee@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:27+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,7 +77,7 @@ msgid ""
 msgstr ""
 
 #: ../../howto/pyporting.rst:34 ../../howto/pyporting.rst:114
-#: ../../howto/pyporting.rst:371
+#: ../../howto/pyporting.rst:415
 msgid "Learn the differences between Python 2 & 3"
 msgstr "瞭解Python 2 & 3的差異"
 
@@ -401,9 +401,9 @@ msgid ""
 "``rb`` for binary reading).  Under Python 3, binary files and text files are"
 " clearly distinct and mutually incompatible; see the :mod:`io` module for "
 "details. Therefore, you **must** make a decision of whether a file will be "
-"used for binary access (allowing to read and/or write binary data) or text "
-"access (allowing to read and/or write text data). You should also use "
-":func:`io.open` for opening files instead of the built-in :func:`open` "
+"used for binary access (allowing binary data to be read and/or written) or "
+"text access (allowing text data to be read and/or written). You should also "
+"use :func:`io.open` for opening files instead of the built-in :func:`open` "
 "function as the :mod:`io` module is consistent from Python 2 to 3 while the "
 "built-in :func:`open` function is not (in Python 3 it's actually "
 ":func:`io.open`)."
@@ -471,11 +471,48 @@ msgstr ""
 msgid "Be careful when indexing binary data"
 msgstr ""
 
-#: ../../howto/pyporting.rst:286
-msgid "Prevent compatibility regressions"
+#: ../../howto/pyporting.rst:287
+msgid "Use feature detection instead of version detection"
 msgstr ""
 
 #: ../../howto/pyporting.rst:288
+msgid ""
+"Inevitably you will have code that has to choose what to do based on what "
+"version of Python is running. The best way to do this is with feature "
+"detection of whether the version of Python you're running under supports "
+"what you need. If for some reason that doesn't work then you should make the"
+" version check is against Python 2 and not Python 3. To help explain this, "
+"let's look at an example."
+msgstr ""
+
+#: ../../howto/pyporting.rst:295
+msgid ""
+"Let's pretend that you need access to a feature of importlib_ that is "
+"available in Python's standard library since Python 3.3 and available for "
+"Python 2 through importlib2_ on PyPI. You might be tempted to write code to "
+"access e.g. the ``importlib.abc`` module by doing the following::"
+msgstr ""
+
+#: ../../howto/pyporting.rst:307
+msgid ""
+"The problem with this code is what happens when Python 4 comes out? It would"
+" be better to treat Python 2 as the exceptional case instead of Python 3 and"
+" assume that future Python versions will be more compatible with Python 3 "
+"than Python 2::"
+msgstr ""
+
+#: ../../howto/pyporting.rst:319
+msgid ""
+"The best solution, though, is to do no version detection at all and instead "
+"rely on feature detection. That avoids any potential issues of getting the "
+"version detection wrong and helps keep you future-compatible::"
+msgstr ""
+
+#: ../../howto/pyporting.rst:330
+msgid "Prevent compatibility regressions"
+msgstr ""
+
+#: ../../howto/pyporting.rst:332
 msgid ""
 "Once you have fully translated your code to be compatible with Python 3, you"
 " will want to make sure your code doesn't regress and stop working under "
@@ -483,13 +520,13 @@ msgid ""
 " you from actually running under Python 3 at the moment."
 msgstr ""
 
-#: ../../howto/pyporting.rst:293
+#: ../../howto/pyporting.rst:337
 msgid ""
 "To help with staying compatible, any new modules you create should have at "
 "least the following block of code at the top of it::"
 msgstr ""
 
-#: ../../howto/pyporting.rst:301
+#: ../../howto/pyporting.rst:345
 msgid ""
 "You can also run Python 2 with the ``-3`` flag to be warned about various "
 "compatibility issues your code triggers during execution. If you turn "
@@ -497,7 +534,7 @@ msgid ""
 "accidentally miss a warning."
 msgstr ""
 
-#: ../../howto/pyporting.rst:307
+#: ../../howto/pyporting.rst:351
 msgid ""
 "You can also use the Pylint_ project and its ``--py3k`` flag to lint your "
 "code to receive warnings when your code begins to deviate from Python 3 "
@@ -507,11 +544,11 @@ msgid ""
 "Pylint's minimum Python version support."
 msgstr ""
 
-#: ../../howto/pyporting.rst:316
+#: ../../howto/pyporting.rst:360
 msgid "Check which dependencies block your transition"
 msgstr ""
 
-#: ../../howto/pyporting.rst:318
+#: ../../howto/pyporting.rst:362
 msgid ""
 "**After** you have made your code compatible with Python 3 you should begin "
 "to care about whether your dependencies have also been ported. The "
@@ -521,7 +558,7 @@ msgid ""
 "https://caniusepython3.com ."
 msgstr ""
 
-#: ../../howto/pyporting.rst:325
+#: ../../howto/pyporting.rst:369
 msgid ""
 "The project also provides code which you can integrate into your test suite "
 "so that you will have a failing test when you no longer have dependencies "
@@ -530,11 +567,11 @@ msgid ""
 "start running on Python 3."
 msgstr ""
 
-#: ../../howto/pyporting.rst:331
+#: ../../howto/pyporting.rst:375
 msgid "Update your ``setup.py`` file to denote Python 3 compatibility"
 msgstr ""
 
-#: ../../howto/pyporting.rst:333
+#: ../../howto/pyporting.rst:377
 msgid ""
 "Once your code works under Python 3, you should update the classifiers in "
 "your ``setup.py`` to contain ``Programming Language :: Python :: 3`` and to "
@@ -543,11 +580,11 @@ msgid ""
 "classifiers for each major/minor version of Python you now support."
 msgstr ""
 
-#: ../../howto/pyporting.rst:341
+#: ../../howto/pyporting.rst:385
 msgid "Use continuous integration to stay compatible"
 msgstr ""
 
-#: ../../howto/pyporting.rst:343
+#: ../../howto/pyporting.rst:387
 msgid ""
 "Once you are able to fully run under Python 3 you will want to make sure "
 "your code always works under both Python 2 & 3. Probably the best tool for "
@@ -556,11 +593,11 @@ msgid ""
 "accidentally break Python 2 or 3 support."
 msgstr ""
 
-#: ../../howto/pyporting.rst:349
+#: ../../howto/pyporting.rst:393
 msgid ""
-"You may also want to use use the ``-bb`` flag with the Python 3 interpreter "
-"to trigger an exception when you are comparing bytes to strings or bytes to "
-"an int (the latter is available starting in Python 3.5). By default type-"
+"You may also want to use the ``-bb`` flag with the Python 3 interpreter to "
+"trigger an exception when you are comparing bytes to strings or bytes to an "
+"int (the latter is available starting in Python 3.5). By default type-"
 "differing comparisons simply return ``False``, but if you made a mistake in "
 "your separation of text/binary data handling or indexing on bytes you "
 "wouldn't easily find the mistake. This flag will raise an exception when "
@@ -568,7 +605,7 @@ msgid ""
 "down."
 msgstr ""
 
-#: ../../howto/pyporting.rst:357
+#: ../../howto/pyporting.rst:401
 msgid ""
 "And that's mostly it! At this point your code base is compatible with both "
 "Python 2 and 3 simultaneously. Your testing will also be set up so that you "
@@ -576,29 +613,29 @@ msgid ""
 "version you typically run your tests under while developing."
 msgstr ""
 
-#: ../../howto/pyporting.rst:364
+#: ../../howto/pyporting.rst:408
 msgid "Dropping Python 2 support completely"
 msgstr ""
 
-#: ../../howto/pyporting.rst:366
+#: ../../howto/pyporting.rst:410
 msgid ""
 "If you are able to fully drop support for Python 2, then the steps required "
 "to transition to Python 3 simplify greatly."
 msgstr ""
 
-#: ../../howto/pyporting.rst:369
+#: ../../howto/pyporting.rst:413
 msgid "Update your code to only support Python 2.7"
 msgstr ""
 
-#: ../../howto/pyporting.rst:370
+#: ../../howto/pyporting.rst:414
 msgid "Make sure you have good test coverage (coverage.py_ can help)"
 msgstr ""
 
-#: ../../howto/pyporting.rst:372
+#: ../../howto/pyporting.rst:416
 msgid "Use 2to3_ to rewrite your code to run only under Python 3"
 msgstr ""
 
-#: ../../howto/pyporting.rst:374
+#: ../../howto/pyporting.rst:418
 msgid ""
 "After this your code will be fully Python 3 compliant but in a way that is "
 "not supported by Python 2. You should also update the classifiers in your "

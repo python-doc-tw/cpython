@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 07:29+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:34+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid ":mod:`smtplib` --- SMTP protocol client"
 msgstr ""
 
-#: ../../library/smtplib.rst:13
+#: ../../library/smtplib.rst:9
 msgid "**Source code:** :source:`Lib/smtplib.py`"
 msgstr ""
 
@@ -46,7 +46,7 @@ msgid ""
 "*timeout* parameter specifies a timeout in seconds for blocking operations "
 "like the connection attempt (if not specified, the global default timeout "
 "setting will be used).  If the timeout expires, :exc:`socket.timeout` is "
-"raised.  The optional source_address parameter allows to bind to some "
+"raised.  The optional source_address parameter allows binding to some "
 "specific source address in a machine with multiple network interfaces, "
 "and/or to some specific source TCP port. It takes a 2-tuple (host, port), "
 "for the socket to bind to as its source address before connecting. If "
@@ -89,7 +89,7 @@ msgid ""
 "*port* is zero, the standard SMTP-over-SSL port (465) is used.  The optional"
 " arguments *local_hostname*, *timeout* and *source_address* have the same "
 "meaning as they do in the :class:`SMTP` class.  *context*, also optional, "
-"can contain a :class:`~ssl.SSLContext` and allows to configure various "
+"can contain a :class:`~ssl.SSLContext` and allows configuring various "
 "aspects of the secure connection.  Please read :ref:`ssl-security` for best "
 "practices."
 msgstr ""

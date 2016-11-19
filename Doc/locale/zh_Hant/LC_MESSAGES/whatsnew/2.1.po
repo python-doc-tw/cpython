@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 07:36+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:37+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -713,8 +713,8 @@ msgid ""
 "not using Python 2.1, since a new release of the Distutils will be made for "
 "users of earlier Python versions.  Version 1.0.2 of the Distutils includes "
 "the changes described in PEP 241, as well as various bugfixes and "
-"enhancements.  It will be available from  the Distutils SIG at "
-"https://www.python.org/sigs/distutils-sig/."
+"enhancements.  It will be available from the Distutils SIG at "
+"https://www.python.org/community/sigs/current/distutils-sig/."
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:571
@@ -929,7 +929,8 @@ msgstr ""
 #: ../../whatsnew/2.1.rst:733
 msgid ""
 "For a fuller discussion of the line I/O changes, see the python-dev summary "
-"for January 1-15, 2001 at https://www.python.org/dev/summary/2001-01-1/."
+"for January 1-15, 2001 at https://mail.python.org/pipermail/python-"
+"dev/2001-January/."
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:736

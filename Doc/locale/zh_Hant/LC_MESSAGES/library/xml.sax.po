@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 07:33+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:36+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,6 +22,10 @@ msgid ":mod:`xml.sax` --- Support for SAX2 parsers"
 msgstr ""
 
 #: ../../library/xml.sax.rst:11
+msgid "**Source code:** :source:`Lib/xml/sax/__init__.py`"
+msgstr ""
+
+#: ../../library/xml.sax.rst:15
 msgid ""
 "The :mod:`xml.sax` package provides a number of modules which implement the "
 "Simple API for XML (SAX) interface for Python.  The package itself provides "
@@ -29,18 +33,18 @@ msgid ""
 "users of the SAX API."
 msgstr ""
 
-#: ../../library/xml.sax.rst:19
+#: ../../library/xml.sax.rst:23
 msgid ""
 "The :mod:`xml.sax` module is not secure against maliciously constructed "
 "data.  If you need to parse untrusted or unauthenticated data see :ref:`xml-"
 "vulnerabilities`."
 msgstr ""
 
-#: ../../library/xml.sax.rst:24
+#: ../../library/xml.sax.rst:28
 msgid "The convenience functions are:"
 msgstr ""
 
-#: ../../library/xml.sax.rst:29
+#: ../../library/xml.sax.rst:33
 msgid ""
 "Create and return a SAX :class:`~xml.sax.xmlreader.XMLReader` object.  The "
 "first parser found will be used.  If *parser_list* is provided, it must be a"
@@ -49,7 +53,7 @@ msgid ""
 "modules in the default list of parsers."
 msgstr ""
 
-#: ../../library/xml.sax.rst:38
+#: ../../library/xml.sax.rst:42
 msgid ""
 "Create a SAX parser and use it to parse a document.  The document, passed in"
 " as *filename_or_stream*, can be a filename or a file object.  The *handler*"
@@ -60,18 +64,18 @@ msgid ""
 "passed in."
 msgstr ""
 
-#: ../../library/xml.sax.rst:49
+#: ../../library/xml.sax.rst:53
 msgid ""
 "Similar to :func:`parse`, but parses from a buffer *string* received as a "
 "parameter.  *string* must be a :class:`str` instance or a :term:`bytes-like "
 "object`."
 msgstr ""
 
-#: ../../library/xml.sax.rst:53
+#: ../../library/xml.sax.rst:57
 msgid "Added support of :class:`str` instances."
 msgstr ""
 
-#: ../../library/xml.sax.rst:56
+#: ../../library/xml.sax.rst:60
 msgid ""
 "A typical SAX application uses three kinds of objects: readers, handlers and"
 " input sources.  \"Reader\" in this context is another term for parser, i.e."
@@ -85,7 +89,7 @@ msgid ""
 "structural and syntactic events from the input data."
 msgstr ""
 
-#: ../../library/xml.sax.rst:67
+#: ../../library/xml.sax.rst:71
 msgid ""
 "For these objects, only the interfaces are relevant; they are normally not "
 "instantiated by the application itself.  Since Python does not have an "
@@ -102,13 +106,13 @@ msgid ""
 "These interfaces are described below."
 msgstr ""
 
-#: ../../library/xml.sax.rst:80
+#: ../../library/xml.sax.rst:84
 msgid ""
 "In addition to these classes, :mod:`xml.sax` provides the following "
 "exception classes."
 msgstr ""
 
-#: ../../library/xml.sax.rst:86
+#: ../../library/xml.sax.rst:90
 msgid ""
 "Encapsulate an XML error or warning.  This class can contain basic error or "
 "warning information from either the XML parser or the application: it can be"
@@ -119,7 +123,7 @@ msgid ""
 " useful as a container for information."
 msgstr ""
 
-#: ../../library/xml.sax.rst:94
+#: ../../library/xml.sax.rst:98
 msgid ""
 "When instantiated, *msg* should be a human-readable description of the "
 "error. The optional *exception* parameter, if given, should be ``None`` or "
@@ -127,11 +131,11 @@ msgid ""
 "as information."
 msgstr ""
 
-#: ../../library/xml.sax.rst:98
+#: ../../library/xml.sax.rst:102
 msgid "This is the base class for the other SAX exception classes."
 msgstr ""
 
-#: ../../library/xml.sax.rst:103
+#: ../../library/xml.sax.rst:107
 msgid ""
 "Subclass of :exc:`SAXException` raised on parse errors. Instances of this "
 "class are passed to the methods of the SAX "
@@ -141,7 +145,7 @@ msgid ""
 ":class:`SAXException` interface."
 msgstr ""
 
-#: ../../library/xml.sax.rst:113
+#: ../../library/xml.sax.rst:117
 msgid ""
 "Subclass of :exc:`SAXException` raised when a SAX "
 ":class:`~xml.sax.xmlreader.XMLReader` is confronted with an unrecognized "
@@ -149,7 +153,7 @@ msgid ""
 " similar purposes."
 msgstr ""
 
-#: ../../library/xml.sax.rst:121
+#: ../../library/xml.sax.rst:125
 msgid ""
 "Subclass of :exc:`SAXException` raised when a SAX "
 ":class:`~xml.sax.xmlreader.XMLReader` is asked to enable a feature that is "
@@ -158,54 +162,54 @@ msgid ""
 " purposes."
 msgstr ""
 
-#: ../../library/xml.sax.rst:133
+#: ../../library/xml.sax.rst:137
 msgid "`SAX: The Simple API for XML <http://www.saxproject.org/>`_"
 msgstr ""
 
-#: ../../library/xml.sax.rst:131
+#: ../../library/xml.sax.rst:135
 msgid ""
 "This site is the focal point for the definition of the SAX API.  It provides"
 " a Java implementation and online documentation.  Links to implementations "
 "and historical information are also available."
 msgstr ""
 
-#: ../../library/xml.sax.rst:136
+#: ../../library/xml.sax.rst:140
 msgid "Module :mod:`xml.sax.handler`"
 msgstr ""
 
-#: ../../library/xml.sax.rst:136
+#: ../../library/xml.sax.rst:140
 msgid "Definitions of the interfaces for application-provided objects."
 msgstr ""
 
-#: ../../library/xml.sax.rst:139
+#: ../../library/xml.sax.rst:143
 msgid "Module :mod:`xml.sax.saxutils`"
 msgstr ""
 
-#: ../../library/xml.sax.rst:139
+#: ../../library/xml.sax.rst:143
 msgid "Convenience functions for use in SAX applications."
 msgstr ""
 
-#: ../../library/xml.sax.rst:141
+#: ../../library/xml.sax.rst:145
 msgid "Module :mod:`xml.sax.xmlreader`"
 msgstr ""
 
-#: ../../library/xml.sax.rst:142
+#: ../../library/xml.sax.rst:146
 msgid "Definitions of the interfaces for parser-provided objects."
 msgstr ""
 
-#: ../../library/xml.sax.rst:148
+#: ../../library/xml.sax.rst:152
 msgid "SAXException Objects"
 msgstr ""
 
-#: ../../library/xml.sax.rst:150
+#: ../../library/xml.sax.rst:154
 msgid ""
 "The :class:`SAXException` exception class supports the following methods:"
 msgstr ""
 
-#: ../../library/xml.sax.rst:155
+#: ../../library/xml.sax.rst:159
 msgid "Return a human-readable message describing the error condition."
 msgstr ""
 
-#: ../../library/xml.sax.rst:160
+#: ../../library/xml.sax.rst:164
 msgid "Return an encapsulated exception object, or ``None``."
 msgstr ""

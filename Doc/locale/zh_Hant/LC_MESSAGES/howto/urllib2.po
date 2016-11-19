@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
-# Phate W <phate334@gmail.com>, 2015
+# Phate <phate334@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2016-01-14 13:54+0000\n"
-"Last-Translator: Phate W <phate334@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:27+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -105,7 +105,7 @@ msgstr ""
 #: ../../howto/urllib2.rst:66
 msgid ""
 "Many uses of urllib will be that simple (note that instead of an 'http:' URL"
-" we could have used an URL starting with 'ftp:', 'file:', etc.).  However, "
+" we could have used a URL starting with 'ftp:', 'file:', etc.).  However, "
 "it's the purpose of this tutorial to explain the more complicated cases, "
 "concentrating on HTTP."
 msgstr ""
@@ -156,7 +156,7 @@ msgstr ""
 #: ../../howto/urllib2.rst:123
 msgid ""
 "Note that other encodings are sometimes required (e.g. for file upload from "
-"HTML forms - see `HTML Specification, Form Submission <http://www.w3.org/TR"
+"HTML forms - see `HTML Specification, Form Submission <https://www.w3.org/TR"
 "/REC-html40/interact/forms.html#h-17.13>`_ for more details)."
 msgstr ""
 
@@ -359,7 +359,7 @@ msgstr ""
 msgid ""
 "Typical headers include 'Content-length', 'Content-type', and so on. See the"
 " `Quick Reference to HTTP Headers "
-"<http://www.cs.tut.fi/~jkorpela/http.html>`_ for a useful listing of HTTP "
+"<https://www.cs.tut.fi/~jkorpela/http.html>`_ for a useful listing of HTTP "
 "headers with brief explanations of their meaning and use."
 msgstr ""
 
@@ -485,7 +485,7 @@ msgid ""
 " including the port number) e.g. \"example.com\" or \"example.com:8080\" "
 "(the latter example includes a port number).  The authority, if present, "
 "must NOT contain the \"userinfo\" component - for example "
-"\"joe@password:example.com\" is not correct."
+"\"joe:password@example.com\" is not correct."
 msgstr ""
 
 #: ../../howto/urllib2.rst:522
@@ -571,5 +571,5 @@ msgstr ""
 #: ../../howto/urllib2.rst:588
 msgid ""
 "urllib opener for SSL proxy (CONNECT method): `ASPN Cookbook Recipe "
-"<http://code.activestate.com/recipes/456195/>`_."
+"<https://code.activestate.com/recipes/456195/>`_."
 msgstr ""

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 07:31+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:35+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +21,11 @@ msgstr ""
 msgid ":mod:`tkinter.tix` --- Extension widgets for Tk"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:11
+#: ../../library/tkinter.tix.rst:9
+msgid "**Source code:** :source:`Lib/tkinter/tix.py`"
+msgstr ""
+
+#: ../../library/tkinter.tix.rst:15
 msgid ""
 "The :mod:`tkinter.tix` (Tk Interface Extension) module provides an "
 "additional rich set of widgets. Although the standard Tk library has many "
@@ -34,7 +38,7 @@ msgid ""
 "more than 40 of them."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:21
+#: ../../library/tkinter.tix.rst:25
 msgid ""
 "With all these new widgets, you can introduce new interaction techniques "
 "into applications, creating more useful and more intuitive user interfaces. "
@@ -42,58 +46,58 @@ msgid ""
 "match the special needs of your application and users."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:30
+#: ../../library/tkinter.tix.rst:34
 msgid "`Tix Homepage <http://tix.sourceforge.net/>`_"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:29
+#: ../../library/tkinter.tix.rst:33
 msgid ""
 "The home page for :mod:`Tix`.  This includes links to additional "
 "documentation and downloads."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:33
+#: ../../library/tkinter.tix.rst:37
 msgid "`Tix Man Pages <http://tix.sourceforge.net/dist/current/man/>`_"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:33
+#: ../../library/tkinter.tix.rst:37
 msgid "On-line version of the man pages and reference material."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:36
+#: ../../library/tkinter.tix.rst:40
 msgid ""
 "`Tix Programming Guide <http://tix.sourceforge.net/dist/current/docs/tix-"
 "book/tix.book.html>`_"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:36
+#: ../../library/tkinter.tix.rst:40
 msgid "On-line version of the programmer's reference material."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:40
+#: ../../library/tkinter.tix.rst:44
 msgid ""
 "`Tix Development Applications "
 "<http://tix.sourceforge.net/Tixapps/src/Tide.html>`_"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:39
+#: ../../library/tkinter.tix.rst:43
 msgid ""
 "Tix applications for development of Tix and Tkinter programs. Tide "
 "applications work under Tk or Tkinter, and include :program:`TixInspect`, an"
 " inspector to remotely modify and debug Tix/Tk/Tkinter applications."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:45
+#: ../../library/tkinter.tix.rst:49
 msgid "Using Tix"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:50
+#: ../../library/tkinter.tix.rst:54
 msgid ""
 "Toplevel widget of Tix which represents mostly the main window of an "
 "application. It has an associated Tcl interpreter."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:53
+#: ../../library/tkinter.tix.rst:57
 msgid ""
 "Classes in the :mod:`tkinter.tix` module subclasses the classes in the "
 ":mod:`tkinter`. The former imports the latter, so to use :mod:`tkinter.tix` "
@@ -102,14 +106,14 @@ msgid ""
 ":class:`tkinter.Tk` with :class:`tix.Tk`::"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:63
+#: ../../library/tkinter.tix.rst:67
 msgid ""
 "To use :mod:`tkinter.tix`, you must have the Tix widgets installed, usually "
 "alongside your installation of the Tk widgets. To test your installation, "
 "try the following::"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:71
+#: ../../library/tkinter.tix.rst:75
 msgid ""
 "If this fails, you have a Tk installation problem which must be resolved "
 "before proceeding. Use the environment variable :envvar:`TIX_LIBRARY` to "
@@ -121,22 +125,22 @@ msgid ""
 "sensitive), which contains the line::"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:84
+#: ../../library/tkinter.tix.rst:88
 msgid "Tix Widgets"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:86
+#: ../../library/tkinter.tix.rst:90
 msgid ""
 "`Tix "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/TixIntro.htm>`_ "
 "introduces over 40 widget classes to the :mod:`tkinter` repertoire."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:91
+#: ../../library/tkinter.tix.rst:95
 msgid "Basic Widgets"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:96
+#: ../../library/tkinter.tix.rst:100
 msgid ""
 "A `Balloon "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixBalloon.htm>`_ "
@@ -145,7 +149,7 @@ msgid ""
 "window with a descriptive message will be shown on the screen."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:108
+#: ../../library/tkinter.tix.rst:112
 msgid ""
 "The `ButtonBox "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixButtonBox.htm>`_"
@@ -153,7 +157,7 @@ msgid ""
 "Cancel``."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:118
+#: ../../library/tkinter.tix.rst:122
 msgid ""
 "The `ComboBox "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixComboBox.htm>`_ "
@@ -162,7 +166,7 @@ msgid ""
 "the listbox subwidget."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:130
+#: ../../library/tkinter.tix.rst:134
 msgid ""
 "The `Control "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixControl.htm>`_ "
@@ -172,15 +176,15 @@ msgid ""
 " and lower limits."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:143
+#: ../../library/tkinter.tix.rst:147
 msgid ""
 "The `LabelEntry "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixLabelEntry.htm>`_"
 " widget packages an entry widget and a label into one mega widget. It can be"
-" used be used to simplify the creation of \"entry-form\" type of interface."
+" used to simplify the creation of \"entry-form\" type of interface."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:154
+#: ../../library/tkinter.tix.rst:158
 msgid ""
 "The `LabelFrame "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixLabelFrame.htm>`_"
@@ -190,7 +194,7 @@ msgid ""
 "subwidget."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:166
+#: ../../library/tkinter.tix.rst:170
 msgid ""
 "The `Meter "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixMeter.htm>`_ "
@@ -198,14 +202,14 @@ msgid ""
 " long time to execute."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:177
+#: ../../library/tkinter.tix.rst:181
 msgid ""
 "The `OptionMenu "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixOptionMenu.htm>`_"
 " creates a menu button of options."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:187
+#: ../../library/tkinter.tix.rst:191
 msgid ""
 "The `PopupMenu "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixPopupMenu.htm>`_"
@@ -214,7 +218,7 @@ msgid ""
 "application code to manipulate."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:199
+#: ../../library/tkinter.tix.rst:203
 msgid ""
 "The `Select "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixSelect.htm>`_ "
@@ -222,18 +226,18 @@ msgid ""
 "box or check-box style of selection options for the user."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:210
+#: ../../library/tkinter.tix.rst:214
 msgid ""
 "The `StdButtonBox "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixStdButtonBox.htm>`_"
 " widget is a group of standard buttons for Motif-like dialog boxes."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:219
+#: ../../library/tkinter.tix.rst:223
 msgid "File Selectors"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:224
+#: ../../library/tkinter.tix.rst:228
 msgid ""
 "The `DirList "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixDirList.htm>`_ "
@@ -242,7 +246,7 @@ msgid ""
 "the list or change to another directory."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:236
+#: ../../library/tkinter.tix.rst:240
 msgid ""
 "The `DirTree "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixDirTree.htm>`_ "
@@ -251,7 +255,7 @@ msgid ""
 "the list or change to another directory."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:248
+#: ../../library/tkinter.tix.rst:252
 msgid ""
 "The `DirSelectDialog "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixDirSelectDialog.htm>`_"
@@ -260,7 +264,7 @@ msgid ""
 "select the desired directory."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:260
+#: ../../library/tkinter.tix.rst:264
 msgid ""
 "The :class:`DirSelectBox` is similar to the standard Motif(TM) directory-"
 "selection box. It is generally used for the user to choose a directory.  "
@@ -268,17 +272,17 @@ msgid ""
 " widget so that they can be quickly selected again."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:268
+#: ../../library/tkinter.tix.rst:272
 msgid ""
 "The `ExFileSelectBox "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixExFileSelectBox.htm>`_"
-" widget is usually embedded in a tixExFileSelectDialog widget. It provides "
-"an convenient method for the user to select files. The style of the "
+" widget is usually embedded in a tixExFileSelectDialog widget. It provides a"
+" convenient method for the user to select files. The style of the "
 ":class:`ExFileSelectBox` widget is very similar to the standard file dialog "
 "on MS Windows 3.1."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:281
+#: ../../library/tkinter.tix.rst:285
 msgid ""
 "The `FileSelectBox "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixFileSelectBox.htm>`_"
@@ -288,7 +292,7 @@ msgid ""
 "quickly selected again."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:294
+#: ../../library/tkinter.tix.rst:298
 msgid ""
 "The `FileEntry "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixFileEntry.htm>`_"
@@ -297,11 +301,11 @@ msgid ""
 " to the entry, which will bring up a file selection dialog."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:305
+#: ../../library/tkinter.tix.rst:309
 msgid "Hierarchical ListBox"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:310
+#: ../../library/tkinter.tix.rst:314
 msgid ""
 "The `HList "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixHList.htm>`_ "
@@ -310,7 +314,7 @@ msgid ""
 "connected by branch lines according to their places in the hierarchy."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:322
+#: ../../library/tkinter.tix.rst:326
 msgid ""
 "The `CheckList "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixCheckList.htm>`_"
@@ -319,7 +323,7 @@ msgid ""
 " of handling many more items than checkbuttons or radiobuttons."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:338
+#: ../../library/tkinter.tix.rst:342
 msgid ""
 "The `Tree "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixTree.htm>`_ "
@@ -327,11 +331,11 @@ msgid ""
 " adjust the view of the tree by opening or closing parts of the tree."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:350
+#: ../../library/tkinter.tix.rst:354
 msgid "Tabular ListBox"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:355
+#: ../../library/tkinter.tix.rst:359
 msgid ""
 "The `TList "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixTList.htm>`_ "
@@ -342,11 +346,11 @@ msgid ""
 "images as well as multiple colors and fonts for the list entries."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:378
+#: ../../library/tkinter.tix.rst:382
 msgid "Manager Widgets"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:383
+#: ../../library/tkinter.tix.rst:387
 msgid ""
 "The `PanedWindow "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixPanedWindow.htm>`_"
@@ -356,7 +360,7 @@ msgid ""
 "two panes."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:395
+#: ../../library/tkinter.tix.rst:399
 msgid ""
 "The `ListNoteBook "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixListNoteBook.htm>`_"
@@ -367,7 +371,7 @@ msgid ""
 "choosing the name of the desired page in the :attr:`hlist` subwidget."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:409
+#: ../../library/tkinter.tix.rst:413
 msgid ""
 "The `NoteBook "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixNoteBook.htm>`_ "
@@ -378,15 +382,15 @@ msgid ""
 "widget."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:431
+#: ../../library/tkinter.tix.rst:435
 msgid "Image Types"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:433
+#: ../../library/tkinter.tix.rst:437
 msgid "The :mod:`tkinter.tix` module adds:"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:435
+#: ../../library/tkinter.tix.rst:439
 msgid ""
 "`pixmap "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/pixmap.htm>`_ "
@@ -394,7 +398,7 @@ msgid ""
 "color images from XPM files."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:444
+#: ../../library/tkinter.tix.rst:448
 msgid ""
 "`Compound "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/compound.htm>`_ "
@@ -405,11 +409,11 @@ msgid ""
 "simultaneously in a Tk :class:`Button` widget."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:463
+#: ../../library/tkinter.tix.rst:467
 msgid "Miscellaneous Widgets"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:468
+#: ../../library/tkinter.tix.rst:472
 msgid ""
 "The `InputOnly "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixInputOnly.htm>`_"
@@ -417,26 +421,26 @@ msgid ""
 "``bind`` command (Unix only)."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:475
+#: ../../library/tkinter.tix.rst:479
 msgid "Form Geometry Manager"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:477
+#: ../../library/tkinter.tix.rst:481
 msgid "In addition, :mod:`tkinter.tix` augments :mod:`tkinter` by providing:"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:482
+#: ../../library/tkinter.tix.rst:486
 msgid ""
 "The `Form "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tixForm.htm>`_ "
 "geometry manager based on attachment rules for all Tk widgets."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:488
+#: ../../library/tkinter.tix.rst:492
 msgid "Tix Commands"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:493
+#: ../../library/tkinter.tix.rst:497
 msgid ""
 "The `tix commands "
 "<http://tix.sourceforge.net/dist/current/man/html/TixCmd/tix.htm>`_ provide "
@@ -446,11 +450,11 @@ msgid ""
 "display, rather than to a particular window."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:500
+#: ../../library/tkinter.tix.rst:504
 msgid "To view the current settings, the common usage is::"
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:509
+#: ../../library/tkinter.tix.rst:513
 msgid ""
 "Query or modify the configuration options of the Tix application context. If"
 " no option is specified, returns a dictionary all of the available options."
@@ -462,13 +466,13 @@ msgid ""
 "an empty string. Option may be any of the configuration options."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:521
+#: ../../library/tkinter.tix.rst:525
 msgid ""
 "Returns the current value of the configuration option given by *option*. "
 "Option may be any of the configuration options."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:527
+#: ../../library/tkinter.tix.rst:531
 msgid ""
 "Locates a bitmap file of the name ``name.xpm`` or ``name`` in one of the "
 "bitmap directories (see the :meth:`tix_addbitmapdir` method).  By using "
@@ -479,7 +483,7 @@ msgid ""
 "Tix widgets."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:537
+#: ../../library/tkinter.tix.rst:541
 msgid ""
 "Tix maintains a list of directories under which the :meth:`tix_getimage` and"
 " :meth:`tix_getbitmap` methods will search for image files.  The standard "
@@ -489,7 +493,7 @@ msgid ""
 "the :meth:`tix_getimage` or :meth:`tix_getbitmap` method."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:547
+#: ../../library/tkinter.tix.rst:551
 msgid ""
 "Returns the file selection dialog that may be shared among different calls "
 "from this application.  This method will create a file selection dialog "
@@ -500,7 +504,7 @@ msgid ""
 "``tixExFileSelectDialog``."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:557
+#: ../../library/tkinter.tix.rst:561
 msgid ""
 "Locates an image file of the name :file:`name.xpm`, :file:`name.xbm` or "
 ":file:`name.ppm` in one of the bitmap directories (see the "
@@ -514,11 +518,11 @@ msgid ""
 " of the Tk and Tix widgets."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:570
+#: ../../library/tkinter.tix.rst:574
 msgid "Gets the options maintained by the Tix scheme mechanism."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:575
+#: ../../library/tkinter.tix.rst:579
 msgid ""
 "Resets the scheme and fontset of the Tix application to *newScheme* and "
 "*newFontSet*, respectively.  This affects only those widgets created after "
@@ -526,13 +530,13 @@ msgid ""
 " creation of any widgets in a Tix application."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:580
+#: ../../library/tkinter.tix.rst:584
 msgid ""
 "The optional parameter *newScmPrio* can be given to reset the priority level"
 " of the Tk options set by the Tix schemes."
 msgstr ""
 
-#: ../../library/tkinter.tix.rst:583
+#: ../../library/tkinter.tix.rst:587
 msgid ""
 "Because of the way Tk handles the X option database, after Tix has been has "
 "imported and inited, it is not possible to reset the color schemes and font "

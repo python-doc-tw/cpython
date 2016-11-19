@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 07:36+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:38+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -217,10 +217,10 @@ msgstr ""
 #: ../../whatsnew/2.3.rst:220
 msgid ""
 "The idea of generators comes from other programming languages, especially "
-"Icon (http://www.cs.arizona.edu/icon/), where the idea of generators is "
+"Icon (https://www.cs.arizona.edu/icon/), where the idea of generators is "
 "central.  In Icon, every expression and function call behaves like a "
 "generator.  One example from \"An Overview of the Icon Programming "
-"Language\" at http://www.cs.arizona.edu/icon/docs/ipd266.htm gives an idea "
+"Language\" at https://www.cs.arizona.edu/icon/docs/ipd266.htm gives an idea "
 "of what this looks like::"
 msgstr ""
 
@@ -1099,8 +1099,8 @@ msgid ""
 "features which are in the process of being deprecated.  The warning will "
 "*not* be printed by default.  To check for use of features that will be "
 "deprecated in the future, supply "
-":option:`-Walways::PendingDeprecationWarning::` on the command line or use "
-":func:`warnings.filterwarnings`."
+":option:`-Walways::PendingDeprecationWarning:: <-W>` on the command line or "
+"use :func:`warnings.filterwarnings`."
 msgstr ""
 
 #: ../../whatsnew/2.3.rst:1063
@@ -1136,10 +1136,11 @@ msgid ""
 "inheritance hierarchy.  Classic classes are unaffected by this change.  "
 "Python 2.2 originally used a topological sort of a class's ancestors, but "
 "2.3 now uses the C3 algorithm as described in the paper `\"A Monotonic "
-"Superclass Linearization for Dylan\" <http://www.webcom.com/haahr/dylan"
-"/linearization-oopsla96.html>`_. To understand the motivation for this "
-"change,  read Michele Simionato's article `\"Python 2.3 Method Resolution "
-"Order\" <https://www.python.org/2.3/mro.html>`_, or read the thread on "
+"Superclass Linearization for Dylan\" "
+"<http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.19.3910>`_. To "
+"understand the motivation for this change,  read Michele Simionato's article"
+" `\"Python 2.3 Method Resolution Order\" "
+"<http://www.phyast.pitt.edu/~micheles/mro.html>`_, or read the thread on "
 "python-dev starting with the message at https://mail.python.org/pipermail"
 "/python-dev/2002-October/029035.html. Samuele Pedroni first pointed out the "
 "problem and also implemented the fix by coding the C3 algorithm."
@@ -1419,8 +1420,9 @@ msgid ""
 "partially sorted order such that, for every index *k*, ``heap[k] <= "
 "heap[2*k+1]`` and ``heap[k] <= heap[2*k+2]``.  This makes it quick to remove"
 " the smallest item, and inserting a new item while maintaining the heap "
-"property is O(lg n).  (See http://www.nist.gov/dads/HTML/priorityque.html "
-"for more information about the priority queue data structure.)"
+"property is O(lg n).  (See "
+"https://xlinux.nist.gov/dads//HTML/priorityque.html for more information "
+"about the priority queue data structure.)"
 msgstr ""
 
 #: ../../whatsnew/2.3.rst:1312
@@ -1892,7 +1894,7 @@ msgid ""
 "The :mod:`getopt` module provides simple parsing of command-line arguments."
 "  The new :mod:`optparse` module (originally named Optik) provides more "
 "elaborate command-line parsing that follows the Unix conventions, "
-"automatically creates the output for :option:`--help`, and can perform "
+"automatically creates the output for :option:`!--help`, and can perform "
 "different actions for different options."
 msgstr ""
 
@@ -2031,7 +2033,7 @@ msgid ""
 msgstr ""
 
 #: ../../whatsnew/2.3.rst:1863
-msgid "https://svn.python.org/view/python/trunk/Objects/obmalloc.c"
+msgid "https://hg.python.org/cpython/file/default/Objects/obmalloc.c"
 msgstr ""
 
 #: ../../whatsnew/2.3.rst:1862
@@ -2175,7 +2177,7 @@ msgstr ""
 #: ../../whatsnew/2.3.rst:1951
 msgid ""
 "Other new platforms now supported by Python include AtheOS "
-"(http://www.atheos.cx/), GNU/Hurd, and OpenVMS."
+"(http://atheos.cx/), GNU/Hurd, and OpenVMS."
 msgstr ""
 
 #: ../../whatsnew/2.3.rst:1960
@@ -2206,7 +2208,7 @@ msgstr ""
 #: ../../whatsnew/2.3.rst:1975
 msgid ""
 "The :file:`regrtest.py` script now provides a way to allow \"all resources "
-"except *foo*.\"  A resource name passed to the :option:`-u` option can now "
+"except *foo*.\"  A resource name passed to the :option:`!-u` option can now "
 "be prefixed with a hyphen (``'-'``) to mean \"remove this resource.\"  For "
 "example, the option '``-uall,-bsddb``' could be used to enable the use of "
 "all resources except ``bsddb``."

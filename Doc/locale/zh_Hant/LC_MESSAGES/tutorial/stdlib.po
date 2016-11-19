@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
-# Liang Bo Wang <ccwang002@gmail.com>, 2016
+# Liang Bo Wang <me@liang2.tw>, 2016
 # woodrow-shen <woodrow.shen@gmail.com>, 2015-2016
-# Yichieh <chairco@gmail.com>, 2016
+# Jason <chairco@gmail.com>, 2016
 # 文俊 高 <jkw552403@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-02-07 17:48+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:37+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -137,9 +137,9 @@ msgstr ":mod:`statistics` 模組提供了替數值資料計算基本統計量（
 
 #: ../../tutorial/stdlib.rst:155
 msgid ""
-"The SciPy project <http://scipy.org> has many other modules for numerical "
+"The SciPy project <https://scipy.org> has many other modules for numerical "
 "computations."
-msgstr "Scipy 專案<http://scipy.org>上也有許多數值計算相關的模組。"
+msgstr ""
 
 #: ../../tutorial/stdlib.rst:161
 msgid "Internet Access"

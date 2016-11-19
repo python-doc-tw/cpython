@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-09 17:51+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:26+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -347,11 +347,17 @@ msgstr ""
 
 #: ../../c-api/veryhigh.rst:312
 msgid ""
-"Evaluate an execution frame.  This is a simplified interface to "
-"PyEval_EvalFrameEx, for backward compatibility."
+"The C structure of the objects used to describe frame objects. The fields of"
+" this type are subject to change at any time."
 msgstr ""
 
 #: ../../c-api/veryhigh.rst:318
+msgid ""
+"Evaluate an execution frame.  This is a simplified interface to "
+":c:func:`PyEval_EvalFrameEx`, for backward compatibility."
+msgstr ""
+
+#: ../../c-api/veryhigh.rst:324
 msgid ""
 "This is the main, unvarnished function of Python interpretation.  It is "
 "literally 2000 lines long.  The code object associated with the execution "
@@ -361,39 +367,39 @@ msgid ""
 ":meth:`~generator.throw` methods of generator objects."
 msgstr ""
 
-#: ../../c-api/veryhigh.rst:325
+#: ../../c-api/veryhigh.rst:331
 msgid ""
 "This function now includes a debug assertion to help ensure that it does not"
 " silently discard an active exception."
 msgstr ""
 
-#: ../../c-api/veryhigh.rst:332
+#: ../../c-api/veryhigh.rst:338
 msgid ""
 "This function changes the flags of the current evaluation frame, and returns"
 " true on success, false on failure."
 msgstr ""
 
-#: ../../c-api/veryhigh.rst:340
+#: ../../c-api/veryhigh.rst:346
 msgid ""
 "The start symbol from the Python grammar for isolated expressions; for use "
 "with :c:func:`Py_CompileString`."
 msgstr ""
 
-#: ../../c-api/veryhigh.rst:348
+#: ../../c-api/veryhigh.rst:354
 msgid ""
 "The start symbol from the Python grammar for sequences of statements as read"
 " from a file or other source; for use with :c:func:`Py_CompileString`.  This"
 " is the symbol to use when compiling arbitrarily long Python source code."
 msgstr ""
 
-#: ../../c-api/veryhigh.rst:357
+#: ../../c-api/veryhigh.rst:363
 msgid ""
 "The start symbol from the Python grammar for a single statement; for use "
 "with :c:func:`Py_CompileString`. This is the symbol used for the interactive"
 " interpreter loop."
 msgstr ""
 
-#: ../../c-api/veryhigh.rst:364
+#: ../../c-api/veryhigh.rst:370
 msgid ""
 "This is the structure used to hold compiler flags.  In cases where code is "
 "only being compiled, it is passed as ``int flags``, and in cases where code "
@@ -401,14 +407,14 @@ msgid ""
 "case, ``from __future__ import`` can modify *flags*."
 msgstr ""
 
-#: ../../c-api/veryhigh.rst:369
+#: ../../c-api/veryhigh.rst:375
 msgid ""
 "Whenever ``PyCompilerFlags *flags`` is *NULL*, :attr:`cf_flags` is treated "
 "as equal to ``0``, and any modification due to ``from __future__ import`` is"
 " discarded.  ::"
 msgstr ""
 
-#: ../../c-api/veryhigh.rst:380
+#: ../../c-api/veryhigh.rst:386
 msgid ""
 "This bit can be set in *flags* to cause division operator ``/`` to be "
 "interpreted as \"true division\" according to :pep:`238`."

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-09 17:51+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:30+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -258,8 +258,8 @@ msgstr ""
 #: ../../library/enum.rst:317
 msgid ""
 "The rules for what is allowed are as follows: names that start and end with "
-"a with a single underscore are reserved by enum and cannot be used; all "
-"other attributes defined within an enumeration will become members of this "
+"a single underscore are reserved by enum and cannot be used; all other "
+"attributes defined within an enumeration will become members of this "
 "enumeration, with the exception of special methods (:meth:`__str__`, "
 ":meth:`__add__`, etc.) and descriptors (methods are also descriptors)."
 msgstr ""
@@ -509,16 +509,16 @@ msgstr ""
 
 #: ../../library/enum.rst:558
 msgid ""
-"%-style formatting:  `%s` and `%r` call :class:`Enum`'s :meth:`__str__` and "
-":meth:`__repr__` respectively; other codes (such as `%i` or `%h` for "
-"IntEnum) treat the enum member as its mixed-in type."
+"%-style formatting:  `%s` and `%r` call the :class:`Enum` class's "
+":meth:`__str__` and :meth:`__repr__` respectively; other codes (such as `%i`"
+" or `%h` for IntEnum) treat the enum member as its mixed-in type."
 msgstr ""
 
 #: ../../library/enum.rst:561
 msgid ""
-":meth:`str.__format__` (or :func:`format`) will use the mixed-in type's "
-":meth:`__format__`.  If the :class:`Enum`'s :func:`str` or :func:`repr` is "
-"desired use the `!s` or `!r` :class:`str` format codes."
+":meth:`str.format` (or :func:`format`) will use the mixed-in type's "
+":meth:`__format__`.  If the :class:`Enum` class's :func:`str` or "
+":func:`repr` is desired, use the `!s` or `!r` format codes."
 msgstr ""
 
 #: ../../library/enum.rst:567

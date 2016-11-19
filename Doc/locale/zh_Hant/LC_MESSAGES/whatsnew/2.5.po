@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-01-31 13:27+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:38+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -390,7 +390,7 @@ msgid "PEP written by Aahz; implemented by Thomas Wouters."
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:333
-msgid "http://codespeak.net/py/current/doc/index.html"
+msgid "https://pylib.readthedocs.org/"
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:334
@@ -645,7 +645,7 @@ msgid ""
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:551
-msgid "http://en.wikipedia.org/wiki/Coroutine"
+msgid "https://en.wikipedia.org/wiki/Coroutine"
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:551
@@ -1253,8 +1253,8 @@ msgid ""
 "switch to log all the paths searched. In Python 2.5, a new "
 ":exc:`ImportWarning` warning is triggered when an import would have picked "
 "up a directory as a package but no :file:`__init__.py` was found.  This "
-"warning is silently ignored by default; provide the :option:`-Wd` option "
-"when running the Python executable to display the warning message. "
+"warning is silently ignored by default; provide the :option:`-Wd <-W>` "
+"option when running the Python executable to display the warning message. "
 "(Implemented by Thomas Wouters.)"
 msgstr ""
 
@@ -1291,8 +1291,8 @@ msgstr ""
 msgid ""
 "The Python executable now accepts the standard long options  "
 ":option:`--help` and :option:`--version`; on Windows,  it also accepts the "
-":option:`/?` option for displaying a help message. (Implemented by Georg "
-"Brandl.)"
+":option:`/? <-?>` option for displaying a help message. (Implemented by "
+"Georg Brandl.)"
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:1138
@@ -1803,8 +1803,8 @@ msgid ""
 "thanks to a patch from Philippe Biondi.   Netlink sockets are a Linux-"
 "specific mechanism for communications between a user-space process and "
 "kernel code; an introductory  article about them is at "
-"http://www.linuxjournal.com/article/7356. In Python code, netlink addresses "
-"are represented as a tuple of 2 integers, ``(pid, group_mask)``."
+"https://www.linuxjournal.com/article/7356. In Python code, netlink addresses"
+" are represented as a tuple of 2 integers, ``(pid, group_mask)``."
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:1535
@@ -1941,7 +1941,7 @@ msgid ""
 "The :mod:`webbrowser` module received a number of enhancements. It's now "
 "usable as a script with ``python -m webbrowser``, taking a URL as the "
 "argument; there are a number of switches  to control the behaviour "
-"(:option:`-n` for a new browser window,  :option:`-t` for a new tab).  New "
+"(:option:`-n` for a new browser window,  :option:`!-t` for a new tab).  New "
 "module-level functions, :func:`open_new` and :func:`open_new_tab`, were "
 "added  to support this.  The module's :func:`open` function supports an "
 "additional feature, an *autoraise* parameter that signals whether to raise "
@@ -2378,7 +2378,7 @@ msgstr ""
 #: ../../whatsnew/2.5.rst:2015
 msgid ""
 "For more information about the SQL dialect supported by SQLite, see "
-"http://www.sqlite.org."
+"https://www.sqlite.org."
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:2022
@@ -2390,7 +2390,7 @@ msgid "The pysqlite web page."
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:2026
-msgid "http://www.sqlite.org"
+msgid "https://www.sqlite.org"
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:2025
@@ -2467,7 +2467,7 @@ msgid ""
 " provided the results of their examination of the Python source code.  The "
 "analysis found about 60 bugs that  were quickly fixed.  Many of the bugs "
 "were refcounting problems, often occurring in error-handling code.  See "
-"http://scan.coverity.com for the statistics."
+"https://scan.coverity.com for the statistics."
 msgstr ""
 
 #: ../../whatsnew/2.5.rst:2093

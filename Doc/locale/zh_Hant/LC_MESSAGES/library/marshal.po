@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2016-01-14 13:54+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:32+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid ":mod:`marshal` --- Internal Python object serialization"
 msgstr ""
 
-#: ../../library/marshal.rst:9
+#: ../../library/marshal.rst:10
 msgid ""
 "This module contains functions that can read and write Python values in a "
 "binary format.  The format is specific to Python, but independent of machine"
@@ -52,7 +52,7 @@ msgid ""
 "untrusted or unauthenticated source."
 msgstr ""
 
-#: ../../library/marshal.rst:37
+#: ../../library/marshal.rst:39
 msgid ""
 "Not all Python object types are supported; in general, only objects whose "
 "value is independent from a particular invocation of Python can be written "
@@ -61,23 +61,23 @@ msgid ""
 "bytearrays, tuples, lists, sets, frozensets, dictionaries, and code objects,"
 " where it should be understood that tuples, lists, sets, frozensets and "
 "dictionaries are only supported as long as the values contained therein are "
-"themselves supported. singletons :const:`None`, :const:`Ellipsis` and "
+"themselves supported.  The singletons :const:`None`, :const:`Ellipsis` and "
 ":exc:`StopIteration` can also be marshalled and unmarshalled. For format "
 "*version* lower than 3, recursive lists, sets and dictionaries cannot be "
 "written (see below)."
 msgstr ""
 
-#: ../../library/marshal.rst:49
+#: ../../library/marshal.rst:51
 msgid ""
 "There are functions that read/write files as well as functions operating on "
 "strings."
 msgstr ""
 
-#: ../../library/marshal.rst:52
+#: ../../library/marshal.rst:54
 msgid "The module defines these functions:"
 msgstr ""
 
-#: ../../library/marshal.rst:57
+#: ../../library/marshal.rst:59
 msgid ""
 "Write the value on the open file.  The value must be a supported type.  The "
 "file must be an open file object such as ``sys.stdout`` or returned by "
@@ -85,7 +85,7 @@ msgid ""
 "(``'wb'`` or ``'w+b'``)."
 msgstr ""
 
-#: ../../library/marshal.rst:62
+#: ../../library/marshal.rst:64
 msgid ""
 "If the value has (or contains an object that has) an unsupported type, a "
 ":exc:`ValueError` exception is raised --- but garbage data will also be "
@@ -93,13 +93,13 @@ msgid ""
 ":func:`load`."
 msgstr ""
 
-#: ../../library/marshal.rst:66
+#: ../../library/marshal.rst:68
 msgid ""
 "The *version* argument indicates the data format that ``dump`` should use "
 "(see below)."
 msgstr ""
 
-#: ../../library/marshal.rst:72
+#: ../../library/marshal.rst:74
 msgid ""
 "Read one value from the open file and return it.  If no valid value is read "
 "(e.g. because the data has a different Python version's incompatible marshal"
@@ -108,38 +108,38 @@ msgid ""
 "``'r+b'``)."
 msgstr ""
 
-#: ../../library/marshal.rst:80
+#: ../../library/marshal.rst:82
 msgid ""
 "If an object containing an unsupported type was marshalled with "
 ":func:`dump`, :func:`load` will substitute ``None`` for the unmarshallable "
 "type."
 msgstr ""
 
-#: ../../library/marshal.rst:86
+#: ../../library/marshal.rst:88
 msgid ""
 "Return the string that would be written to a file by ``dump(value, file)``."
 "  The value must be a supported type.  Raise a :exc:`ValueError` exception "
 "if value has (or contains an object that has) an unsupported type."
 msgstr ""
 
-#: ../../library/marshal.rst:90
+#: ../../library/marshal.rst:92
 msgid ""
 "The *version* argument indicates the data format that ``dumps`` should use "
 "(see below)."
 msgstr ""
 
-#: ../../library/marshal.rst:96
+#: ../../library/marshal.rst:98
 msgid ""
 "Convert the string to a value.  If no valid value is found, raise "
 ":exc:`EOFError`, :exc:`ValueError` or :exc:`TypeError`.  Extra characters in"
 " the string are ignored."
 msgstr ""
 
-#: ../../library/marshal.rst:101
+#: ../../library/marshal.rst:103
 msgid "In addition, the following constants are defined:"
 msgstr ""
 
-#: ../../library/marshal.rst:105
+#: ../../library/marshal.rst:107
 msgid ""
 "Indicates the format that the module uses. Version 0 is the historical "
 "format, version 1 shares interned strings and version 2 uses a binary format"
@@ -147,11 +147,11 @@ msgid ""
 "and recursion. The current version is 4."
 msgstr ""
 
-#: ../../library/marshal.rst:113
+#: ../../library/marshal.rst:115
 msgid "Footnotes"
 msgstr "註解"
 
-#: ../../library/marshal.rst:114
+#: ../../library/marshal.rst:116
 msgid ""
 "The name of this module stems from a bit of terminology used by the "
 "designers of Modula-3 (amongst others), who use the term \"marshalling\" for"

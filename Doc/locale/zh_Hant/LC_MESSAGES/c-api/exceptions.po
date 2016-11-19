@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-02-29 09:07+0000\n"
-"Last-Translator: Ching-Lung Chuang\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:25+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -105,8 +105,8 @@ msgstr ""
 #: ../../c-api/exceptions.rst:76
 msgid ""
 "The function is called with a single argument *obj* that identifies the "
-"context in which the unraisable exception occurred. The repr of *obj* will "
-"be printed in the warning message."
+"context in which the unraisable exception occurred. If possible, the repr of"
+" *obj* will be printed in the warning message."
 msgstr ""
 
 #: ../../c-api/exceptions.rst:82
@@ -308,7 +308,7 @@ msgstr ""
 #: ../../c-api/exceptions.rst:287
 msgid ""
 "Issue a warning message.  The *category* argument is a warning category (see"
-" below) or *NULL*; the *message* argument is an UTF-8 encoded string.  "
+" below) or *NULL*; the *message* argument is a UTF-8 encoded string.  "
 "*stack_level* is a positive number giving a number of stack frames; the "
 "warning will be issued from the  currently executing line of code in that "
 "stack frame.  A *stack_level* of 1 is the function calling "
@@ -634,7 +634,7 @@ msgstr ""
 #: ../../c-api/exceptions.rst:611
 msgid ""
 "Create a :class:`UnicodeTranslateError` object with the attributes *object*,"
-" *length*, *start*, *end* and *reason*. *reason* is an UTF-8 encoded string."
+" *length*, *start*, *end* and *reason*. *reason* is a UTF-8 encoded string."
 msgstr ""
 
 #: ../../c-api/exceptions.rst:617

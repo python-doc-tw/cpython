@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
-"PO-Revision-Date: 2016-11-14 22:02+0000\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:37+0000\n"
 "Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -308,31 +308,29 @@ msgid ""
 "searching."
 msgstr "字串支援非常多種基本轉換和搜尋的方法。"
 
-#: ../../tutorial/introduction.rst:357
-msgid ":ref:`string-formatting`"
-msgstr ":ref:`string-formatting`"
+#: ../../tutorial/introduction.rst:356
+msgid ":ref:`formatstrings`"
+msgstr ""
 
 #: ../../tutorial/introduction.rst:356
-msgid ""
-"Information about string formatting with :meth:`str.format` is described "
-"here."
-msgstr "關於字串格式化 (string formatting) 的資訊在 :meth:`str.format` 中介紹。"
+msgid "Information about string formatting with :meth:`str.format`."
+msgstr ""
 
-#: ../../tutorial/introduction.rst:360
+#: ../../tutorial/introduction.rst:359
 msgid ":ref:`old-string-formatting`"
 msgstr ":ref:`old-string-formatting`"
 
-#: ../../tutorial/introduction.rst:360
+#: ../../tutorial/introduction.rst:359
 msgid ""
 "The old formatting operations invoked when strings and Unicode strings are "
 "the left operand of the ``%`` operator are described in more detail here."
 msgstr "在字串和 Unicode 字串為 ``%`` 的左操作元時，將觸發舊的字串格式化操作，更多的細節在本連結中介紹。"
 
-#: ../../tutorial/introduction.rst:367
+#: ../../tutorial/introduction.rst:366
 msgid "Lists"
 msgstr "List（串列）"
 
-#: ../../tutorial/introduction.rst:369
+#: ../../tutorial/introduction.rst:368
 msgid ""
 "Python knows a number of *compound* data types, used to group together other"
 " values.  The most versatile is the *list*, which can be written as a list "
@@ -341,67 +339,67 @@ msgid ""
 "type. ::"
 msgstr "Python 理解數種複合型資料型別，用來組合不同的數值。當中最多樣變化的型別為 *list*，可以寫成一系列以逗號分隔的數值（稱之 items），包含在方括號之中。List 可以包合不同型別的項目，但通常這些 item 會有相同的型別：\n\n::"
 
-#: ../../tutorial/introduction.rst:378
+#: ../../tutorial/introduction.rst:377
 msgid ""
 "Like strings (and all other built-in :term:`sequence` type), lists can be "
 "indexed and sliced::"
 msgstr "如同字串（以及其他內建的 :term:`sequence` 型別），list 可以被索引和切片 (slice)：\n\n::"
 
-#: ../../tutorial/introduction.rst:388
+#: ../../tutorial/introduction.rst:387
 msgid ""
 "All slice operations return a new list containing the requested elements.  "
 "This means that the following slice returns a new (shallow) copy of the "
 "list::"
 msgstr "所有 slice 操作回傳一個新的 list 包含想要的元素。這意謂著底下這個 slice 回傳一個全新的 list 淺複製 (shallow copy)：\n\n::"
 
-#: ../../tutorial/introduction.rst:394
+#: ../../tutorial/introduction.rst:393
 msgid "Lists also support operations like concatenation::"
 msgstr "List 對支援如接合 (concatenation) 的操作疑問：\n\n::"
 
-#: ../../tutorial/introduction.rst:399
+#: ../../tutorial/introduction.rst:398
 msgid ""
 "Unlike strings, which are :term:`immutable`, lists are a :term:`mutable` "
 "type, i.e. it is possible to change their content::"
 msgstr "不同於字串是 :term:`immutable`，list 是 :term:`mutable` 型別，即改變 list 的內容是可能的：\n\n::"
 
-#: ../../tutorial/introduction.rst:409
+#: ../../tutorial/introduction.rst:408
 msgid ""
 "You can also add new items at the end of the list, by using the "
 ":meth:`~list.append` *method* (we will see more about methods later)::"
 msgstr "你也可以在 list 的最後加入新元素，透過使用 :meth:`~list.append` 方法（我們稍後會看到更多方法的說明）：\n\n::"
 
-#: ../../tutorial/introduction.rst:417
+#: ../../tutorial/introduction.rst:416
 msgid ""
 "Assignment to slices is also possible, and this can even change the size of "
 "the list or clear it entirely::"
 msgstr "對 list slice 賦值是有可能的，這能改變 list 的大小，甚至是清空一個 list：\n\n::"
 
-#: ../../tutorial/introduction.rst:436
+#: ../../tutorial/introduction.rst:435
 msgid "The built-in function :func:`len` also applies to lists::"
 msgstr "內建的函式 :func:`len` 亦可以作用在 list 上：\n\n::"
 
-#: ../../tutorial/introduction.rst:442
+#: ../../tutorial/introduction.rst:441
 msgid ""
 "It is possible to nest lists (create lists containing other lists), for "
 "example::"
 msgstr "巢狀 list 也是可行的（建立 list 包含其他 list），例如：\n\n::"
 
-#: ../../tutorial/introduction.rst:458
+#: ../../tutorial/introduction.rst:457
 msgid "First Steps Towards Programming"
 msgstr "初探程式設計的前幾步"
 
-#: ../../tutorial/introduction.rst:460
+#: ../../tutorial/introduction.rst:459
 msgid ""
 "Of course, we can use Python for more complicated tasks than adding two and "
 "two together.  For instance, we can write an initial sub-sequence of the "
 "*Fibonacci* series as follows::"
 msgstr "當然，我們可以用 Python 來處理比 2 加 2 更複雜的工作。例如，我們可以寫下費式數列的首幾項序列如下：\n\n::"
 
-#: ../../tutorial/introduction.rst:478
+#: ../../tutorial/introduction.rst:477
 msgid "This example introduces several new features."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:480
+#: ../../tutorial/introduction.rst:479
 msgid ""
 "The first line contains a *multiple assignment*: the variables ``a`` and "
 "``b`` simultaneously get the new values 0 and 1.  On the last line this is "
@@ -410,7 +408,7 @@ msgid ""
 "hand side expressions are evaluated  from the left to the right."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:486
+#: ../../tutorial/introduction.rst:485
 msgid ""
 "The :keyword:`while` loop executes as long as the condition (here: ``b < "
 "10``) remains true.  In Python, like in C, any non-zero integer value is "
@@ -422,7 +420,7 @@ msgid ""
 "to), ``>=`` (greater than or equal to) and ``!=`` (not equal to)."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:495
+#: ../../tutorial/introduction.rst:494
 msgid ""
 "The *body* of the loop is *indented*: indentation is Python's way of "
 "grouping statements.  At the interactive prompt, you have to type a tab or "
@@ -434,7 +432,7 @@ msgid ""
 "that each line within a basic block must be indented by the same amount."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:504
+#: ../../tutorial/introduction.rst:503
 msgid ""
 "The :func:`print` function writes the value of the argument(s) it is given. "
 "It differs from just writing the expression you want to write (as we did "
@@ -444,24 +442,24 @@ msgid ""
 "things nicely, like this::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:515
+#: ../../tutorial/introduction.rst:514
 msgid ""
 "The keyword argument *end* can be used to avoid the newline after the "
 "output, or end the output with a different string::"
 msgstr ""
 
-#: ../../tutorial/introduction.rst:527
+#: ../../tutorial/introduction.rst:526
 msgid "Footnotes"
 msgstr "註解"
 
-#: ../../tutorial/introduction.rst:528
+#: ../../tutorial/introduction.rst:527
 msgid ""
 "Since ``**`` has higher precedence than ``-``, ``-3**2`` will be interpreted"
 " as ``-(3**2)`` and thus result in ``-9``.  To avoid this and get ``9``, you"
 " can use ``(-3)**2``."
 msgstr ""
 
-#: ../../tutorial/introduction.rst:532
+#: ../../tutorial/introduction.rst:531
 msgid ""
 "Unlike other languages, special characters such as ``\\n`` have the same "
 "meaning with both single (``'...'``) and double (``\"...\"``) quotes. The "

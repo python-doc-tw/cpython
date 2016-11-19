@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-09 17:51+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:29+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -173,11 +173,12 @@ msgid ""
 "Disassemble the *x* object.  *x* can denote either a module, a class, a "
 "method, a function, a generator, a code object, a string of source code or a"
 " byte sequence of raw bytecode.  For a module, it disassembles all "
-"functions. For a class, it disassembles all methods.  For a code object or "
-"sequence of raw bytecode, it prints one line per bytecode instruction.  "
-"Strings are first compiled to code objects with the :func:`compile` built-in"
-" function before being disassembled.  If no object is provided, this "
-"function disassembles the last traceback."
+"functions. For a class, it disassembles all methods (including class and "
+"static methods). For a code object or sequence of raw bytecode, it prints "
+"one line per bytecode instruction.  Strings are first compiled to code "
+"objects with the :func:`compile` built-in function before being "
+"disassembled.  If no object is provided, this function disassembles the last"
+" traceback."
 msgstr ""
 
 #: ../../library/dis.rst:148 ../../library/dis.rst:161
@@ -732,8 +733,8 @@ msgstr ""
 msgid ""
 "Implements assignment with a starred target: Unpacks an iterable in TOS into"
 " individual values, where the total number of values can be smaller than the"
-" number of items in the iterable: one the new values will be a list of all "
-"leftover items."
+" number of items in the iterable: one of the new values will be a list of "
+"all leftover items."
 msgstr ""
 
 #: ../../library/dis.rst:714

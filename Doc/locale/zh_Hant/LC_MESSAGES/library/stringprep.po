@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-09 17:51+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:34+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,6 +22,10 @@ msgid ":mod:`stringprep` --- Internet String Preparation"
 msgstr ""
 
 #: ../../library/stringprep.rst:10
+msgid "**Source code:** :source:`Lib/stringprep.py`"
+msgstr ""
+
+#: ../../library/stringprep.rst:14
 msgid ""
 "When identifying things (such as host names) in the internet, it is often "
 "necessary to compare such identifications for \"equality\". Exactly how this"
@@ -31,7 +35,7 @@ msgid ""
 "\"printable\" characters."
 msgstr ""
 
-#: ../../library/stringprep.rst:17
+#: ../../library/stringprep.rst:21
 msgid ""
 ":rfc:`3454` defines a procedure for \"preparing\" Unicode strings in "
 "internet protocols. Before passing strings onto the wire, they are processed"
@@ -43,7 +47,7 @@ msgid ""
 "domain names."
 msgstr ""
 
-#: ../../library/stringprep.rst:25
+#: ../../library/stringprep.rst:29
 msgid ""
 "The module :mod:`stringprep` only exposes the tables from RFC 3454. As these"
 " tables would be very large to represent them as dictionaries or lists, the "
@@ -51,7 +55,7 @@ msgid ""
 "code itself was generated using the ``mkstringprep.py`` utility."
 msgstr ""
 
-#: ../../library/stringprep.rst:30
+#: ../../library/stringprep.rst:34
 msgid ""
 "As a result, these tables are exposed as functions, not as data structures. "
 "There are two kinds of tables in the RFC: sets and mappings. For a set, "
@@ -61,98 +65,98 @@ msgid ""
 "value. Below is a list of all functions available in the module."
 msgstr ""
 
-#: ../../library/stringprep.rst:40
+#: ../../library/stringprep.rst:44
 msgid ""
 "Determine whether *code* is in tableA.1 (Unassigned code points in Unicode "
 "3.2)."
 msgstr ""
 
-#: ../../library/stringprep.rst:45
+#: ../../library/stringprep.rst:49
 msgid "Determine whether *code* is in tableB.1 (Commonly mapped to nothing)."
 msgstr ""
 
-#: ../../library/stringprep.rst:50
+#: ../../library/stringprep.rst:54
 msgid ""
 "Return the mapped value for *code* according to tableB.2 (Mapping for case-"
 "folding used with NFKC)."
 msgstr ""
 
-#: ../../library/stringprep.rst:56
+#: ../../library/stringprep.rst:60
 msgid ""
 "Return the mapped value for *code* according to tableB.3 (Mapping for case-"
 "folding used with no normalization)."
 msgstr ""
 
-#: ../../library/stringprep.rst:62
+#: ../../library/stringprep.rst:66
 msgid "Determine whether *code* is in tableC.1.1  (ASCII space characters)."
 msgstr ""
 
-#: ../../library/stringprep.rst:67
+#: ../../library/stringprep.rst:71
 msgid ""
 "Determine whether *code* is in tableC.1.2  (Non-ASCII space characters)."
 msgstr ""
 
-#: ../../library/stringprep.rst:72
+#: ../../library/stringprep.rst:76
 msgid ""
 "Determine whether *code* is in tableC.1  (Space characters, union of C.1.1 "
 "and C.1.2)."
 msgstr ""
 
-#: ../../library/stringprep.rst:78
+#: ../../library/stringprep.rst:82
 msgid "Determine whether *code* is in tableC.2.1  (ASCII control characters)."
 msgstr ""
 
-#: ../../library/stringprep.rst:83
+#: ../../library/stringprep.rst:87
 msgid ""
 "Determine whether *code* is in tableC.2.2  (Non-ASCII control characters)."
 msgstr ""
 
-#: ../../library/stringprep.rst:88
+#: ../../library/stringprep.rst:92
 msgid ""
 "Determine whether *code* is in tableC.2  (Control characters, union of C.2.1"
 " and C.2.2)."
 msgstr ""
 
-#: ../../library/stringprep.rst:94
+#: ../../library/stringprep.rst:98
 msgid "Determine whether *code* is in tableC.3  (Private use)."
 msgstr ""
 
-#: ../../library/stringprep.rst:99
+#: ../../library/stringprep.rst:103
 msgid "Determine whether *code* is in tableC.4  (Non-character code points)."
 msgstr ""
 
-#: ../../library/stringprep.rst:104
+#: ../../library/stringprep.rst:108
 msgid "Determine whether *code* is in tableC.5  (Surrogate codes)."
 msgstr ""
 
-#: ../../library/stringprep.rst:109
+#: ../../library/stringprep.rst:113
 msgid ""
 "Determine whether *code* is in tableC.6  (Inappropriate for plain text)."
 msgstr ""
 
-#: ../../library/stringprep.rst:114
+#: ../../library/stringprep.rst:118
 msgid ""
 "Determine whether *code* is in tableC.7  (Inappropriate for canonical "
 "representation)."
 msgstr ""
 
-#: ../../library/stringprep.rst:120
+#: ../../library/stringprep.rst:124
 msgid ""
 "Determine whether *code* is in tableC.8  (Change display properties or are "
 "deprecated)."
 msgstr ""
 
-#: ../../library/stringprep.rst:126
+#: ../../library/stringprep.rst:130
 msgid "Determine whether *code* is in tableC.9  (Tagging characters)."
 msgstr ""
 
-#: ../../library/stringprep.rst:131
+#: ../../library/stringprep.rst:135
 msgid ""
 "Determine whether *code* is in tableD.1  (Characters with bidirectional "
 "property \"R\" or \"AL\")."
 msgstr ""
 
-#: ../../library/stringprep.rst:137
+#: ../../library/stringprep.rst:141
 msgid ""
 "Determine whether *code* is in tableD.2  (Characters with bidirectional "
 "property \"L\")."

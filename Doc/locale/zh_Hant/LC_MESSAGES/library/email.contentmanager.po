@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2015, Python Software Foundation
+# Copyright (C) 2001-2016, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # 
 # Translators:
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-09 21:33+0800\n"
-"PO-Revision-Date: 2015-12-09 17:51+0000\n"
-"Last-Translator: Liang Bo Wang <ccwang002@gmail.com>\n"
+"POT-Creation-Date: 2016-11-18 18:19-0600\n"
+"PO-Revision-Date: 2016-11-19 00:30+0000\n"
+"Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +21,15 @@ msgstr ""
 msgid ":mod:`email.contentmanager`: Managing MIME Content"
 msgstr ""
 
+#: ../../library/email.contentmanager.rst:10
+msgid "as a :term:`provisional module <provisional package>`."
+msgstr ""
+
 #: ../../library/email.contentmanager.rst:13
+msgid "**Source code:** :source:`Lib/email/contentmanager.py`"
+msgstr ""
+
+#: ../../library/email.contentmanager.rst:17
 msgid ""
 "The contentmanager module has been included in the standard library on a "
 ":term:`provisional basis <provisional package>`. Backwards incompatible "
@@ -29,11 +37,7 @@ msgid ""
 "necessary by the core developers."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:18
-msgid "as a :term:`provisional module <provisional package>`."
-msgstr ""
-
-#: ../../library/email.contentmanager.rst:21
+#: ../../library/email.contentmanager.rst:24
 msgid ""
 "The :mod:`~email.message` module provides a class that can represent an "
 "arbitrary email message.  That basic message model has a useful and flexible"
@@ -49,7 +53,7 @@ msgid ""
 "added by an application using the extension mechanisms."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:34
+#: ../../library/email.contentmanager.rst:37
 msgid ""
 "This module defines the eponymous \"Content Manager\" classes.  The base "
 ":class:`.ContentManager` class defines an API for registering content "
@@ -65,7 +69,7 @@ msgid ""
 "``message/rfc822`` content type."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:46
+#: ../../library/email.contentmanager.rst:49
 msgid ""
 "Another part of the enhanced interface is subclasses of "
 ":class:`~email.message.Message` that provide new convenience API functions, "
@@ -73,14 +77,14 @@ msgid ""
 "this module."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:53
+#: ../../library/email.contentmanager.rst:56
 msgid ""
 "Although :class:`.EmailMessage` and :class:`.MIMEPart` are currently "
 "documented in this module because of the provisional nature of the code, the"
 " implementation lives in the :mod:`email.message` module."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:61
+#: ../../library/email.contentmanager.rst:64
 msgid ""
 "If *policy* is specified (it must be an instance of a :mod:`~email.policy` "
 "class) use the rules it specifies to udpate and serialize the representation"
@@ -91,51 +95,51 @@ msgid ""
 "the :mod:`~email.policy` documentation."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:69
+#: ../../library/email.contentmanager.rst:72
 msgid ""
 "This class is a subclass of :class:`~email.message.Message`.  It adds the "
 "following methods:"
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:75
+#: ../../library/email.contentmanager.rst:78
 msgid ""
 "Return ``True`` if there is a :mailheader:`Content-Disposition` header and "
 "its (case insensitive) value is ``attachment``, ``False`` otherwise."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:78
+#: ../../library/email.contentmanager.rst:81
 msgid ""
 "is_attachment is now a method instead of a property, for consistency with "
 ":meth:`~email.message.Message.is_multipart`."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:85
+#: ../../library/email.contentmanager.rst:88
 msgid ""
 "Return the MIME part that is the best candidate to be the \"body\" of the "
 "message."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:88
+#: ../../library/email.contentmanager.rst:91
 msgid ""
 "*preferencelist* must be a sequence of strings from the set ``related``, "
 "``html``, and ``plain``, and indicates the order of preference for the "
 "content type of the part returned."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:92
+#: ../../library/email.contentmanager.rst:95
 msgid ""
 "Start looking for candidate matches with the object on which the "
 "``get_body`` method is called."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:95
+#: ../../library/email.contentmanager.rst:98
 msgid ""
 "If ``related`` is not included in *preferencelist*, consider the root part "
 "(or subpart of the root part) of any related encountered as a candidate if "
 "the (sub-)part matches a preference."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:99
+#: ../../library/email.contentmanager.rst:102
 msgid ""
 "When encountering a ``multipart/related``, check the ``start`` parameter and"
 " if a part with a matching :mailheader:`Content-ID` is found, consider only "
@@ -143,19 +147,19 @@ msgid ""
 "(default root) part of the ``multipart/related``."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:104
+#: ../../library/email.contentmanager.rst:107
 msgid ""
 "If a part has a :mailheader:`Content-Disposition` header, only consider the "
 "part a candidate match if the value of the header is ``inline``."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:107
+#: ../../library/email.contentmanager.rst:110
 msgid ""
 "If none of the candidates matches any of the preferences in *preferneclist*,"
 " return ``None``."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:110
+#: ../../library/email.contentmanager.rst:113
 msgid ""
 "Notes: (1) For most applications the only *preferencelist* combinations that"
 " really make sense are ``('plain',)``, ``('html', 'plain')``, and the "
@@ -168,7 +172,7 @@ msgid ""
 "occasionally cause ``get_body`` to return unexpected results."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:124
+#: ../../library/email.contentmanager.rst:127
 msgid ""
 "Return an iterator over all of the parts of the message that are not "
 "candidate \"body\" parts.  That is, skip the first occurrence of each of "
@@ -183,14 +187,14 @@ msgid ""
 "``multipart/alternative`` or a non-``multipart``, return an empty iterator."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:140
+#: ../../library/email.contentmanager.rst:143
 msgid ""
 "Return an iterator over all of the immediate sub-parts of the message, which"
 " will be empty for a non-``multipart``.  (See also "
 ":meth:`~email.message.walk`.)"
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:147
+#: ../../library/email.contentmanager.rst:150
 msgid ""
 "Call the ``get_content`` method of the *content_manager*, passing self as "
 "the message object, and passing along any other arguments or keywords as "
@@ -198,7 +202,7 @@ msgid ""
 "``content_manager`` specified by the current :mod:`~email.policy`."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:155
+#: ../../library/email.contentmanager.rst:158
 msgid ""
 "Call the ``set_content`` method of the *content_manager*, passing self as "
 "the message object, and passing along any other arguments or keywords as "
@@ -206,7 +210,7 @@ msgid ""
 "``content_manager`` specified by the current :mod:`~email.policy`."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:163
+#: ../../library/email.contentmanager.rst:166
 msgid ""
 "Convert a non-``multipart`` message into a ``multipart/related`` message, "
 "moving any existing :mailheader:`Content-` headers and payload into a (new) "
@@ -216,7 +220,7 @@ msgid ""
 "serialized)."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:173
+#: ../../library/email.contentmanager.rst:176
 msgid ""
 "Convert a non-``multipart`` or a ``multipart/related`` into a "
 "``multipart/alternative``, moving any existing :mailheader:`Content-` "
@@ -226,7 +230,7 @@ msgid ""
 "(for example, when the message is serialized)."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:183
+#: ../../library/email.contentmanager.rst:186
 msgid ""
 "Convert a non-``multipart``, a ``multipart/related``, or a ``multipart-"
 "alternative`` into a ``multipart/mixed``, moving any existing "
@@ -236,7 +240,7 @@ msgid ""
 "when it is needed (for example, when the message is serialized)."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:193
+#: ../../library/email.contentmanager.rst:196
 msgid ""
 "If the message is a ``multipart/related``, create a new message object, pass"
 " all of the arguments to its :meth:`set_content` method, and "
@@ -249,7 +253,7 @@ msgid ""
 " value ``inline``."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:206
+#: ../../library/email.contentmanager.rst:209
 msgid ""
 "If the message is a ``multipart/alternative``, create a new message object, "
 "pass all of the arguments to its :meth:`set_content` method, and "
@@ -261,7 +265,7 @@ msgid ""
 ":mod:`~email.policy`."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:218
+#: ../../library/email.contentmanager.rst:221
 msgid ""
 "If the message is a ``multipart/mixed``, create a new message object, pass "
 "all of the arguments to its :meth:`set_content` method, and "
@@ -277,17 +281,17 @@ msgid ""
 "to the ``content_manager``."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:234
+#: ../../library/email.contentmanager.rst:237
 msgid "Remove the payload and all of the headers."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:239
+#: ../../library/email.contentmanager.rst:242
 msgid ""
 "Remove the payload and all of the :exc:`Content-` headers, leaving all other"
 " headers intact and in their original order."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:245
+#: ../../library/email.contentmanager.rst:248
 msgid ""
 "This class represents a subpart of a MIME message.  It is identical to "
 ":class:`EmailMessage`, except that no :mailheader:`MIME-Version` headers are"
@@ -295,14 +299,14 @@ msgid ""
 "not need their own :mailheader:`MIME-Version` headers."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:255
+#: ../../library/email.contentmanager.rst:258
 msgid ""
 "Base class for content managers.  Provides the standard registry mechanisms "
 "to register converters between MIME content and other representations, as "
 "well as the ``get_content`` and ``set_content`` dispatch methods."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:262
+#: ../../library/email.contentmanager.rst:265
 msgid ""
 "Look up a handler function based on the ``mimetype`` of *msg* (see next "
 "paragraph), call it, passing through all arguments, and return the result of"
@@ -311,31 +315,31 @@ msgid ""
 " data."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:268
+#: ../../library/email.contentmanager.rst:271
 msgid ""
 "To find the handler, look for the following keys in the registry, stopping "
 "with the first one found:"
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:271
+#: ../../library/email.contentmanager.rst:274
 msgid "the string representing the full MIME type (``maintype/subtype``)"
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:272
+#: ../../library/email.contentmanager.rst:275
 msgid "the string representing the ``maintype``"
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:273
+#: ../../library/email.contentmanager.rst:276
 msgid "the empty string"
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:275
+#: ../../library/email.contentmanager.rst:278
 msgid ""
 "If none of these keys produce a handler, raise a :exc:`KeyError` for the "
 "full MIME type."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:281
+#: ../../library/email.contentmanager.rst:284
 msgid ""
 "If the ``maintype`` is ``multipart``, raise a :exc:`TypeError`; otherwise "
 "look up a handler function based on the type of *obj* (see next paragraph), "
@@ -346,32 +350,32 @@ msgid ""
 "to encode information needed to interpret the stored data."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:290
+#: ../../library/email.contentmanager.rst:293
 msgid ""
 "To find the handler, obtain the type of *obj* (``typ = type(obj)``), and "
 "look for the following keys in the registry, stopping with the first one "
 "found:"
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:294
+#: ../../library/email.contentmanager.rst:297
 msgid "the type itself (``typ``)"
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:295
+#: ../../library/email.contentmanager.rst:298
 msgid ""
 "the type's fully qualified name (``typ.__module__ + '.' + "
 "typ.__qualname__``)."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:297
+#: ../../library/email.contentmanager.rst:300
 msgid "the type's qualname (``typ.__qualname__``)"
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:298
+#: ../../library/email.contentmanager.rst:301
 msgid "the type's name (``typ.__name__``)."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:300
+#: ../../library/email.contentmanager.rst:303
 msgid ""
 "If none of the above match, repeat all of the checks above for each of the "
 "types in the :term:`MRO` (``typ.__mro__``).  Finally, if no other key yields"
@@ -380,30 +384,30 @@ msgid ""
 "of the type."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:306
+#: ../../library/email.contentmanager.rst:309
 msgid ""
 "Also add a :mailheader:`MIME-Version` header if one is not present (see also"
 " :class:`.MIMEPart`)."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:312
+#: ../../library/email.contentmanager.rst:315
 msgid ""
 "Record the function *handler* as the handler for *key*.  For the possible "
 "values of *key*, see :meth:`get_content`."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:318
+#: ../../library/email.contentmanager.rst:321
 msgid ""
 "Record *handler* as the function to call when an object of a type matching "
 "*typekey* is passed to :meth:`set_content`.  For the possible values of "
 "*typekey*, see :meth:`set_content`."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:324
+#: ../../library/email.contentmanager.rst:327
 msgid "Content Manager Instances"
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:326
+#: ../../library/email.contentmanager.rst:329
 msgid ""
 "Currently the email package provides only one concrete content manager, "
 ":data:`raw_data_manager`, although more may be added in the future. "
@@ -412,7 +416,7 @@ msgid ""
 ":attr:`~email.policy.EmailPolicy` and its derivatives."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:335
+#: ../../library/email.contentmanager.rst:338
 msgid ""
 "This content manager provides only a minimum interface beyond that provided "
 "by :class:`~email.message.Message` itself:  it deals only with text, raw "
@@ -425,7 +429,7 @@ msgid ""
 "simplifying the creation of multipart messages."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:347
+#: ../../library/email.contentmanager.rst:350
 msgid ""
 "Return the payload of the part as either a string (for ``text`` parts), a "
 ":class:`~email.message.EmailMessage` object (for ``message/rfc822`` parts), "
@@ -435,28 +439,28 @@ msgid ""
 "the payload to unicode.  The default error handler is ``replace``."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:369
+#: ../../library/email.contentmanager.rst:372
 msgid "Add headers and payload to *msg*:"
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:371
+#: ../../library/email.contentmanager.rst:374
 msgid ""
 "Add a :mailheader:`Content-Type` header with a ``maintype/subtype`` value."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:374
+#: ../../library/email.contentmanager.rst:377
 msgid ""
 "For ``str``, set the MIME ``maintype`` to ``text``, and set the subtype to "
 "*subtype* if it is specified, or ``plain`` if it is not."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:376
+#: ../../library/email.contentmanager.rst:379
 msgid ""
 "For ``bytes``, use the specified *maintype* and *subtype*, or raise a "
 ":exc:`TypeError` if they are not specified."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:378
+#: ../../library/email.contentmanager.rst:381
 msgid ""
 "For :class:`~email.message.Message` objects, set the maintype to "
 "``message``, and set the subtype to *subtype* if it is specified or "
@@ -464,7 +468,7 @@ msgid ""
 "(``bytes`` objects must be used to construct ``message/partial`` parts)."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:383
+#: ../../library/email.contentmanager.rst:386
 msgid ""
 "For *<'list'>*, which should be a list of :class:`~email.message.Message` "
 "objects, set the ``maintype`` to ``multipart``, and the ``subtype`` to "
@@ -473,7 +477,7 @@ msgid ""
 "them."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:390
+#: ../../library/email.contentmanager.rst:393
 msgid ""
 "If *charset* is provided (which is valid only for ``str``), encode the "
 "string to bytes using the specified character set.  The default is "
@@ -481,7 +485,7 @@ msgid ""
 "charset name, use the standard charset instead."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:395
+#: ../../library/email.contentmanager.rst:398
 msgid ""
 "If *cte* is set, encode the payload using the specified content transfer "
 "encoding, and set the :mailheader:`Content-Transfer-Endcoding` header to "
@@ -496,14 +500,14 @@ msgid ""
 "is not specified.  For all other values of *subtype*, use ``7bit``."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:408
+#: ../../library/email.contentmanager.rst:411
 msgid ""
 "A *cte* of ``binary`` does not actually work correctly yet. The ``Message`` "
 "object as modified by ``set_content`` is correct, but "
 ":class:`~email.generator.BytesGenerator` does not serialize it correctly."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:413
+#: ../../library/email.contentmanager.rst:416
 msgid ""
 "If *disposition* is set, use it as the value of the :mailheader:`Content-"
 "Disposition` header.  If not specified, and *filename* is specified, add the"
@@ -512,27 +516,27 @@ msgid ""
 "*disposition* are ``attachment`` and ``inline``."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:420
+#: ../../library/email.contentmanager.rst:423
 msgid ""
 "If *filename* is specified, use it as the value of the ``filename`` "
 "parameter of the :mailheader:`Content-Disposition` header.  There is no "
 "default."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:424
+#: ../../library/email.contentmanager.rst:427
 msgid ""
 "If *cid* is specified, add a :mailheader:`Content-ID` header with *cid* as "
 "its value."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:427
+#: ../../library/email.contentmanager.rst:430
 msgid ""
 "If *params* is specified, iterate its ``items`` method and use the resulting"
 " ``(key, value)`` pairs to set additional parameters on the :mailheader"
 ":`Content-Type` header."
 msgstr ""
 
-#: ../../library/email.contentmanager.rst:431
+#: ../../library/email.contentmanager.rst:434
 msgid ""
 "If *headers* is specified and is a list of strings of the form ``headername:"
 " headervalue`` or a list of ``header`` objects (distinguised from strings by"
