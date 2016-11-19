@@ -1,18 +1,18 @@
-<h3>下載</h3>
-<p><a href="{{ pathto('download') }}">下載所有文件</a></p>
-<h3>其他版本的文件</h3>
-<p>（暫無中譯版本）</p>
+<h3>{% trans %}Download{% endtrans %}</h3>
+<p><a href="{{ pathto('download') }}">{% trans %}Download these documents{% endtrans %}</a></p>
+<h3>{% trans %}Docs for other versions{% endtrans %}</h3>
+<p>（無中譯版本）</p>
 <ul>
-  <li><a href="https://docs.python.org/2.7/">Python 2.7 (stable)</a></li>
-  <li><a href="https://docs.python.org/3.4/">Python 3.4 (stable)</a></li>
-  <li><a href="https://www.python.org/doc/versions/">Old versions</a></li>
+  <li><a href="https://docs.python.org/2.7/">{% trans %}Python 2.7 (stable){% endtrans %}</a></li>
+  <li><a href="https://docs.python.org/3.4/">{% trans %}Python 3.4 (stable){% endtrans %}</a></li>
+  <li><a href="https://www.python.org/doc/versions/">{% trans %}Old versions{% endtrans %}</a></li>
 </ul>
 
-<h3>其他資源</h3>
+<h3>{% trans %}Other resources{% endtrans %}</h3>
 <ul>
   {# XXX: many of these should probably be merged in the main docs #}
-  <li><a href="https://www.python.org/dev/peps/">PEP Index</a></li>
-  <li><a href="https://wiki.python.org/moin/BeginnersGuide">Beginner's Guide</a></li>
-  <li><a href="https://wiki.python.org/moin/PythonBooks">Book List</a></li>
-  <li><a href="https://www.python.org/doc/av/">Audio/Visual Talks</a></li>
+  <li><a href="https://www.python.org/dev/peps/">{% trans %}PEP Index{% endtrans %}</a></li>
+  <li><a href="https://wiki.python.org/moin/BeginnersGuide">{% trans %}Beginner's Guide{% endtrans %}</a></li>
+  <li><a href="https://wiki.python.org/moin/PythonBooks">{% trans %}Book List{% endtrans %}</a></li>
+  <li><a href="https://www.python.org/doc/av/">{% trans %}Audio/Visual Talks{% endtrans %}</a></li>
 </ul>
