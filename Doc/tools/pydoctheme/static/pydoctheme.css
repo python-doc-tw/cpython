@@ -181,3 +181,8 @@ div.footer a:hover {
     background: none !important;
 }
 
+/* Fix main text alignment in Chinese translation */
+div.body p, div.body dd, div.body li, div.body blockquote {
+    text-align: left;
+}
+Doc/locale/zh_Hant/LC_MESSAGES/library/stdtypes.po
