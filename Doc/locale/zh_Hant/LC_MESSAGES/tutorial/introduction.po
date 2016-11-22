@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-18 18:19-0600\n"
-"PO-Revision-Date: 2016-11-19 00:37+0000\n"
+"PO-Revision-Date: 2016-11-22 07:38+0000\n"
 "Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -310,11 +310,11 @@ msgstr "字串支援非常多種基本轉換和搜尋的方法。"
 
 #: ../../tutorial/introduction.rst:356
 msgid ":ref:`formatstrings`"
-msgstr ""
+msgstr ":ref:`formatstrings`"
 
 #: ../../tutorial/introduction.rst:356
 msgid "Information about string formatting with :meth:`str.format`."
-msgstr ""
+msgstr "關於透過 :meth:`str.format` 字串格式化 (string formatting) 的資訊。"
 
 #: ../../tutorial/introduction.rst:359
 msgid ":ref:`old-string-formatting`"
