@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-18 18:19-0600\n"
-"PO-Revision-Date: 2016-11-22 07:38+0000\n"
+"PO-Revision-Date: 2016-11-25 05:50+0000\n"
 "Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -211,7 +211,7 @@ msgid ""
 "Strings can be *indexed* (subscripted), with the first character having "
 "index 0. There is no separate character type; a character is simply a string"
 " of size one::"
-msgstr "字串可以被「索引 *indexed*」(subscripted)，第一個字元的索引值為 0。沒有獨立表示字元的型別；一個字元就是一個大小為 1 的字串：\n\n::"
+msgstr "字串可以被「索引 *indexed*」(下標，即 subscripted)，第一個字元的索引值為 0。沒有獨立表示字元的型別；一個字元就是一個大小為 1 的字串：\n\n::"
 
 #: ../../tutorial/introduction.rst:249
 msgid ""
@@ -350,11 +350,11 @@ msgid ""
 "All slice operations return a new list containing the requested elements.  "
 "This means that the following slice returns a new (shallow) copy of the "
 "list::"
-msgstr "所有 slice 操作回傳一個新的 list 包含想要的元素。這意謂著底下這個 slice 回傳一個全新的 list 淺複製 (shallow copy)：\n\n::"
+msgstr "所有 slice 操作都會回傳一個新的 list 包含要求的元素。這意謂著以下這個 slice 複製了原本 list（淺複製，即 shallow copy）：\n\n::"
 
 #: ../../tutorial/introduction.rst:393
 msgid "Lists also support operations like concatenation::"
-msgstr "List 對支援如接合 (concatenation) 的操作疑問：\n\n::"
+msgstr "List 對支援如接合 (concatenation) 等操作：\n\n::"
 
 #: ../../tutorial/introduction.rst:398
 msgid ""
@@ -366,13 +366,13 @@ msgstr "不同於字串是 :term:`immutable`，list 是 :term:`mutable` 型別�
 msgid ""
 "You can also add new items at the end of the list, by using the "
 ":meth:`~list.append` *method* (we will see more about methods later)::"
-msgstr "你也可以在 list 的最後加入新元素，透過使用 :meth:`~list.append` 方法（我們稍後會看到更多方法的說明）：\n\n::"
+msgstr "你也可以在 list 的最後加入新元素，透過使用 :meth:`~list.append` *方法* (method)（我們稍後會看到更多方法的說明）：\n\n::"
 
 #: ../../tutorial/introduction.rst:416
 msgid ""
 "Assignment to slices is also possible, and this can even change the size of "
 "the list or clear it entirely::"
-msgstr "對 list slice 賦值是有可能的，這能改變 list 的大小，甚至是清空一個 list：\n\n::"
+msgstr "也可以對 slice 賦值，這能改變 list 的大小，甚至是清空一個 list：\n\n::"
 
 #: ../../tutorial/introduction.rst:435
 msgid "The built-in function :func:`len` also applies to lists::"
@@ -382,7 +382,7 @@ msgstr "內建的函式 :func:`len` 亦可以作用在 list 上：\n\n::"
 msgid ""
 "It is possible to nest lists (create lists containing other lists), for "
 "example::"
-msgstr "巢狀 list 也是可行的（建立 list 包含其他 list），例如：\n\n::"
+msgstr "也可以嵌套多層 list （建立 list 包含其他 list），例如：\n\n::"
 
 #: ../../tutorial/introduction.rst:457
 msgid "First Steps Towards Programming"
@@ -393,11 +393,11 @@ msgid ""
 "Of course, we can use Python for more complicated tasks than adding two and "
 "two together.  For instance, we can write an initial sub-sequence of the "
 "*Fibonacci* series as follows::"
-msgstr "當然，我們可以用 Python 來處理比 2 加 2 更複雜的工作。例如，我們可以寫下費式數列的首幾項序列如下：\n\n::"
+msgstr "當然，我們可以用 Python 來處理比 2 加 2 更複雜的工作。例如，我們可以印出費式數列的首幾項序列：\n\n::"
 
 #: ../../tutorial/introduction.rst:477
 msgid "This example introduces several new features."
-msgstr ""
+msgstr "這例子引入了許多新的特性。"
 
 #: ../../tutorial/introduction.rst:479
 msgid ""
@@ -406,7 +406,7 @@ msgid ""
 "used again, demonstrating that the expressions on the right-hand side are "
 "all evaluated first before any of the assignments take place.  The right-"
 "hand side expressions are evaluated  from the left to the right."
-msgstr ""
+msgstr "第一行出現了多重賦值：變數 ``a`` 與 ``b`` 同時得到了新的值 0 與 1。在最後一行同樣的賦值再被使用了一次，示範了等號的右項運算 (expression) 會先被計算 (evaluate)，賦值再發生。右項的運算式由左至右依序被計算。"
 
 #: ../../tutorial/introduction.rst:485
 msgid ""
@@ -418,7 +418,7 @@ msgid ""
 "standard comparison operators are written the same as in C: ``<`` (less "
 "than), ``>`` (greater than), ``==`` (equal to), ``<=`` (less than or equal "
 "to), ``>=`` (greater than or equal to) and ``!=`` (not equal to)."
-msgstr ""
+msgstr ":keyword:`while` 迴圈只要它的條件為真，將會一直重覆執行。在 Python 中如同 C 語言，任何非零的整數值為真 (true)；零為偽 (false)。條件可以是字串、list、甚至是任何序列型別；任何非零長度的序列為真，即空的序列為假。本例子使用的條件是個簡單的比較。標準的比較操作子 (comparison operators) 使用如同 C 語言一樣的符號：\\ ``<``\\ （小於）、\\ ``>``\\ （大於）、\\ ``==``\\ （等於）、\\ ``<=``\\ （小於等於）、\\ ``>=``\\ （大於等於）以及\\ ``!=``\\ （不等於）。"
 
 #: ../../tutorial/introduction.rst:494
 msgid ""
@@ -430,7 +430,7 @@ msgid ""
 "interactively, it must be followed by a blank line to indicate completion "
 "(since the parser cannot guess when you have typed the last line).  Note "
 "that each line within a basic block must be indented by the same amount."
-msgstr ""
+msgstr "迴圈的主體會\\ *縮排*\\ ：縮排在 Python 中用來關連一群陳述式。在互動式提示符中，你必須在迴圈內的每一行一開始鍵入 tab 或者（數個）空白來維持縮排。實務上，你會先在文字編輯器中準備好比較複雜的輸入；多數編輯器都有自動縮排的功能。當一個複合陳述式以互動地方式輸入，必須在結束時多加一行空行來代表結束（因為語法解析器無法判斷你何時輸入複合陳述的最後一行）。注意在一個縮排段落內的縮排方式與數量必須維持一致。"
 
 #: ../../tutorial/introduction.rst:503
 msgid ""
