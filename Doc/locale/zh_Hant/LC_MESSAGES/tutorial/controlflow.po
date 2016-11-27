@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-18 18:19-0600\n"
-"PO-Revision-Date: 2016-11-27 19:31+0000\n"
+"PO-Revision-Date: 2016-11-27 19:46+0000\n"
 "Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -170,7 +170,7 @@ msgstr "當 ``else`` 段落與迴圈使用時，相較於搭配 :keyword:`if` �
 msgid ""
 "The :keyword:`continue` statement, also borrowed from C, continues with the "
 "next iteration of the loop::"
-msgstr ""
+msgstr ":keyword:`continue` 陳述，亦承襲於 C 語言，讓迴圈於下個选代起繼續執行：\n\n::"
 
 #: ../../tutorial/controlflow.rst:214
 msgid ":keyword:`pass` Statements"
