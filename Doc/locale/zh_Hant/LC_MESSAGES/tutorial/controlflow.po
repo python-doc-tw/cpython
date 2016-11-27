@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-18 18:19-0600\n"
-"PO-Revision-Date: 2016-11-27 19:13+0000\n"
+"PO-Revision-Date: 2016-11-27 19:31+0000\n"
 "Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -148,13 +148,13 @@ msgid ""
 "condition becomes false (with :keyword:`while`), but not when the loop is "
 "terminated by a :keyword:`break` statement.  This is exemplified by the "
 "following loop, which searches for prime numbers::"
-msgstr ""
+msgstr "迴圈可以帶有一個 ``else`` 段落。當迴圈歷遍选代的 list （在 :keyword:`for` 中）或條件為偽（在 :keyword:`while` 中）時，這個段落會被執行；但迴圈被 :keyword:`break` 陳述終止時則不會。底下尋找質數的迴圈即示範了這個行為：\n\n::"
 
 #: ../../tutorial/controlflow.rst:184
 msgid ""
 "(Yes, this is the correct code.  Look closely: the ``else`` clause belongs "
 "to the :keyword:`for` loop, **not** the :keyword:`if` statement.)"
-msgstr ""
+msgstr "（沒錯，這是正確的程式碼。請看仔細：``else`` 段落屬於 :keyword:`for` 迴圈，\\ **並非** :keyword:`if` 陳述。）"
 
 #: ../../tutorial/controlflow.rst:187
 msgid ""
@@ -164,7 +164,7 @@ msgid ""
 "when no exception occurs, and a loop's ``else`` clause runs when no "
 "``break`` occurs. For more on the :keyword:`try` statement and exceptions, "
 "see :ref:`tut-handling`."
-msgstr ""
+msgstr "當 ``else`` 段落與迴圈使用時，相較於搭配 :keyword:`if` 陳述使用，它的行為與搭配 :keyword:`try` 陳述使用時更為相似：\\ :keyword:`try` 的 ``else`` 段落在沒有任何例外 (exception) 時執行，而迴圈的 ``else`` 段落在沒有任何 ``break`` 時執行。更多有關 :keyword:`try` 陳述和例外的介紹，見\\ :ref:`tut-handling`\\ 。"
 
 #: ../../tutorial/controlflow.rst:194
 msgid ""
