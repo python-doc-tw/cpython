@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Python 3.5 TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-18 18:19-0600\n"
-"PO-Revision-Date: 2016-11-27 19:46+0000\n"
+"PO-Revision-Date: 2016-11-28 19:01+0000\n"
 "Last-Translator: Liang Bo Wang <me@liang2.tw>\n"
 "Language-Team: Chinese Traditional (http://www.transifex.com/python-tw-doc/python-35-tw/language/zh-Hant/)\n"
 "MIME-Version: 1.0\n"
@@ -180,11 +180,11 @@ msgstr ":keyword:`pass` 陳述式"
 msgid ""
 "The :keyword:`pass` statement does nothing. It can be used when a statement "
 "is required syntactically but the program requires no action. For example::"
-msgstr ""
+msgstr ":keyword:`pass` 陳述不執行任何動作。它用在語法上需要一個陳述但不需要執行任何動作的時候。例如：\n\n::"
 
 #: ../../tutorial/controlflow.rst:223
 msgid "This is commonly used for creating minimal classes::"
-msgstr ""
+msgstr "這經常用於定義一個最簡單的類別：\n\n::"
 
 #: ../../tutorial/controlflow.rst:229
 msgid ""
@@ -192,7 +192,7 @@ msgid ""
 "function or conditional body when you are working on new code, allowing you "
 "to keep thinking at a more abstract level.  The :keyword:`pass` is silently "
 "ignored::"
-msgstr ""
+msgstr ":keyword:`pass` 亦可作為一個函式或條件判斷主體的預留位置，它可幫助你以更宏觀的角度思考並撰寫新的程式碼。\\ :keyword:`pass` 可自動忽略：\n\n::"
 
 #: ../../tutorial/controlflow.rst:240
 msgid "Defining Functions"
