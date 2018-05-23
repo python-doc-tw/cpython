@@ -22,7 +22,7 @@ file_filter = locale/<lang>/LC_MESSAGES/copyright.po
 source_file = locale/pot/copyright.pot
 source_lang = en
 
-[python-35-tw.glossary-1]
+[python-35-tw.glossary_]
 file_filter = locale/<lang>/LC_MESSAGES/glossary.po
 source_file = locale/pot/glossary.pot
 source_lang = en
@@ -422,6 +422,11 @@ file_filter = locale/<lang>/LC_MESSAGES/extending/newtypes.po
 source_file = locale/pot/extending/newtypes.pot
 source_lang = en
 
+[python-35-tw.extending--newtypes_tutorial]
+file_filter = locale/<lang>/LC_MESSAGES/extending/newtypes_tutorial.po
+source_file = locale/pot/extending/newtypes_tutorial.pot
+source_lang = en
+
 [python-35-tw.extending--windows]
 file_filter = locale/<lang>/LC_MESSAGES/extending/windows.po
 source_file = locale/pot/extending/windows.pot
@@ -507,6 +512,11 @@ file_filter = locale/<lang>/LC_MESSAGES/howto/index.po
 source_file = locale/pot/howto/index.pot
 source_lang = en
 
+[python-35-tw.howto--instrumentation]
+file_filter = locale/<lang>/LC_MESSAGES/howto/instrumentation.po
+source_file = locale/pot/howto/instrumentation.pot
+source_lang = en
+
 [python-35-tw.howto--ipaddress]
 file_filter = locale/<lang>/LC_MESSAGES/howto/ipaddress.po
 source_file = locale/pot/howto/ipaddress.pot
@@ -550,11 +560,6 @@ source_lang = en
 [python-35-tw.howto--urllib2]
 file_filter = locale/<lang>/LC_MESSAGES/howto/urllib2.po
 source_file = locale/pot/howto/urllib2.pot
-source_lang = en
-
-[python-35-tw.howto--webservers]
-file_filter = locale/<lang>/LC_MESSAGES/howto/webservers.po
-source_file = locale/pot/howto/webservers.pot
 source_lang = en
 
 [python-35-tw.install--index]
@@ -942,14 +947,14 @@ file_filter = locale/<lang>/LC_MESSAGES/library/dummy_threading.po
 source_file = locale/pot/library/dummy_threading.pot
 source_lang = en
 
-[python-35-tw.library--email-examples]
-file_filter = locale/<lang>/LC_MESSAGES/library/email-examples.po
-source_file = locale/pot/library/email-examples.pot
-source_lang = en
-
 [python-35-tw.library--email_charset]
 file_filter = locale/<lang>/LC_MESSAGES/library/email.charset.po
 source_file = locale/pot/library/email.charset.pot
+source_lang = en
+
+[python-35-tw.library--email_compat32-message]
+file_filter = locale/<lang>/LC_MESSAGES/library/email.compat32-message.po
+source_file = locale/pot/library/email.compat32-message.pot
 source_lang = en
 
 [python-35-tw.library--email_contentmanager]
@@ -965,6 +970,11 @@ source_lang = en
 [python-35-tw.library--email_errors]
 file_filter = locale/<lang>/LC_MESSAGES/library/email.errors.po
 source_file = locale/pot/library/email.errors.pot
+source_lang = en
+
+[python-35-tw.library--email_examples]
+file_filter = locale/<lang>/LC_MESSAGES/library/email.examples.po
+source_file = locale/pot/library/email.examples.pot
 source_lang = en
 
 [python-35-tw.library--email_generator]
@@ -1607,6 +1617,11 @@ file_filter = locale/<lang>/LC_MESSAGES/library/sched.po
 source_file = locale/pot/library/sched.pot
 source_lang = en
 
+[python-35-tw.library--secrets]
+file_filter = locale/<lang>/LC_MESSAGES/library/secrets.po
+source_file = locale/pot/library/secrets.pot
+source_lang = en
+
 [python-35-tw.library--select]
 file_filter = locale/<lang>/LC_MESSAGES/library/select.po
 source_file = locale/pot/library/select.pot
@@ -2227,11 +2242,6 @@ file_filter = locale/<lang>/LC_MESSAGES/using/mac.po
 source_file = locale/pot/using/mac.pot
 source_lang = en
 
-[python-35-tw.using--scripts]
-file_filter = locale/<lang>/LC_MESSAGES/using/scripts.po
-source_file = locale/pot/using/scripts.pot
-source_lang = en
-
 [python-35-tw.using--unix]
 file_filter = locale/<lang>/LC_MESSAGES/using/unix.po
 source_file = locale/pot/using/unix.pot
@@ -2310,6 +2320,11 @@ source_lang = en
 [python-35-tw.whatsnew--3_5]
 file_filter = locale/<lang>/LC_MESSAGES/whatsnew/3.5.po
 source_file = locale/pot/whatsnew/3.5.pot
+source_lang = en
+
+[python-35-tw.whatsnew--3_6]
+file_filter = locale/<lang>/LC_MESSAGES/whatsnew/3.6.po
+source_file = locale/pot/whatsnew/3.6.pot
 source_lang = en
 
 [python-35-tw.whatsnew--changelog]
