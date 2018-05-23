@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2018, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.5\n"
+"Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2018-05-23 22:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,10 @@ msgstr ""
 
 #: ../../howto/argparse.rst:3
 msgid "Argparse Tutorial"
+msgstr ""
+
+#: ../../howto/argparse.rst:0
+msgid "author"
 msgstr ""
 
 #: ../../howto/argparse.rst:5
@@ -149,7 +153,7 @@ msgid "Introducing Optional arguments"
 msgstr ""
 
 #: ../../howto/argparse.rst:224
-msgid "So far we, have been playing with positional arguments. Let us have a look on how to add optional ones::"
+msgid "So far we have been playing with positional arguments. Let us have a look on how to add optional ones::"
 msgstr ""
 
 #: ../../howto/argparse.rst:234
@@ -260,7 +264,7 @@ msgid "Now here's a demonstration of what the \"count\" action gives. You've pro
 msgstr ""
 
 #: ../../howto/argparse.rst:506
-msgid "And, just like the \"store_true\" action, if you don't specify the ``-v`` flag, that flag is considered to have ``None`` value."
+msgid "And if you don't specify the ``-v`` flag, that flag is considered to have ``None`` value."
 msgstr ""
 
 #: ../../howto/argparse.rst:509
@@ -268,7 +272,7 @@ msgid "As should be expected, specifying the long form of the flag, we should ge
 msgstr ""
 
 #: ../../howto/argparse.rst:512
-msgid "Sadly, our help output isn't very informative on the new ability our script has acquired, but that can always be fixed by improving the documentation for out script (e.g. via the ``help`` keyword argument)."
+msgid "Sadly, our help output isn't very informative on the new ability our script has acquired, but that can always be fixed by improving the documentation for our script (e.g. via the ``help`` keyword argument)."
 msgstr ""
 
 #: ../../howto/argparse.rst:516
@@ -283,76 +287,76 @@ msgstr ""
 msgid "And this is what it gives:"
 msgstr ""
 
-#: ../../howto/argparse.rst:552
+#: ../../howto/argparse.rst:553
 msgid "First output went well, and fixes the bug we had before. That is, we want any value >= 2 to be as verbose as possible."
 msgstr ""
 
-#: ../../howto/argparse.rst:555
+#: ../../howto/argparse.rst:556
 msgid "Third output not so good."
 msgstr ""
 
-#: ../../howto/argparse.rst:557
+#: ../../howto/argparse.rst:558
 msgid "Let's fix that bug::"
 msgstr ""
 
-#: ../../howto/argparse.rst:574
+#: ../../howto/argparse.rst:575
 msgid "We've just introduced yet another keyword, ``default``. We've set it to ``0`` in order to make it comparable to the other int values. Remember that by default, if an optional argument isn't specified, it gets the ``None`` value, and that cannot be compared to an int value (hence the :exc:`TypeError` exception)."
 msgstr ""
 
-#: ../../howto/argparse.rst:581
+#: ../../howto/argparse.rst:582
 msgid "And:"
 msgstr ""
 
-#: ../../howto/argparse.rst:588
+#: ../../howto/argparse.rst:589
 msgid "You can go quite far just with what we've learned so far, and we have only scratched the surface. The :mod:`argparse` module is very powerful, and we'll explore a bit more of it before we end this tutorial."
 msgstr ""
 
-#: ../../howto/argparse.rst:595
+#: ../../howto/argparse.rst:596
 msgid "Getting a little more advanced"
 msgstr ""
 
-#: ../../howto/argparse.rst:597
+#: ../../howto/argparse.rst:598
 msgid "What if we wanted to expand our tiny program to perform other powers, not just squares::"
 msgstr ""
 
-#: ../../howto/argparse.rst:614
-#: ../../howto/argparse.rst:652
+#: ../../howto/argparse.rst:615
+#: ../../howto/argparse.rst:653
 msgid "Output:"
 msgstr ""
 
-#: ../../howto/argparse.rst:635
+#: ../../howto/argparse.rst:636
 msgid "Notice that so far we've been using verbosity level to *change* the text that gets displayed. The following example instead uses verbosity level to display *more* text instead::"
 msgstr ""
 
-#: ../../howto/argparse.rst:666
+#: ../../howto/argparse.rst:667
 msgid "Conflicting options"
 msgstr ""
 
-#: ../../howto/argparse.rst:668
+#: ../../howto/argparse.rst:669
 msgid "So far, we have been working with two methods of an :class:`argparse.ArgumentParser` instance. Let's introduce a third one, :meth:`add_mutually_exclusive_group`. It allows for us to specify options that conflict with each other. Let's also change the rest of the program so that the new functionality makes more sense: we'll introduce the ``--quiet`` option, which will be the opposite of the ``--verbose`` one::"
 msgstr ""
 
-#: ../../howto/argparse.rst:694
+#: ../../howto/argparse.rst:695
 msgid "Our program is now simpler, and we've lost some functionality for the sake of demonstration. Anyways, here's the output:"
 msgstr ""
 
-#: ../../howto/argparse.rst:712
+#: ../../howto/argparse.rst:713
 msgid "That should be easy to follow. I've added that last output so you can see the sort of flexibility you get, i.e. mixing long form options with short form ones."
 msgstr ""
 
-#: ../../howto/argparse.rst:716
+#: ../../howto/argparse.rst:717
 msgid "Before we conclude, you probably want to tell your users the main purpose of your program, just in case they don't know::"
 msgstr ""
 
-#: ../../howto/argparse.rst:737
+#: ../../howto/argparse.rst:738
 msgid "Note that slight difference in the usage text. Note the ``[-v | -q]``, which tells us that we can either use ``-v`` or ``-q``, but not both at the same time:"
 msgstr ""
 
-#: ../../howto/argparse.rst:759
+#: ../../howto/argparse.rst:760
 msgid "Conclusion"
 msgstr ""
 
-#: ../../howto/argparse.rst:761
+#: ../../howto/argparse.rst:762
 msgid "The :mod:`argparse` module offers a lot more than shown here. Its docs are quite detailed and thorough, and full of examples. Having gone through this tutorial, you should easily digest them without feeling overwhelmed."
 msgstr ""
 

@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2018, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.5\n"
+"Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2018-05-23 22:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,7 +165,7 @@ msgid "Returns the integer *n* converted to base *base* as a string.  The *base*
 msgstr ""
 
 #: ../../c-api/number.rst:268
-msgid "Returns *o* converted to a Py_ssize_t value if *o* can be interpreted as an integer.  If the call fails, an exception is raised and -1 is returned."
+msgid "Returns *o* converted to a Py_ssize_t value if *o* can be interpreted as an integer.  If the call fails, an exception is raised and ``-1`` is returned."
 msgstr ""
 
 #: ../../c-api/number.rst:271
@@ -173,6 +173,6 @@ msgid "If *o* can be converted to a Python int but the attempt to convert to a P
 msgstr ""
 
 #: ../../c-api/number.rst:281
-msgid "Returns True if *o* is an index integer (has the nb_index slot of  the tp_as_number structure filled in)."
+msgid "Returns ``1`` if *o* is an index integer (has the nb_index slot of  the tp_as_number structure filled in), and ``0`` otherwise."
 msgstr ""
 

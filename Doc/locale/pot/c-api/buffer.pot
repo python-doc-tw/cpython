@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2018, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.5\n"
+"Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2018-05-23 22:27+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,7 +133,7 @@ msgid "This field is controlled by the :c:macro:`PyBUF_FORMAT` flag."
 msgstr ""
 
 #: ../../c-api/buffer.rst:158
-msgid "The number of dimensions the memory represents as an n-dimensional array. If it is 0, :c:member:`~Py_buffer.buf` points to a single item representing a scalar. In this case, :c:member:`~Py_buffer.shape`, :c:member:`~Py_buffer.strides` and :c:member:`~Py_buffer.suboffsets` MUST be *NULL*."
+msgid "The number of dimensions the memory represents as an n-dimensional array. If it is ``0``, :c:member:`~Py_buffer.buf` points to a single item representing a scalar. In this case, :c:member:`~Py_buffer.shape`, :c:member:`~Py_buffer.strides` and :c:member:`~Py_buffer.suboffsets` MUST be *NULL*."
 msgstr ""
 
 #: ../../c-api/buffer.rst:163
@@ -437,11 +437,11 @@ msgid "Buffer-related functions"
 msgstr ""
 
 #: ../../c-api/buffer.rst:430
-msgid "Return 1 if *obj* supports the buffer interface otherwise 0.  When 1 is returned, it doesn't guarantee that :c:func:`PyObject_GetBuffer` will succeed."
+msgid "Return ``1`` if *obj* supports the buffer interface otherwise ``0``.  When ``1`` is returned, it doesn't guarantee that :c:func:`PyObject_GetBuffer` will succeed."
 msgstr ""
 
 #: ../../c-api/buffer.rst:437
-msgid "Send a request to *exporter* to fill in *view* as specified by  *flags*. If the exporter cannot provide a buffer of the exact type, it MUST raise :c:data:`PyExc_BufferError`, set :c:member:`view->obj` to *NULL* and return -1."
+msgid "Send a request to *exporter* to fill in *view* as specified by  *flags*. If the exporter cannot provide a buffer of the exact type, it MUST raise :c:data:`PyExc_BufferError`, set :c:member:`view->obj` to *NULL* and return ``-1``."
 msgstr ""
 
 #: ../../c-api/buffer.rst:442
@@ -465,26 +465,34 @@ msgid "Return the implied :c:data:`~Py_buffer.itemsize` from :c:data:`~Py_buffer
 msgstr ""
 
 #: ../../c-api/buffer.rst:471
-msgid "Return 1 if the memory defined by the *view* is C-style (*order* is ``'C'``) or Fortran-style (*order* is ``'F'``) :term:`contiguous` or either one (*order* is ``'A'``).  Return 0 otherwise."
+msgid "Return ``1`` if the memory defined by the *view* is C-style (*order* is ``'C'``) or Fortran-style (*order* is ``'F'``) :term:`contiguous` or either one (*order* is ``'A'``).  Return ``0`` otherwise."
 msgstr ""
 
 #: ../../c-api/buffer.rst:478
+msgid "Copy *len* bytes from *src* to its contiguous representation in *buf*. *order* can be ``'C'`` or ``'F'`` (for C-style or Fortran-style ordering). ``0`` is returned on success, ``-1`` on error."
+msgstr ""
+
+#: ../../c-api/buffer.rst:482
+msgid "This function fails if *len* != *src->len*."
+msgstr ""
+
+#: ../../c-api/buffer.rst:487
 msgid "Fill the *strides* array with byte-strides of a :term:`contiguous` (C-style if *order* is ``'C'`` or Fortran-style if *order* is ``'F'``) array of the given shape with the given number of bytes per element."
 msgstr ""
 
-#: ../../c-api/buffer.rst:485
+#: ../../c-api/buffer.rst:494
 msgid "Handle buffer requests for an exporter that wants to expose *buf* of size *len* with writability set according to *readonly*. *buf* is interpreted as a sequence of unsigned bytes."
 msgstr ""
 
-#: ../../c-api/buffer.rst:489
+#: ../../c-api/buffer.rst:498
 msgid "The *flags* argument indicates the request type. This function always fills in *view* as specified by flags, unless *buf* has been designated as read-only and :c:macro:`PyBUF_WRITABLE` is set in *flags*."
 msgstr ""
 
-#: ../../c-api/buffer.rst:493
-msgid "On success, set :c:member:`view->obj` to a new reference to *exporter* and return 0. Otherwise, raise :c:data:`PyExc_BufferError`, set :c:member:`view->obj` to *NULL* and return -1;"
+#: ../../c-api/buffer.rst:502
+msgid "On success, set :c:member:`view->obj` to a new reference to *exporter* and return 0. Otherwise, raise :c:data:`PyExc_BufferError`, set :c:member:`view->obj` to *NULL* and return ``-1``;"
 msgstr ""
 
-#: ../../c-api/buffer.rst:497
+#: ../../c-api/buffer.rst:506
 msgid "If this function is used as part of a :ref:`getbufferproc <buffer-structs>`, *exporter* MUST be set to the exporting object and *flags* must be passed unmodified. Otherwise, *exporter* MUST be NULL."
 msgstr ""
 

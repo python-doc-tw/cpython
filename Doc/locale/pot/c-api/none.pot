@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2018, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.5\n"
+"Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2018-05-23 22:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../c-api/none.rst:6
-msgid "The None Object"
+msgid "The ``None`` Object"
 msgstr ""
 
 #: ../../c-api/none.rst:10
@@ -29,6 +29,6 @@ msgid "The Python ``None`` object, denoting lack of value.  This object has no m
 msgstr ""
 
 #: ../../c-api/none.rst:25
-msgid "Properly handle returning :c:data:`Py_None` from within a C function (that is, increment the reference count of None and return it.)"
+msgid "Properly handle returning :c:data:`Py_None` from within a C function (that is, increment the reference count of ``None`` and return it.)"
 msgstr ""
 

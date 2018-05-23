@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2018, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.5\n"
+"Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2018-05-23 22:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -161,38 +161,38 @@ msgid "Let's take an example with a simple script::"
 msgstr ""
 
 #: ../../distutils/examples.rst:248
-msgid "Running the ``check`` command will display some warnings::"
+msgid "Running the ``check`` command will display some warnings:"
 msgstr ""
 
-#: ../../distutils/examples.rst:257
+#: ../../distutils/examples.rst:259
 msgid "If you use the reStructuredText syntax in the ``long_description`` field and `docutils`_  is installed you can check if the syntax is fine with the ``check`` command, using the ``restructuredtext`` option."
 msgstr ""
 
-#: ../../distutils/examples.rst:261
+#: ../../distutils/examples.rst:263
 msgid "For example, if the :file:`setup.py` script is changed like this::"
 msgstr ""
 
-#: ../../distutils/examples.rst:276
-msgid "Where the long description is broken, ``check`` will be able to detect it by using the :mod:`docutils` parser::"
+#: ../../distutils/examples.rst:278
+msgid "Where the long description is broken, ``check`` will be able to detect it by using the :mod:`docutils` parser:"
 msgstr ""
 
-#: ../../distutils/examples.rst:285
+#: ../../distutils/examples.rst:289
 msgid "Reading the metadata"
 msgstr ""
 
-#: ../../distutils/examples.rst:287
-msgid "The :func:`distutils.core.setup` function provides a command-line interface that allows you to query the metadata fields of a project through the ``setup.py`` script of a given project::"
+#: ../../distutils/examples.rst:291
+msgid "The :func:`distutils.core.setup` function provides a command-line interface that allows you to query the metadata fields of a project through the ``setup.py`` script of a given project:"
 msgstr ""
 
-#: ../../distutils/examples.rst:294
+#: ../../distutils/examples.rst:300
 msgid "This call reads the ``name`` metadata by running the :func:`distutils.core.setup`  function. Although, when a source or binary distribution is created with Distutils, the metadata fields are written in a static file called :file:`PKG-INFO`. When a Distutils-based project is installed in Python, the :file:`PKG-INFO` file is copied alongside the modules and packages of the distribution under :file:`NAME-VERSION-pyX.X.egg-info`, where ``NAME`` is the name of the project, ``VERSION`` its version as defined in the Metadata, and ``pyX.X`` the major and minor version of Python like ``2.7`` or ``3.2``."
 msgstr ""
 
-#: ../../distutils/examples.rst:304
+#: ../../distutils/examples.rst:310
 msgid "You can read back this static file, by using the :class:`distutils.dist.DistributionMetadata` class and its :func:`read_pkg_file` method::"
 msgstr ""
 
-#: ../../distutils/examples.rst:318
-msgid "Notice that the class can also be instanciated with a metadata file path to loads its values::"
+#: ../../distutils/examples.rst:324
+msgid "Notice that the class can also be instantiated with a metadata file path to loads its values::"
 msgstr ""
 

@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2018, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.5\n"
+"Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2018-05-23 22:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,10 @@ msgstr ""
 
 #: ../../whatsnew/3.4.rst:3
 msgid "What's New In Python 3.4"
+msgstr ""
+
+#: ../../whatsnew/3.4.rst:0
+msgid "Author"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:5
@@ -157,7 +161,7 @@ msgid ":mod:`multiprocessing` child processes on Windows no longer inherit all o
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:145
-msgid "A new :func:`hashlib.pbkdf2_hmac` function provides the `PKCS#5 password-based key derivation function 2 <http://en.wikipedia.org/wiki/PBKDF2>`_."
+msgid "A new :func:`hashlib.pbkdf2_hmac` function provides the `PKCS#5 password-based key derivation function 2 <https://en.wikipedia.org/wiki/PBKDF2>`_."
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:148
@@ -225,7 +229,7 @@ msgid "By default, the commands ``pipX`` and ``pipX.Y`` will be installed on all
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:200
-msgid "The :ref:`pyvenv <scripts-pyvenv>` command line utility and the :mod:`venv` module make use of the :mod:`ensurepip` module to make ``pip`` readily available in virtual environments. When using the command line utility, ``pip`` is installed by default, while when using the :mod:`venv` module :ref:`venv-api` installation of ``pip`` must be requested explicitly."
+msgid "The ``pyvenv`` command line utility and the :mod:`venv` module make use of the :mod:`ensurepip` module to make ``pip`` readily available in virtual environments. When using the command line utility, ``pip`` is installed by default, while when using the :mod:`venv` module :ref:`venv-api` installation of ``pip`` must be requested explicitly."
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:206
@@ -708,7 +712,7 @@ msgid "The :meth:`.Message.set_param` message now accepts a *replace* keyword ar
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:819
-msgid "A pair of new subclasses of :class:`~email.message.Message` have been added (:class:`.EmailMessage` and :class:`.MIMEPart`), along with a new sub-module, :mod:`~email.contentmanager` and a new :mod:`~email.policy` attribute :attr:`~email.policy.EmailPolicy.content_manager`.  All documentation is currently in the new module, which is being added as part of email's new :term:`provisional API`.  These classes provide a number of new methods that make extracting content from and inserting content into email messages much easier.  For details, see the :mod:`~email.contentmanager` documentation and the :ref:`email-contentmanager-api-examples`.  These API additions complete the bulk of the work that was planned as part of the email6 project.  The currently provisional API is scheduled to become final in Python 3.5 (possibly with a few minor additions in the area of error handling).  (Contributed by R. David Murray in :issue:`18891`.)"
+msgid "A pair of new subclasses of :class:`~email.message.Message` have been added (:class:`.EmailMessage` and :class:`.MIMEPart`), along with a new sub-module, :mod:`~email.contentmanager` and a new :mod:`~email.policy` attribute :attr:`~email.policy.EmailPolicy.content_manager`.  All documentation is currently in the new module, which is being added as part of email's new :term:`provisional API`.  These classes provide a number of new methods that make extracting content from and inserting content into email messages much easier.  For details, see the :mod:`~email.contentmanager` documentation and the :ref:`email-examples`.  These API additions complete the bulk of the work that was planned as part of the email6 project.  The currently provisional API is scheduled to become final in Python 3.5 (possibly with a few minor additions in the area of error handling).  (Contributed by R. David Murray in :issue:`18891`.)"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:835
@@ -772,7 +776,7 @@ msgid "hashlib"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:903
-msgid "A new :func:`hashlib.pbkdf2_hmac` function provides the `PKCS#5 password-based key derivation function 2 <http://en.wikipedia.org/wiki/PBKDF2>`_.  (Contributed by Christian Heimes in :issue:`18582`.)"
+msgid "A new :func:`hashlib.pbkdf2_hmac` function provides the `PKCS#5 password-based key derivation function 2 <https://en.wikipedia.org/wiki/PBKDF2>`_.  (Contributed by Christian Heimes in :issue:`18582`.)"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:908
@@ -1100,7 +1104,7 @@ msgid "New :func:`~resource.prlimit` function, available on Linux platforms with
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1325
-msgid "On Linux kernel version 2.6.36 or later, there are there are also some new Linux specific constants: :attr:`~resource.RLIMIT_MSGQUEUE`, :attr:`~resource.RLIMIT_NICE`, :attr:`~resource.RLIMIT_RTPRIO`, :attr:`~resource.RLIMIT_RTTIME`, and :attr:`~resource.RLIMIT_SIGPENDING`. (Contributed by Christian Heimes in :issue:`19324`.)"
+msgid "On Linux kernel version 2.6.36 or later, there are also some new Linux specific constants: :attr:`~resource.RLIMIT_MSGQUEUE`, :attr:`~resource.RLIMIT_NICE`, :attr:`~resource.RLIMIT_RTPRIO`, :attr:`~resource.RLIMIT_RTTIME`, and :attr:`~resource.RLIMIT_SIGPENDING`. (Contributed by Christian Heimes in :issue:`19324`.)"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1331
@@ -1180,7 +1184,7 @@ msgid "sqlite3"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1411
-msgid "A new boolean parameter to the :func:`~sqlite3.connect` function, *uri*, can be used to indicate that the *database* parameter is a ``uri`` (see the `SQLite URI documentation <http://www.sqlite.org/uri.html>`_).  (Contributed by poq in :issue:`13773`.)"
+msgid "A new boolean parameter to the :func:`~sqlite3.connect` function, *uri*, can be used to indicate that the *database* parameter is a ``uri`` (see the `SQLite URI documentation <https://www.sqlite.org/uri.html>`_).  (Contributed by poq in :issue:`13773`.)"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1418
@@ -1208,7 +1212,7 @@ msgid ":class:`~ssl.SSLContext` has a new method, :meth:`~ssl.SSLContext.cert_st
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1460
-msgid "If OpenSSL 0.9.8 or later is available, :class:`~ssl.SSLContext` has an new attribute :attr:`~ssl.SSLContext.verify_flags` that can be used to control the certificate verification process by setting it to some combination of the new constants :data:`~ssl.VERIFY_DEFAULT`, :data:`~ssl.VERIFY_CRL_CHECK_LEAF`, :data:`~ssl.VERIFY_CRL_CHECK_CHAIN`, or :data:`~ssl.VERIFY_X509_STRICT`. OpenSSL does not do any CRL verification by default.  (Contributed by Christien Heimes in :issue:`8813`.)"
+msgid "If OpenSSL 0.9.8 or later is available, :class:`~ssl.SSLContext` has a new attribute :attr:`~ssl.SSLContext.verify_flags` that can be used to control the certificate verification process by setting it to some combination of the new constants :data:`~ssl.VERIFY_DEFAULT`, :data:`~ssl.VERIFY_CRL_CHECK_LEAF`, :data:`~ssl.VERIFY_CRL_CHECK_CHAIN`, or :data:`~ssl.VERIFY_X509_STRICT`. OpenSSL does not do any CRL verification by default.  (Contributed by Christien Heimes in :issue:`8813`.)"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1468
@@ -1572,7 +1576,7 @@ msgid "The CPython source can now be compiled using the address sanity checking 
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1919
-msgid "The Windows build now uses `Address Space Layout Randomization <http://en.wikipedia.org/wiki/ASLR>`_ and `Data Execution Prevention <http://en.wikipedia.org/wiki/Data_Execution_Prevention>`_.  (Contributed by Christian Heimes in :issue:`16632`.)"
+msgid "The Windows build now uses `Address Space Layout Randomization <https://en.wikipedia.org/wiki/Address_space_layout_randomization>`_ and `Data Execution Prevention <https://en.wikipedia.org/wiki/Data_Execution_Prevention>`_.  (Contributed by Christian Heimes in :issue:`16632`.)"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1924
@@ -1600,7 +1604,7 @@ msgid "The CPython Windows installer now adds ``.py`` to the :envvar:`PATHEXT` v
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1962
-msgid "A new ``make`` target `coverage-report <https://docs.python.org/devguide/coverage.html#measuring-coverage-of-c-code-with-gcov-and-lcov>`_ will build python, run the test suite, and generate an HTML coverage report for the C codebase using ``gcov`` and `lcov <http://ltp.sourceforge.net/coverage/lcov.php>`_."
+msgid "A new ``make`` target `coverage-report <https://devguide.python.org/coverage/#measuring-coverage-of-c-code-with-gcov-and-lcov>`_ will build python, run the test suite, and generate an HTML coverage report for the C codebase using ``gcov`` and `lcov <http://ltp.sourceforge.net/coverage/lcov.php>`_."
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1968
@@ -1628,11 +1632,11 @@ msgid "A number of MemoryError-related crashes were identified and fixed by Vict
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1992
-msgid "The :ref:`pyvenv <scripts-pyvenv>` command now accepts a ``--copies`` option to use copies rather than symlinks even on systems where symlinks are the default.  (Contributed by Vinay Sajip in :issue:`18807`.)"
+msgid "The ``pyvenv`` command now accepts a ``--copies`` option to use copies rather than symlinks even on systems where symlinks are the default.  (Contributed by Vinay Sajip in :issue:`18807`.)"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:1996
-msgid "The :ref:`pyvenv <scripts-pyvenv>` command also accepts a ``--without-pip`` option to suppress the otherwise-automatic bootstrapping of pip into the virtual environment.  (Contributed by Nick Coghlan in :issue:`19552` as part of the :pep:`453` implementation.)"
+msgid "The ``pyvenv`` command also accepts a ``--without-pip`` option to suppress the otherwise-automatic bootstrapping of pip into the virtual environment.  (Contributed by Nick Coghlan in :issue:`19552` as part of the :pep:`453` implementation.)"
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:2001
@@ -1792,7 +1796,7 @@ msgid "The following obsolete and previously deprecated APIs and features have b
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:2178
-msgid "The unmaintained ``Misc/TextMate`` and ``Misc/vim`` directories have been removed (see the `devguide <https://docs.python.org/devguide>`_ for suggestions on what to use instead)."
+msgid "The unmaintained ``Misc/TextMate`` and ``Misc/vim`` directories have been removed (see the `devguide <https://devguide.python.org>`_ for suggestions on what to use instead)."
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:2182
@@ -2004,7 +2008,7 @@ msgid "Any calls to ``open`` functions that specify ``U`` should be modified. ``
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:2462
-msgid "If you use :ref:`pyvenv <scripts-pyvenv>` in a script and desire that pip *not* be installed, you must add ``--without-pip`` to your command invocation."
+msgid "If you use ``pyvenv`` in a script and desire that pip *not* be installed, you must add ``--without-pip`` to your command invocation."
 msgstr ""
 
 #: ../../whatsnew/3.4.rst:2466

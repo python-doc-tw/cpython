@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2018, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.5\n"
+"Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2018-05-23 22:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,261 +20,253 @@ msgstr ""
 msgid ":mod:`gettext` --- Multilingual internationalization services"
 msgstr ""
 
-#: ../../library/gettext.rst:9
+#: ../../library/gettext.rst:10
 msgid "**Source code:** :source:`Lib/gettext.py`"
 msgstr ""
 
-#: ../../library/gettext.rst:13
+#: ../../library/gettext.rst:14
 msgid "The :mod:`gettext` module provides internationalization (I18N) and localization (L10N) services for your Python modules and applications. It supports both the GNU ``gettext`` message catalog API and a higher level, class-based API that may be more appropriate for Python files.  The interface described below allows you to write your module and application messages in one natural language, and provide a catalog of translated messages for running under different natural languages."
 msgstr ""
 
-#: ../../library/gettext.rst:21
+#: ../../library/gettext.rst:22
 msgid "Some hints on localizing your Python modules and applications are also given."
 msgstr ""
 
-#: ../../library/gettext.rst:25
+#: ../../library/gettext.rst:26
 msgid "GNU :program:`gettext` API"
 msgstr ""
 
-#: ../../library/gettext.rst:27
+#: ../../library/gettext.rst:28
 msgid "The :mod:`gettext` module defines the following API, which is very similar to the GNU :program:`gettext` API.  If you use this API you will affect the translation of your entire application globally.  Often this is what you want if your application is monolingual, with the choice of language dependent on the locale of your user.  If you are localizing a Python module, or if your application needs to switch languages on the fly, you probably want to use the class-based API instead."
 msgstr ""
 
-#: ../../library/gettext.rst:38
+#: ../../library/gettext.rst:39
 msgid "Bind the *domain* to the locale directory *localedir*.  More concretely, :mod:`gettext` will look for binary :file:`.mo` files for the given domain using the path (on Unix): :file:`localedir/language/LC_MESSAGES/domain.mo`, where *languages* is searched for in the environment variables :envvar:`LANGUAGE`, :envvar:`LC_ALL`, :envvar:`LC_MESSAGES`, and :envvar:`LANG` respectively."
 msgstr ""
 
-#: ../../library/gettext.rst:44
+#: ../../library/gettext.rst:45
 msgid "If *localedir* is omitted or ``None``, then the current binding for *domain* is returned. [#]_"
 msgstr ""
 
-#: ../../library/gettext.rst:50
-msgid "Bind the *domain* to *codeset*, changing the encoding of strings returned by the :func:`gettext` family of functions. If *codeset* is omitted, then the current binding is returned."
+#: ../../library/gettext.rst:51
+msgid "Bind the *domain* to *codeset*, changing the encoding of byte strings returned by the :func:`lgettext`, :func:`ldgettext`, :func:`lngettext` and :func:`ldngettext` functions. If *codeset* is omitted, then the current binding is returned."
 msgstr ""
 
-#: ../../library/gettext.rst:57
+#: ../../library/gettext.rst:59
 msgid "Change or query the current global domain.  If *domain* is ``None``, then the current global domain is returned, otherwise the global domain is set to *domain*, which is returned."
 msgstr ""
 
-#: ../../library/gettext.rst:64
+#: ../../library/gettext.rst:66
 msgid "Return the localized translation of *message*, based on the current global domain, language, and locale directory.  This function is usually aliased as :func:`_` in the local namespace (see examples below)."
 msgstr ""
 
-#: ../../library/gettext.rst:71
-msgid "Equivalent to :func:`gettext`, but the translation is returned in the preferred system encoding, if no other encoding was explicitly set with :func:`bind_textdomain_codeset`."
+#: ../../library/gettext.rst:73
+msgid "Like :func:`.gettext`, but look the message up in the specified *domain*."
 msgstr ""
 
 #: ../../library/gettext.rst:78
-msgid "Like :func:`gettext`, but look the message up in the specified *domain*."
+msgid "Like :func:`.gettext`, but consider plural forms. If a translation is found, apply the plural formula to *n*, and return the resulting message (some languages have more than two plural forms). If no translation is found, return *singular* if *n* is 1; return *plural* otherwise."
 msgstr ""
 
 #: ../../library/gettext.rst:83
-msgid "Equivalent to :func:`dgettext`, but the translation is returned in the preferred system encoding, if no other encoding was explicitly set with :func:`bind_textdomain_codeset`."
-msgstr ""
-
-#: ../../library/gettext.rst:90
-msgid "Like :func:`gettext`, but consider plural forms. If a translation is found, apply the plural formula to *n*, and return the resulting message (some languages have more than two plural forms). If no translation is found, return *singular* if *n* is 1; return *plural* otherwise."
-msgstr ""
-
-#: ../../library/gettext.rst:95
 msgid "The Plural formula is taken from the catalog header. It is a C or Python expression that has a free variable *n*; the expression evaluates to the index of the plural in the catalog. See `the GNU gettext documentation <https://www.gnu.org/software/gettext/manual/gettext.html>`__ for the precise syntax to be used in :file:`.po` files and the formulas for a variety of languages."
 msgstr ""
 
-#: ../../library/gettext.rst:105
-msgid "Equivalent to :func:`ngettext`, but the translation is returned in the preferred system encoding, if no other encoding was explicitly set with :func:`bind_textdomain_codeset`."
-msgstr ""
-
-#: ../../library/gettext.rst:112
+#: ../../library/gettext.rst:93
 msgid "Like :func:`ngettext`, but look the message up in the specified *domain*."
 msgstr ""
 
-#: ../../library/gettext.rst:117
-msgid "Equivalent to :func:`dngettext`, but the translation is returned in the preferred system encoding, if no other encoding was explicitly set with :func:`bind_textdomain_codeset`."
+#: ../../library/gettext.rst:101
+msgid "Equivalent to the corresponding functions without the ``l`` prefix (:func:`.gettext`, :func:`dgettext`, :func:`ngettext` and :func:`dngettext`), but the translation is returned as a byte string encoded in the preferred system encoding if no other encoding was explicitly set with :func:`bind_textdomain_codeset`."
 msgstr ""
 
-#: ../../library/gettext.rst:122
+#: ../../library/gettext.rst:109
+msgid "These functions should be avoided in Python 3, because they return encoded bytes.  It's much better to use alternatives which return Unicode strings instead, since most Python applications will want to manipulate human readable text as strings instead of bytes.  Further, it's possible that you may get unexpected Unicode-related exceptions if there are encoding problems with the translated strings.  It is possible that the ``l*()`` functions will be deprecated in future Python versions due to their inherent problems and limitations."
+msgstr ""
+
+#: ../../library/gettext.rst:119
 msgid "Note that GNU :program:`gettext` also defines a :func:`dcgettext` method, but this was deemed not useful and so it is currently unimplemented."
 msgstr ""
 
-#: ../../library/gettext.rst:125
+#: ../../library/gettext.rst:122
 msgid "Here's an example of typical usage for this API::"
 msgstr ""
 
-#: ../../library/gettext.rst:136
+#: ../../library/gettext.rst:133
 msgid "Class-based API"
 msgstr ""
 
-#: ../../library/gettext.rst:138
-msgid "The class-based API of the :mod:`gettext` module gives you more flexibility and greater convenience than the GNU :program:`gettext` API.  It is the recommended way of localizing your Python applications and modules.  :mod:`gettext` defines a \"translations\" class which implements the parsing of GNU :file:`.mo` format files, and has methods for returning strings. Instances of this \"translations\" class can also install themselves in the built-in namespace as the function :func:`_`."
+#: ../../library/gettext.rst:135
+msgid "The class-based API of the :mod:`gettext` module gives you more flexibility and greater convenience than the GNU :program:`gettext` API.  It is the recommended way of localizing your Python applications and modules.  :mod:`!gettext` defines a \"translations\" class which implements the parsing of GNU :file:`.mo` format files, and has methods for returning strings. Instances of this \"translations\" class can also install themselves in the built-in namespace as the function :func:`_`."
 msgstr ""
 
-#: ../../library/gettext.rst:149
+#: ../../library/gettext.rst:146
 msgid "This function implements the standard :file:`.mo` file search algorithm.  It takes a *domain*, identical to what :func:`textdomain` takes.  Optional *localedir* is as in :func:`bindtextdomain`  Optional *languages* is a list of strings, where each string is a language code."
 msgstr ""
 
-#: ../../library/gettext.rst:154
+#: ../../library/gettext.rst:151
 msgid "If *localedir* is not given, then the default system locale directory is used. [#]_  If *languages* is not given, then the following environment variables are searched: :envvar:`LANGUAGE`, :envvar:`LC_ALL`, :envvar:`LC_MESSAGES`, and :envvar:`LANG`.  The first one returning a non-empty value is used for the *languages* variable. The environment variables should contain a colon separated list of languages, which will be split on the colon to produce the expected list of language code strings."
 msgstr ""
 
-#: ../../library/gettext.rst:162
+#: ../../library/gettext.rst:159
 msgid ":func:`find` then expands and normalizes the languages, and then iterates through them, searching for an existing file built of these components:"
 msgstr ""
 
-#: ../../library/gettext.rst:165
+#: ../../library/gettext.rst:162
 msgid ":file:`{localedir}/{language}/LC_MESSAGES/{domain}.mo`"
 msgstr ""
 
-#: ../../library/gettext.rst:167
+#: ../../library/gettext.rst:164
 msgid "The first such file name that exists is returned by :func:`find`. If no such file is found, then ``None`` is returned. If *all* is given, it returns a list of all file names, in the order in which they appear in the languages list or the environment variables."
 msgstr ""
 
-#: ../../library/gettext.rst:175
-msgid "Return a :class:`Translations` instance based on the *domain*, *localedir*, and *languages*, which are first passed to :func:`find` to get a list of the associated :file:`.mo` file paths.  Instances with identical :file:`.mo` file names are cached.  The actual class instantiated is either *class_* if provided, otherwise :class:`GNUTranslations`.  The class's constructor must take a single :term:`file object` argument.  If provided, *codeset* will change the charset used to encode translated strings in the :meth:`lgettext` and :meth:`lngettext` methods."
+#: ../../library/gettext.rst:172
+msgid "Return a :class:`Translations` instance based on the *domain*, *localedir*, and *languages*, which are first passed to :func:`find` to get a list of the associated :file:`.mo` file paths.  Instances with identical :file:`.mo` file names are cached.  The actual class instantiated is either *class_* if provided, otherwise :class:`GNUTranslations`.  The class's constructor must take a single :term:`file object` argument.  If provided, *codeset* will change the charset used to encode translated strings in the :meth:`~NullTranslations.lgettext` and :meth:`~NullTranslations.lngettext` methods."
 msgstr ""
 
-#: ../../library/gettext.rst:184
+#: ../../library/gettext.rst:182
 msgid "If multiple files are found, later files are used as fallbacks for earlier ones. To allow setting the fallback, :func:`copy.copy` is used to clone each translation object from the cache; the actual instance data is still shared with the cache."
 msgstr ""
 
-#: ../../library/gettext.rst:189
+#: ../../library/gettext.rst:187
 msgid "If no :file:`.mo` file is found, this function raises :exc:`OSError` if *fallback* is false (which is the default), and returns a :class:`NullTranslations` instance if *fallback* is true."
 msgstr ""
 
-#: ../../library/gettext.rst:193
+#: ../../library/gettext.rst:191
 msgid ":exc:`IOError` used to be raised instead of :exc:`OSError`."
 msgstr ""
 
-#: ../../library/gettext.rst:199
+#: ../../library/gettext.rst:197
 msgid "This installs the function :func:`_` in Python's builtins namespace, based on *domain*, *localedir*, and *codeset* which are passed to the function :func:`translation`."
 msgstr ""
 
-#: ../../library/gettext.rst:203
+#: ../../library/gettext.rst:201
 msgid "For the *names* parameter, please see the description of the translation object's :meth:`~NullTranslations.install` method."
 msgstr ""
 
-#: ../../library/gettext.rst:206
+#: ../../library/gettext.rst:204
 msgid "As seen below, you usually mark the strings in your application that are candidates for translation, by wrapping them in a call to the :func:`_` function, like this::"
 msgstr ""
 
-#: ../../library/gettext.rst:212
+#: ../../library/gettext.rst:210
 msgid "For convenience, you want the :func:`_` function to be installed in Python's builtins namespace, so it is easily accessible in all modules of your application."
 msgstr ""
 
-#: ../../library/gettext.rst:218
+#: ../../library/gettext.rst:216
 msgid "The :class:`NullTranslations` class"
 msgstr ""
 
-#: ../../library/gettext.rst:220
-msgid "Translation classes are what actually implement the translation of original source file message strings to translated message strings. The base class used by all translation classes is :class:`NullTranslations`; this provides the basic interface you can use to write your own specialized translation classes.  Here are the methods of :class:`NullTranslations`:"
+#: ../../library/gettext.rst:218
+msgid "Translation classes are what actually implement the translation of original source file message strings to translated message strings. The base class used by all translation classes is :class:`NullTranslations`; this provides the basic interface you can use to write your own specialized translation classes.  Here are the methods of :class:`!NullTranslations`:"
 msgstr ""
 
-#: ../../library/gettext.rst:229
+#: ../../library/gettext.rst:227
 msgid "Takes an optional :term:`file object` *fp*, which is ignored by the base class. Initializes \"protected\" instance variables *_info* and *_charset* which are set by derived classes, as well as *_fallback*, which is set through :meth:`add_fallback`.  It then calls ``self._parse(fp)`` if *fp* is not ``None``."
 msgstr ""
 
-#: ../../library/gettext.rst:237
+#: ../../library/gettext.rst:235
 msgid "No-op'd in the base class, this method takes file object *fp*, and reads the data from the file, initializing its message catalog.  If you have an unsupported message catalog file format, you should override this method to parse your format."
 msgstr ""
 
-#: ../../library/gettext.rst:245
+#: ../../library/gettext.rst:243
 msgid "Add *fallback* as the fallback object for the current translation object. A translation object should consult the fallback if it cannot provide a translation for a given message."
 msgstr ""
 
-#: ../../library/gettext.rst:252
-msgid "If a fallback has been set, forward :meth:`gettext` to the fallback. Otherwise, return the translated message.  Overridden in derived classes."
+#: ../../library/gettext.rst:250
+msgid "If a fallback has been set, forward :meth:`!gettext` to the fallback. Otherwise, return *message*.  Overridden in derived classes."
 msgstr ""
 
-#: ../../library/gettext.rst:258
-msgid "If a fallback has been set, forward :meth:`lgettext` to the fallback. Otherwise, return the translated message.  Overridden in derived classes."
+#: ../../library/gettext.rst:256
+msgid "If a fallback has been set, forward :meth:`!ngettext` to the fallback. Otherwise, return *singular* if *n* is 1; return *plural* otherwise. Overridden in derived classes."
 msgstr ""
 
 #: ../../library/gettext.rst:264
-msgid "If a fallback has been set, forward :meth:`ngettext` to the fallback. Otherwise, return the translated message.  Overridden in derived classes."
+msgid "Equivalent to :meth:`.gettext` and :meth:`.ngettext`, but the translation is returned as a byte string encoded in the preferred system encoding if no encoding was explicitly set with :meth:`set_output_charset`. Overridden in derived classes."
 msgstr ""
 
-#: ../../library/gettext.rst:270
-msgid "If a fallback has been set, forward :meth:`lngettext` to the fallback. Otherwise, return the translated message.  Overridden in derived classes."
+#: ../../library/gettext.rst:271
+#: ../../library/gettext.rst:392
+msgid "These methods should be avoided in Python 3.  See the warning for the :func:`lgettext` function."
 msgstr ""
 
-#: ../../library/gettext.rst:276
+#: ../../library/gettext.rst:277
 msgid "Return the \"protected\" :attr:`_info` variable."
 msgstr ""
 
-#: ../../library/gettext.rst:281
-msgid "Return the \"protected\" :attr:`_charset` variable, which is the encoding of the message catalog file."
+#: ../../library/gettext.rst:282
+msgid "Return the encoding of the message catalog file."
 msgstr ""
 
 #: ../../library/gettext.rst:287
-msgid "Return the \"protected\" :attr:`_output_charset` variable, which defines the encoding used to return translated messages in :meth:`lgettext` and :meth:`lngettext`."
+msgid "Return the encoding used to return translated messages in :meth:`.lgettext` and :meth:`.lngettext`."
 msgstr ""
 
-#: ../../library/gettext.rst:294
-msgid "Change the \"protected\" :attr:`_output_charset` variable, which defines the encoding used to return translated messages."
+#: ../../library/gettext.rst:293
+msgid "Change the encoding used to return translated messages."
 msgstr ""
 
-#: ../../library/gettext.rst:300
-msgid "This method installs :meth:`self.gettext` into the built-in namespace, binding it to ``_``."
+#: ../../library/gettext.rst:298
+msgid "This method installs :meth:`.gettext` into the built-in namespace, binding it to ``_``."
 msgstr ""
 
-#: ../../library/gettext.rst:303
-msgid "If the *names* parameter is given, it must be a sequence containing the names of functions you want to install in the builtins namespace in addition to :func:`_`.  Supported names are ``'gettext'`` (bound to :meth:`self.gettext`), ``'ngettext'`` (bound to :meth:`self.ngettext`), ``'lgettext'`` and ``'lngettext'``."
+#: ../../library/gettext.rst:301
+msgid "If the *names* parameter is given, it must be a sequence containing the names of functions you want to install in the builtins namespace in addition to :func:`_`.  Supported names are ``'gettext'``, ``'ngettext'``, ``'lgettext'`` and ``'lngettext'``."
 msgstr ""
 
-#: ../../library/gettext.rst:309
+#: ../../library/gettext.rst:306
 msgid "Note that this is only one way, albeit the most convenient way, to make the :func:`_` function available to your application.  Because it affects the entire application globally, and specifically the built-in namespace, localized modules should never install :func:`_`. Instead, they should use this code to make :func:`_` available to their module::"
 msgstr ""
 
-#: ../../library/gettext.rst:319
+#: ../../library/gettext.rst:316
 msgid "This puts :func:`_` only in the module's global namespace and so only affects calls within this module."
 msgstr ""
 
-#: ../../library/gettext.rst:324
+#: ../../library/gettext.rst:321
 msgid "The :class:`GNUTranslations` class"
 msgstr ""
 
-#: ../../library/gettext.rst:326
+#: ../../library/gettext.rst:323
 msgid "The :mod:`gettext` module provides one additional class derived from :class:`NullTranslations`: :class:`GNUTranslations`.  This class overrides :meth:`_parse` to enable reading GNU :program:`gettext` format :file:`.mo` files in both big-endian and little-endian format."
 msgstr ""
 
-#: ../../library/gettext.rst:331
+#: ../../library/gettext.rst:328
 msgid ":class:`GNUTranslations` parses optional meta-data out of the translation catalog.  It is convention with GNU :program:`gettext` to include meta-data as the translation for the empty string.  This meta-data is in :rfc:`822`\\ -style ``key: value`` pairs, and should contain the ``Project-Id-Version`` key.  If the key ``Content-Type`` is found, then the ``charset`` property is used to initialize the \"protected\" :attr:`_charset` instance variable, defaulting to ``None`` if not found.  If the charset encoding is specified, then all message ids and message strings read from the catalog are converted to Unicode using this encoding, else ASCII encoding is assumed."
 msgstr ""
 
-#: ../../library/gettext.rst:341
+#: ../../library/gettext.rst:338
 msgid "Since message ids are read as Unicode strings too, all :meth:`*gettext` methods will assume message ids as Unicode strings, not byte strings."
 msgstr ""
 
-#: ../../library/gettext.rst:344
+#: ../../library/gettext.rst:341
 msgid "The entire set of key/value pairs are placed into a dictionary and set as the \"protected\" :attr:`_info` instance variable."
 msgstr ""
 
-#: ../../library/gettext.rst:347
+#: ../../library/gettext.rst:344
 msgid "If the :file:`.mo` file's magic number is invalid, the major version number is unexpected, or if other problems occur while reading the file, instantiating a :class:`GNUTranslations` class can raise :exc:`OSError`."
 msgstr ""
 
-#: ../../library/gettext.rst:351
+#: ../../library/gettext.rst:350
 msgid "The following methods are overridden from the base class implementation:"
 msgstr ""
 
-#: ../../library/gettext.rst:356
-msgid "Look up the *message* id in the catalog and return the corresponding message string, as a Unicode string.  If there is no entry in the catalog for the *message* id, and a fallback has been set, the look up is forwarded to the fallback's :meth:`gettext` method.  Otherwise, the *message* id is returned."
+#: ../../library/gettext.rst:354
+msgid "Look up the *message* id in the catalog and return the corresponding message string, as a Unicode string.  If there is no entry in the catalog for the *message* id, and a fallback has been set, the look up is forwarded to the fallback's :meth:`~NullTranslations.gettext` method.  Otherwise, the *message* id is returned."
 msgstr ""
 
-#: ../../library/gettext.rst:364
-#: ../../library/gettext.rst:391
-msgid "Equivalent to :meth:`gettext`, but the translation is returned as a bytestring encoded in the selected output charset, or in the preferred system encoding if no encoding was explicitly set with :meth:`set_output_charset`."
-msgstr ""
-
-#: ../../library/gettext.rst:371
+#: ../../library/gettext.rst:363
 msgid "Do a plural-forms lookup of a message id.  *singular* is used as the message id for purposes of lookup in the catalog, while *n* is used to determine which plural form to use.  The returned message string is a Unicode string."
 msgstr ""
 
-#: ../../library/gettext.rst:375
-msgid "If the message id is not found in the catalog, and a fallback is specified, the request is forwarded to the fallback's :meth:`ngettext` method.  Otherwise, when *n* is 1 *singular* is returned, and *plural* is returned in all other cases."
+#: ../../library/gettext.rst:367
+msgid "If the message id is not found in the catalog, and a fallback is specified, the request is forwarded to the fallback's :meth:`~NullTranslations.ngettext` method.  Otherwise, when *n* is 1 *singular* is returned, and *plural* is returned in all other cases."
 msgstr ""
 
-#: ../../library/gettext.rst:379
+#: ../../library/gettext.rst:372
 msgid "Here is an example::"
+msgstr ""
+
+#: ../../library/gettext.rst:385
+msgid "Equivalent to :meth:`.gettext` and :meth:`.ngettext`, but the translation is returned as a byte string encoded in the preferred system encoding if no encoding  was explicitly set with :meth:`~NullTranslations.set_output_charset`."
 msgstr ""
 
 #: ../../library/gettext.rst:397
@@ -418,7 +410,7 @@ msgid "Another way to handle this is with the following example::"
 msgstr ""
 
 #: ../../library/gettext.rst:618
-msgid "In this case, you are marking translatable strings with the function :func:`N_`, which won't conflict with any definition of :func:`_`. However, you will need to teach your message extraction program to look for translatable strings marked with :func:`N_`. :program:`xgettext`, :program:`pygettext`, ``pybabel extract``, and :program:`xpot` all support this through the use of the :option:`-k` command-line switch. The choice of :func:`N_` here is totally arbitrary; it could have just as easily been :func:`MarkThisStringForTranslation`."
+msgid "In this case, you are marking translatable strings with the function :func:`N_`, which won't conflict with any definition of :func:`_`. However, you will need to teach your message extraction program to look for translatable strings marked with :func:`N_`. :program:`xgettext`, :program:`pygettext`, ``pybabel extract``, and :program:`xpot` all support this through the use of the :option:`!-k` command-line switch. The choice of :func:`N_` here is totally arbitrary; it could have just as easily been :func:`MarkThisStringForTranslation`."
 msgstr ""
 
 #: ../../library/gettext.rst:629

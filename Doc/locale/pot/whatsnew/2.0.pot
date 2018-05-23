@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2018, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.5\n"
+"Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2018-05-23 22:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,10 @@ msgstr ""
 
 #: ../../whatsnew/2.0.rst:3
 msgid "What's New in Python 2.0"
+msgstr ""
+
+#: ../../whatsnew/2.0.rst:0
+msgid "Author"
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:5
@@ -53,7 +57,7 @@ msgid "New Development Process"
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:59
-msgid "The most important change in Python 2.0 may not be to the code at all, but to how Python is developed: in May 2000 the Python developers began using the tools made available by SourceForge for storing  source code, tracking bug reports, and managing the queue of patch submissions.  To report bugs or submit patches for Python 2.0, use the bug tracking and patch manager tools available from Python's project page, located at http://sourceforge.net/projects/python/."
+msgid "The most important change in Python 2.0 may not be to the code at all, but to how Python is developed: in May 2000 the Python developers began using the tools made available by SourceForge for storing  source code, tracking bug reports, and managing the queue of patch submissions.  To report bugs or submit patches for Python 2.0, use the bug tracking and patch manager tools available from Python's project page, located at https://sourceforge.net/projects/python/."
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:66
@@ -81,7 +85,7 @@ msgid "We intend PEPs to be the primary mechanisms for proposing new features, f
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:130
-msgid "Read the rest of PEP 1 for the details of the PEP editorial process, style, and format.  PEPs are kept in the Python CVS tree on SourceForge, though they're not part of the Python 2.0 distribution, and are also available in HTML form from https://www.python.org/peps/.  As of September 2000, there are 25 PEPS, ranging from PEP 201, \"Lockstep Iteration\", to PEP 225, \"Elementwise/Objectwise Operators\"."
+msgid "Read the rest of PEP 1 for the details of the PEP editorial process, style, and format.  PEPs are kept in the Python CVS tree on SourceForge, though they're not part of the Python 2.0 distribution, and are also available in HTML form from https://www.python.org/dev/peps/.  As of September 2000, there are 25 PEPS, ranging from PEP 201, \"Lockstep Iteration\", to PEP 225, \"Elementwise/Objectwise Operators\"."
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:141
@@ -93,7 +97,7 @@ msgid "The largest new feature in Python 2.0 is a new fundamental data type: Uni
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:148
-msgid "The final interface for Unicode support was arrived at through countless often- stormy discussions on the python-dev mailing list, and mostly implemented by Marc-André Lemburg, based on a Unicode string type implementation by Fredrik Lundh.  A detailed explanation of the interface was written up as :pep:`100`, \"Python Unicode Integration\". This article will simply cover the most significant points about the Unicode interfaces."
+msgid "The final interface for Unicode support was arrived at through countless often-stormy discussions on the python-dev mailing list, and mostly implemented by Marc-André Lemburg, based on a Unicode string type implementation by Fredrik Lundh.  A detailed explanation of the interface was written up as :pep:`100`, \"Python Unicode Integration\". This article will simply cover the most significant points about the Unicode interfaces."
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:155
@@ -101,7 +105,7 @@ msgid "In Python source code, Unicode strings are written as ``u\"string\"``.  A
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:161
-msgid "Unicode strings, just like regular strings, are an immutable sequence type. They can be indexed and sliced, but not modified in place. Unicode strings have an ``encode( [encoding] )`` method that returns an 8-bit string in the desired encoding.  Encodings are named by strings, such as ``'ascii'``, ``'utf-8'``, ``'iso-8859-1'``, or whatever.  A codec API is defined for implementing and registering new encodings that are then available throughout a Python program. If an encoding isn't specified, the default encoding is usually 7-bit ASCII, though it can be changed for your Python installation by calling the ``sys.setdefaultencoding(encoding)`` function in a customised version of :file:`site.py`."
+msgid "Unicode strings, just like regular strings, are an immutable sequence type. They can be indexed and sliced, but not modified in place. Unicode strings have an ``encode( [encoding] )`` method that returns an 8-bit string in the desired encoding.  Encodings are named by strings, such as ``'ascii'``, ``'utf-8'``, ``'iso-8859-1'``, or whatever.  A codec API is defined for implementing and registering new encodings that are then available throughout a Python program. If an encoding isn't specified, the default encoding is usually 7-bit ASCII, though it can be changed for your Python installation by calling the ``sys.setdefaultencoding(encoding)`` function in a customized version of :file:`site.py`."
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:172
@@ -205,7 +209,7 @@ msgid "To avoid introducing an ambiguity into Python's grammar, if *expression* 
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:339
-msgid "The idea of list comprehensions originally comes from the functional programming language Haskell (http://www.haskell.org).  Greg Ewing argued most effectively for adding them to Python and wrote the initial list comprehension patch, which was then discussed for a seemingly endless time on the python-dev mailing list and kept up-to-date by Skip Montanaro."
+msgid "The idea of list comprehensions originally comes from the functional programming language Haskell (https://www.haskell.org).  Greg Ewing argued most effectively for adding them to Python and wrote the initial list comprehension patch, which was then discussed for a seemingly endless time on the python-dev mailing list and kept up-to-date by Skip Montanaro."
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:349
@@ -285,7 +289,7 @@ msgid "Python 2.0 fixes this problem by periodically executing a cycle detection
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:471
-msgid "Running the cycle detection algorithm takes some time, and therefore will result in some additional overhead.  It is hoped that after we've gotten experience with the cycle collection from using 2.0, Python 2.1 will be able to minimize the overhead with careful tuning.  It's not yet obvious how much performance is lost, because benchmarking this is tricky and depends crucially on how often the program creates and destroys objects.  The detection of cycles can be disabled when Python is compiled, if you can't afford even a tiny speed penalty or suspect that the cycle collection is buggy, by specifying the :option:`--without-cycle-gc` switch when running the :program:`configure` script."
+msgid "Running the cycle detection algorithm takes some time, and therefore will result in some additional overhead.  It is hoped that after we've gotten experience with the cycle collection from using 2.0, Python 2.1 will be able to minimize the overhead with careful tuning.  It's not yet obvious how much performance is lost, because benchmarking this is tricky and depends crucially on how often the program creates and destroys objects.  The detection of cycles can be disabled when Python is compiled, if you can't afford even a tiny speed penalty or suspect that the cycle collection is buggy, by specifying the :option:`!--without-cycle-gc` switch when running the :program:`configure` script."
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:482
@@ -305,7 +309,7 @@ msgid "Minor Language Changes"
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:504
-msgid "A new syntax makes it more convenient to call a given function with a tuple of arguments and/or a dictionary of keyword arguments. In Python 1.5 and earlier, you'd use the :func:`apply` built-in function: ``apply(f, args, kw)`` calls the function :func:`f` with the argument tuple *args* and the keyword arguments in the dictionary *kw*.  :func:`apply`  is the same in 2.0, but thanks to a patch from Greg Ewing, ``f(*args, **kw)`` as a shorter and clearer way to achieve the same effect.  This syntax is symmetrical with the syntax for defining functions::"
+msgid "A new syntax makes it more convenient to call a given function with a tuple of arguments and/or a dictionary of keyword arguments. In Python 1.5 and earlier, you'd use the :func:`apply` built-in function: ``apply(f, args, kw)`` calls the function :func:`f` with the argument tuple *args* and the keyword arguments in the dictionary *kw*.  :func:`apply`  is the same in 2.0, but thanks to a patch from Greg Ewing, ``f(*args, **kw)`` is a shorter and clearer way to achieve the same effect.  This syntax is symmetrical with the syntax for defining functions::"
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:518
@@ -505,7 +509,7 @@ msgid "XML Modules"
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:882
-msgid "Python 1.5.2 included a simple XML parser in the form of the :mod:`xmllib` module, contributed by Sjoerd Mullender.  Since 1.5.2's release, two different interfaces for processing XML have become common: SAX2 (version 2 of the Simple API for XML) provides an event-driven interface with some similarities to :mod:`xmllib`, and the DOM (Document Object Model) provides a tree-based interface, transforming an XML document into a tree of nodes that can be traversed and modified.  Python 2.0 includes a SAX2 interface and a stripped- down DOM interface as part of the :mod:`xml` package. Here we will give a brief overview of these new interfaces; consult the Python documentation or the source code for complete details. The Python XML SIG is also working on improved documentation."
+msgid "Python 1.5.2 included a simple XML parser in the form of the :mod:`xmllib` module, contributed by Sjoerd Mullender.  Since 1.5.2's release, two different interfaces for processing XML have become common: SAX2 (version 2 of the Simple API for XML) provides an event-driven interface with some similarities to :mod:`xmllib`, and the DOM (Document Object Model) provides a tree-based interface, transforming an XML document into a tree of nodes that can be traversed and modified.  Python 2.0 includes a SAX2 interface and a stripped-down DOM interface as part of the :mod:`xml` package. Here we will give a brief overview of these new interfaces; consult the Python documentation or the source code for complete details. The Python XML SIG is also working on improved documentation."
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:896
@@ -673,7 +677,7 @@ msgid ":mod:`zipfile`: A module for reading and writing ZIP-format archives.  Th
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:1142
-msgid ":mod:`imputil`: A module that provides a simpler way for writing customised import hooks, in comparison to the existing :mod:`ihooks` module.  (Implemented by Greg Stein, with much discussion on python-dev along the way.)"
+msgid ":mod:`imputil`: A module that provides a simpler way for writing customized import hooks, in comparison to the existing :mod:`ihooks` module.  (Implemented by Greg Stein, with much discussion on python-dev along the way.)"
 msgstr ""
 
 #: ../../whatsnew/2.0.rst:1150

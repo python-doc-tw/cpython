@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2018, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.5\n"
+"Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2018-05-23 22:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "Retrieve the start, stop and step indices from the slice object *slice*, 
 msgstr ""
 
 #: ../../c-api/slice.rst:35
-msgid "Returns 0 on success and -1 on error with no exception set (unless one of the indices was not :const:`None` and failed to be converted to an integer, in which case -1 is returned with an exception set)."
+msgid "Returns ``0`` on success and ``-1`` on error with no exception set (unless one of the indices was not :const:`None` and failed to be converted to an integer, in which case ``-1`` is returned with an exception set)."
 msgstr ""
 
 #: ../../c-api/slice.rst:39
@@ -54,6 +54,14 @@ msgid "Usable replacement for :c:func:`PySlice_GetIndices`.  Retrieve the start,
 msgstr ""
 
 #: ../../c-api/slice.rst:54
-msgid "Returns 0 on success and -1 on error with exception set."
+msgid "Returns ``0`` on success and ``-1`` on error with exception set."
+msgstr ""
+
+#: ../../c-api/slice.rst:62
+msgid "Ellipsis Object"
+msgstr ""
+
+#: ../../c-api/slice.rst:67
+msgid "The Python ``Ellipsis`` object.  This object has no methods.  It needs to be treated just like any other object with respect to reference counts.  Like :c:data:`Py_None` it is a singleton object."
 msgstr ""
 

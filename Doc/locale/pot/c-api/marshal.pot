@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2018, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.5\n"
+"Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2018-05-23 22:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "Marshal a Python object, *value*, to *file*. *version* indicates the file
 msgstr ""
 
 #: ../../c-api/marshal.rst:37
-msgid "Return a string object containing the marshalled representation of *value*. *version* indicates the file format."
+msgid "Return a bytes object containing the marshalled representation of *value*. *version* indicates the file format."
 msgstr ""
 
 #: ../../c-api/marshal.rst:41
@@ -80,6 +80,6 @@ msgid "Return a Python object from the data stream in a :c:type:`FILE\\*` opened
 msgstr ""
 
 #: ../../c-api/marshal.rst:93
-msgid "Return a Python object from the data stream in a character buffer containing *len* bytes pointed to by *string*."
+msgid "Return a Python object from the data stream in a byte buffer containing *len* bytes pointed to by *data*."
 msgstr ""
 

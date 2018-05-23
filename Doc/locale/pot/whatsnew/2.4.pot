@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2018, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.5\n"
+"Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2018-05-23 22:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,10 @@ msgstr ""
 
 #: ../../whatsnew/2.4.rst:3
 msgid "What's New in Python 2.4"
+msgstr ""
+
+#: ../../whatsnew/2.4.rst:0
+msgid "Author"
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:5
@@ -221,7 +225,7 @@ msgid "Written  by Kevin D. Smith, Jim Jewett, and Skip Montanaro.  Several peop
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:340
-msgid "https://www.python.org/moin/PythonDecoratorLibrary"
+msgid "https://wiki.python.org/moin/PythonDecoratorLibrary"
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:341
@@ -361,7 +365,7 @@ msgid "Sometimes you can see this inaccuracy when the number is printed::"
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:520
-msgid "The inaccuracy isn't always visible when you print the number because the FP-to- decimal-string conversion is provided by the C library, and most C libraries try to produce sensible output.  Even if it's not displayed, however, the inaccuracy is still there and subsequent operations can magnify the error."
+msgid "The inaccuracy isn't always visible when you print the number because the FP-to-decimal-string conversion is provided by the C library, and most C libraries try to produce sensible output.  Even if it's not displayed, however, the inaccuracy is still there and subsequent operations can magnify the error."
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:525
@@ -401,7 +405,7 @@ msgid "Once you have :class:`Decimal` instances, you can perform the usual mathe
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:598
-msgid "You can combine :class:`Decimal` instances with integers, but not with floating- point numbers::"
+msgid "You can combine :class:`Decimal` instances with integers, but not with floating-point numbers::"
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:609
@@ -461,11 +465,11 @@ msgid "http://www.lahey.com/float.htm"
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:687
-msgid "The article uses Fortran code to illustrate many of the problems that floating- point inaccuracy can cause."
+msgid "The article uses Fortran code to illustrate many of the problems that floating-point inaccuracy can cause."
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:692
-msgid "http://www2.hursley.ibm.com/decimal/"
+msgid "http://speleotrove.com/decimal/"
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:691
@@ -505,7 +509,7 @@ msgid "The :mod:`locale` modules lets Python software select various conversions
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:744
-msgid "Not setting the numeric locale caused trouble for extensions that used third- party C libraries, however, because they wouldn't have the correct locale set. The motivating example was GTK+, whose user interface widgets weren't displaying numbers in the current locale."
+msgid "Not setting the numeric locale caused trouble for extensions that used third-party C libraries, however, because they wouldn't have the correct locale set. The motivating example was GTK+, whose user interface widgets weren't displaying numbers in the current locale."
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:749
@@ -521,7 +525,7 @@ msgid "``PyOS_ascii_formatd(buffer, buf_len, format, d)`` converts a :c:type:`do
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:758
-msgid "The code for these functions came from the GLib library (http://library.gnome.org/devel/glib/stable/), whose developers kindly relicensed the relevant functions and donated them to the Python Software Foundation.  The :mod:`locale` module  can now change the numeric locale, letting extensions such as GTK+  produce the correct results."
+msgid "The code for these functions came from the GLib library (https://developer.gnome.org/glib/stable/), whose developers kindly relicensed the relevant functions and donated them to the Python Software Foundation.  The :mod:`locale` module  can now change the numeric locale, letting extensions such as GTK+  produce the correct results."
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:767
@@ -627,7 +631,7 @@ msgid "(Contributed by Raymond Hettinger.)"
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:893
-#: ../../whatsnew/2.4.rst:1517
+#: ../../whatsnew/2.4.rst:1519
 msgid "Integer operations will no longer trigger an :exc:`OverflowWarning`. The :exc:`OverflowWarning` warning will disappear in Python 2.5."
 msgstr ""
 
@@ -644,7 +648,7 @@ msgid "The :func:`zip` built-in function and :func:`itertools.izip` now return a
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:921
-msgid "Encountering a failure while importing a module no longer leaves a partially- initialized module object in ``sys.modules``.  The incomplete module object left behind would fool further imports of the same module into succeeding, leading to confusing errors.   (Fixed by Tim Peters.)"
+msgid "Encountering a failure while importing a module no longer leaves a partially-initialized module object in ``sys.modules``.  The incomplete module object left behind would fool further imports of the same module into succeeding, leading to confusing errors.   (Fixed by Tim Peters.)"
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:926
@@ -740,7 +744,7 @@ msgid "The UTF-8 and UTF-16 codecs now cope better with receiving partial input.
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:1030
-msgid "There is a new :mod:`collections` module for  various specialized collection datatypes.   Currently it contains just one type, :class:`deque`,  a double- ended queue that supports efficiently adding and removing elements from either end::"
+msgid "There is a new :mod:`collections` module for  various specialized collection datatypes.  Currently it contains just one type, :class:`deque`, a double-ended queue that supports efficiently adding and removing elements from either end::"
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:1050
@@ -964,118 +968,118 @@ msgid "Another new capability is producing a diff-style display of the output by
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:1427
-msgid "Running the above function's tests with :const:`doctest.REPORT_UDIFF` specified, you get the following output::"
-msgstr ""
-
-#: ../../whatsnew/2.4.rst:1446
-msgid "Build and C API Changes"
+msgid "Running the above function's tests with :const:`doctest.REPORT_UDIFF` specified, you get the following output:"
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:1448
-msgid "Some of the changes to Python's build process and to the C API are:"
+msgid "Build and C API Changes"
 msgstr ""
 
 #: ../../whatsnew/2.4.rst:1450
+msgid "Some of the changes to Python's build process and to the C API are:"
+msgstr ""
+
+#: ../../whatsnew/2.4.rst:1452
 msgid "Three new convenience macros were added for common return values from extension functions: :c:macro:`Py_RETURN_NONE`, :c:macro:`Py_RETURN_TRUE`, and :c:macro:`Py_RETURN_FALSE`. (Contributed by Brett Cannon.)"
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1454
+#: ../../whatsnew/2.4.rst:1456
 msgid "Another new macro, :c:macro:`Py_CLEAR(obj)`,  decreases the reference count of *obj* and sets *obj* to the null pointer.  (Contributed by Jim Fulton.)"
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1457
+#: ../../whatsnew/2.4.rst:1459
 msgid "A new function, ``PyTuple_Pack(N, obj1, obj2, ..., objN)``, constructs tuples from a variable length argument list of Python objects.  (Contributed by Raymond Hettinger.)"
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1461
+#: ../../whatsnew/2.4.rst:1463
 msgid "A new function, ``PyDict_Contains(d, k)``, implements fast dictionary lookups without masking exceptions raised during the look-up process. (Contributed by Raymond Hettinger.)"
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1465
+#: ../../whatsnew/2.4.rst:1467
 msgid "The :c:macro:`Py_IS_NAN(X)` macro returns 1 if  its float or double argument *X* is a NaN.   (Contributed by Tim Peters.)"
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1468
+#: ../../whatsnew/2.4.rst:1470
 msgid "C code can avoid unnecessary locking by using the new :c:func:`PyEval_ThreadsInitialized` function to tell  if any thread operations have been performed.  If this function  returns false, no lock operations are needed. (Contributed by Nick Coghlan.)"
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1473
+#: ../../whatsnew/2.4.rst:1475
 msgid "A new function, :c:func:`PyArg_VaParseTupleAndKeywords`, is the same as :c:func:`PyArg_ParseTupleAndKeywords` but takes a  :c:type:`va_list` instead of a number of arguments. (Contributed by Greg Chapman.)"
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1477
+#: ../../whatsnew/2.4.rst:1479
 msgid "A new method flag, :const:`METH_COEXISTS`, allows a function defined in slots to co-exist with a :c:type:`PyCFunction` having the same name.  This can halve the access time for a method such as :meth:`set.__contains__`.  (Contributed by Raymond Hettinger.)"
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1482
-msgid "Python can now be built with additional profiling for the interpreter itself, intended as an aid to people developing the Python core.  Providing :option:`----enable-profiling` to the :program:`configure` script will let you profile the interpreter with :program:`gprof`, and providing the :option:`----with-tsc` switch enables profiling using the Pentium's Time-Stamp- Counter register.  Note that the :option:`----with-tsc` switch is slightly misnamed, because the profiling feature also works on the PowerPC platform, though that processor architecture doesn't call that register \"the TSC register\".  (Contributed by Jeremy Hylton.)"
+#: ../../whatsnew/2.4.rst:1484
+msgid "Python can now be built with additional profiling for the interpreter itself, intended as an aid to people developing the Python core.  Providing :option:`!--enable-profiling` to the :program:`configure` script will let you profile the interpreter with :program:`gprof`, and providing the :option:`!--with-tsc` switch enables profiling using the Pentium's Time-Stamp-Counter register.  Note that the :option:`!--with-tsc` switch is slightly misnamed, because the profiling feature also works on the PowerPC platform, though that processor architecture doesn't call that register \"the TSC register\".  (Contributed by Jeremy Hylton.)"
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1492
+#: ../../whatsnew/2.4.rst:1494
 msgid "The :c:type:`tracebackobject` type has been renamed to :c:type:`PyTracebackObject`."
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1499
+#: ../../whatsnew/2.4.rst:1501
 msgid "Port-Specific Changes"
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1501
+#: ../../whatsnew/2.4.rst:1503
 msgid "The Windows port now builds under MSVC++ 7.1 as well as version 6. (Contributed by Martin von Löwis.)"
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1508
+#: ../../whatsnew/2.4.rst:1510
 msgid "Porting to Python 2.4"
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1510
+#: ../../whatsnew/2.4.rst:1512
 msgid "This section lists previously described changes that may require changes to your code:"
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1513
+#: ../../whatsnew/2.4.rst:1515
 msgid "Left shifts and hexadecimal/octal constants that are too  large no longer trigger a :exc:`FutureWarning` and return  a value limited to 32 or 64 bits; instead they return a long integer."
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1520
+#: ../../whatsnew/2.4.rst:1522
 msgid "The :func:`zip` built-in function and :func:`itertools.izip` now return  an empty list instead of raising a :exc:`TypeError` exception if called with no arguments."
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1524
-msgid "You can no longer compare the :class:`date` and :class:`datetime` instances provided by the :mod:`datetime` module.  Two  instances of different classes will now always be unequal, and  relative comparisons (``<``, ``>``) will raise a :exc:`TypeError`."
+#: ../../whatsnew/2.4.rst:1526
+msgid "You can no longer compare the :class:`date` and :class:`~datetime.datetime` instances provided by the :mod:`datetime` module.  Two  instances of different classes will now always be unequal, and  relative comparisons (``<``, ``>``) will raise a :exc:`TypeError`."
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1529
+#: ../../whatsnew/2.4.rst:1531
 msgid ":func:`dircache.listdir` now passes exceptions to the caller instead of returning empty lists."
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1532
+#: ../../whatsnew/2.4.rst:1534
 msgid ":func:`LexicalHandler.startDTD` used to receive the public and system IDs in the wrong order.  This has been corrected; applications relying on the wrong order need to be fixed."
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1536
+#: ../../whatsnew/2.4.rst:1538
 msgid ":func:`fcntl.ioctl` now warns if the *mutate*  argument is omitted and relevant."
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1539
+#: ../../whatsnew/2.4.rst:1541
 msgid "The :mod:`tarfile` module now generates GNU-format tar files by default."
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1541
-msgid "Encountering a failure while importing a module no longer leaves a partially- initialized module object in ``sys.modules``."
+#: ../../whatsnew/2.4.rst:1543
+msgid "Encountering a failure while importing a module no longer leaves a partially-initialized module object in ``sys.modules``."
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1544
+#: ../../whatsnew/2.4.rst:1546
 msgid ":const:`None` is now a constant; code that binds a new value to  the name ``None`` is now a syntax error."
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1547
+#: ../../whatsnew/2.4.rst:1549
 msgid "The :func:`signals.signal` function now raises a :exc:`RuntimeError` exception for certain illegal values; previously these errors would pass silently.  For example, you can no longer set a handler on the :const:`SIGKILL` signal."
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1557
+#: ../../whatsnew/2.4.rst:1559
 msgid "Acknowledgements"
 msgstr ""
 
-#: ../../whatsnew/2.4.rst:1559
+#: ../../whatsnew/2.4.rst:1561
 msgid "The author would like to thank the following people for offering suggestions, corrections and assistance with various drafts of this article: Koray Can, Hye-Shik Chang, Michael Dyck, Raymond Hettinger, Brian Hurt, Hamish Lawson, Fredrik Lundh, Sean Reifschneider, Sadruddin Rejeb."
 msgstr ""
 

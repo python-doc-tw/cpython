@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2018, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.5\n"
+"Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2018-05-23 22:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "(assuming you haven't specified any :command:`sdist` options in the setup
 msgstr ""
 
 #: ../../distutils/sourcedist.rst:17
-msgid "You can specify as many formats as you like using the :option:`--formats` option, for example::"
+msgid "You can specify as many formats as you like using the :option:`!--formats` option, for example::"
 msgstr ""
 
 #: ../../distutils/sourcedist.rst:22
@@ -197,102 +197,102 @@ msgid ":command:`sdist` will read a :file:`MANIFEST` file if no :file:`MANIFEST.
 msgstr ""
 
 #: ../../distutils/sourcedist.rst:134
-msgid "The manifest template has one command per line, where each command specifies a set of files to include or exclude from the source distribution.  For an example, again we turn to the Distutils' own manifest template::"
+msgid "The manifest template has one command per line, where each command specifies a set of files to include or exclude from the source distribution.  For an example, again we turn to the Distutils' own manifest template:"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:142
-msgid "The meanings should be fairly clear: include all files in the distribution root matching :file:`\\*.txt`, all files anywhere under the :file:`examples` directory matching :file:`\\*.txt` or :file:`\\*.py`, and exclude all directories matching :file:`examples/sample?/build`.  All of this is done *after* the standard include set, so you can exclude files from the standard set with explicit instructions in the manifest template.  (Or, you can use the :option:`--no-defaults` option to disable the standard set entirely.)  There are several other commands available in the manifest template mini-language; see section :ref:`sdist-cmd`."
+#: ../../distutils/sourcedist.rst:144
+msgid "The meanings should be fairly clear: include all files in the distribution root matching :file:`\\*.txt`, all files anywhere under the :file:`examples` directory matching :file:`\\*.txt` or :file:`\\*.py`, and exclude all directories matching :file:`examples/sample?/build`.  All of this is done *after* the standard include set, so you can exclude files from the standard set with explicit instructions in the manifest template.  (Or, you can use the :option:`!--no-defaults` option to disable the standard set entirely.)  There are several other commands available in the manifest template mini-language; see section :ref:`sdist-cmd`."
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:152
+#: ../../distutils/sourcedist.rst:154
 msgid "The order of commands in the manifest template matters: initially, we have the list of default files as described above, and each command in the template adds to or removes from that list of files.  Once we have fully processed the manifest template, we remove files that should not be included in the source distribution:"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:158
+#: ../../distutils/sourcedist.rst:160
 msgid "all files in the Distutils \"build\" tree (default :file:`build/`)"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:160
+#: ../../distutils/sourcedist.rst:162
 msgid "all files in directories named :file:`RCS`, :file:`CVS`, :file:`.svn`, :file:`.hg`, :file:`.git`, :file:`.bzr` or :file:`_darcs`"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:163
+#: ../../distutils/sourcedist.rst:165
 msgid "Now we have our complete list of files, which is written to the manifest for future reference, and then used to build the source distribution archive(s)."
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:166
-msgid "You can disable the default set of included files with the :option:`--no-defaults` option, and you can disable the standard exclude set with :option:`--no-prune`."
+#: ../../distutils/sourcedist.rst:168
+msgid "You can disable the default set of included files with the :option:`!--no-defaults` option, and you can disable the standard exclude set with :option:`!--no-prune`."
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:170
+#: ../../distutils/sourcedist.rst:172
 msgid "Following the Distutils' own manifest template, let's trace how the :command:`sdist` command builds the list of files to include in the Distutils source distribution:"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:174
+#: ../../distutils/sourcedist.rst:176
 msgid "include all Python source files in the :file:`distutils` and :file:`distutils/command` subdirectories (because packages corresponding to those two directories were mentioned in the ``packages`` option in the setup script---see section :ref:`setup-script`)"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:179
+#: ../../distutils/sourcedist.rst:181
 msgid "include :file:`README.txt`, :file:`setup.py`, and :file:`setup.cfg` (standard files)"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:182
+#: ../../distutils/sourcedist.rst:184
 msgid "include :file:`test/test\\*.py` (standard files)"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:184
+#: ../../distutils/sourcedist.rst:186
 msgid "include :file:`\\*.txt` in the distribution root (this will find :file:`README.txt` a second time, but such redundancies are weeded out later)"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:187
+#: ../../distutils/sourcedist.rst:189
 msgid "include anything matching :file:`\\*.txt` or :file:`\\*.py` in the sub-tree under :file:`examples`,"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:190
+#: ../../distutils/sourcedist.rst:192
 msgid "exclude all files in the sub-trees starting at directories matching :file:`examples/sample?/build`\\ ---this may exclude files included by the previous two steps, so it's important that the ``prune`` command in the manifest template comes after the ``recursive-include`` command"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:195
+#: ../../distutils/sourcedist.rst:197
 msgid "exclude the entire :file:`build` tree, and any :file:`RCS`, :file:`CVS`, :file:`.svn`, :file:`.hg`, :file:`.git`, :file:`.bzr` and :file:`_darcs` directories"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:199
+#: ../../distutils/sourcedist.rst:201
 msgid "Just like in the setup script, file and directory names in the manifest template should always be slash-separated; the Distutils will take care of converting them to the standard representation on your platform. That way, the manifest template is portable across operating systems."
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:208
+#: ../../distutils/sourcedist.rst:210
 msgid "Manifest-related options"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:210
+#: ../../distutils/sourcedist.rst:212
 msgid "The normal course of operations for the :command:`sdist` command is as follows:"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:212
+#: ../../distutils/sourcedist.rst:214
 msgid "if the manifest file (:file:`MANIFEST` by default) exists and the first line does not have a comment indicating it is generated from :file:`MANIFEST.in`, then it is used as is, unaltered"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:216
+#: ../../distutils/sourcedist.rst:218
 msgid "if the manifest file doesn't exist or has been previously automatically generated, read :file:`MANIFEST.in` and create the manifest"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:219
+#: ../../distutils/sourcedist.rst:221
 msgid "if neither :file:`MANIFEST` nor :file:`MANIFEST.in` exist, create a manifest with just the default file set"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:222
+#: ../../distutils/sourcedist.rst:224
 msgid "use the list of files now in :file:`MANIFEST` (either just generated or read in) to create the source distribution archive(s)"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:225
-msgid "There are a couple of options that modify this behaviour.  First, use the :option:`--no-defaults` and :option:`--no-prune` to disable the standard \"include\" and \"exclude\" sets."
+#: ../../distutils/sourcedist.rst:227
+msgid "There are a couple of options that modify this behaviour.  First, use the :option:`!--no-defaults` and :option:`!--no-prune` to disable the standard \"include\" and \"exclude\" sets."
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:229
+#: ../../distutils/sourcedist.rst:231
 msgid "Second, you might just want to (re)generate the manifest, but not create a source distribution::"
 msgstr ""
 
-#: ../../distutils/sourcedist.rst:234
-msgid ":option:`-o` is a shortcut for :option:`--manifest-only`."
+#: ../../distutils/sourcedist.rst:236
+msgid ":option:`!-o` is a shortcut for :option:`!--manifest-only`."
 msgstr ""
 

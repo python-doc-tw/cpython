@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1990-2016, Python Software Foundation
+# Copyright (C) 2001-2018, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.5\n"
+"Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 15:04+0800\n"
+"POT-Creation-Date: 2018-05-23 22:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,10 @@ msgstr ""
 
 #: ../../whatsnew/2.1.rst:3
 msgid "What's New in Python 2.1"
+msgstr ""
+
+#: ../../whatsnew/2.1.rst:0
+msgid "Author"
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:5
@@ -121,7 +125,7 @@ msgid "PEP 207: Rich Comparisons"
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:162
-msgid "In earlier versions, Python's support for implementing comparisons on user- defined classes and extension types was quite simple. Classes could implement a :meth:`__cmp__` method that was given two instances of a class, and could only return 0 if they were equal or +1 or -1 if they weren't; the method couldn't raise an exception or return anything other than a Boolean value.  Users of Numeric Python often found this model too weak and restrictive, because in the number-crunching programs that numeric Python is used for, it would be more useful to be able to perform elementwise comparisons of two matrices, returning a matrix containing the results of a given comparison for each element.  If the two matrices are of different sizes, then the compare has to be able to raise an exception to signal the error."
+msgid "In earlier versions, Python's support for implementing comparisons on user-defined classes and extension types was quite simple. Classes could implement a :meth:`__cmp__` method that was given two instances of a class, and could only return 0 if they were equal or +1 or -1 if they weren't; the method couldn't raise an exception or return anything other than a Boolean value.  Users of Numeric Python often found this model too weak and restrictive, because in the number-crunching programs that numeric Python is used for, it would be more useful to be able to perform elementwise comparisons of two matrices, returning a matrix containing the results of a given comparison for each element.  If the two matrices are of different sizes, then the compare has to be able to raise an exception to signal the error."
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:174
@@ -310,7 +314,7 @@ msgid "For example, consider a memoizing function that caches the results of ano
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:368
-msgid "This version works for simple things such as integers, but it has a side effect; the ``_cache`` dictionary holds a reference to the return values, so they'll never be deallocated until the Python process exits and cleans up This isn't very noticeable for integers, but if :func:`f` returns an object, or a data structure that takes up a lot of memory, this can be a problem."
+msgid "This version works for simple things such as integers, but it has a side effect; the ``_cache`` dictionary holds a reference to the return values, so they'll never be deallocated until the Python process exits and cleans up. This isn't very noticeable for integers, but if :func:`f` returns an object, or a data structure that takes up a lot of memory, this can be a problem."
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:374
@@ -346,7 +350,7 @@ msgid "Arbitrary attributes can now be set and retrieved on functions using the 
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:444
-msgid "The dictionary containing attributes can be accessed as the function's :attr:`__dict__`. Unlike the :attr:`__dict__` attribute of class instances, in functions you can actually assign a new dictionary to :attr:`__dict__`, though the new value is restricted to a regular Python dictionary; you *can't* be tricky and set it to a :class:`UserDict` instance, or any other random object that behaves like a mapping."
+msgid "The dictionary containing attributes can be accessed as the function's :attr:`~object.__dict__`. Unlike the :attr:`~object.__dict__` attribute of class instances, in functions you can actually assign a new dictionary to :attr:`~object.__dict__`, though the new value is restricted to a regular Python dictionary; you *can't* be tricky and set it to a :class:`UserDict` instance, or any other random object that behaves like a mapping."
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:454
@@ -366,7 +370,7 @@ msgid "Some operating systems have filesystems that are case-insensitive, MacOS 
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:468
-msgid "In Python 2.1, the :keyword:`import` statement will work to simulate case- sensitivity on case-insensitive platforms.  Python will now search for the first case-sensitive match by default, raising an :exc:`ImportError` if no such file is found, so ``import file`` will not import a module named ``FILE.PY``.  Case- insensitive matching can be requested by setting the :envvar:`PYTHONCASEOK` environment variable before starting the Python interpreter."
+msgid "In Python 2.1, the :keyword:`import` statement will work to simulate case-sensitivity on case-insensitive platforms.  Python will now search for the first case-sensitive match by default, raising an :exc:`ImportError` if no such file is found, so ``import file`` will not import a module named ``FILE.PY``. Case-insensitive matching can be requested by setting the :envvar:`PYTHONCASEOK` environment variable before starting the Python interpreter."
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:479
@@ -374,7 +378,7 @@ msgid "PEP 217: Interactive Display Hook"
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:481
-msgid "When using the Python interpreter interactively, the output of commands is displayed using the built-in :func:`repr` function. In Python 2.1, the variable :func:`sys.displayhook` can be set to a callable object which will be called instead of :func:`repr`. For example, you can set it to a special pretty- printing function::"
+msgid "When using the Python interpreter interactively, the output of commands is displayed using the built-in :func:`repr` function. In Python 2.1, the variable :func:`sys.displayhook` can be set to a callable object which will be called instead of :func:`repr`. For example, you can set it to a special pretty-printing function::"
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:502
@@ -418,7 +422,7 @@ msgid "As a first small step toward fixing the problem, Python software packaged
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:561
-msgid "You can start creating packages containing :file:`PKG-INFO` even if you're not using Python 2.1, since a new release of the Distutils will be made for users of earlier Python versions.  Version 1.0.2 of the Distutils includes the changes described in PEP 241, as well as various bugfixes and enhancements.  It will be available from  the Distutils SIG at https://www.python.org/sigs/distutils-sig/."
+msgid "You can start creating packages containing :file:`PKG-INFO` even if you're not using Python 2.1, since a new release of the Distutils will be made for users of earlier Python versions.  Version 1.0.2 of the Distutils includes the changes described in PEP 241, as well as various bugfixes and enhancements.  It will be available from the Distutils SIG at https://www.python.org/community/sigs/current/distutils-sig/."
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:571
@@ -502,7 +506,7 @@ msgid "There were relatively few smaller changes made in Python 2.1 due to the s
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:691
-msgid "A specialized object allocator is now optionally available, that should be faster than the system :func:`malloc` and have less memory overhead.  The allocator uses C's :func:`malloc` function to get large pools of memory, and then fulfills smaller memory requests from these pools.  It can be enabled by providing the :option:`--with-pymalloc` option to the :program:`configure` script; see :file:`Objects/obmalloc.c` for the implementation details."
+msgid "A specialized object allocator is now optionally available, that should be faster than the system :func:`malloc` and have less memory overhead.  The allocator uses C's :func:`malloc` function to get large pools of memory, and then fulfills smaller memory requests from these pools.  It can be enabled by providing the :option:`!--with-pymalloc` option to the :program:`configure` script; see :file:`Objects/obmalloc.c` for the implementation details."
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:698
@@ -522,7 +526,7 @@ msgid "A new module and method for file objects was also added, contributed by J
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:733
-msgid "For a fuller discussion of the line I/O changes, see the python-dev summary for January 1-15, 2001 at https://www.python.org/dev/summary/2001-01-1/."
+msgid "For a fuller discussion of the line I/O changes, see the python-dev summary for January 1--15, 2001 at https://mail.python.org/pipermail/python-dev/2001-January/."
 msgstr ""
 
 #: ../../whatsnew/2.1.rst:736
